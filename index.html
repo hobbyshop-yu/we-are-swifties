@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>We are スウィフティーズ — Taylor Swift 歌詞和訳・徹底解説</title>
+    <title>We are Swifties — Taylor Swift 歌詞和訳・徹底解説</title>
     <meta name="description" content="テイラー・スウィフトの歌詞を日本語訳＋徹底解説。英語歌詞の背景、ストーリー、英語表現まで深掘りするSwiftiesのためのサイト。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,6 @@
             --accent-gold-light: #e8c779;
             --accent-gold-pale: #f0d896;
             --accent-red: #c42b3b;
-            --accent-red-light: #e63946;
             --gradient-gold: linear-gradient(135deg, #c42b3b 0%, #d4a853 35%, #e8c779 65%, #f0d896 100%);
             --gradient-dark: linear-gradient(180deg, #0c0806 0%, #140e0a 50%, #1a120d 100%);
         }
@@ -41,10 +40,10 @@
             min-height: 100vh;
         }
 
-        /* ========== Hero ========== */
+        /* ========== Hero (compact, same as opalite) ========== */
         .hero {
             position: relative;
-            min-height: 65vh;
+            min-height: 40vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -71,6 +70,7 @@
             0% {
                 transform: translateX(-3%) translateY(-3%) rotate(0deg);
             }
+
             100% {
                 transform: translateX(3%) translateY(3%) rotate(2deg);
             }
@@ -87,8 +87,17 @@
         }
 
         @keyframes twinkle {
-            0%, 100% { opacity: 0; transform: scale(0.8); }
-            50% { opacity: var(--peak); transform: scale(1.2); }
+
+            0%,
+            100% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            50% {
+                opacity: var(--peak);
+                transform: scale(1.2);
+            }
         }
 
         .hero-content {
@@ -104,34 +113,26 @@
             letter-spacing: 0.35em;
             text-transform: uppercase;
             color: var(--accent-gold);
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
         }
 
         .hero-title {
             font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 7vw, 4rem);
+            font-size: clamp(2rem, 7vw, 3.5rem);
             font-weight: 700;
             background: var(--gradient-gold);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            line-height: 1.3;
+            line-height: 1.2;
             margin-bottom: 0.5rem;
         }
 
         .hero-sub {
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             color: var(--text-secondary);
-            max-width: 500px;
+            max-width: 480px;
             margin: 0 auto;
-        }
-
-        .hero-line {
-            width: 60px;
-            height: 2px;
-            background: var(--gradient-gold);
-            margin: 1.5rem auto 0;
-            border-radius: 1px;
         }
 
         /* ========== Main ========== */
@@ -141,14 +142,37 @@
             padding: 3rem 1.5rem 6rem;
         }
 
-        .section-title {
+        /* ========== Album Section ========== */
+        .album-section {
+            margin-bottom: 3rem;
+        }
+
+        .album-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .album-header .line {
+            flex: 1;
+            height: 1px;
+        }
+
+        .album-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+        }
+
+        .album-header .album-year {
             font-family: 'Inter', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.25em;
-            text-transform: uppercase;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            white-space: nowrap;
         }
 
         /* ========== Song Cards ========== */
@@ -156,19 +180,16 @@
             display: block;
             text-decoration: none;
             background: var(--bg-card);
-            border: 1px solid rgba(212, 168, 83, 0.12);
-            border-radius: 16px;
-            padding: 1.8rem 2rem;
-            margin-bottom: 1.2rem;
+            border-radius: 14px;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 0.8rem;
             position: relative;
             overflow: hidden;
             transition: border-color 0.3s, transform 0.2s, box-shadow 0.3s;
         }
 
         .song-card:hover {
-            border-color: rgba(212, 168, 83, 0.4);
             transform: translateY(-2px);
-            box-shadow: 0 8px 32px rgba(212, 168, 83, 0.08);
         }
 
         .song-card::before {
@@ -178,7 +199,6 @@
             left: 0;
             right: 0;
             height: 2px;
-            background: var(--gradient-gold);
             opacity: 0;
             transition: opacity 0.3s;
         }
@@ -191,33 +211,236 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem;
         }
 
         .song-card .card-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-gold-light);
-        }
-
-        .song-card .card-album {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            border: 1px solid rgba(212, 168, 83, 0.2);
-            padding: 0.2rem 0.7rem;
-            border-radius: 100px;
+            font-size: 1.2rem;
         }
 
         .song-card .card-desc {
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             color: var(--text-secondary);
             line-height: 1.8;
         }
 
         .song-card .card-arrow {
-            color: var(--accent-gold);
-            font-size: 0.85rem;
-            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            margin-top: 0.4rem;
+        }
+
+        /* ========== Per-song color themes ========== */
+
+        /* Opalite — Cyan/Opal */
+        .song-card.opalite {
+            border: 1px solid rgba(77, 217, 232, 0.12);
+        }
+
+        .song-card.opalite:hover {
+            border-color: rgba(77, 217, 232, 0.4);
+            box-shadow: 0 8px 32px rgba(77, 217, 232, 0.08);
+        }
+
+        .song-card.opalite::before {
+            background: linear-gradient(90deg, #4dd9e8, #7ae8f4, #b0f0f8);
+        }
+
+        .song-card.opalite .card-title {
+            color: #7ae8f4;
+        }
+
+        .song-card.opalite .card-arrow {
+            color: #4dd9e8;
+        }
+
+        /* Album section theming */
+
+        /* The Life of a Showgirl — dynamic/warm pink */
+        .album-showgirl .album-header h2 {
+            color: #f0a0c0;
+        }
+
+        .album-showgirl .album-header .album-year {
+            color: #c87898;
+        }
+
+        .album-showgirl .album-header .line {
+            background: linear-gradient(90deg, rgba(240, 160, 192, 0.3), transparent);
+        }
+
+        .album-showgirl .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(240, 160, 192, 0.3));
+        }
+
+        /* Midnights — Navy/Midnight Blue */
+        .album-midnights .album-header h2 {
+            color: #7a8cc8;
+        }
+
+        .album-midnights .album-header .album-year {
+            color: #5a6a98;
+        }
+
+        .album-midnights .album-header .line {
+            background: linear-gradient(90deg, rgba(122, 140, 200, 0.3), transparent);
+        }
+
+        .album-midnights .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(122, 140, 200, 0.3));
+        }
+
+        /* 1989 — Sky Blue */
+        .album-1989 .album-header h2 {
+            color: #7ac8e8;
+        }
+
+        .album-1989 .album-header .album-year {
+            color: #5a98b8;
+        }
+
+        .album-1989 .album-header .line {
+            background: linear-gradient(90deg, rgba(122, 200, 232, 0.3), transparent);
+        }
+
+        .album-1989 .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(122, 200, 232, 0.3));
+        }
+
+        /* Red — Bold Red */
+        .album-red .album-header h2 {
+            color: #e85050;
+        }
+
+        .album-red .album-header .album-year {
+            color: #b83838;
+        }
+
+        .album-red .album-header .line {
+            background: linear-gradient(90deg, rgba(232, 80, 80, 0.3), transparent);
+        }
+
+        .album-red .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(232, 80, 80, 0.3));
+        }
+
+        /* Fearless — Gold */
+        .album-fearless .album-header h2 {
+            color: #e8c779;
+        }
+
+        .album-fearless .album-header .album-year {
+            color: #b89848;
+        }
+
+        .album-fearless .album-header .line {
+            background: linear-gradient(90deg, rgba(232, 199, 121, 0.3), transparent);
+        }
+
+        .album-fearless .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(232, 199, 121, 0.3));
+        }
+
+        /* Lover — Pastel Pink/Blue */
+        .album-lover .album-header h2 {
+            color: #f0a0d0;
+        }
+
+        .album-lover .album-header .album-year {
+            color: #c078a0;
+        }
+
+        .album-lover .album-header .line {
+            background: linear-gradient(90deg, rgba(240, 160, 208, 0.3), transparent);
+        }
+
+        .album-lover .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(240, 160, 208, 0.3));
+        }
+
+        /* reputation — Dark Green */
+        .album-reputation .album-header h2 {
+            color: #a0b8a0;
+        }
+
+        .album-reputation .album-header .album-year {
+            color: #708870;
+        }
+
+        .album-reputation .album-header .line {
+            background: linear-gradient(90deg, rgba(160, 184, 160, 0.3), transparent);
+        }
+
+        .album-reputation .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(160, 184, 160, 0.3));
+        }
+
+        /* Speak Now — Purple */
+        .album-speaknow .album-header h2 {
+            color: #c8a0e8;
+        }
+
+        .album-speaknow .album-header .album-year {
+            color: #9870b8;
+        }
+
+        .album-speaknow .album-header .line {
+            background: linear-gradient(90deg, rgba(200, 160, 232, 0.3), transparent);
+        }
+
+        .album-speaknow .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(200, 160, 232, 0.3));
+        }
+
+        /* folklore — Gray/White */
+        .album-folklore .album-header h2 {
+            color: #c0c0c8;
+        }
+
+        .album-folklore .album-header .album-year {
+            color: #909098;
+        }
+
+        .album-folklore .album-header .line {
+            background: linear-gradient(90deg, rgba(192, 192, 200, 0.3), transparent);
+        }
+
+        .album-folklore .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(192, 192, 200, 0.3));
+        }
+
+        /* evermore — Amber/Brown */
+        .album-evermore .album-header h2 {
+            color: #c8a870;
+        }
+
+        .album-evermore .album-header .album-year {
+            color: #987848;
+        }
+
+        .album-evermore .album-header .line {
+            background: linear-gradient(90deg, rgba(200, 168, 112, 0.3), transparent);
+        }
+
+        .album-evermore .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(200, 168, 112, 0.3));
+        }
+
+        /* TTPD — White/Beige */
+        .album-ttpd .album-header h2 {
+            color: #d8d0c0;
+        }
+
+        .album-ttpd .album-header .album-year {
+            color: #a8a090;
+        }
+
+        .album-ttpd .album-header .line {
+            background: linear-gradient(90deg, rgba(216, 208, 192, 0.3), transparent);
+        }
+
+        .album-ttpd .album-header .line:last-child {
+            background: linear-gradient(90deg, transparent, rgba(216, 208, 192, 0.3));
         }
 
         /* ========== Footer ========== */
@@ -246,8 +469,9 @@
             .main-content {
                 padding: 2rem 1rem 4rem;
             }
+
             .song-card {
-                padding: 1.3rem 1.5rem;
+                padding: 1.2rem 1.3rem;
             }
         }
     </style>
@@ -257,45 +481,76 @@
 
     <section class="hero">
         <!-- Floating stars -->
-        <div class="star" style="width:3px;height:3px;background:#d4a853;top:15%;left:8%;--dur:3s;--delay:0s;--peak:0.6;"></div>
-        <div class="star" style="width:2px;height:2px;background:#e8c779;top:25%;left:75%;--dur:4s;--delay:1s;--peak:0.5;"></div>
-        <div class="star" style="width:4px;height:4px;background:#f0d896;top:45%;left:20%;--dur:5s;--delay:0.5s;--peak:0.4;"></div>
-        <div class="star" style="width:2px;height:2px;background:#c42b3b;top:60%;left:85%;--dur:3.5s;--delay:2s;--peak:0.5;"></div>
-        <div class="star" style="width:3px;height:3px;background:#d4a853;top:70%;left:40%;--dur:4.5s;--delay:1.5s;--peak:0.45;"></div>
-        <div class="star" style="width:2px;height:2px;background:#e8c779;top:30%;left:55%;--dur:3.8s;--delay:0.8s;--peak:0.55;"></div>
-        <div class="star" style="width:3px;height:3px;background:#c42b3b;top:80%;left:15%;--dur:4.2s;--delay:2.5s;--peak:0.4;"></div>
-        <div class="star" style="width:2px;height:2px;background:#f0d896;top:10%;left:45%;--dur:5.5s;--delay:0.3s;--peak:0.5;"></div>
+        <div class="star"
+            style="width:3px;height:3px;background:#d4a853;top:15%;left:8%;--dur:3s;--delay:0s;--peak:0.6;"></div>
+        <div class="star"
+            style="width:2px;height:2px;background:#e8c779;top:25%;left:75%;--dur:4s;--delay:1s;--peak:0.5;"></div>
+        <div class="star"
+            style="width:4px;height:4px;background:#f0d896;top:45%;left:20%;--dur:5s;--delay:0.5s;--peak:0.4;"></div>
+        <div class="star"
+            style="width:2px;height:2px;background:#c42b3b;top:60%;left:85%;--dur:3.5;--delay:2s;--peak:0.5;"></div>
+        <div class="star"
+            style="width:3px;height:3px;background:#d4a853;top:70%;left:40%;--dur:4.5s;--delay:1.5s;--peak:0.45;"></div>
 
         <div class="hero-content">
             <p class="hero-label">Taylor Swift Lyrics & Commentary</p>
-            <h1 class="hero-title">We are スウィフティーズ</h1>
+            <h1 class="hero-title">We are Swifties</h1>
             <p class="hero-sub">テイラー・スウィフトの歌詞を日本語訳＋徹底解説。英語の背景、ストーリー、表現まで深掘りします。</p>
-            <div class="hero-line"></div>
         </div>
     </section>
 
     <main class="main-content">
 
-        <p class="section-title">Lyrics & Commentary</p>
-
-        <a href="opalite.html" class="song-card">
-            <div class="card-header">
-                <span class="card-title">Opalite</span>
-                <span class="card-album">The Life of a Showgirl</span>
+        <!-- ===== The Life of a Showgirl (2025) ===== -->
+        <div class="album-section album-showgirl">
+            <div class="album-header">
+                <div class="line"></div>
+                <h2>The Life of a Showgirl</h2>
+                <span class="album-year">2025</span>
+                <div class="line"></div>
             </div>
-            <p class="card-desc">
-                Travis Kelceへの愛を人工オパールに込めた珠玉のラブソング。「幸せは自分で作り出すもの」——二人の物語を宝石のメタファーで紡ぐ。
-            </p>
-            <p class="card-arrow">▶ 歌詞・和訳・解説を読む</p>
-        </a>
 
-        <!-- 今後の記事はここに追加 -->
+            <a href="opalite.html" class="song-card opalite">
+                <div class="card-header">
+                    <span class="card-title">Opalite</span>
+                </div>
+                <p class="card-desc">
+                    Travis Kelceへの愛を人工オパールに込めた珠玉のラブソング。「幸せは自分で作り出すもの」——二人の物語を宝石のメタファーで紡ぐ。
+                </p>
+                <p class="card-arrow">▶ 歌詞・和訳・解説を読む</p>
+            </a>
+
+            <!-- 今後の曲はここに追加 -->
+        </div>
+
+        <!-- ===== 今後追加するアルバムセクションのテンプレート =====
+
+        <div class="album-section album-midnights">
+            <div class="album-header">
+                <div class="line"></div>
+                <h2>Midnights</h2>
+                <span class="album-year">2022</span>
+                <div class="line"></div>
+            </div>
+            <a href="#" class="song-card midnights">...</a>
+        </div>
+
+        <div class="album-section album-ttpd">
+            <div class="album-header">
+                <div class="line"></div>
+                <h2>The Tortured Poets Department</h2>
+                <span class="album-year">2024</span>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        ===== -->
 
     </main>
 
     <footer class="footer">
-        <p class="site-name">We are スウィフティーズ</p>
-        <p class="copyright">© 2026 We are スウィフティーズ. All rights reserved.</p>
+        <p class="site-name">We are Swifties</p>
+        <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
     </footer>
 
 </body>
