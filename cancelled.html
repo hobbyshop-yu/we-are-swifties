@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift - CANCELLED! 歌詞・和訳・徹底解説 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト「CANCELLED!」の英語歌詞・日本語訳・徹底解説。キャンセルカルチャーへの痛烈な反撃。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0606;
+            --bg-card: #1c0e0e;
+            --text-primary: #f5e0e0;
+            --text-secondary: #c08888;
+            --accent-main: #c83030;
+            --accent-light: #f06060;
+            --english-color: #f06060;
+            --japanese-color: #fae0e0;
+            --commentary-color: #8a4848;
+            --gradient-main: linear-gradient(135deg, #a02020 0%, #c83030 40%, #f06060 100%);
+            --gradient-dark: linear-gradient(180deg, #0a0606 0%, #120808 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 40%, rgba(200, 48, 48, 0.15) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(240, 96, 96, 0.06) 0%, transparent 50%);
+            animation: shimmer 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.8rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 7vw, 3.5rem);
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .hero-album {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.3rem 1rem;
+            border: 1px solid rgba(200, 48, 48, 0.3);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--accent-light);
+        }
+
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(200, 48, 48, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-main);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(200, 48, 48, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--accent-light);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .lyric-block {
+            margin-bottom: 2rem;
+        }
+
+        .lyric-pair {
+            margin-bottom: 0.6rem;
+        }
+
+        .lyric-en {
+            font-size: 1.05rem;
+            color: var(--english-color);
+        }
+
+        .lyric-ja {
+            font-size: 0.92rem;
+            color: var(--japanese-color);
+        }
+
+        .commentary {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-main);
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.5rem;
+            margin: 1rem 0 2rem;
+            font-size: 0.88rem;
+            color: var(--commentary-color);
+            line-height: 1.9;
+        }
+
+        .note-icon {
+            margin-right: 0.5rem;
+        }
+
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 1rem 0 2rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(200, 48, 48, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(200, 48, 48, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(200, 48, 48, 0.1);
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-main);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-light);
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">CANCELLED!</h1>
+            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <main class="main-content">
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>「<span class="keyword">CANCELLED!</span>」は、<span
+                    class="keyword">キャンセルカルチャー</span>の嵐を生き延びた者たちの連帯を歌うアンセム。テイラーは2016年のKanye West電話流出事件で世界中から「<span
+                    class="keyword">キャンセル</span>」された。SNSは蛇の絵文字で埋め尽くされ、テイラーは約1年間公の場から姿を消した。この曲は「<span
+                    class="keyword">同じ傷を持つ友人たち</span>」への募集広告——「私の悪名は友達を求めている（<span class="keyword">my infamy loves
+                    company</span>）」と歌う。</p>
+        </div>
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-mic.png"
+                    alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">2016年、テイラーのSNSは🐍で埋め尽くされた。彼女はそれを逆手に取り、reputationのアイコンにしたんだよ🐍</p>
+                </div>
+            </div>
+        </section>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Were you girl-bossed too close to the Sun?</p>
+                <p class="lyric-ja">太陽に近づきすぎたガールボスだった？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Were you caught having far too much fun?</p>
+                <p class="lyric-ja">楽しみすぎて捕まった？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Did you make a joke only a man could?</p>
+                <p class="lyric-ja">男にしか許されないジョークを言っちゃった？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Were you too smug for your own good?</p>
+                <p class="lyric-ja">自分のためにも偉そうすぎた？</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span
+                    class="note-icon">🔥</span>イカロスのメタファー——太陽に近づきすぎて翼が溶けた。テイラーは成功のピークで「キャンセル」された。この一連の質問は、キャンセルされる理由が実はどれも些細なことだと示す。特に「男にしか許されないジョーク」は、ジェンダーダブルスタンダードへの告発。
+            </p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Can't you see my infamy loves company?</p>
+                <p class="lyric-ja">私の悪名は仲間を求めてるの、わかるでしょ？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">My friends all have matching scars</p>
+                <p class="lyric-ja">私の友達はみんなお揃いの傷を持っている</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They were here before my exoneration</p>
+                <p class="lyric-ja">彼らは私が名誉回復する前からそばにいた</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">💪</span>「misery loves
+                company（不幸は仲間を好む）」のパロディ。テイラーは「悪名」を「不幸」に置き換えた。「exoneration（名誉回復）」前からいた友人——Selena Gomez、Ed
+                Sheeranなど、テイラーがキャンセルされた時も離れなかった人々。「matching scars」はお揃いのアクセサリーではなく、同じ経験をした傷跡。</p>
+        </div>
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-mic.png', text: '2016年、テイラーのSNSは🐍で埋め尽くされた。彼女はそれを逆手に取り、reputationのアイコンにしたんだよ🐍' },
+            { img: 'images/cat-guitar.png', text: 'テイラーがキャンセルされた時も離れなかった盟友：Selena Gomez、Ed Sheeran、Blake Lively👫' },
+            { img: 'images/cat-piano.png', text: '「misery loves company」を「infamy loves company」にした言葉遊び。テイラーの作詞センスだね📝' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+</body>
+
+</html>

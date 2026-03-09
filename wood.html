@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift - Wood 歌詞・和訳・徹底解説 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト「Wood」の英語歌詞・日本語訳・徹底解説。恋の喜びとジンクスからの解放。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0806;
+            --bg-card: #1a1410;
+            --text-primary: #f5ece0;
+            --text-secondary: #c0a888;
+            --accent-main: #c89050;
+            --accent-light: #e8b870;
+            --english-color: #e8b870;
+            --japanese-color: #f8ead0;
+            --commentary-color: #8a7050;
+            --gradient-main: linear-gradient(135deg, #a87038 0%, #c89050 40%, #e8b870 100%);
+            --gradient-dark: linear-gradient(180deg, #0a0806 0%, #120e08 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 40%, rgba(200, 144, 80, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(232, 184, 112, 0.06) 0%, transparent 50%);
+            animation: shimmer 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.8rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .hero-album {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.3rem 1rem;
+            border: 1px solid rgba(200, 144, 80, 0.3);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--accent-light);
+        }
+
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(200, 144, 80, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-main);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(200, 144, 80, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--accent-light);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .lyric-block {
+            margin-bottom: 2rem;
+        }
+
+        .lyric-pair {
+            margin-bottom: 0.6rem;
+        }
+
+        .lyric-en {
+            font-size: 1.05rem;
+            color: var(--english-color);
+        }
+
+        .lyric-ja {
+            font-size: 0.92rem;
+            color: var(--japanese-color);
+        }
+
+        .commentary {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-main);
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.5rem;
+            margin: 1rem 0 2rem;
+            font-size: 0.88rem;
+            color: var(--commentary-color);
+            line-height: 1.9;
+        }
+
+        .note-icon {
+            margin-right: 0.5rem;
+        }
+
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 1rem 0 2rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(200, 144, 80, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(200, 144, 80, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(200, 144, 80, 0.1);
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-main);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-light);
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">Wood</h1>
+            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <main class="main-content">
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>「<span class="keyword">Wood</span>」は、恋する喜びに満ちたプレイフルなトラック。タイトルは英語の慣用句<span class="keyword">"knock on
+                    wood"（木を叩く＝ジンクスよけ）</span>の言葉遊び。テイラーはかつて迷信深い女性だった——恋愛が上手くいくたびに「悪いことが起きるんじゃないか」と不安になっていた。しかしTravisの愛が<span
+                    class="keyword">呪いを解いた</span>。もう「knock on wood」する必要はない。<span class="keyword">悪い兆候すら、全部いい感じ</span>。
+            </p>
+        </div>
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-guitar.png"
+                    alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">テイラーは自称「超迷信深い女」。ラッキーナンバー13を手に書いてライブに臨むのが有名だよね✋1️⃣3️⃣</p>
+                </div>
+            </div>
+        </section>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I used to be the girl who knocked on wood</p>
+                <p class="lyric-ja">昔の私は木を叩いてジンクスよけする女の子だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">A bad sign made me spiraling</p>
+                <p class="lyric-ja">悪い兆候にするする不安が巻き起こった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But you came along and a bad sign is all good</p>
+                <p class="lyric-ja">でもあなたが来て、悪い兆候も全部良い感じになった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Don't need to knock on wood</p>
+                <p class="lyric-ja">もう木を叩く必要はない</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">🪵</span>「knock on
+                wood」は西洋の迷信。良いことを言った後に木を叩くと、悪い運を避けられるとされる。テイラーは13というラッキーナンバーや、ライブ前のルーティンなど迷信で知られる。この曲はその「不安のループ」からの解放宣言。
+            </p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">His love broke the curse, opened my eyes</p>
+                <p class="lyric-ja">彼の愛が呪いを解いた、目を開かせてくれた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">No more superstition, just sunshine and vibes</p>
+                <p class="lyric-ja">もう迷信はいらない、太陽と雰囲気だけ</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span
+                    class="note-icon">☀️</span>「呪いを解いた」はおとぎ話のモチーフ。テイラーのディスコグラフィーを通じて、恋愛には常に「でもいつか終わる」という不安がつきまとっていた（「Delicate」「Cornelia
+                Street」など）。この曲はその恐れが完全に消えた瞬間を描く。穏やかな確信に満ちた愛。</p>
+        </div>
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-guitar.png', text: 'テイラーは自称「超迷信深い女」。ラッキーナンバー13を手に書いてライブに臨むのが有名だよね✋1️⃣3️⃣' },
+            { img: 'images/cat-piano.png', text: '「knock on wood」は西洋の迷信で、良いことを言った後に木を叩くと悪運を避けられると信じられているよ🪵' },
+            { img: 'images/cat-mic.png', text: 'テイラーの恋愛不安ソングの系譜：「Delicate」→「Cornelia Street」→そしてこの曲で不安から解放！✨' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+</body>
+
+</html>

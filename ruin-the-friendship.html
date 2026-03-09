@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift - Ruin The Friendship 歌詞・和訳・徹底解説 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情と恋心の狭間で揺れる後悔の物語。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #08090e;
+            --bg-card: #101420;
+            --text-primary: #e0e4f0;
+            --text-secondary: #8898b8;
+            --accent-main: #5878a8;
+            --accent-light: #88a8d0;
+            --english-color: #88a8d0;
+            --japanese-color: #d8e0f0;
+            --commentary-color: #506880;
+            --gradient-main: linear-gradient(135deg, #3a5888 0%, #5878a8 40%, #88a8d0 100%);
+            --gradient-dark: linear-gradient(180deg, #08090e 0%, #0a0e18 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 40%, rgba(88, 120, 168, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(136, 168, 208, 0.06) 0%, transparent 50%);
+            animation: shimmer 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.8rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 6vw, 3rem);
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .hero-album {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.3rem 1rem;
+            border: 1px solid rgba(88, 120, 168, 0.3);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--accent-light);
+            letter-spacing: 0.05em;
+        }
+
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(88, 120, 168, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-main);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(88, 120, 168, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--accent-light);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .lyric-block {
+            margin-bottom: 2rem;
+        }
+
+        .lyric-pair {
+            margin-bottom: 0.6rem;
+        }
+
+        .lyric-en {
+            font-size: 1.05rem;
+            color: var(--english-color);
+        }
+
+        .lyric-ja {
+            font-size: 0.92rem;
+            color: var(--japanese-color);
+        }
+
+        .commentary {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-main);
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.5rem;
+            margin: 1rem 0 2rem;
+            font-size: 0.88rem;
+            color: var(--commentary-color);
+            line-height: 1.9;
+        }
+
+        .note-icon {
+            margin-right: 0.5rem;
+        }
+
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 1rem 0 2rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(88, 120, 168, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(88, 120, 168, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(88, 120, 168, 0.1);
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-main);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-light);
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">Ruin The Friendship</h1>
+            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <main class="main-content">
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>「<span class="keyword">Ruin The
+                    Friendship</span>」は、友人への恋心を告白するべきか葛藤する感情を描いた曲。しかしより深い解釈では、テイラーの高校時代の友人で<span
+                    class="keyword">後に亡くなった男性</span>への後悔の歌とされる。<span
+                    class="keyword">「キスすればよかった」</span>と歌う言葉には、友情を壊す恐れよりも、<span
+                    class="keyword">気持ちを伝えなかった</span>ことへの永遠の後悔が込められている。親友<span
+                    class="keyword">Abigail</span>への言及もある、テイラーの青春の痛みを凝縮した一曲。</p>
+        </div>
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-piano.png"
+                    alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">テイラーの親友Abigailは「Fifteen」にも登場する高校時代からの大切な友人。二人の友情は20年以上続いているよ👭</p>
+                </div>
+            </div>
+        </section>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Would a kiss ruin the friendship?</p>
+                <p class="lyric-ja">キスしたら友情は壊れるの？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Would it lead to love or lose my favorite part of life?</p>
+                <p class="lyric-ja">愛に変わるの？それとも人生で一番大切なものを失うの？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I kept it inside, I kept it polite</p>
+                <p class="lyric-ja">心の中に閉じ込めた、礼儀正しく振る舞った</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">💔</span>友人以上の感情を隠し続ける苦しみ。「my favorite part of
+                life」は友情そのもの。告白すれば恋が始まるかもしれないが、失敗すればその大切な関係すらなくなる——そのジレンマが曲全体を貫いている。</p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Should've kissed you anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Now you're somewhere I can't reach</p>
+                <p class="lyric-ja">今、あなたは私の手が届かない場所にいる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And the regret is all that's left of me</p>
+                <p class="lyric-ja">後悔だけが私に残された</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">🕊️</span>「somewhere I can't
+                reach」——手が届かない場所。これは友人が亡くなったことを暗示している。テイラーは気持ちを伝えるべきだったと歌うが、もう遅い。この曲は「リスクを取って感情を伝えろ、さもないと後悔が永遠に残る」というメッセージ。folkloreの「hoax」やevermoreの「right
+                where you left me」にも通じる喪失のテーマ。</p>
+        </div>
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-piano.png', text: 'テイラーの親友Abigailは「Fifteen」にも登場する高校時代からの大切な友人。二人の友情は20年以上続いているよ👭' },
+            { img: 'images/cat-guitar.png', text: 'この曲のテーマ「後悔」はfolkloreやevermoreにも通じる。テイラーは損失と向き合うのが上手い作詞家だよ🍂' },
+            { img: 'images/cat-mic.png', text: '「should\'ve kissed you anyway」——テイラーは「気持ちを伝えなかった後悔は永遠に残る」と教えてくれる💌' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+</body>
+
+</html>
