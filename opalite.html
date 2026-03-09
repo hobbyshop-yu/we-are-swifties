@@ -560,6 +560,65 @@
                 font-size: 0.88rem;
             }
         }
+
+        /* ========== Mascot Trivia ========== */
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(77, 217, 232, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(77, 217, 232, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-opal);
+            margin-bottom: 0.3rem;
+        }
+
+        @media (max-width: 600px) {
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
     </style>
 </head>
 
@@ -1048,14 +1107,37 @@
             </p>
         </div>
 
+        <!-- Mascot Trivia -->
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card">
+                <img class="mascot-img" id="mascot-image" src="images/cat-piano.png" alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">「Opalite」は天然石ではなく人工的に作られた宝石。「幸せは自分で作るもの」というメタファーなんだよ！</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Footer -->
         <footer class="article-footer">
-            <p class="site-name">We are スウィフティーズ</p>
-            <p class="copyright">© 2026 We are スウィフティーズ. All rights reserved.</p>
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
         </footer>
 
     </main>
 
-</body>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-piano.png', text: '「Opalite」は天然石ではなく人工的に作られた宝石。「幸せは自分で作るもの」というメタファーなんだよ！' },
+            { img: 'images/cat-guitar.png', text: 'テイラーはTravis Kelceの試合を観戦したことで世界中のニュースになったよ。NFLの視聴率も急上昇！🏈' },
+            { img: 'images/cat-mic.png', text: 'TravisはEras Tourのステージにサプライズ登場したことも！テイラーをお姫様抱っこしたんだよ💕' },
+            { img: 'images/cat-piano.png', text: '「onyx night」は漆黒の宝石オニキスの夜。曲中には宝石のメタファーがたくさん隠されているよ💎' },
+            { img: 'images/cat-guitar.png', text: '「you had to make your own sunshine」——自分で太陽を作る。テイラーの人生哲学が詰まった一行だね✨' },
+            { img: 'images/cat-mic.png', text: '「The Life of a Showgirl」はLas Vegasレジデンシー公演に合わせてリリースされたEPだよ🎰' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
 
 </html>
