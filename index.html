@@ -445,6 +445,67 @@
             background: linear-gradient(90deg, transparent, rgba(216, 208, 192, 0.3));
         }
 
+        /* ========== Mascot Trivia ========== */
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 0 1.5rem 3rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+            padding: 1.5rem;
+        }
+
+        .mascot-img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(212, 168, 83, 0.2));
+        }
+
+        .mascot-bubble {
+            position: relative;
+            background: var(--bg-card);
+            border: 1px solid rgba(212, 168, 83, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 0.3rem;
+        }
+
+        @media (max-width: 600px) {
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
         /* ========== Footer ========== */
         .footer {
             text-align: center;
@@ -550,10 +611,38 @@
 
     </main>
 
+    <!-- ===== Mascot Trivia Section ===== -->
+    <section class="mascot-section" id="mascot-trivia">
+        <div class="mascot-card">
+            <img class="mascot-img" id="mascot-image" src="images/cat-guitar.png" alt="Olivia mascot">
+            <div class="mascot-bubble">
+                <p class="trivia-label">🐱 Did You Know?</p>
+                <p id="mascot-text">テイラーのラッキーナンバーは「13」。コンサートでは手に13と書くのがお決まり！</p>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <p class="site-name">We are Swifties</p>
         <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
     </footer>
+
+    <script>
+        const triviaList = [
+            { img: 'images/cat-guitar.png', text: 'テイラーのラッキーナンバーは「13」。コンサートでは手に13と書くのがお決まり！' },
+            { img: 'images/cat-piano.png', text: 'テイラーは14歳でナッシュビルに引っ越し、最年少でソニーと作曲契約を結んだよ。' },
+            { img: 'images/cat-mic.png', text: 'Eras Tourは歴代最高収益のコンサートツアー！総収益は20億ドル超え🎤' },
+            { img: 'images/cat-guitar.png', text: 'テイラーの愛猫は3匹。メレディス、オリヴィア、ベンジャミン。全員有名人の名前にゃ🐱' },
+            { img: 'images/cat-piano.png', text: '「All Too Well (10 Minute Version)」はテイラー自身が監督した短編映画にもなったよ！' },
+            { img: 'images/cat-mic.png', text: 'テイラーはグラミー賞「年間最優秀アルバム」を4回受賞。歴代最多記録！🏆' },
+            { img: 'images/cat-guitar.png', text: 'テイラーはクリスマスツリー農場で育ったの。だから「Christmas Tree Farm」って曲があるんだよ🎄' },
+            { img: 'images/cat-piano.png', text: '原盤権を取り戻すために、過去6枚のアルバムを再録音（TV版）する決意をしたテイラー。アーティストの権利のために戦うアイコン💪' },
+            { img: 'images/cat-mic.png', text: '友情ブレスレットの交換はスウィフティーズの文化。Eras Tourで世界中に広まったよ📿' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
 
 </body>
 
