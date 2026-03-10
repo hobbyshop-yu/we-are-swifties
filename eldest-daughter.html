@@ -314,6 +314,36 @@
                 height: 90px;
             }
         }
+
+        /* ========== YouTube Embed ========== */
+        .youtube-section {
+            margin-bottom: 2rem;
+        }
+
+        .youtube-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .youtube-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(212, 136, 106, 0.15);
+        }
+
+        .youtube-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     </style>
 
     <!-- OGP / Twitter Card -->
@@ -361,6 +391,17 @@
                 </div>
             </div>
         </section>
+
+        <!-- YouTube Embed -->
+        <div class="youtube-section">
+            <h2>▶ Official Lyric Video</h2>
+            <div class="youtube-wrapper">
+                <iframe src="https://www.youtube.com/embed/HwQnW_ZRKhc" title="Taylor Swift - Eldest Daughter (Lyric Video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
         <div class="section-header">
             <div class="line"></div>
             <h3>VERSE 1</h3>
