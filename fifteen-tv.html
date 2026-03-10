@@ -12,62 +12,105 @@
     <style>
         :root {
             --bg-primary: #0a0806;
-            --bg-card: #14100c;
-            --text-primary: #f5ebe0;
-            --text-secondary: #b89e8a;
-            --accent-gold: #d4a853;
-            --accent-gold-light: #e8c779;
-            --english-color: #e8c779;
-            --japanese-color: #f5ebe0;
-            --commentary-color: #6a5840;
-            --gradient-gold: linear-gradient(135deg, #c42b3b 0%, #d4a853 35%, #e8c779 65%, #f0d896 100%);
-            --gradient-dark: linear-gradient(180deg, #0a0806 0%, #100c08 100%);
+            --bg-card: #16100a;
+            --bg-card-hover: #16100a;
+            --text-primary: #f0e8d8;
+            --text-secondary: #b09878;
+            --accent: #b08050;
+            --accent-light: #d0a878;
+            --english-color: #d0a878;
+            --japanese-color: #f0e8d8;
+            --commentary-color: #605040;
+            --gradient-accent: linear-gradient(135deg, #886038 0%, #b08050 50%, #d0a878 100%);
+            --gradient-dark: linear-gradient(180deg, #0a0806 0%, #16100a 100%);
         }
         * { margin:0; padding:0; box-sizing:border-box; }
-        body { font-family:'Noto Sans JP','Inter',sans-serif; background:var(--bg-primary); color:var(--text-primary); line-height:1.8; }
-        .global-nav { display:flex; justify-content:center; align-items:center; gap:2rem; padding:1rem 1.5rem; background:rgba(10,8,6,0.95); border-bottom:1px solid rgba(212,168,83,0.1); position:sticky; top:0; z-index:100; backdrop-filter:blur(10px); }
-        .global-nav a { font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-secondary); text-decoration:none; transition:color 0.3s; }
-        .global-nav a:hover { color:var(--accent-gold-light); }
-        .global-nav a.nav-home { font-family:'Playfair Display',serif; font-size:0.9rem; font-weight:700; background:var(--gradient-gold); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; letter-spacing:0; text-transform:none; }
-        @media(max-width:600px){ .global-nav{gap:1rem;flex-wrap:wrap} .global-nav a{font-size:0.65rem} }
-        .hero { position:relative; min-height:35vh; display:flex; align-items:center; justify-content:center; text-align:center; background:var(--gradient-dark); overflow:hidden; padding:3rem 1rem; }
-        .hero::before { content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(ellipse at 30% 40%,rgba(200, 150, 120,0.1) 0%,transparent 50%),radial-gradient(ellipse at 70% 60%,rgba(212,168,83,0.06) 0%,transparent 50%); animation:shimmer 10s ease-in-out infinite alternate; }
-        @keyframes shimmer { 0%{transform:translateX(-3%) translateY(-3%)} 100%{transform:translateX(3%) translateY(3%)} }
-        .hero-content { position:relative; z-index:1; }
-        .hero-label { font-family:'Inter',sans-serif; font-size:0.65rem; font-weight:600; letter-spacing:0.3em; text-transform:uppercase; color:var(--accent-gold); margin-bottom:0.5rem; }
-        .hero-title { font-family:'Playfair Display',serif; font-size:clamp(2rem,8vw,3.5rem); font-weight:700; color:#f0c898; line-height:1.2; margin-bottom:0.5rem; }
-        .hero-sub { font-size:0.85rem; color:var(--text-secondary); max-width:500px; margin:0 auto; }
-        main { max-width:780px; margin:0 auto; padding:3rem 1.5rem 4rem; }
-        .song-meta { display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2rem; }
-        .meta-tag { font-size:0.7rem; padding:0.3rem 0.8rem; border-radius:20px; border:1px solid rgba(200, 150, 120,0.2); color:#f0c898; font-weight:500; letter-spacing:0.05em; }
-        h2 { font-family:'Playfair Display',serif; font-size:1.1rem; margin-bottom:1rem; color:var(--accent-gold-light); }
-        .desc-block { margin-bottom:2rem; }
-        .desc-block p { font-size:0.92rem; line-height:2; color:var(--text-primary); }
-        .youtube-wrapper { position:relative; width:100%; padding-bottom:56.25%; margin-bottom:2.5rem; border-radius:12px; overflow:hidden; }
+        body { font-family:'Noto Sans JP','Inter',sans-serif; background:var(--bg-primary); color:var(--text-primary); line-height:1.8; overflow-x:hidden; }
+
+        /* Hero */
+        .hero { position:relative; min-height:40vh; display:flex; align-items:center; justify-content:center; text-align:center; overflow:hidden; background:var(--gradient-dark); }
+        .hero::before { content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(ellipse at 20% 50%,rgba(176, 128, 80,0.1) 0%,transparent 50%),radial-gradient(ellipse at 80% 50%,rgba(176, 128, 80,0.07) 0%,transparent 50%),radial-gradient(ellipse at 50% 80%,rgba(176, 128, 80,0.05) 0%,transparent 50%); animation:shimmer 8s ease-in-out infinite alternate; }
+        @keyframes shimmer { 0%{transform:translateX(-5%) translateY(-5%) rotate(0deg)} 100%{transform:translateX(5%) translateY(5%) rotate(3deg)} }
+        .hero-content { position:relative; z-index:1; padding:2rem; }
+        .hero-label { font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:600; letter-spacing:0.3em; text-transform:uppercase; color:var(--accent); margin-bottom:1rem; }
+        .hero-title { font-family:'Playfair Display',serif; font-size:clamp(3rem,8vw,6rem); font-weight:700; background:var(--gradient-accent); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.5rem; line-height:1.2; }
+        .hero-artist { font-family:'Playfair Display',serif; font-size:1.4rem; font-weight:400; font-style:italic; color:var(--text-secondary); margin-bottom:1.5rem; }
+        .hero-album { display:inline-block; font-size:0.8rem; font-weight:500; color:var(--accent-light); border:1px solid rgba(176, 128, 80,0.3); padding:0.4rem 1.2rem; border-radius:100px; letter-spacing:0.05em; }
+        .gem { position:absolute; border-radius:50%; filter:blur(1px); opacity:0.4; animation:float 6s ease-in-out infinite; }
+        .gem:nth-child(1) { width:6px; height:6px; background:var(--accent); top:20%; left:10%; animation-delay:0s; }
+        .gem:nth-child(2) { width:4px; height:4px; background:var(--accent-light); top:40%; right:15%; animation-delay:2s; }
+        .gem:nth-child(3) { width:8px; height:8px; background:#f472b6; bottom:30%; left:20%; animation-delay:4s; }
+        .gem:nth-child(4) { width:5px; height:5px; background:#67e8f9; top:60%; right:25%; animation-delay:1s; }
+        @keyframes float { 0%,100%{transform:translateY(0) scale(1);opacity:0.4} 50%{transform:translateY(-20px) scale(1.2);opacity:0.7} }
+
+        /* Main */
+        .main-content { max-width:780px; margin:0 auto; padding:3rem 1.5rem 6rem; }
+        .back-link { display:inline-block; margin-bottom:2rem; color:var(--accent); text-decoration:none; font-size:0.85rem; transition:color 0.3s; }
+        .back-link:hover { color:var(--accent-light); }
+
+        /* Song Intro */
+        .song-intro { background:var(--bg-card); border:1px solid rgba(176, 128, 80,0.15); border-radius:16px; padding:2rem; margin-bottom:3rem; position:relative; overflow:hidden; }
+        .song-intro::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:var(--gradient-accent); }
+        .song-intro h2 { font-family:'Playfair Display',serif; font-size:1.3rem; color:var(--accent-light); margin-bottom:1rem; }
+        .song-intro p { font-size:0.95rem; color:var(--text-secondary); line-height:2; }
+        .song-intro .keyword { color:var(--accent-light); font-weight:500; }
+
+        /* Legend */
+        .legend { display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2.5rem; padding:1rem 1.5rem; background:rgba(255,255,255,0.02); border-radius:10px; border:1px solid rgba(255,255,255,0.04); }
+        .legend-item { display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; }
+        .legend-dot { width:10px; height:10px; border-radius:50%; }
+        .legend-dot.en { background:var(--english-color); }
+        .legend-dot.ja { background:var(--japanese-color); }
+        .legend-dot.cm { background:var(--commentary-color); }
+        .legend-label.en { color:var(--english-color); }
+        .legend-label.ja { color:var(--japanese-color); }
+        .legend-label.cm { color:var(--commentary-color); }
+
+        /* YouTube */
+        .youtube-section { margin-bottom:3rem; }
+        .youtube-section h2 { font-family:'Playfair Display',serif; font-size:1.3rem; color:var(--accent-light); margin-bottom:1rem; }
+        .youtube-wrapper { position:relative; width:100%; padding-bottom:56.25%; border-radius:12px; overflow:hidden; border:1px solid rgba(176, 128, 80,0.15); }
         .youtube-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
-        .section-header { display:flex; align-items:center; gap:1rem; margin:2rem 0 1rem; }
-        .section-header .line { flex:1; height:1px; background:linear-gradient(90deg,rgba(200, 150, 120,0.3),transparent); }
-        .section-header .line:last-child { background:linear-gradient(90deg,transparent,rgba(200, 150, 120,0.3)); }
-        .section-header h3 { font-family:'Inter',sans-serif; font-size:0.7rem; font-weight:600; letter-spacing:0.25em; text-transform:uppercase; color:#f0c898; white-space:nowrap; }
+
+        /* Lyrics */
+        .section-header { display:flex; align-items:center; gap:1rem; margin:3rem 0 1.5rem; }
+        .section-header .line { flex:1; height:1px; background:linear-gradient(90deg,rgba(176, 128, 80,0.3),transparent); }
+        .section-header .line:last-child { background:linear-gradient(90deg,transparent,rgba(176, 128, 80,0.3)); }
+        .section-header h3 { font-family:'Inter',sans-serif; font-size:0.7rem; font-weight:600; letter-spacing:0.25em; text-transform:uppercase; color:var(--accent); white-space:nowrap; }
         .lyric-block { margin-bottom:0.5rem; }
-        .lyric-pair { margin-bottom:1.2rem; }
-        .lyric-en { font-size:1rem; color:var(--english-color); line-height:1.6; font-weight:400; }
-        .lyric-ja { font-size:0.85rem; color:var(--japanese-color); opacity:0.85; margin-top:0.2rem; }
-        .commentary { background:var(--bg-card); border-left:3px solid rgba(200, 150, 120,0.3); border-radius:0 8px 8px 0; padding:1rem 1.2rem; margin:1rem 0 1.5rem; }
-        .commentary p { font-size:0.82rem; color:var(--text-secondary); line-height:1.8; }
-        .note-icon { margin-right:0.5rem; }
-        .mascot-section { margin-top:2rem; }
-        .mascot-card { display:flex; align-items:flex-end; gap:1rem; padding:1.5rem 0; }
-        .mascot-img { width:100px; height:100px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 2px 8px rgba(212,168,83,0.2)); }
-        .mascot-bubble { position:relative; background:var(--bg-card); border:1px solid rgba(212,168,83,0.15); border-radius:16px 16px 16px 4px; padding:1rem 1.3rem; font-size:0.82rem; color:var(--text-primary); line-height:1.7; max-width:500px; }
-        .mascot-bubble .trivia-label { font-family:'Inter',sans-serif; font-size:0.6rem; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent-gold); margin-bottom:0.3rem; }
-        @media(max-width:600px){ .mascot-card{flex-direction:column;align-items:center;text-align:center} .mascot-bubble{border-radius:16px} main{padding:2rem 1rem 3rem} }
-        .footer { text-align:center; padding:2rem; border-top:1px solid rgba(212,168,83,0.1); }
-        .footer .site-name { font-family:'Playfair Display',serif; font-size:1rem; background:var(--gradient-gold); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.5rem; }
+        .lyric-pair { padding:0.4rem 0; border-bottom:1px solid rgba(176, 128, 80,0.05); }
+        .lyric-pair:last-child { border-bottom:none; }
+        .lyric-en { font-family:'Inter','Noto Sans JP',sans-serif; font-size:1.05rem; font-weight:400; color:var(--english-color); line-height:1.9; }
+        .lyric-ja { font-size:0.95rem; font-weight:300; color:var(--japanese-color); line-height:1.9; margin-bottom:0.3rem; }
+
+        /* Commentary */
+        .commentary { margin:1.2rem 0 2rem; padding:1.2rem 1.5rem; border-left:2px solid rgba(176, 128, 80,0.4); border-radius:0 8px 8px 0; background:rgba(176, 128, 80,0.06); }
+        .commentary p { font-size:0.82rem; color:var(--commentary-color); line-height:2; font-weight:300; }
+        .note-icon { font-size:0.7rem; margin-right:0.3rem; }
+        .commentary strong { color:var(--accent-light); font-weight:500; }
+
+        /* Mascot */
+        .mascot-section { max-width:780px; margin:0 auto; padding:2rem 1.5rem; }
+        .mascot-card { display:flex; align-items:flex-end; gap:1rem; }
+        .mascot-img { width:110px; height:110px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 2px 8px rgba(176, 128, 80,0.2)); }
+        .mascot-bubble { background:var(--bg-card); border:1px solid rgba(176, 128, 80,0.15); border-radius:16px 16px 16px 4px; padding:1rem 1.3rem; font-size:0.85rem; color:var(--text-primary); line-height:1.7; max-width:500px; }
+        .mascot-bubble .trivia-label { font-family:'Inter',sans-serif; font-size:0.6rem; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:0.3rem; }
+        @media(max-width:600px) { .mascot-card{flex-direction:column;align-items:center;text-align:center} .mascot-bubble{border-radius:16px} .mascot-img{width:90px;height:90px} }
+
+        /* Footer */
+        .article-footer { margin-top:4rem; padding-top:2rem; border-top:1px solid rgba(176, 128, 80,0.1); text-align:center; }
+        .article-footer .site-name { font-family:'Playfair Display',serif; font-size:1.1rem; background:var(--gradient-accent); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.5rem; }
         .footer-links { display:flex; justify-content:center; gap:1.5rem; flex-wrap:wrap; margin-bottom:0.5rem; }
         .footer-links a { font-size:0.7rem; color:var(--text-secondary); text-decoration:none; letter-spacing:0.05em; transition:color 0.3s; }
-        .footer-links a:hover { color:var(--accent-gold-light); }
-        .footer .copyright { font-size:0.7rem; color:#6a5040; }
+        .footer-links a:hover { color:var(--accent-light); }
+        .article-footer .copyright { font-size:0.7rem; color:var(--commentary-color); }
+
+        /* Nav */
+        .global-nav { display:flex; justify-content:center; align-items:center; gap:2rem; padding:1rem 1.5rem; background:rgba(6,13,18,0.95); border-bottom:1px solid rgba(176, 128, 80,0.1); position:sticky; top:0; z-index:100; backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); }
+        .global-nav a { font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-secondary); text-decoration:none; transition:color 0.3s; }
+        .global-nav a:hover { color:var(--accent-light); }
+        .global-nav a.nav-home { font-family:'Playfair Display',serif; font-size:0.9rem; font-weight:700; background:var(--gradient-accent); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; letter-spacing:0; text-transform:none; }
+        @media(max-width:600px) { .global-nav{gap:1rem;flex-wrap:wrap} .global-nav a{font-size:0.65rem} .main-content{padding:2rem 1rem 4rem} .song-intro{padding:1.5rem} .legend{gap:1rem} .lyric-en{font-size:0.95rem} .lyric-ja{font-size:0.88rem} }
     </style>
     <meta property="og:type" content="article">
     <meta property="og:title" content="Taylor Swift - Fifteen 歌詞・和訳 | We are Swifties">
@@ -77,14 +120,9 @@
     <meta property="og:image:height" content="720">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://img.youtube.com/vi/Ip_3kHMsxEI/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
+    <!-- GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-PESZB0HW0B');</script>
 </head>
 <body>
     <nav class="global-nav">
@@ -93,24 +131,38 @@
         <a href="about.html">運営者情報</a>
         <a href="contact.html">お問い合わせ</a>
     </nav>
+
     <section class="hero">
+        <div class="gem"></div><div class="gem"></div><div class="gem"></div><div class="gem"></div>
         <div class="hero-content">
             <p class="hero-label">Fearless (Taylor's Version)</p>
             <h1 class="hero-title">Fifteen</h1>
-            <p class="hero-sub">15歳——高校初日の期待と不安、初恋の甘さと痛み。親友Abigailとの青春の記憶。</p>
+            <p class="hero-artist">Taylor Swift</p>
+            <span class="hero-album">💿 Fearless (Taylor's Version) (2008 / 2021 TV)</span>
         </div>
     </section>
-    <main>
-        <div class="song-meta">
-            <span class="meta-tag">💿 Fearless (Taylor's Version)</span>
-            <span class="meta-tag">📅 2008 / 2021 TV</span>
+
+    <main class="main-content">
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+
+        <div class="song-intro">
+            <h2>🏫 15歳に贈る手紙</h2>
+            <p>テイラー自身の<span class="keyword">高校初日</span>の記憶。テネシー州の高校に転校した日の不安と、赤毛の親友<span class="keyword">Abigail Anderson</span>との出会い。15歳の恋は世界の全てに感じるけど、人生はもっと大きい。</p>
         </div>
-        <div class="desc-block">
+
+        <div class="legend">
+            <div class="legend-item"><div class="legend-dot en"></div><span class="legend-label en">English Lyrics</span></div>
+            <div class="legend-item"><div class="legend-dot ja"></div><span class="legend-label ja">日本語訳</span></div>
+            <div class="legend-item"><div class="legend-dot cm"></div><span class="legend-label cm">Commentary</span></div>
+        </div>
+
+        <div class="youtube-section">
             <h2>▶ Official Lyric Video</h2>
             <div class="youtube-wrapper">
                 <iframe src="https://www.youtube.com/embed/Ip_3kHMsxEI" title="Taylor Swift - Fifteen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
+
         <div class="section-header">
             <div class="line"></div>
             <h3>VERSE 1</h3>
@@ -145,7 +197,7 @@
         <div class="lyric-block">
             <div class="lyric-pair">
                 <p class="lyric-en">'Cause when you're fifteen and somebody tells you they love you</p>
-                <p class="lyric-ja">だって15歳の時に誰かに「愛してる」と言われたら</p>
+                <p class="lyric-ja">だって15歳の時に誰かに愛してると言われたら</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">You're gonna believe them</p>
@@ -169,11 +221,11 @@
             </div>
         </div>
         <div class="commentary">
-            <p><span class="note-icon">💕</span>「count to ten, take it in」は大人のテイラーから15歳の自分へのアドバイス。15歳の恋は世界の全てに感じるけど、あなたの人生はもっと大きい。</p>
+            <p><span class="note-icon">💕</span>15歳の恋は世界の全てに感じるけど、あなたの人生はもっと大きい。count to tenは大人の自分からのアドバイス。</p>
         </div>
         <div class="section-header">
             <div class="line"></div>
-            <h3>VERSE 2 (Abigail)</h3>
+            <h3>VERSE 2</h3>
             <div class="line"></div>
         </div>
         <div class="lyric-block">
@@ -195,9 +247,124 @@
             </div>
         </div>
         <div class="commentary">
-            <p><span class="note-icon">👩‍🦰</span>Abigail Anderson（現Abigail Bernatchez）はテイラーの実際の親友。「Ruin The Friendship」にも登場する。二人の友情は20年以上続いている。</p>
+            <p><span class="note-icon">👩‍🦰</span>Abigail Andersonはテイラーの実際の親友。二人の友情は20年以上続いている。Ruin The Friendshipにも登場する。</p>
         </div>
-        <div class="mascot-section">
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 3</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">And then you're on your very first date and he's got a car</p>
+                <p class="lyric-ja">初めてのデート、彼は車を持ってる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you're feeling like flying</p>
+                <p class="lyric-ja">空を飛んでるみたいな気分</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And your mama's waiting up and you're thinking he's the one</p>
+                <p class="lyric-ja">ママが起きて待ってて、この人が運命の人だと思ってる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you're dancing 'round your room when the night ends</p>
+                <p class="lyric-ja">夜が終わると部屋で踊ってる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">When the night ends</p>
+                <p class="lyric-ja">夜が終わると</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">'Cause when you're fifteen and somebody tells you they love you</p>
+                <p class="lyric-ja">だって15歳の時に愛してると言われたら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You're gonna believe them</p>
+                <p class="lyric-ja">信じちゃう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">When you're fifteen and your first kiss makes your head spin 'round</p>
+                <p class="lyric-ja">15歳でファーストキスに目が回った時</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But in your life you'll do things greater than dating the boy on the football team</p>
+                <p class="lyric-ja">でも人生ではフットボール部の男子と付き合うより大きなことをする</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But I didn't know it at fifteen</p>
+                <p class="lyric-ja">でも15歳の私はまだ知らなかった</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">💔</span>Abigailが初めての恋で傷ついた実話。gave everything she hadの重みが15歳のリアルさを伝える。</p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Back then I swore I was gonna marry him someday</p>
+                <p class="lyric-ja">あの頃はいつか絶対彼と結婚すると誓ってた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But I realized some bigger dreams of mine</p>
+                <p class="lyric-ja">でも自分にはもっと大きな夢があると気づいた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And Abigail gave everything she had to a boy</p>
+                <p class="lyric-ja">アビゲイルは全てをある男の子に捧げた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Who changed his mind</p>
+                <p class="lyric-ja">彼は気が変わった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And we both cried</p>
+                <p class="lyric-ja">二人で泣いた</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">📖</span>back then I swore I was gonna marry himは15歳の全力の思い込み。your biggest dreamsは音楽のキャリア——恋よりも大切なもの。</p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>FINAL CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">'Cause when you're fifteen and somebody tells you they love you</p>
+                <p class="lyric-ja">だって15歳の時に愛してると言われたら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You're gonna believe them</p>
+                <p class="lyric-ja">信じちゃうでしょ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And when you're fifteen, don't forget to look before you fall</p>
+                <p class="lyric-ja">15歳の時は、落ちる前に見ることを忘れないで</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I've found time can heal most anything</p>
+                <p class="lyric-ja">時間がほとんどのことを癒してくれるってわかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you just might find who you're supposed to be</p>
+                <p class="lyric-ja">本当の自分が見つかるかもしれない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I didn't know who I was supposed to be at fifteen</p>
+                <p class="lyric-ja">15歳の私はまだ自分が誰になるかわからなかった</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">✨</span>最終コーラスでyou're gonna believeからdon't forgetに変わる。15歳はただの通過点。take it inは「この瞬間を大切にして」というメッセージ。</p>
+        </div>
+
+        <section class="mascot-section">
             <div class="mascot-card">
                 <img class="mascot-img" id="mascot-image" src="images/cat-guitar.png" alt="Mascot">
                 <div class="mascot-bubble">
@@ -205,8 +372,9 @@
                     <p id="mascot-text">Loading...</p>
                 </div>
             </div>
-        </div>
-        <footer class="footer">
+        </section>
+
+        <footer class="article-footer">
             <p class="site-name">We are Swifties</p>
             <div class="footer-links">
                 <a href="index.html">ホーム</a>
@@ -217,11 +385,14 @@
             <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
         </footer>
     </main>
+
     <script>
         const triviaList = [
-            { img: 'images/cat-guitar.png', text: 'Fearlessはテイラー初のグラミー賞「年間最優秀アルバム」受賞作。当時20歳で最年少記録！🏆' },
-            { img: 'images/cat-piano.png', text: 'Taylor\'s Versionは原盤権を取り戻すための再録音プロジェクト。アーティストの権利のために戦うテイラー💪' },
-            { img: 'images/cat-mic.png', text: 'Fearless (TV)には6曲のVault曲（未発表曲）が収録。13年間眠っていた宝物たち✨' },
+            { img: 'images/cat-piano.png', text: 'Abigail Anderson（現Bernatchez）はテイラーの実際の親友。二人の友情は20年以上続いている💕' },
+            { img: 'images/cat-guitar.png', text: 'count to ten, take it inは大人のテイラーから15歳の自分へのアドバイス📝' },
+            { img: 'images/cat-mic.png', text: 'テイラーは14歳でナッシュビルに引っ越し。新しい学校での最初の日がこの曲の元になった🏫' },
+            { img: 'images/cat-piano.png', text: 'Fifteen (TV)では声の成熟が感じられ「大人になった私から15歳の私へ」のメッセージがより深く響く✨' },
+            { img: 'images/cat-guitar.png', text: 'Eras Tourではこの曲でファンが泣く姿がよく見られる。世代を超えた共感ソング😭' },
         ];
         const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
         document.getElementById('mascot-image').src = pick.img;

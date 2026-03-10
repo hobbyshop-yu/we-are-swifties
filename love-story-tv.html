@@ -11,63 +11,106 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-primary: #0a0806;
-            --bg-card: #14100c;
-            --text-primary: #f5ebe0;
-            --text-secondary: #b89e8a;
-            --accent-gold: #d4a853;
-            --accent-gold-light: #e8c779;
-            --english-color: #e8c779;
-            --japanese-color: #f5ebe0;
-            --commentary-color: #6a5840;
-            --gradient-gold: linear-gradient(135deg, #c42b3b 0%, #d4a853 35%, #e8c779 65%, #f0d896 100%);
-            --gradient-dark: linear-gradient(180deg, #0a0806 0%, #100c08 100%);
+            --bg-primary: #0c0608;
+            --bg-card: #160c10;
+            --bg-card-hover: #160c10;
+            --text-primary: #f8e8f0;
+            --text-secondary: #c8889a;
+            --accent: #e8708a;
+            --accent-light: #f0a0b8;
+            --english-color: #f0a0b8;
+            --japanese-color: #f8e8f0;
+            --commentary-color: #6a4050;
+            --gradient-accent: linear-gradient(135deg, #c42b3b 0%, #e8708a 50%, #f0a0b8 100%);
+            --gradient-dark: linear-gradient(180deg, #0c0608 0%, #160c10 100%);
         }
         * { margin:0; padding:0; box-sizing:border-box; }
-        body { font-family:'Noto Sans JP','Inter',sans-serif; background:var(--bg-primary); color:var(--text-primary); line-height:1.8; }
-        .global-nav { display:flex; justify-content:center; align-items:center; gap:2rem; padding:1rem 1.5rem; background:rgba(10,8,6,0.95); border-bottom:1px solid rgba(212,168,83,0.1); position:sticky; top:0; z-index:100; backdrop-filter:blur(10px); }
-        .global-nav a { font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-secondary); text-decoration:none; transition:color 0.3s; }
-        .global-nav a:hover { color:var(--accent-gold-light); }
-        .global-nav a.nav-home { font-family:'Playfair Display',serif; font-size:0.9rem; font-weight:700; background:var(--gradient-gold); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; letter-spacing:0; text-transform:none; }
-        @media(max-width:600px){ .global-nav{gap:1rem;flex-wrap:wrap} .global-nav a{font-size:0.65rem} }
-        .hero { position:relative; min-height:35vh; display:flex; align-items:center; justify-content:center; text-align:center; background:var(--gradient-dark); overflow:hidden; padding:3rem 1rem; }
-        .hero::before { content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(ellipse at 30% 40%,rgba(200, 120, 140,0.1) 0%,transparent 50%),radial-gradient(ellipse at 70% 60%,rgba(212,168,83,0.06) 0%,transparent 50%); animation:shimmer 10s ease-in-out infinite alternate; }
-        @keyframes shimmer { 0%{transform:translateX(-3%) translateY(-3%)} 100%{transform:translateX(3%) translateY(3%)} }
-        .hero-content { position:relative; z-index:1; }
-        .hero-label { font-family:'Inter',sans-serif; font-size:0.65rem; font-weight:600; letter-spacing:0.3em; text-transform:uppercase; color:var(--accent-gold); margin-bottom:0.5rem; }
-        .hero-title { font-family:'Playfair Display',serif; font-size:clamp(2rem,8vw,3.5rem); font-weight:700; color:#f0a0b8; line-height:1.2; margin-bottom:0.5rem; }
-        .hero-sub { font-size:0.85rem; color:var(--text-secondary); max-width:500px; margin:0 auto; }
-        main { max-width:780px; margin:0 auto; padding:3rem 1.5rem 4rem; }
-        .song-meta { display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2rem; }
-        .meta-tag { font-size:0.7rem; padding:0.3rem 0.8rem; border-radius:20px; border:1px solid rgba(200, 120, 140,0.2); color:#f0a0b8; font-weight:500; letter-spacing:0.05em; }
-        h2 { font-family:'Playfair Display',serif; font-size:1.1rem; margin-bottom:1rem; color:var(--accent-gold-light); }
-        .desc-block { margin-bottom:2rem; }
-        .desc-block p { font-size:0.92rem; line-height:2; color:var(--text-primary); }
-        .youtube-wrapper { position:relative; width:100%; padding-bottom:56.25%; margin-bottom:2.5rem; border-radius:12px; overflow:hidden; }
+        body { font-family:'Noto Sans JP','Inter',sans-serif; background:var(--bg-primary); color:var(--text-primary); line-height:1.8; overflow-x:hidden; }
+
+        /* Hero */
+        .hero { position:relative; min-height:40vh; display:flex; align-items:center; justify-content:center; text-align:center; overflow:hidden; background:var(--gradient-dark); }
+        .hero::before { content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(ellipse at 20% 50%,rgba(232, 112, 138,0.1) 0%,transparent 50%),radial-gradient(ellipse at 80% 50%,rgba(232, 112, 138,0.07) 0%,transparent 50%),radial-gradient(ellipse at 50% 80%,rgba(232, 112, 138,0.05) 0%,transparent 50%); animation:shimmer 8s ease-in-out infinite alternate; }
+        @keyframes shimmer { 0%{transform:translateX(-5%) translateY(-5%) rotate(0deg)} 100%{transform:translateX(5%) translateY(5%) rotate(3deg)} }
+        .hero-content { position:relative; z-index:1; padding:2rem; }
+        .hero-label { font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:600; letter-spacing:0.3em; text-transform:uppercase; color:var(--accent); margin-bottom:1rem; }
+        .hero-title { font-family:'Playfair Display',serif; font-size:clamp(3rem,8vw,6rem); font-weight:700; background:var(--gradient-accent); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.5rem; line-height:1.2; }
+        .hero-artist { font-family:'Playfair Display',serif; font-size:1.4rem; font-weight:400; font-style:italic; color:var(--text-secondary); margin-bottom:1.5rem; }
+        .hero-album { display:inline-block; font-size:0.8rem; font-weight:500; color:var(--accent-light); border:1px solid rgba(232, 112, 138,0.3); padding:0.4rem 1.2rem; border-radius:100px; letter-spacing:0.05em; }
+        .gem { position:absolute; border-radius:50%; filter:blur(1px); opacity:0.4; animation:float 6s ease-in-out infinite; }
+        .gem:nth-child(1) { width:6px; height:6px; background:var(--accent); top:20%; left:10%; animation-delay:0s; }
+        .gem:nth-child(2) { width:4px; height:4px; background:var(--accent-light); top:40%; right:15%; animation-delay:2s; }
+        .gem:nth-child(3) { width:8px; height:8px; background:#fbbf24; bottom:30%; left:20%; animation-delay:4s; }
+        .gem:nth-child(4) { width:5px; height:5px; background:#a78bfa; top:60%; right:25%; animation-delay:1s; }
+        @keyframes float { 0%,100%{transform:translateY(0) scale(1);opacity:0.4} 50%{transform:translateY(-20px) scale(1.2);opacity:0.7} }
+
+        /* Main */
+        .main-content { max-width:780px; margin:0 auto; padding:3rem 1.5rem 6rem; }
+        .back-link { display:inline-block; margin-bottom:2rem; color:var(--accent); text-decoration:none; font-size:0.85rem; transition:color 0.3s; }
+        .back-link:hover { color:var(--accent-light); }
+
+        /* Song Intro */
+        .song-intro { background:var(--bg-card); border:1px solid rgba(232, 112, 138,0.15); border-radius:16px; padding:2rem; margin-bottom:3rem; position:relative; overflow:hidden; }
+        .song-intro::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:var(--gradient-accent); }
+        .song-intro h2 { font-family:'Playfair Display',serif; font-size:1.3rem; color:var(--accent-light); margin-bottom:1rem; }
+        .song-intro p { font-size:0.95rem; color:var(--text-secondary); line-height:2; }
+        .song-intro .keyword { color:var(--accent-light); font-weight:500; }
+
+        /* Legend */
+        .legend { display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2.5rem; padding:1rem 1.5rem; background:rgba(255,255,255,0.02); border-radius:10px; border:1px solid rgba(255,255,255,0.04); }
+        .legend-item { display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; }
+        .legend-dot { width:10px; height:10px; border-radius:50%; }
+        .legend-dot.en { background:var(--english-color); }
+        .legend-dot.ja { background:var(--japanese-color); }
+        .legend-dot.cm { background:var(--commentary-color); }
+        .legend-label.en { color:var(--english-color); }
+        .legend-label.ja { color:var(--japanese-color); }
+        .legend-label.cm { color:var(--commentary-color); }
+
+        /* YouTube */
+        .youtube-section { margin-bottom:3rem; }
+        .youtube-section h2 { font-family:'Playfair Display',serif; font-size:1.3rem; color:var(--accent-light); margin-bottom:1rem; }
+        .youtube-wrapper { position:relative; width:100%; padding-bottom:56.25%; border-radius:12px; overflow:hidden; border:1px solid rgba(232, 112, 138,0.15); }
         .youtube-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
-        .section-header { display:flex; align-items:center; gap:1rem; margin:2rem 0 1rem; }
-        .section-header .line { flex:1; height:1px; background:linear-gradient(90deg,rgba(200, 120, 140,0.3),transparent); }
-        .section-header .line:last-child { background:linear-gradient(90deg,transparent,rgba(200, 120, 140,0.3)); }
-        .section-header h3 { font-family:'Inter',sans-serif; font-size:0.7rem; font-weight:600; letter-spacing:0.25em; text-transform:uppercase; color:#f0a0b8; white-space:nowrap; }
+
+        /* Lyrics */
+        .section-header { display:flex; align-items:center; gap:1rem; margin:3rem 0 1.5rem; }
+        .section-header .line { flex:1; height:1px; background:linear-gradient(90deg,rgba(232, 112, 138,0.3),transparent); }
+        .section-header .line:last-child { background:linear-gradient(90deg,transparent,rgba(232, 112, 138,0.3)); }
+        .section-header h3 { font-family:'Inter',sans-serif; font-size:0.7rem; font-weight:600; letter-spacing:0.25em; text-transform:uppercase; color:var(--accent); white-space:nowrap; }
         .lyric-block { margin-bottom:0.5rem; }
-        .lyric-pair { margin-bottom:1.2rem; }
-        .lyric-en { font-size:1rem; color:var(--english-color); line-height:1.6; font-weight:400; }
-        .lyric-ja { font-size:0.85rem; color:var(--japanese-color); opacity:0.85; margin-top:0.2rem; }
-        .commentary { background:var(--bg-card); border-left:3px solid rgba(200, 120, 140,0.3); border-radius:0 8px 8px 0; padding:1rem 1.2rem; margin:1rem 0 1.5rem; }
-        .commentary p { font-size:0.82rem; color:var(--text-secondary); line-height:1.8; }
-        .note-icon { margin-right:0.5rem; }
-        .mascot-section { margin-top:2rem; }
-        .mascot-card { display:flex; align-items:flex-end; gap:1rem; padding:1.5rem 0; }
-        .mascot-img { width:100px; height:100px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 2px 8px rgba(212,168,83,0.2)); }
-        .mascot-bubble { position:relative; background:var(--bg-card); border:1px solid rgba(212,168,83,0.15); border-radius:16px 16px 16px 4px; padding:1rem 1.3rem; font-size:0.82rem; color:var(--text-primary); line-height:1.7; max-width:500px; }
-        .mascot-bubble .trivia-label { font-family:'Inter',sans-serif; font-size:0.6rem; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent-gold); margin-bottom:0.3rem; }
-        @media(max-width:600px){ .mascot-card{flex-direction:column;align-items:center;text-align:center} .mascot-bubble{border-radius:16px} main{padding:2rem 1rem 3rem} }
-        .footer { text-align:center; padding:2rem; border-top:1px solid rgba(212,168,83,0.1); }
-        .footer .site-name { font-family:'Playfair Display',serif; font-size:1rem; background:var(--gradient-gold); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.5rem; }
+        .lyric-pair { padding:0.4rem 0; border-bottom:1px solid rgba(232, 112, 138,0.05); }
+        .lyric-pair:last-child { border-bottom:none; }
+        .lyric-en { font-family:'Inter','Noto Sans JP',sans-serif; font-size:1.05rem; font-weight:400; color:var(--english-color); line-height:1.9; }
+        .lyric-ja { font-size:0.95rem; font-weight:300; color:var(--japanese-color); line-height:1.9; margin-bottom:0.3rem; }
+
+        /* Commentary */
+        .commentary { margin:1.2rem 0 2rem; padding:1.2rem 1.5rem; border-left:2px solid rgba(232, 112, 138,0.4); border-radius:0 8px 8px 0; background:rgba(232, 112, 138,0.06); }
+        .commentary p { font-size:0.82rem; color:var(--commentary-color); line-height:2; font-weight:300; }
+        .note-icon { font-size:0.7rem; margin-right:0.3rem; }
+        .commentary strong { color:var(--accent-light); font-weight:500; }
+
+        /* Mascot */
+        .mascot-section { max-width:780px; margin:0 auto; padding:2rem 1.5rem; }
+        .mascot-card { display:flex; align-items:flex-end; gap:1rem; }
+        .mascot-img { width:110px; height:110px; object-fit:contain; flex-shrink:0; filter:drop-shadow(0 2px 8px rgba(232, 112, 138,0.2)); }
+        .mascot-bubble { background:var(--bg-card); border:1px solid rgba(232, 112, 138,0.15); border-radius:16px 16px 16px 4px; padding:1rem 1.3rem; font-size:0.85rem; color:var(--text-primary); line-height:1.7; max-width:500px; }
+        .mascot-bubble .trivia-label { font-family:'Inter',sans-serif; font-size:0.6rem; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:0.3rem; }
+        @media(max-width:600px) { .mascot-card{flex-direction:column;align-items:center;text-align:center} .mascot-bubble{border-radius:16px} .mascot-img{width:90px;height:90px} }
+
+        /* Footer */
+        .article-footer { margin-top:4rem; padding-top:2rem; border-top:1px solid rgba(232, 112, 138,0.1); text-align:center; }
+        .article-footer .site-name { font-family:'Playfair Display',serif; font-size:1.1rem; background:var(--gradient-accent); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.5rem; }
         .footer-links { display:flex; justify-content:center; gap:1.5rem; flex-wrap:wrap; margin-bottom:0.5rem; }
         .footer-links a { font-size:0.7rem; color:var(--text-secondary); text-decoration:none; letter-spacing:0.05em; transition:color 0.3s; }
-        .footer-links a:hover { color:var(--accent-gold-light); }
-        .footer .copyright { font-size:0.7rem; color:#6a5040; }
+        .footer-links a:hover { color:var(--accent-light); }
+        .article-footer .copyright { font-size:0.7rem; color:var(--commentary-color); }
+
+        /* Nav */
+        .global-nav { display:flex; justify-content:center; align-items:center; gap:2rem; padding:1rem 1.5rem; background:rgba(6,13,18,0.95); border-bottom:1px solid rgba(232, 112, 138,0.1); position:sticky; top:0; z-index:100; backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); }
+        .global-nav a { font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-secondary); text-decoration:none; transition:color 0.3s; }
+        .global-nav a:hover { color:var(--accent-light); }
+        .global-nav a.nav-home { font-family:'Playfair Display',serif; font-size:0.9rem; font-weight:700; background:var(--gradient-accent); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; letter-spacing:0; text-transform:none; }
+        @media(max-width:600px) { .global-nav{gap:1rem;flex-wrap:wrap} .global-nav a{font-size:0.65rem} .main-content{padding:2rem 1rem 4rem} .song-intro{padding:1.5rem} .legend{gap:1rem} .lyric-en{font-size:0.95rem} .lyric-ja{font-size:0.88rem} }
     </style>
     <meta property="og:type" content="article">
     <meta property="og:title" content="Taylor Swift - Love Story 歌詞・和訳 | We are Swifties">
@@ -77,14 +120,9 @@
     <meta property="og:image:height" content="720">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://img.youtube.com/vi/aXzVF3XeS8M/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
+    <!-- GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-PESZB0HW0B');</script>
 </head>
 <body>
     <nav class="global-nav">
@@ -93,24 +131,38 @@
         <a href="about.html">運営者情報</a>
         <a href="contact.html">お問い合わせ</a>
     </nav>
+
     <section class="hero">
+        <div class="gem"></div><div class="gem"></div><div class="gem"></div><div class="gem"></div>
         <div class="hero-content">
             <p class="hero-label">Fearless (Taylor's Version)</p>
             <h1 class="hero-title">Love Story</h1>
-            <p class="hero-sub">シェイクスピアの『ロミオとジュリエット』を書き換えた——悲劇を希望に変えるテイラー流ラブストーリー。</p>
+            <p class="hero-artist">Taylor Swift</p>
+            <span class="hero-album">💿 Fearless (Taylor's Version) (2008 / 2021 TV)</span>
         </div>
     </section>
-    <main>
-        <div class="song-meta">
-            <span class="meta-tag">💿 Fearless (Taylor's Version)</span>
-            <span class="meta-tag">📅 2008 / 2021 TV</span>
+
+    <main class="main-content">
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+
+        <div class="song-intro">
+            <h2>💕 悲劇をハッピーエンドに書き換える</h2>
+            <p>シェイクスピアの<span class="keyword">『ロミオとジュリエット』</span>を下敷きに、テイラーが17歳で書いた楽曲。原作では両家の対立で命を落とす二人を、テイラーは「<span class="keyword">just say yes</span>」というプロポーズで救済した。15年後の<span class="keyword">The Fate of Ophelia</span>でも同じテーマ——シェイクスピアの悲劇を幸福な結末に書き換える——が受け継がれている。</p>
         </div>
-        <div class="desc-block">
+
+        <div class="legend">
+            <div class="legend-item"><div class="legend-dot en"></div><span class="legend-label en">English Lyrics</span></div>
+            <div class="legend-item"><div class="legend-dot ja"></div><span class="legend-label ja">日本語訳</span></div>
+            <div class="legend-item"><div class="legend-dot cm"></div><span class="legend-label cm">Commentary</span></div>
+        </div>
+
+        <div class="youtube-section">
             <h2>▶ Official Lyric Video</h2>
             <div class="youtube-wrapper">
                 <iframe src="https://www.youtube.com/embed/aXzVF3XeS8M" title="Taylor Swift - Love Story" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
+
         <div class="section-header">
             <div class="line"></div>
             <h3>VERSE 1</h3>
@@ -119,7 +171,7 @@
         <div class="lyric-block">
             <div class="lyric-pair">
                 <p class="lyric-en">We were both young when I first saw you</p>
-                <p class="lyric-ja">初めてあなたを見た時、私たちは二人とも若かった</p>
+                <p class="lyric-ja">初めてあなたを見た時、私たちはまだ若かった</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">I close my eyes and the flashback starts</p>
@@ -131,7 +183,7 @@
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">See the lights, see the party, the ball gowns</p>
-                <p class="lyric-ja">ライトが見える、パーティーが見える、舞踏会のドレス</p>
+                <p class="lyric-ja">ライトが見える、パーティーが、舞踏会のドレスが</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">See you make your way through the crowd</p>
@@ -147,7 +199,7 @@
             </div>
         </div>
         <div class="commentary">
-            <p><span class="note-icon">🏰</span>シェイクスピアの『ロミオとジュリエット』のバルコニーシーンを現代に翻案。テイラーは17歳でこの曲を書いた。</p>
+            <p><span class="note-icon">🏰</span>シェイクスピアの『ロミオとジュリエット』のバルコニーシーンを現代に翻案。テイラーは17歳でこの曲を書いた。当時の恋人の親に交際を反対された実体験が元に。</p>
         </div>
         <div class="section-header">
             <div class="line"></div>
@@ -157,7 +209,7 @@
         <div class="lyric-block">
             <div class="lyric-pair">
                 <p class="lyric-en">That you were Romeo, you were throwing pebbles</p>
-                <p class="lyric-ja">あなたがロミオだったなんて、小石を投げていた</p>
+                <p class="lyric-ja">あなたがロミオで、小石を投げていた</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">And my daddy said, "Stay away from Juliet"</p>
@@ -177,29 +229,101 @@
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">"I'll be waiting, all there's left to do is run"</p>
-                <p class="lyric-ja">「待ってるから、あとは逃げるだけ」</p>
+                <p class="lyric-ja">「待ってるから、あとは走って逃げるだけ」</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">"You'll be the prince and I'll be the princess"</p>
-                <p class="lyric-ja">「あなたが王子で私がプリンセス」</p>
+                <p class="lyric-ja">「あなたが王子様で私がプリンセス」</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">"It's a love story, baby, just say 'Yes'"</p>
-                <p class="lyric-ja">「ラブストーリーよ、ベイビー、『Yes』って言って」</p>
+                <p class="lyric-ja">「ラブストーリーよ、ベイビー、Yesって言って」</p>
             </div>
         </div>
         <div class="commentary">
-            <p><span class="note-icon">👑</span>原作では両家の対立で悲劇に終わるが、テイラーは「ハッピーエンドに書き換えたかった」と語る。The Fate of Opheliaと同じくシェイクスピアの悲劇を救済するテーマ。</p>
+            <p><span class="note-icon">👑</span>原作では両家の対立で悲劇に終わるが、テイラーは「ハッピーエンドに書き換えたかった」と語る。The Fate of Opheliaと同じくシェイクスピアの悲劇を「希望」で救済するテーマ。</p>
         </div>
         <div class="section-header">
             <div class="line"></div>
-            <h3>BRIDGE / OUTRO</h3>
+            <h3>VERSE 2</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">So I sneak out to the garden to see you</p>
+                <p class="lyric-ja">こっそり庭に抜け出してあなたに会いに行く</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">We keep quiet 'cause we're dead if they knew</p>
+                <p class="lyric-ja">黙ってなきゃ、バレたら終わりだから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">So close your eyes</p>
+                <p class="lyric-ja">だから目を閉じて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Escape this town for a little while</p>
+                <p class="lyric-ja">少しの間この街から逃げよう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, oh</p>
+                <p class="lyric-ja"></p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">🌹</span>「sneak out to the garden」は原作のバルコニーシーンの変奏。「dead if they knew」は親の反対を表す。ティーンの秘密の恋がドラマチックに描かれる。</p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS 2</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">'Cause you were Romeo, I was a scarlet letter</p>
+                <p class="lyric-ja">だってあなたはロミオ、私は烙印を押された女</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And my daddy said, "Stay away from Juliet"</p>
+                <p class="lyric-ja">パパは「ジュリエットに近づくな」と言った</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But you were everything to me</p>
+                <p class="lyric-ja">でもあなたは私にとって全てだった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I was begging you, "Please don't go"</p>
+                <p class="lyric-ja">「お願い、行かないで」と懇願してた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And I said, "Romeo, take me somewhere we can be alone"</p>
+                <p class="lyric-ja">「ロミオ、二人きりになれる場所へ連れて行って」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">"I'll be waiting, all there's left to do is run"</p>
+                <p class="lyric-ja">「待ってるから、あとは走って逃げるだけ」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">"You'll be the prince and I'll be the princess"</p>
+                <p class="lyric-ja">「あなたが王子様で私がプリンセス」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">"It's a love story, baby, just say 'Yes'"</p>
+                <p class="lyric-ja">「ラブストーリーよ、ベイビー、Yesって言って」</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">💫</span>「scarlet letter」は17世紀の姦通罪の烙印——禁じられた恋のメタファー。コーラスが繰り返されるたびに切迫感が増す。</p>
+        </div>
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
             <div class="line"></div>
         </div>
         <div class="lyric-block">
             <div class="lyric-pair">
                 <p class="lyric-en">Romeo, save me, I've been feeling so alone</p>
-                <p class="lyric-ja">ロミオ、助けて、ずっと孤独だった</p>
+                <p class="lyric-ja">ロミオ、助けて、ずっと孤独に感じてる</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">I keep waiting for you, but you never come</p>
@@ -215,7 +339,7 @@
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">"Marry me, Juliet, you'll never have to be alone"</p>
-                <p class="lyric-ja">「ジュリエット、結婚しよう、もう独りにはさせない」</p>
+                <p class="lyric-ja">「ジュリエット、結婚しよう、もう寂しい思いはさせない」</p>
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">"I love you, and that's all I really know"</p>
@@ -227,13 +351,32 @@
             </div>
             <div class="lyric-pair">
                 <p class="lyric-en">"It's a love story, baby, just say 'Yes'"</p>
-                <p class="lyric-ja">「ラブストーリーだよ、ベイビー、『Yes』って言って」</p>
+                <p class="lyric-ja">「ラブストーリーだよ、ベイビー、Yesって言って」</p>
             </div>
         </div>
         <div class="commentary">
-            <p><span class="note-icon">💍</span>原作と真逆のエンディング。ロミオは死なず、父親の許しを得てプロポーズする。テイラーは悲劇を「just say yes」で救済する。15年後のThe Fate of Opheliaでも同じテーマ——シェイクスピアの悲劇を幸福な結末に書き換える。</p>
+            <p><span class="note-icon">💍</span>原作と真逆のクライマックス。ロミオは死なず、父親の許しを得てプロポーズする。「talked to your dad」で親の壁を乗り越え、「white dress」でハッピーエンドへ。テイラーは悲劇を「just say yes」で完全に救済する。</p>
         </div>
-        <div class="mascot-section">
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>OUTRO</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, oh, oh</p>
+                <p class="lyric-ja"></p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">'Cause we were both young when I first saw you</p>
+                <p class="lyric-ja">だって初めてあなたを見た時、私たちは二人とも若かったから</p>
+            </div>
+        </div>
+        <div class="commentary">
+            <p><span class="note-icon">✨</span>最後は冒頭のフレーズで始まりに戻る。円環構造が物語の完結を示す。17歳の少女が書いた愛の物語は21世紀のポップ文学の金字塔となった。</p>
+        </div>
+
+        <section class="mascot-section">
             <div class="mascot-card">
                 <img class="mascot-img" id="mascot-image" src="images/cat-guitar.png" alt="Mascot">
                 <div class="mascot-bubble">
@@ -241,8 +384,9 @@
                     <p id="mascot-text">Loading...</p>
                 </div>
             </div>
-        </div>
-        <footer class="footer">
+        </section>
+
+        <footer class="article-footer">
             <p class="site-name">We are Swifties</p>
             <div class="footer-links">
                 <a href="index.html">ホーム</a>
@@ -253,11 +397,14 @@
             <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
         </footer>
     </main>
+
     <script>
         const triviaList = [
-            { img: 'images/cat-guitar.png', text: 'Fearlessはテイラー初のグラミー賞「年間最優秀アルバム」受賞作。当時20歳で最年少記録！🏆' },
-            { img: 'images/cat-piano.png', text: 'Taylor\'s Versionは原盤権を取り戻すための再録音プロジェクト。アーティストの権利のために戦うテイラー💪' },
-            { img: 'images/cat-mic.png', text: 'Fearless (TV)には6曲のVault曲（未発表曲）が収録。13年間眠っていた宝物たち✨' },
+            { img: 'images/cat-piano.png', text: 'Love Storyはテイラーが17歳で書いた曲。当時の恋人の両親に反対されていた実体験が元になっているよ💕' },
+            { img: 'images/cat-guitar.png', text: 'Taylor's Versionのリリース初週、全米チャート1位に返り咲いた！再録音で1位は史上初の快挙🏆' },
+            { img: 'images/cat-mic.png', text: 'MVはチェコのスタラーフ城で撮影。ラストのプロポーズシーンはファンの間で伝説になっているよ🏰' },
+            { img: 'images/cat-piano.png', text: 'The Fate of Opheliaと共通するテーマ——シェイクスピアの悲劇を「希望の物語」に書き換えること✨' },
+            { img: 'images/cat-guitar.png', text: '原曲は2008年に9週連続全米Top5にランクイン。テイラーの代名詞とも言える楽曲だよ📊' },
         ];
         const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
         document.getElementById('mascot-image').src = pick.img;
