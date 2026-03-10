@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://we-are-swifties.com/sitemap.xml
