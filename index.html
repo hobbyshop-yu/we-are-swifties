@@ -7,6 +7,17 @@
     <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
     <title>We are Swifties — Taylor Swift 歌詞和訳・徹底解説</title>
     <meta name="description" content="テイラー・スウィフトの歌詞を日本語訳＋徹底解説。英語歌詞の背景、ストーリー、英語表現まで深掘りするSwiftiesのためのサイト。">
+    <!-- OGP (Open Graph Protocol) for X/Twitter card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="We are Swifties — Taylor Swift 歌詞和訳・徹底解説">
+    <meta property="og:description" content="テイラー・スウィフトの全曲歌詞を日本語訳＋徹底解説。英語歌詞の背景やストーリーまで深掘り。">
+    <meta property="og:image" content="https://hobbyshop-yu.github.io/we-are-swifties/images/ogp-card.png">
+    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/">
+    <meta property="og:site_name" content="We are Swifties">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="We are Swifties — Taylor Swift 歌詞和訳・徹底解説">
+    <meta name="twitter:description" content="テイラー・スウィフトの全曲歌詞を日本語訳＋徹底解説。">
+    <meta name="twitter:image" content="https://hobbyshop-yu.github.io/we-are-swifties/images/ogp-card.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -1567,7 +1578,68 @@
         .song-card.ttpd-proph .card-title { color: #f2ebda; }
         .song-card.ttpd-proph .card-arrow { color: #b6af9e; }
 
-    </style>
+    
+        /* ========== Album Banner Images ========== */
+        .album-section {
+            margin-bottom: 3rem;
+        }
+
+        .album-banner {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 1.5rem auto;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .album-banner:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+        }
+
+        .album-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .album-banner .album-banner-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5rem;
+            background: linear-gradient(transparent, rgba(0,0,0,0.85));
+        }
+
+        .album-banner .album-banner-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #fff;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            margin: 0;
+        }
+
+        .album-banner .album-banner-year {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+            margin-top: 0.2rem;
+        }
+
+        .album-header {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .album-banner .album-banner-title {
+                font-size: 1.4rem;
+            }
+        }
+
+        </style>
 
     <!-- OGP / Twitter Card -->
     <meta property="og:type" content="article">
@@ -1719,12 +1791,15 @@
 
         <!-- ===== Fearless (Taylor's Version) ===== -->
         <div class="album-section album-fearless">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>Fearless (Taylor's Version)</h2>
-                <span class="album-year">2008 / 2021</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/fearless-card.webp" alt="Fearless (Taylor's Version)" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">Fearless (Taylor's Version)</h2>
+                    <span class="album-banner-year">2008 / 2021</span>
+                </div>
             </div>
+
 
             <a href="love-story-tv.html" class="song-card fearless-love">
                 <div class="card-header"><span class="card-title">Love Story</span></div>
@@ -1777,12 +1852,15 @@
 
         <!-- ===== Lover (2019) ===== -->
         <div class="album-section album-lover">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>Lover</h2>
-                <span class="album-year">2019</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/lover-card.webp" alt="Lover" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">Lover</h2>
+                    <span class="album-banner-year">2019</span>
+                </div>
             </div>
+
 
             <a href="i-forgot-that-you-existed.html" class="song-card lover-forgot">
                 <div class="card-header"><span class="card-title">I Forgot That You Existed</span></div>
@@ -1890,12 +1968,15 @@
 
         <!-- ===== reputation ===== -->
         <div class="album-section album-reputation">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>reputation</h2>
-                <span class="album-year">2017</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/reputation-card.webp" alt="reputation" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">reputation</h2>
+                    <span class="album-banner-year">2017</span>
+                </div>
             </div>
+
 
             <a href="ready-for-it.html" class="song-card rep-ready">
                 <div class="card-header"><span class="card-title">...Ready for It?</span></div>
@@ -1992,12 +2073,15 @@
 
         <!-- ===== Red (Taylor's Version) ===== -->
         <div class="album-section album-red">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>Red (Taylor's Version)</h2>
-                <span class="album-year">2012 / 2021</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/red-card.webp" alt="Red (Taylor's Version)" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">Red (Taylor's Version)</h2>
+                    <span class="album-banner-year">2012 / 2021</span>
+                </div>
             </div>
+
 
             <a href="state-of-grace-tv.html" class="song-card red-grace">
                 <div class="card-header"><span class="card-title">State of Grace</span></div>
@@ -2184,12 +2268,15 @@
 
         <!-- ===== 1989 (Taylor's Version) ===== -->
         <div class="album-section album-1989">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>1989 (Taylor's Version)</h2>
-                <span class="album-year">2014 / 2023</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/1989-card.webp" alt="1989 (Taylor's Version)" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">1989 (Taylor's Version)</h2>
+                    <span class="album-banner-year">2014 / 2023</span>
+                </div>
             </div>
+
 
             <a href="welcome-to-new-york-tv.html" class="song-card 1989-welcome">
                 <div class="card-header"><span class="card-title">Welcome to New York</span></div>
@@ -2316,12 +2403,15 @@
 
         <!-- ===== Midnights ===== -->
         <div class="album-section album-midnights">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>Midnights</h2>
-                <span class="album-year">2022</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/midnights-card.webp" alt="Midnights" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">Midnights</h2>
+                    <span class="album-banner-year">2022</span>
+                </div>
             </div>
+
 
             <a href="lavender-haze.html" class="song-card mid-lavender">
                 <div class="card-header"><span class="card-title">Lavender Haze</span></div>
@@ -2448,12 +2538,15 @@
 
         <!-- ===== The Tortured Poets Department ===== -->
         <div class="album-section album-ttpd">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>The Tortured Poets Department</h2>
-                <span class="album-year">2024</span>
-                <div class="line"></div>
+            
+            <div class="album-banner">
+                <img src="images/album-cards/ttpd-card.webp" alt="The Tortured Poets Department" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">The Tortured Poets Department</h2>
+                    <span class="album-banner-year">2024</span>
+                </div>
             </div>
+
 
             <a href="fortnight.html" class="song-card ttpd-fortnight">
                 <div class="card-header"><span class="card-title">Fortnight <small>feat. Post Malone</small></span></div>
