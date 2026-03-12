@@ -60,7 +60,7 @@
             font-weight: 600;
             letter-spacing: 0.3em;
             text-transform: uppercase;
-            color: var(--accent-opal);
+            color: var(--accent-opal, var(--accent));
             margin-bottom: 1rem;
         }
 
@@ -68,7 +68,7 @@
             font-family: 'Playfair Display', serif;
             font-size: clamp(3rem, 8vw, 6rem);
             font-weight: 700;
-            background: var(--gradient-opal);
+            background: var(--gradient-opal, var(--gradient-accent));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -89,7 +89,7 @@
             display: inline-block;
             font-size: 0.8rem;
             font-weight: 500;
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             border: 1px solid rgba(167, 139, 250, 0.3);
             padding: 0.4rem 1.2rem;
             border-radius: 100px;
@@ -108,7 +108,7 @@
         .gem:nth-child(1) {
             width: 6px;
             height: 6px;
-            background: var(--accent-opal);
+            background: var(--accent-opal, var(--accent));
             top: 20%;
             left: 10%;
             animation-delay: 0s;
@@ -180,13 +180,13 @@
             left: 0;
             right: 0;
             height: 2px;
-            background: var(--gradient-opal);
+            background: var(--gradient-opal, var(--gradient-accent));
         }
 
         .song-intro h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             margin-bottom: 1rem;
         }
 
@@ -197,7 +197,7 @@
         }
 
         .song-intro .keyword {
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             font-weight: 500;
         }
 
@@ -221,7 +221,7 @@
             font-weight: 600;
             letter-spacing: 0.25em;
             text-transform: uppercase;
-            color: var(--accent-opal);
+            color: var(--accent-opal, var(--accent));
             white-space: nowrap;
         }
 
@@ -343,7 +343,7 @@
         .youtube-section h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             margin-bottom: 1rem;
         }
 
@@ -389,7 +389,7 @@
         .profile-card h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             margin-bottom: 1.2rem;
         }
 
@@ -412,7 +412,7 @@
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             font-weight: 700;
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             display: block;
         }
 
@@ -430,7 +430,7 @@
         }
 
         .profile-card .keyword {
-            color: var(--accent-opal-light);
+            color: var(--accent-opal-light, var(--accent-light));
             font-weight: 500;
         }
 
@@ -447,7 +447,7 @@
             top: 0;
             bottom: 0;
             width: 2px;
-            background: linear-gradient(180deg, var(--accent-opal), var(--accent-rose));
+            background: linear-gradient(180deg, var(--accent-opal, var(--accent)), var(--accent-rose, var(--accent-light)));
             border-radius: 1px;
         }
 
@@ -465,7 +465,7 @@
             width: 8px;
             height: 8px;
             border-radius: 50%;
-            background: var(--accent-opal);
+            background: var(--accent-opal, var(--accent));
             border: 2px solid var(--bg-card);
         }
 
@@ -473,7 +473,7 @@
             font-family: 'Inter', sans-serif;
             font-size: 0.72rem;
             font-weight: 600;
-            color: var(--accent-opal);
+            color: var(--accent-opal, var(--accent));
             letter-spacing: 0.05em;
         }
 
@@ -494,7 +494,7 @@
         .article-footer .site-name {
             font-family: 'Playfair Display', serif;
             font-size: 1.1rem;
-            background: var(--gradient-opal);
+            background: var(--gradient-opal, var(--gradient-accent));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -532,7 +532,7 @@
         .back-link {
             display: inline-block;
             margin-bottom: 2rem;
-            color: var(--accent-opal);
+            color: var(--accent-opal, var(--accent));
             text-decoration: none;
             font-size: 0.85rem;
             transition: color 0.3s;
@@ -580,7 +580,7 @@
             font-weight: 600;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            color: var(--accent-opal);
+            color: var(--accent-opal, var(--accent));
             margin-bottom: 0.3rem;
         }
 
@@ -628,12 +628,12 @@
             transition: color 0.3s;
         }
 
-        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, var(--accent-light, #e8c779))); }
         .global-nav a.nav-home {
             font-family: 'Playfair Display', serif;
             font-size: 0.9rem;
             font-weight: 700;
-            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
+            background: var(--gradient-gold, var(--gradient-opal, var(--gradient-accent, linear-gradient(135deg, #c42b3b, #d4a853))));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -662,4 +662,4 @@
             transition: color 0.3s;
         }
 
-        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, var(--accent-light, #e8c779))); }
