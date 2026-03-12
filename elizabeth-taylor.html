@@ -492,7 +492,7 @@
         <div class="youtube-section">
             <h2>▶ Official Music Video</h2>
             <div class="youtube-wrapper">
-                <iframe src="https://www.youtube.com/embed/OjGkfMPGfGA" title="Taylor Swift - Elizabeth Taylor (Official Music Video)"
+                <iframe src="https://www.youtube.com/embed/OjGkfMPGfGA?enablejsapi=1" title="Taylor Swift - Elizabeth Taylor (Official Music Video)"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
                 </iframe>
@@ -818,74 +818,35 @@
         document.getElementById('mascot-text').textContent = pick.text;
     </script>
 
+    
+
     <script>
-    // YouTube Sticky-on-Play
-    (function() {
+    // YouTube Sticky-on-Play using IFrame API
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var ytPlayer;
+    function onYouTubeIframeAPIReady() {
         var ytSection = document.querySelector('.youtube-section');
         if (!ytSection) return;
-        var wrapper = ytSection.querySelector('.youtube-wrapper');
-        if (!wrapper) return;
-        var iframe = wrapper.querySelector('iframe');
+        var iframe = ytSection.querySelector('iframe');
         if (!iframe) return;
-
-        // Rewrite iframe src to enable JS API
-        var src = iframe.getAttribute('src');
-        if (src && src.indexOf('enablejsapi') === -1) {
-            iframe.setAttribute('src', src + (src.indexOf('?') > -1 ? '&' : '?') + 'enablejsapi=1&origin=' + window.location.origin);
-        }
-
-        // Listen for messages from YouTube iframe
-        window.addEventListener('message', function(e) {
-            try {
-                var data = JSON.parse(e.data);
-                // YouTube sends info events with playerState
-                if (data.event === 'onStateChange' || (data.info && typeof data.info.playerState !== 'undefined')) {
-                    var state = data.info ? data.info.playerState : data.value;
-                    if (state === 1) { // PLAYING
+        // Give the iframe an ID if it doesn't have one
+        if (!iframe.id) iframe.id = 'yt-player';
+        ytPlayer = new YT.Player(iframe.id, {
+            events: {
+                'onStateChange': function(e) {
+                    if (e.data === YT.PlayerState.PLAYING) {
                         ytSection.classList.add('is-sticky');
-                    } else { // PAUSED, ENDED, etc.
+                    } else {
                         ytSection.classList.remove('is-sticky');
                     }
                 }
-            } catch(err) {}
+            }
         });
-
-        // Request YouTube to send state change events
-        iframe.addEventListener('load', function() {
-            setTimeout(function() {
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'listening',
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'command',
-                    func: 'addEventListener',
-                    args: ['onStateChange'],
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-            }, 1000);
-        });
-
-        // Trigger load event handler if already loaded
-        if (iframe.contentWindow) {
-            setTimeout(function() {
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'listening',
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'command',
-                    func: 'addEventListener',
-                    args: ['onStateChange'],
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-            }, 2000);
-        }
-    })();
+    }
     </script>
 </body>
 

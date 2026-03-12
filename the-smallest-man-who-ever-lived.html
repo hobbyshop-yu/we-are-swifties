@@ -46,7 +46,7 @@
         <a href="index.html" class="back-link">&larr; 曲一覧に戻る</a>
         <div class="song-intro"><h2>🔬 史上最小の男</h2><p><span class="keyword">Matty Healy</span>との短い交際への決定的な別れ。「<span class="keyword">あなたは史上最も小さな男</span>」——物理的ではなく<span class="keyword">人間としての器が小さい</span>という最も残酷な評価。</p></div>
         <div class="legend"><div class="legend-item"><div class="legend-dot en"></div><span class="legend-label en">English Lyrics</span></div><div class="legend-item"><div class="legend-dot ja"></div><span class="legend-label ja">日本語訳</span></div><div class="legend-item"><div class="legend-dot cm"></div><span class="legend-label cm">Commentary</span></div></div>
-                <div class="youtube-section"><h2>&#9654; Official Lyric Video</h2><div class="youtube-wrapper"><iframe src="https://www.youtube.com/embed/Atdzfj8LcuY" title="The Smallest Man Who Ever Lived" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen></iframe></div></div>
+                <div class="youtube-section"><h2>&#9654; Official Lyric Video</h2><div class="youtube-wrapper"><iframe src="https://www.youtube.com/embed/Atdzfj8LcuY?enablejsapi=1" title="The Smallest Man Who Ever Lived" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen></iframe></div></div>
 
 
         <div class="section-header">
@@ -182,73 +182,34 @@
             { img: 'images/cat-guitar.png', text: 'TPPDの中で最も議論を呼んだ楽曲の一つ🔥' }
     ];var pick=triviaList[Math.floor(Math.random()*triviaList.length)];document.getElementById("mascot-image").src=pick.img;document.getElementById("mascot-text").textContent=pick.text;</script>
 
+    
+
     <script>
-    // YouTube Sticky-on-Play
-    (function() {
+    // YouTube Sticky-on-Play using IFrame API
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var ytPlayer;
+    function onYouTubeIframeAPIReady() {
         var ytSection = document.querySelector('.youtube-section');
         if (!ytSection) return;
-        var wrapper = ytSection.querySelector('.youtube-wrapper');
-        if (!wrapper) return;
-        var iframe = wrapper.querySelector('iframe');
+        var iframe = ytSection.querySelector('iframe');
         if (!iframe) return;
-
-        // Rewrite iframe src to enable JS API
-        var src = iframe.getAttribute('src');
-        if (src && src.indexOf('enablejsapi') === -1) {
-            iframe.setAttribute('src', src + (src.indexOf('?') > -1 ? '&' : '?') + 'enablejsapi=1&origin=' + window.location.origin);
-        }
-
-        // Listen for messages from YouTube iframe
-        window.addEventListener('message', function(e) {
-            try {
-                var data = JSON.parse(e.data);
-                // YouTube sends info events with playerState
-                if (data.event === 'onStateChange' || (data.info && typeof data.info.playerState !== 'undefined')) {
-                    var state = data.info ? data.info.playerState : data.value;
-                    if (state === 1) { // PLAYING
+        // Give the iframe an ID if it doesn't have one
+        if (!iframe.id) iframe.id = 'yt-player';
+        ytPlayer = new YT.Player(iframe.id, {
+            events: {
+                'onStateChange': function(e) {
+                    if (e.data === YT.PlayerState.PLAYING) {
                         ytSection.classList.add('is-sticky');
-                    } else { // PAUSED, ENDED, etc.
+                    } else {
                         ytSection.classList.remove('is-sticky');
                     }
                 }
-            } catch(err) {}
+            }
         });
-
-        // Request YouTube to send state change events
-        iframe.addEventListener('load', function() {
-            setTimeout(function() {
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'listening',
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'command',
-                    func: 'addEventListener',
-                    args: ['onStateChange'],
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-            }, 1000);
-        });
-
-        // Trigger load event handler if already loaded
-        if (iframe.contentWindow) {
-            setTimeout(function() {
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'listening',
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-                iframe.contentWindow.postMessage(JSON.stringify({
-                    event: 'command',
-                    func: 'addEventListener',
-                    args: ['onStateChange'],
-                    id: 1,
-                    channel: 'widget'
-                }), '*');
-            }, 2000);
-        }
-    })();
+    }
     </script>
 </body></html>
