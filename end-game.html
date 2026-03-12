@@ -135,34 +135,47 @@
             { img: 'images/cat-guitar.png', text: 'テイラー初のラップパートが話題に。新境地🎤' }
     ];var pick=triviaList[Math.floor(Math.random()*triviaList.length)];document.getElementById("mascot-image").src=pick.img;document.getElementById("mascot-text").textContent=pick.text;</script>
 
-    
-
     <script>
-    // YouTube Sticky-on-Play using IFrame API
-    var tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-    var ytPlayer;
-    function onYouTubeIframeAPIReady() {
+    // YouTube Sticky-on-Play
+    (function(){
         var ytSection = document.querySelector('.youtube-section');
         if (!ytSection) return;
-        var iframe = ytSection.querySelector('iframe');
-        if (!iframe) return;
-        // Give the iframe an ID if it doesn't have one
-        if (!iframe.id) iframe.id = 'yt-player';
-        ytPlayer = new YT.Player(iframe.id, {
-            events: {
-                'onStateChange': function(e) {
-                    if (e.data === YT.PlayerState.PLAYING) {
-                        ytSection.classList.add('is-sticky');
-                    } else {
-                        ytSection.classList.remove('is-sticky');
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var oldIframe = wrapper.querySelector('iframe');
+        if (!oldIframe) return;
+
+        // Extract video ID from src
+        var src = oldIframe.getAttribute('src') || '';
+        var match = src.match(/embed\/([^?&]+)/);
+        if (!match) return;
+        var videoId = match[1];
+
+        // Create a div placeholder to replace the iframe
+        var placeholder = document.createElement('div');
+        placeholder.id = 'yt-sticky-player';
+        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
+
+        // Load YouTube IFrame API
+        var tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+
+        window.onYouTubeIframeAPIReady = function() {
+            new YT.Player('yt-sticky-player', {
+                videoId: videoId,
+                playerVars: { rel: 0 },
+                events: {
+                    onStateChange: function(e) {
+                        if (e.data === YT.PlayerState.PLAYING) {
+                            ytSection.classList.add('is-sticky');
+                        } else {
+                            ytSection.classList.remove('is-sticky');
+                        }
                     }
                 }
-            }
-        });
-    }
+            });
+        };
+    })();
     </script>
 </body></html>
