@@ -113,6 +113,28 @@
             margin-top: 0.15rem;
         }
 
+
+        .toc-thumb {
+            width: 100%;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 0.35rem;
+            opacity: 0.85;
+            transition: opacity 0.25s ease;
+        }
+
+        .toc-item:hover .toc-thumb {
+            opacity: 1;
+        }
+
+        @media (max-width: 600px) {
+            .toc-thumb {
+                height: 36px;
+                margin-bottom: 0.25rem;
+            }
+        }
+
         /* Scroll offset for fixed nav */
         [id^="toc-"] {
             scroll-margin-top: 60px;
@@ -1798,29 +1820,30 @@
         <nav class="album-toc">
             <h2 class="toc-title">📀 アルバム目次</h2>
             <div class="toc-grid">
-                <a href="#toc-showgirl" class="toc-item toc-showgirl"><span class="toc-name">The Life of a Showgirl</span><span class="toc-year">2025</span></a>
-                <a href="#toc-ttpd" class="toc-item toc-ttpd"><span class="toc-name">The Tortured Poets Department</span><span class="toc-year">2024</span></a>
-                <a href="#toc-midnights" class="toc-item toc-midnights"><span class="toc-name">Midnights</span><span class="toc-year">2022</span></a>
-                <a href="#toc-1989" class="toc-item toc-1989"><span class="toc-name">1989 (TV)</span><span class="toc-year">2014/2023</span></a>
-                <a href="#toc-red" class="toc-item toc-red"><span class="toc-name">Red (TV)</span><span class="toc-year">2012/2021</span></a>
-                <a href="#toc-reputation" class="toc-item toc-reputation"><span class="toc-name">reputation</span><span class="toc-year">2017</span></a>
-                <a href="#toc-lover" class="toc-item toc-lover"><span class="toc-name">Lover</span><span class="toc-year">2019</span></a>
-                <a href="#toc-speaknow" class="toc-item toc-speaknow"><span class="toc-name">Speak Now (TV)</span><span class="toc-year">2010/2023</span></a>
-                <a href="#toc-fearless" class="toc-item toc-fearless"><span class="toc-name">Fearless (TV)</span><span class="toc-year">2008/2021</span></a>
-                <a href="#toc-debut" class="toc-item toc-debut"><span class="toc-name">Taylor Swift</span><span class="toc-year">2006</span></a>
-                <a href="#toc-folklore" class="toc-item toc-folklore"><span class="toc-name">folklore</span><span class="toc-year">2020</span></a>
-                <a href="#toc-evermore" class="toc-item toc-evermore"><span class="toc-name">evermore</span><span class="toc-year">2020</span></a>
+                <a href="#toc-showgirl" class="toc-item toc-showgirl"><img class="toc-thumb" src="images/album-cards/showgirl-card.jpg" alt="" loading="lazy"><span class="toc-name">The Life of a Showgirl</span><span class="toc-year">2025</span></a>
+                <a href="#toc-ttpd" class="toc-item toc-ttpd"><img class="toc-thumb" src="images/album-cards/ttpd-card.webp" alt="" loading="lazy"><span class="toc-name">The Tortured Poets Department</span><span class="toc-year">2024</span></a>
+                <a href="#toc-midnights" class="toc-item toc-midnights"><img class="toc-thumb" src="images/album-cards/midnights-card.webp" alt="" loading="lazy"><span class="toc-name">Midnights</span><span class="toc-year">2022</span></a>
+                <a href="#toc-1989" class="toc-item toc-1989"><img class="toc-thumb" src="images/album-cards/1989-card.webp" alt="" loading="lazy"><span class="toc-name">1989 (TV)</span><span class="toc-year">2014/2023</span></a>
+                <a href="#toc-red" class="toc-item toc-red"><img class="toc-thumb" src="images/album-cards/red-card.webp" alt="" loading="lazy"><span class="toc-name">Red (TV)</span><span class="toc-year">2012/2021</span></a>
+                <a href="#toc-reputation" class="toc-item toc-reputation"><img class="toc-thumb" src="images/album-cards/reputation-card.webp" alt="" loading="lazy"><span class="toc-name">reputation</span><span class="toc-year">2017</span></a>
+                <a href="#toc-lover" class="toc-item toc-lover"><img class="toc-thumb" src="images/album-cards/lover-card.webp" alt="" loading="lazy"><span class="toc-name">Lover</span><span class="toc-year">2019</span></a>
+                <a href="#toc-speaknow" class="toc-item toc-speaknow"><img class="toc-thumb" src="images/album-cards/speaknow-card.jpg" alt="" loading="lazy"><span class="toc-name">Speak Now (TV)</span><span class="toc-year">2010/2023</span></a>
+                <a href="#toc-fearless" class="toc-item toc-fearless"><img class="toc-thumb" src="images/album-cards/fearless-card.webp" alt="" loading="lazy"><span class="toc-name">Fearless (TV)</span><span class="toc-year">2008/2021</span></a>
+                <a href="#toc-debut" class="toc-item toc-debut"><img class="toc-thumb" src="images/album-cards/debut-card.jpg" alt="" loading="lazy"><span class="toc-name">Taylor Swift</span><span class="toc-year">2006</span></a>
+                <a href="#toc-folklore" class="toc-item toc-folklore"><img class="toc-thumb" src="images/album-cards/folklore-card.jpg" alt="" loading="lazy"><span class="toc-name">folklore</span><span class="toc-year">2020</span></a>
+                <a href="#toc-evermore" class="toc-item toc-evermore"><img class="toc-thumb" src="images/album-cards/evermore-card.jpg" alt="" loading="lazy"><span class="toc-name">evermore</span><span class="toc-year">2020</span></a>
             </div>
         </nav>
 
 
         <!-- ===== The Life of a Showgirl (2025) ===== -->
         <div id="toc-showgirl" class="album-section album-showgirl">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>The Life of a Showgirl</h2>
-                <span class="album-year">2025</span>
-                <div class="line"></div>
+            <div class="album-banner">
+                <img src="images/album-cards/showgirl-card.jpg" alt="The Life of a Showgirl" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">The Life of a Showgirl</h2>
+                    <span class="album-banner-year">2025</span>
+                </div>
             </div>
 
             <a href="fate-of-ophelia.html" class="song-card ophelia">
@@ -1901,11 +1924,12 @@
 
         <!-- ===== Speak Now (Taylor's Version) (2023) ===== -->
         <div id="toc-speaknow" class="album-section album-speaknow">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>Speak Now (Taylor&#39;s Version)</h2>
-                <span class="album-year">2023</span>
-                <div class="line"></div>
+            <div class="album-banner">
+                <img src="images/album-cards/speaknow-card.jpg" alt="Speak Now (Taylor's Version)" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">Speak Now (Taylor's Version)</h2>
+                    <span class="album-banner-year">2010 / 2023</span>
+                </div>
             </div>
 
             <a href="mine-tv.html" class="song-card speaknow-mine"><div class="card-header"><span class="card-title">Mine</span></div><p class="card-desc">「あなたは私にとって最高の出来事」——愛の安全地帯を見つけた喜び。</p><p class="card-arrow">▶ 歌詞・和訳・解説を読む</p></a>
@@ -1953,11 +1977,12 @@
 
         <!-- ===== evermore (2020) ===== -->
         <div id="toc-evermore" class="album-section album-evermore">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>evermore</h2>
-                <span class="album-year">2020</span>
-                <div class="line"></div>
+            <div class="album-banner">
+                <img src="images/album-cards/evermore-card.jpg" alt="evermore" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">evermore</h2>
+                    <span class="album-banner-year">2020</span>
+                </div>
             </div>
 
             <a href="willow.html" class="song-card evermore-willow"><div class="card-header"><span class="card-title">willow</span></div><p class="card-desc">柳の木のように自然に引き寄せられる運命の愛。evermoreの幕開け。</p><p class="card-arrow">▶ 歌詞・和訳・解説を読む</p></a>
@@ -1997,11 +2022,12 @@
 
         <!-- ===== folklore (2020) ===== -->
         <div id="toc-folklore" class="album-section album-folklore">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>folklore</h2>
-                <span class="album-year">2020</span>
-                <div class="line"></div>
+            <div class="album-banner">
+                <img src="images/album-cards/folklore-card.jpg" alt="folklore" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">folklore</h2>
+                    <span class="album-banner-year">2020</span>
+                </div>
             </div>
 
             <a href="the-1.html" class="song-card folklore-1">
@@ -2120,11 +2146,12 @@
 
         <!-- ===== Taylor Swift (2006) ===== -->
         <div id="toc-debut" class="album-section album-debut">
-            <div class="album-header">
-                <div class="line"></div>
-                <h2>Taylor Swift</h2>
-                <span class="album-year">2006</span>
-                <div class="line"></div>
+            <div class="album-banner">
+                <img src="images/album-cards/debut-card.jpg" alt="Taylor Swift (Debut)" loading="lazy">
+                <div class="album-banner-overlay">
+                    <h2 class="album-banner-title">Taylor Swift</h2>
+                    <span class="album-banner-year">2006</span>
+                </div>
             </div>
 
             <a href="tim-mcgraw-debut.html" class="song-card debut-timmcgraw"><div class="card-header"><span class="card-title">Tim McGraw</span></div><p class="card-desc">デビューシングル。「この曲を聴いたら私を思い出して」。</p><p class="card-arrow">▶ 歌詞・和訳・解説を読む</p></a>
