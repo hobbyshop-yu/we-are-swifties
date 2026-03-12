@@ -8,7 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/song-article.css">
-    <style>:root { --bg-primary:#0a1018;--bg-card:#101820;--text-primary:#d8e8f0;--text-secondary:#88a8c0;--accent:#4080b0;--accent-light:#60a8d8;--english-color:#a0c8e8;--japanese-color:#c8e0f0;--commentary-color:#3570a0;--gradient-accent:linear-gradient(135deg,#204060 0%,#4080b0 50%,#60a8d8 100%);--gradient-dark:linear-gradient(180deg,#0a1018 0%,#101820 100%); }</style>
+    <style>:root { --bg-primary:#0a1018;--bg-card:#101820;--text-primary:#d8e8f0;--text-secondary:#88a8c0;--accent:#4080b0;--accent-light:#60a8d8;--english-color:#a0c8e8;--japanese-color:#c8e0f0;--commentary-color:#3570a0;--gradient-accent:linear-gradient(135deg,#204060 0%,#4080b0 50%,#60a8d8 100%);--gradient-dark:linear-gradient(180deg,#0a1018 0%,#101820 100%); }
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        </style>
     <meta property="og:type" content="article"><meta property="og:title" content="Taylor Swift - Mary's Song (Oh My My My) 歌詞・和訳 | We are Swifties"><meta property="og:description" content="👧 幼なじみとの純粋な恋物語。7歳から87歳まで——一生の愛。"><meta property="og:image" content="https://img.youtube.com/vi/4-d5AUPxXjI/maxresdefault.jpg"><meta name="twitter:card" content="summary_large_image">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-PESZB0HW0B");</script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -121,4 +132,74 @@
             {img:'images/cat-guitar.png',text:'カントリーミュージックの少女として登場した原点'},
             {img:'images/cat-mic.png',text:'Tim McGrawのオーディションテープがきっかけでデビューが決まった'}
     ];var pick=triviaList[Math.floor(Math.random()*triviaList.length)];document.getElementById("mascot-image").src=pick.img;document.getElementById("mascot-text").textContent=pick.text;</script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function() {
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var iframe = wrapper.querySelector('iframe');
+        if (!iframe) return;
+
+        // Rewrite iframe src to enable JS API
+        var src = iframe.getAttribute('src');
+        if (src && src.indexOf('enablejsapi') === -1) {
+            iframe.setAttribute('src', src + (src.indexOf('?') > -1 ? '&' : '?') + 'enablejsapi=1&origin=' + window.location.origin);
+        }
+
+        // Listen for messages from YouTube iframe
+        window.addEventListener('message', function(e) {
+            try {
+                var data = JSON.parse(e.data);
+                // YouTube sends info events with playerState
+                if (data.event === 'onStateChange' || (data.info && typeof data.info.playerState !== 'undefined')) {
+                    var state = data.info ? data.info.playerState : data.value;
+                    if (state === 1) { // PLAYING
+                        ytSection.classList.add('is-sticky');
+                    } else { // PAUSED, ENDED, etc.
+                        ytSection.classList.remove('is-sticky');
+                    }
+                }
+            } catch(err) {}
+        });
+
+        // Request YouTube to send state change events
+        iframe.addEventListener('load', function() {
+            setTimeout(function() {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange'],
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+            }, 1000);
+        });
+
+        // Trigger load event handler if already loaded
+        if (iframe.contentWindow) {
+            setTimeout(function() {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange'],
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+            }, 2000);
+        }
+    })();
+    </script>
 </body></html>

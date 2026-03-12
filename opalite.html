@@ -697,7 +697,18 @@
 
         .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
 
-    </style>
+    
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        </style>
 
     <!-- OGP / Twitter Card -->
     <meta property="og:type" content="article">

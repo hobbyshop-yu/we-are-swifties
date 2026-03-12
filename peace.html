@@ -8,7 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/song-article.css">
-    <style>:root { --bg-primary:#0a0a10;--bg-card:#10101a;--text-primary:#e8e0d8;--text-secondary:#a8a098;--accent:#8b7355;--accent-light:#b89878;--english-color:#c8b8a0;--japanese-color:#e8ddd0;--commentary-color:#7a6a55;--gradient-accent:linear-gradient(135deg,#5a4a35 0%,#8b7355 50%,#b89878 100%);--gradient-dark:linear-gradient(180deg,#0a0a10 0%,#10101a 100%); }</style>
+    <style>:root { --bg-primary:#0a0a10;--bg-card:#10101a;--text-primary:#e8e0d8;--text-secondary:#a8a098;--accent:#8b7355;--accent-light:#b89878;--english-color:#c8b8a0;--japanese-color:#e8ddd0;--commentary-color:#7a6a55;--gradient-accent:linear-gradient(135deg,#5a4a35 0%,#8b7355 50%,#b89878 100%);--gradient-dark:linear-gradient(180deg,#0a0a10 0%,#10101a 100%); }
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        </style>
     <meta property="og:type" content="article"><meta property="og:title" content="Taylor Swift - peace 歌詞・和訳 | We are Swifties"><meta property="og:description" content="🕊️ 「あなたに平和を与えられない」——有名人の恋の最も正直な告白。"><meta property="og:image" content="https://img.youtube.com/vi/HpxX4ZE4KWE/maxresdefault.jpg"><meta name="twitter:card" content="summary_large_image">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-PESZB0HW0B");</script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -197,4 +208,74 @@
             {img:'images/cat-guitar.png',text:'Aaron Dessnerと共同プロデュース'},
             {img:'images/cat-mic.png',text:'グラミー賞年間最優秀アルバム受賞'}
     ];var pick=triviaList[Math.floor(Math.random()*triviaList.length)];document.getElementById("mascot-image").src=pick.img;document.getElementById("mascot-text").textContent=pick.text;</script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function() {
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var iframe = wrapper.querySelector('iframe');
+        if (!iframe) return;
+
+        // Rewrite iframe src to enable JS API
+        var src = iframe.getAttribute('src');
+        if (src && src.indexOf('enablejsapi') === -1) {
+            iframe.setAttribute('src', src + (src.indexOf('?') > -1 ? '&' : '?') + 'enablejsapi=1&origin=' + window.location.origin);
+        }
+
+        // Listen for messages from YouTube iframe
+        window.addEventListener('message', function(e) {
+            try {
+                var data = JSON.parse(e.data);
+                // YouTube sends info events with playerState
+                if (data.event === 'onStateChange' || (data.info && typeof data.info.playerState !== 'undefined')) {
+                    var state = data.info ? data.info.playerState : data.value;
+                    if (state === 1) { // PLAYING
+                        ytSection.classList.add('is-sticky');
+                    } else { // PAUSED, ENDED, etc.
+                        ytSection.classList.remove('is-sticky');
+                    }
+                }
+            } catch(err) {}
+        });
+
+        // Request YouTube to send state change events
+        iframe.addEventListener('load', function() {
+            setTimeout(function() {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange'],
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+            }, 1000);
+        });
+
+        // Trigger load event handler if already loaded
+        if (iframe.contentWindow) {
+            setTimeout(function() {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange'],
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+            }, 2000);
+        }
+    })();
+    </script>
 </body></html>

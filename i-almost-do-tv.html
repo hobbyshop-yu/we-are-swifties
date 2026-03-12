@@ -21,7 +21,18 @@
         .mascot-section{max-width:780px;margin:0 auto;padding:2rem 1.5rem}.mascot-card{display:flex;align-items:flex-end;gap:1rem}.mascot-img{width:110px;height:110px;object-fit:contain;flex-shrink:0;filter:drop-shadow(0 2px 8px rgba(200, 48, 48,0.2))}.mascot-bubble{background:var(--bg-card);border:1px solid rgba(200, 48, 48,0.15);border-radius:16px 16px 16px 4px;padding:1rem 1.3rem;font-size:0.85rem;color:var(--text-primary);line-height:1.7;max-width:500px}.mascot-bubble .trivia-label{font-family:'Inter',sans-serif;font-size:0.6rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:0.3rem}@media(max-width:600px){.mascot-card{flex-direction:column;align-items:center;text-align:center}.mascot-bubble{border-radius:16px}.mascot-img{width:90px;height:90px}}
         .article-footer{margin-top:4rem;padding-top:2rem;border-top:1px solid rgba(200, 48, 48,0.1);text-align:center}.article-footer .site-name{font-family:'Playfair Display',serif;font-size:1.1rem;background:var(--gradient-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:0.5rem}.footer-links{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;margin-bottom:0.5rem}.footer-links a{font-size:0.7rem;color:var(--text-secondary);text-decoration:none}.article-footer .copyright{font-size:0.7rem;color:var(--commentary-color)}
         .global-nav{display:flex;justify-content:center;align-items:center;gap:2rem;padding:1rem 1.5rem;background:rgba(6,8,16,0.95);border-bottom:1px solid rgba(200, 48, 48,0.1);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px)}.global-nav a{font-family:'Inter',sans-serif;font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.global-nav a:hover{color:var(--accent-light)}.global-nav a.nav-home{font-family:'Playfair Display',serif;font-size:0.9rem;font-weight:700;background:var(--gradient-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:0;text-transform:none}@media(max-width:600px){.global-nav{gap:1rem;flex-wrap:wrap}.main-content{padding:2rem 1rem 4rem}}
-    </style>
+    
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        </style>
     <meta property="og:type" content="article"><meta property="og:title" content="Taylor Swift - I Almost Do 歌詞・和訳 | We are Swifties"><meta property="og:description" content="「もう少しで連絡するところだった」——元恋人への未練と自制の間で揺れるバラード。"><meta property="og:image" content="https://img.youtube.com/vi/w1AV_35zVwU/maxresdefault.jpg"><meta name="twitter:card" content="summary_large_image">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-PESZB0HW0B");</script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -93,4 +104,74 @@
             { img: 'images/cat-piano.png', text: 'I bet you think I either moved on or hate youの二択提示がリアル。実はどちらでもない💭' },
             { img: 'images/cat-guitar.png', text: '22の直後にこの静かなバラードを置くテイラーの構成力が光る📖' }
     ];var pick=triviaList[Math.floor(Math.random()*triviaList.length)];document.getElementById("mascot-image").src=pick.img;document.getElementById("mascot-text").textContent=pick.text;</script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function() {
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var iframe = wrapper.querySelector('iframe');
+        if (!iframe) return;
+
+        // Rewrite iframe src to enable JS API
+        var src = iframe.getAttribute('src');
+        if (src && src.indexOf('enablejsapi') === -1) {
+            iframe.setAttribute('src', src + (src.indexOf('?') > -1 ? '&' : '?') + 'enablejsapi=1&origin=' + window.location.origin);
+        }
+
+        // Listen for messages from YouTube iframe
+        window.addEventListener('message', function(e) {
+            try {
+                var data = JSON.parse(e.data);
+                // YouTube sends info events with playerState
+                if (data.event === 'onStateChange' || (data.info && typeof data.info.playerState !== 'undefined')) {
+                    var state = data.info ? data.info.playerState : data.value;
+                    if (state === 1) { // PLAYING
+                        ytSection.classList.add('is-sticky');
+                    } else { // PAUSED, ENDED, etc.
+                        ytSection.classList.remove('is-sticky');
+                    }
+                }
+            } catch(err) {}
+        });
+
+        // Request YouTube to send state change events
+        iframe.addEventListener('load', function() {
+            setTimeout(function() {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange'],
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+            }, 1000);
+        });
+
+        // Trigger load event handler if already loaded
+        if (iframe.contentWindow) {
+            setTimeout(function() {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange'],
+                    id: 1,
+                    channel: 'widget'
+                }), '*');
+            }, 2000);
+        }
+    })();
+    </script>
 </body></html>
