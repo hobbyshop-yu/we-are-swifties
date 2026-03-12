@@ -85,9 +85,18 @@ description: 曲記事ページの作成手順と品質要件
     </div>
 </div>
 ```
-- **注意**: 動画IDは必ず実在する公式/公認動画のものを使う
-- Taylor Swift公式チャンネルの動画を優先
-- 存在しない場合はlyric videoを使用
+
+##### 🚨 YouTube動画IDの検証必須ルール（過去の教訓）
+
+**過去に発生した大規模障害:**
+219曲中176件のYouTube埋め込みが壊れていた。原因は架空のIDや他の曲のIDが設定されていたため。
+
+**絶対に守るルール:**
+1. **IDは必ず実在確認する**: `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={VIDEO_ID}&format=json` でタイトルを確認。404なら壊れたID
+2. **ダミーIDを絶対に使わない**: 正しいIDが見つからない場合は、人気の公式MV/Audio/Lyric Videoを用いる
+3. **Taylor Swift公式チャンネル**の動画を最優先
+4. **OGP画像URLも連動**: `og:image` の `https://img.youtube.com/vi/{VIDEO_ID}/maxresdefault.jpg` も同じIDにする
+5. **重複IDを使わない**: 全曲ページで同じ動画IDが使われていないか確認する
 
 #### e. 歌詞セクション（全歌詞を掲載）
 ```
@@ -181,6 +190,20 @@ description: 曲記事ページの作成手順と品質要件
 
 各曲は独自のカラーテーマを持つ。CSS変数で定義する。
 
+##### 🚨 タイトル色の変数ルール（過去の教訓）
+
+**過去に発生した障害:**
+`song-article.css` が `var(--gradient-opal)` を使っているが、この変数は `opalite.html` にしか定義されていなかった。
+結果、全曲ページでタイトルが透明になり見えなくなった。
+
+**絶対に守るルール:**
+1. **CSSで使う変数名は `--gradient-accent`, `--accent`, `--accent-light` を使う**（`--gradient-opal` 等の曲固有名は使わない）
+2. **各HTMLの `:root` で必ず以下を定義する:**
+   - `--gradient-accent`: ヒーロータイトルのグラデーション
+   - `--accent`: アクセントカラー
+   - `--accent-light`: ライトアクセントカラー
+3. フォールバック値が `song-article.css` に設定されているが、HTML側で変数を定義するのが正しい運用
+
 ### 例（opalite.html）
 ```css
 --accent-opal: #4dd9e8;        /* メインアクセント色 */
@@ -189,6 +212,13 @@ description: 曲記事ページの作成手順と品質要件
 --japanese-color: #d4f5fa;      /* 日本語訳の色 */
 --commentary-color: #4a6a78;    /* コメンタリーの色 */
 --gradient-opal: linear-gradient(...); /* グラデーション */
+```
+
+### 例（一般的な曲）
+```css
+--accent: #9050a8;              /* メインアクセント色 */
+--accent-light: #b878d0;        /* ライトアクセント色 */
+--gradient-accent: linear-gradient(135deg, #5a2878 0%, #9050a8 50%, #b878d0 100%);
 ```
 
 ### index.htmlのカード色
