@@ -146,23 +146,15 @@ def do_tweet():
 
 def setup_task_scheduler():
     """Windows Task Schedulerに登録（1日3回: 7:00, 12:30, 20:00）"""
-    python_path = sys.executable
-    script_path = str(Path(__file__).resolve())
+    bat_path = str((SCRIPT_DIR / "run_tweet_bot.bat").resolve())
     task_name = "WeAreSwifties_TweetBot"
     
     # 既存タスクを削除
-    subprocess.run(
-        f'schtasks /delete /tn "{task_name}_morning" /f',
-        shell=True, capture_output=True
-    )
-    subprocess.run(
-        f'schtasks /delete /tn "{task_name}_lunch" /f',
-        shell=True, capture_output=True
-    )
-    subprocess.run(
-        f'schtasks /delete /tn "{task_name}_night" /f',
-        shell=True, capture_output=True
-    )
+    for suffix in ["morning", "lunch", "night"]:
+        subprocess.run(
+            f'schtasks /delete /tn "{task_name}_{suffix}" /f',
+            shell=True, capture_output=True
+        )
     
     times = [
         ("morning", "07:00"),
@@ -173,8 +165,8 @@ def setup_task_scheduler():
     for suffix, time in times:
         name = f"{task_name}_{suffix}"
         cmd = (
-            f'schtasks /create /tn "{name}" /tr '
-            f'"\"{python_path}\" \"{script_path}\"" '
+            f'schtasks /create /tn "{name}" '
+            f'/tr "\"{bat_path}\"" '
             f'/sc daily /st {time} /f'
         )
         result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
