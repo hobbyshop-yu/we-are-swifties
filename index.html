@@ -52,6 +52,92 @@
             min-height: 100vh;
         }
 
+
+        /* ========== Album Table of Contents ========== */
+        .album-toc {
+            max-width: 900px;
+            margin: 0 auto 2rem;
+            padding: 1.5rem 1.5rem 1rem;
+            background: rgba(20, 14, 10, 0.8);
+            border: 1px solid rgba(212, 168, 83, 0.15);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .toc-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            text-align: center;
+            margin-bottom: 1rem;
+            letter-spacing: 0.05em;
+        }
+
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .toc-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.6rem 0.8rem;
+            background: rgba(26, 18, 13, 0.9);
+            border: 1px solid rgba(184, 158, 138, 0.12);
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            cursor: pointer;
+        }
+
+        .toc-item:hover {
+            border-color: var(--accent-gold);
+            background: rgba(212, 168, 83, 0.08);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(212, 168, 83, 0.15);
+        }
+
+        .toc-name {
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        .toc-year {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            margin-top: 0.15rem;
+        }
+
+        /* Scroll offset for fixed nav */
+        [id^="toc-"] {
+            scroll-margin-top: 60px;
+        }
+
+        @media (max-width: 600px) {
+            .toc-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.4rem;
+            }
+            .toc-item {
+                padding: 0.5rem 0.4rem;
+            }
+            .toc-name {
+                font-size: 0.72rem;
+            }
+            .toc-year {
+                font-size: 0.62rem;
+            }
+            .album-toc {
+                padding: 1rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+
         /* ========== Hero (compact, same as opalite) ========== */
         .hero {
             position: relative;
@@ -1708,8 +1794,28 @@
 
     <main class="main-content">
 
+        <!-- ===== Album Table of Contents ===== -->
+        <nav class="album-toc">
+            <h2 class="toc-title">📀 アルバム目次</h2>
+            <div class="toc-grid">
+                <a href="#toc-showgirl" class="toc-item toc-showgirl"><span class="toc-name">The Life of a Showgirl</span><span class="toc-year">2025</span></a>
+                <a href="#toc-ttpd" class="toc-item toc-ttpd"><span class="toc-name">The Tortured Poets Department</span><span class="toc-year">2024</span></a>
+                <a href="#toc-midnights" class="toc-item toc-midnights"><span class="toc-name">Midnights</span><span class="toc-year">2022</span></a>
+                <a href="#toc-1989" class="toc-item toc-1989"><span class="toc-name">1989 (TV)</span><span class="toc-year">2014/2023</span></a>
+                <a href="#toc-red" class="toc-item toc-red"><span class="toc-name">Red (TV)</span><span class="toc-year">2012/2021</span></a>
+                <a href="#toc-reputation" class="toc-item toc-reputation"><span class="toc-name">reputation</span><span class="toc-year">2017</span></a>
+                <a href="#toc-lover" class="toc-item toc-lover"><span class="toc-name">Lover</span><span class="toc-year">2019</span></a>
+                <a href="#toc-speaknow" class="toc-item toc-speaknow"><span class="toc-name">Speak Now (TV)</span><span class="toc-year">2010/2023</span></a>
+                <a href="#toc-fearless" class="toc-item toc-fearless"><span class="toc-name">Fearless (TV)</span><span class="toc-year">2008/2021</span></a>
+                <a href="#toc-debut" class="toc-item toc-debut"><span class="toc-name">Taylor Swift</span><span class="toc-year">2006</span></a>
+                <a href="#toc-folklore" class="toc-item toc-folklore"><span class="toc-name">folklore</span><span class="toc-year">2020</span></a>
+                <a href="#toc-evermore" class="toc-item toc-evermore"><span class="toc-name">evermore</span><span class="toc-year">2020</span></a>
+            </div>
+        </nav>
+
+
         <!-- ===== The Life of a Showgirl (2025) ===== -->
-        <div class="album-section album-showgirl">
+        <div id="toc-showgirl" class="album-section album-showgirl">
             <div class="album-header">
                 <div class="line"></div>
                 <h2>The Life of a Showgirl</h2>
@@ -1794,7 +1900,7 @@
 
 
         <!-- ===== Speak Now (Taylor's Version) (2023) ===== -->
-        <div class="album-section album-speaknow">
+        <div id="toc-speaknow" class="album-section album-speaknow">
             <div class="album-header">
                 <div class="line"></div>
                 <h2>Speak Now (Taylor&#39;s Version)</h2>
@@ -1846,7 +1952,7 @@
         </div>
 
         <!-- ===== evermore (2020) ===== -->
-        <div class="album-section album-evermore">
+        <div id="toc-evermore" class="album-section album-evermore">
             <div class="album-header">
                 <div class="line"></div>
                 <h2>evermore</h2>
@@ -1890,7 +1996,7 @@
         </div>
 
         <!-- ===== folklore (2020) ===== -->
-        <div class="album-section album-folklore">
+        <div id="toc-folklore" class="album-section album-folklore">
             <div class="album-header">
                 <div class="line"></div>
                 <h2>folklore</h2>
@@ -2002,7 +2108,7 @@
         </div>
 
         <!-- ===== Fearless (Taylor's Version) ===== -->
-        <div class="album-section album-fearless">
+        <div id="toc-fearless" class="album-section album-fearless">
             
             <div class="album-banner">
                 <img src="images/album-cards/fearless-card.webp" alt="Fearless (Taylor's Version)" loading="lazy">
@@ -2013,7 +2119,7 @@
             </div>
 
         <!-- ===== Taylor Swift (2006) ===== -->
-        <div class="album-section album-debut">
+        <div id="toc-debut" class="album-section album-debut">
             <div class="album-header">
                 <div class="line"></div>
                 <h2>Taylor Swift</h2>
@@ -2096,7 +2202,7 @@
         </div>
 
         <!-- ===== Lover (2019) ===== -->
-        <div class="album-section album-lover">
+        <div id="toc-lover" class="album-section album-lover">
             
             <div class="album-banner">
                 <img src="images/album-cards/lover-card.webp" alt="Lover" loading="lazy">
@@ -2212,7 +2318,7 @@
 
 
         <!-- ===== reputation ===== -->
-        <div class="album-section album-reputation">
+        <div id="toc-reputation" class="album-section album-reputation">
             
             <div class="album-banner">
                 <img src="images/album-cards/reputation-card.webp" alt="reputation" loading="lazy">
@@ -2317,7 +2423,7 @@
 
 
         <!-- ===== Red (Taylor's Version) ===== -->
-        <div class="album-section album-red">
+        <div id="toc-red" class="album-section album-red">
             
             <div class="album-banner">
                 <img src="images/album-cards/red-card.webp" alt="Red (Taylor's Version)" loading="lazy">
@@ -2512,7 +2618,7 @@
 
 
         <!-- ===== 1989 (Taylor's Version) ===== -->
-        <div class="album-section album-1989">
+        <div id="toc-1989" class="album-section album-1989">
             
             <div class="album-banner">
                 <img src="images/album-cards/1989-card.webp" alt="1989 (Taylor's Version)" loading="lazy">
@@ -2647,7 +2753,7 @@
 
 
         <!-- ===== Midnights ===== -->
-        <div class="album-section album-midnights">
+        <div id="toc-midnights" class="album-section album-midnights">
             
             <div class="album-banner">
                 <img src="images/album-cards/midnights-card.webp" alt="Midnights" loading="lazy">
@@ -2782,7 +2888,7 @@
 
 
         <!-- ===== The Tortured Poets Department ===== -->
-        <div class="album-section album-ttpd">
+        <div id="toc-ttpd" class="album-section album-ttpd">
             
             <div class="album-banner">
                 <img src="images/album-cards/ttpd-card.webp" alt="The Tortured Poets Department" loading="lazy">
