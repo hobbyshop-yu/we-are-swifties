@@ -82,13 +82,10 @@ def post_tweet(tweet_body):
         log("ERROR: pip install tweepy python-dotenv を実行してください")
         return False
     
-    # .env読み込み
+    # .env読み込み（存在する場合のみ）
     env_path = SCRIPT_DIR / ".env"
-    if not env_path.exists():
-        log(f"ERROR: .envファイルが見つかりません: {env_path}")
-        return False
-    
-    load_dotenv(env_path)
+    if env_path.exists():
+        load_dotenv(env_path)
     
     api_key = os.getenv("X_API_KEY")
     api_secret = os.getenv("X_API_SECRET")

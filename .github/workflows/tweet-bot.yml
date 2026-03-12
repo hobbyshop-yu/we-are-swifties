@@ -1,0 +1,46 @@
+name: Tweet Bot
+
+on:
+  schedule:
+    # JST 7:00 = UTC 22:00 (前日)
+    - cron: '0 22 * * *'
+    # JST 12:30 = UTC 3:30
+    - cron: '30 3 * * *'
+    # JST 20:00 = UTC 11:00
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install tweepy python-dotenv
+
+      - name: Run Tweet Bot
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: python tweet_bot.py
+
+      - name: Commit posted status
+        run: |
+          git config user.name "Tweet Bot"
+          git config user.email "bot@we-are-swifties.com"
+          git add tweet_bot_posted.json tweet_bot.log
+          git diff --cached --quiet || git commit -m "bot: update tweet bot posted status"
+          git push
