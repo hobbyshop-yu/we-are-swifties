@@ -21,7 +21,7 @@
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/anti-hero.html
 
-#TaylorSwift #テイラースウィフト #Antihero #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Antihero #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Bejeweled
@@ -32,7 +32,7 @@ https://we-are-swifties.com/anti-hero.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/bejeweled.html
 
-#TaylorSwift #テイラースウィフト #Bejeweled #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Bejeweled #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Karma
@@ -45,7 +45,7 @@ https://we-are-swifties.com/bejeweled.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/karma.html
 
-#TaylorSwift #テイラースウィフト #Karma #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Karma #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Lavender Haze
@@ -58,7 +58,7 @@ https://we-are-swifties.com/karma.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/lavender-haze.html
 
-#TaylorSwift #テイラースウィフト #LavenderHaze #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LavenderHaze #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Maroon
@@ -69,7 +69,7 @@ https://we-are-swifties.com/lavender-haze.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/maroon.html
 
-#TaylorSwift #テイラースウィフト #Maroon #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Maroon #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Mastermind
@@ -80,7 +80,7 @@ https://we-are-swifties.com/maroon.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mastermind.html
 
-#TaylorSwift #テイラースウィフト #Mastermind #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Mastermind #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Midnight Rain
@@ -91,7 +91,7 @@ https://we-are-swifties.com/mastermind.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/midnight-rain.html
 
-#TaylorSwift #テイラースウィフト #MidnightRain #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MidnightRain #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Question...?
@@ -102,18 +102,18 @@ https://we-are-swifties.com/midnight-rain.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/question.html
 
-#TaylorSwift #テイラースウィフト #Question #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Question #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Snow on the Beach
 
 ```
-Snow on the Beachの歌詞を和訳・徹底解説 🌙
+Snow on the Beach — 歌詞に隠された意味、知ってる？ 🌙
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/snow-on-the-beach.html
 
-#TaylorSwift #テイラースウィフト #SnowOnTheBeach #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SnowOnTheBeach #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Sweet Nothing
@@ -124,7 +124,7 @@ https://we-are-swifties.com/snow-on-the-beach.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/sweet-nothing.html
 
-#TaylorSwift #テイラースウィフト #SweetNothing #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SweetNothing #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Vigilante Shit
@@ -135,18 +135,18 @@ https://we-are-swifties.com/sweet-nothing.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/vigilante-shit.html
 
-#TaylorSwift #テイラースウィフト #VigilanteShit #WeAreSwifties
+#TaylorSwift #テイラースウィフト #VigilanteShit #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### You're on Your Own, Kid
 
 ```
-You're on Your Own, Kidの歌詞を和訳・徹底解説 🌙
+You're on Your Own, Kid — 歌詞に隠された意味、知ってる？ 🌙
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/youre-on-your-own-kid.html
 
-#TaylorSwift #テイラースウィフト #YoureOnYourOwnKid #WeAreSwifties
+#TaylorSwift #テイラースウィフト #YoureOnYourOwnKid #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -155,12 +155,12 @@ https://we-are-swifties.com/youre-on-your-own-kid.html
 ### All You Had to Do Was Stay
 
 ```
-All You Had to Do Was Stayの歌詞を和訳・徹底解説 🌊
+All You Had to Do Was Stay — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/all-you-had-to-do-was-stay-tv.html
 
-#TaylorSwift #テイラースウィフト #AllYouHadToDoWasStay #WeAreSwifties
+#TaylorSwift #テイラースウィフト #AllYouHadToDoWasStay #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Bad Blood
@@ -171,7 +171,7 @@ https://we-are-swifties.com/all-you-had-to-do-was-stay-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/bad-blood-tv.html
 
-#TaylorSwift #テイラースウィフト #BadBlood #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BadBlood #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Blank Space
@@ -184,7 +184,7 @@ https://we-are-swifties.com/bad-blood-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/blank-space-tv.html
 
-#TaylorSwift #テイラースウィフト #BlankSpace #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BlankSpace #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Clean
@@ -195,51 +195,51 @@ https://we-are-swifties.com/blank-space-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/clean-tv.html
 
-#TaylorSwift #テイラースウィフト #Clean #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Clean #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### How You Get the Girl
 
 ```
-How You Get the Girlの歌詞を和訳・徹底解説 🌊
+How You Get the Girl — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/how-you-get-the-girl-tv.html
 
-#TaylorSwift #テイラースウィフト #HowYouGetTheGirl #WeAreSwifties
+#TaylorSwift #テイラースウィフト #HowYouGetTheGirl #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Know Places
 
 ```
-I Know Placesの歌詞を和訳・徹底解説 🌊
+I Know Places — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-know-places-tv.html
 
-#TaylorSwift #テイラースウィフト #IKnowPlaces #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IKnowPlaces #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Wish You Would
 
 ```
-I Wish You Wouldの歌詞を和訳・徹底解説 🌊
+I Wish You Would — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-wish-you-would-tv.html
 
-#TaylorSwift #テイラースウィフト #IWishYouWould #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IWishYouWould #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Is It Over Now?
 
 ```
-Is It Over Now?の歌詞を和訳・徹底解説 🌊
+Is It Over Now? — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/is-it-over-now-tv.html
 
-#TaylorSwift #テイラースウィフト #IsItOverNow #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IsItOverNow #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### New Romantics
@@ -250,40 +250,40 @@ https://we-are-swifties.com/is-it-over-now-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/new-romantics-tv.html
 
-#TaylorSwift #テイラースウィフト #NewRomantics #WeAreSwifties
+#TaylorSwift #テイラースウィフト #NewRomantics #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Now That We Don't Talk
 
 ```
-Now That We Don't Talkの歌詞を和訳・徹底解説 🌊
+Now That We Don't Talk — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/now-that-we-dont-talk-tv.html
 
-#TaylorSwift #テイラースウィフト #NowThatWeDontTalk #WeAreSwifties
+#TaylorSwift #テイラースウィフト #NowThatWeDontTalk #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Out of the Woods
 
 ```
-Out of the Woodsの歌詞を和訳・徹底解説 🌊
+Out of the Woods — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/out-of-the-woods-tv.html
 
-#TaylorSwift #テイラースウィフト #OutOfTheWoods #WeAreSwifties
+#TaylorSwift #テイラースウィフト #OutOfTheWoods #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Say Don't Go
 
 ```
-Say Don't Goの歌詞を和訳・徹底解説 🌊
+Say Don't Go — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/say-dont-go-tv.html
 
-#TaylorSwift #テイラースウィフト #SayDontGo #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SayDontGo #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Shake It Off
@@ -296,18 +296,18 @@ https://we-are-swifties.com/say-dont-go-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/shake-it-off-tv.html
 
-#TaylorSwift #テイラースウィフト #ShakeItOff #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ShakeItOff #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### \"Slut!\"
 
 ```
-\"Slut!\"の歌詞を和訳・徹底解説 🌊
+\"Slut!\" — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/slut-tv.html
 
-#TaylorSwift #テイラースウィフト #\slut\ #WeAreSwifties
+#TaylorSwift #テイラースウィフト #\slut\ #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Style
@@ -318,40 +318,40 @@ https://we-are-swifties.com/slut-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/style-tv.html
 
-#TaylorSwift #テイラースウィフト #Style #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Style #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Suburban Legends
 
 ```
-Suburban Legendsの歌詞を和訳・徹底解説 🌊
+Suburban Legends — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/suburban-legends-tv.html
 
-#TaylorSwift #テイラースウィフト #SuburbanLegends #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SuburbanLegends #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### This Love
 
 ```
-This Loveの歌詞を和訳・徹底解説 🌊
+This Love — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/this-love-tv.html
 
-#TaylorSwift #テイラースウィフト #ThisLove #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ThisLove #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Welcome to New York
 
 ```
-Welcome to New Yorkの歌詞を和訳・徹底解説 🌊
+Welcome to New York — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/welcome-to-new-york-tv.html
 
-#TaylorSwift #テイラースウィフト #WelcomeToNewYork #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WelcomeToNewYork #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Wildest Dreams
@@ -362,29 +362,29 @@ https://we-are-swifties.com/welcome-to-new-york-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/wildest-dreams-tv.html
 
-#TaylorSwift #テイラースウィフト #WildestDreams #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WildestDreams #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Wonderland
 
 ```
-Wonderlandの歌詞を和訳・徹底解説 🌊
+Wonderland — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/wonderland-tv.html
 
-#TaylorSwift #テイラースウィフト #Wonderland #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Wonderland #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### You Are in Love
 
 ```
-You Are in Loveの歌詞を和訳・徹底解説 🌊
+You Are in Love — 歌詞に隠された意味、知ってる？ 🌊
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/you-are-in-love-tv.html
 
-#TaylorSwift #テイラースウィフト #YouAreInLove #WeAreSwifties
+#TaylorSwift #テイラースウィフト #YouAreInLove #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -398,7 +398,7 @@ https://we-are-swifties.com/you-are-in-love-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/22-tv.html
 
-#TaylorSwift #テイラースウィフト #22 #WeAreSwifties
+#TaylorSwift #テイラースウィフト #22 #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### All Too Well (10 Minute Version)
@@ -411,7 +411,7 @@ https://we-are-swifties.com/22-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/all-too-well-10-min-tv.html
 
-#TaylorSwift #テイラースウィフト #AllTooWell10MinuteVersion #WeAreSwifties
+#TaylorSwift #テイラースウィフト #AllTooWell10MinuteVersion #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### All Too Well
@@ -424,117 +424,117 @@ https://we-are-swifties.com/all-too-well-10-min-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/all-too-well-tv.html
 
-#TaylorSwift #テイラースウィフト #AllTooWell #WeAreSwifties
+#TaylorSwift #テイラースウィフト #AllTooWell #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Babe
 
 ```
-Babeの歌詞を和訳・徹底解説 🧣
+Babe — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/babe-tv.html
 
-#TaylorSwift #テイラースウィフト #Babe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Babe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Begin Again
 
 ```
-Begin Againの歌詞を和訳・徹底解説 🧣
+Begin Again — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/begin-again-tv.html
 
-#TaylorSwift #テイラースウィフト #BeginAgain #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BeginAgain #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Better Man
 
 ```
-Better Manの歌詞を和訳・徹底解説 🧣
+Better Man — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/better-man-tv.html
 
-#TaylorSwift #テイラースウィフト #BetterMan #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BetterMan #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Come Back... Be Here
 
 ```
-Come Back... Be Hereの歌詞を和訳・徹底解説 🧣
+Come Back... Be Here — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/come-back-be-here-tv.html
 
-#TaylorSwift #テイラースウィフト #ComeBackBeHere #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ComeBackBeHere #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Everything Has Changed
 
 ```
-Everything Has Changedの歌詞を和訳・徹底解説 🧣
+Everything Has Changed — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/everything-has-changed-tv.html
 
-#TaylorSwift #テイラースウィフト #EverythingHasChanged #WeAreSwifties
+#TaylorSwift #テイラースウィフト #EverythingHasChanged #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Forever Winter
 
 ```
-Forever Winterの歌詞を和訳・徹底解説 🧣
+Forever Winter — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/forever-winter-tv.html
 
-#TaylorSwift #テイラースウィフト #ForeverWinter #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ForeverWinter #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Girl at Home
 
 ```
-Girl at Homeの歌詞を和訳・徹底解説 🧣
+Girl at Home — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/girl-at-home-tv.html
 
-#TaylorSwift #テイラースウィフト #GirlAtHome #WeAreSwifties
+#TaylorSwift #テイラースウィフト #GirlAtHome #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Holy Ground
 
 ```
-Holy Groundの歌詞を和訳・徹底解説 🧣
+Holy Ground — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/holy-ground-tv.html
 
-#TaylorSwift #テイラースウィフト #HolyGround #WeAreSwifties
+#TaylorSwift #テイラースウィフト #HolyGround #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Almost Do
 
 ```
-I Almost Doの歌詞を和訳・徹底解説 🧣
+I Almost Do — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-almost-do-tv.html
 
-#TaylorSwift #テイラースウィフト #IAlmostDo #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IAlmostDo #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Bet You Think About Me
 
 ```
-I Bet You Think About Meの歌詞を和訳・徹底解説 🧣
+I Bet You Think About Me — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-bet-you-think-about-me-tv.html
 
-#TaylorSwift #テイラースウィフト #IBetYouThinkAboutMe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IBetYouThinkAboutMe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Knew You Were Trouble
@@ -545,29 +545,29 @@ https://we-are-swifties.com/i-bet-you-think-about-me-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-knew-you-were-trouble-tv.html
 
-#TaylorSwift #テイラースウィフト #IKnewYouWereTrouble #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IKnewYouWereTrouble #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Message in a Bottle
 
 ```
-Message in a Bottleの歌詞を和訳・徹底解説 🧣
+Message in a Bottle — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/message-in-a-bottle-tv.html
 
-#TaylorSwift #テイラースウィフト #MessageInABottle #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MessageInABottle #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Nothing New
 
 ```
-Nothing Newの歌詞を和訳・徹底解説 🧣
+Nothing New — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/nothing-new-tv.html
 
-#TaylorSwift #テイラースウィフト #NothingNew #WeAreSwifties
+#TaylorSwift #テイラースウィフト #NothingNew #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Red
@@ -578,139 +578,139 @@ https://we-are-swifties.com/nothing-new-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/red-tv.html
 
-#TaylorSwift #テイラースウィフト #Red #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Red #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Ronan
 
 ```
-Ronanの歌詞を和訳・徹底解説 🧣
+Ronan — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/ronan-tv.html
 
-#TaylorSwift #テイラースウィフト #Ronan #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Ronan #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Run
 
 ```
-Runの歌詞を和訳・徹底解説 🧣
+Run — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/run-tv.html
 
-#TaylorSwift #テイラースウィフト #Run #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Run #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Sad Beautiful Tragic
 
 ```
-Sad Beautiful Tragicの歌詞を和訳・徹底解説 🧣
+Sad Beautiful Tragic — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/sad-beautiful-tragic-tv.html
 
-#TaylorSwift #テイラースウィフト #SadBeautifulTragic #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SadBeautifulTragic #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Starlight
 
 ```
-Starlightの歌詞を和訳・徹底解説 🧣
+Starlight — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/starlight-tv.html
 
-#TaylorSwift #テイラースウィフト #Starlight #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Starlight #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### State of Grace
 
 ```
-State of Graceの歌詞を和訳・徹底解説 🧣
+State of Grace — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/state-of-grace-tv.html
 
-#TaylorSwift #テイラースウィフト #StateOfGrace #WeAreSwifties
+#TaylorSwift #テイラースウィフト #StateOfGrace #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Stay Stay Stay
 
 ```
-Stay Stay Stayの歌詞を和訳・徹底解説 🧣
+Stay Stay Stay — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/stay-stay-stay-tv.html
 
-#TaylorSwift #テイラースウィフト #StayStayStay #WeAreSwifties
+#TaylorSwift #テイラースウィフト #StayStayStay #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Sad Beautiful Tragic (Acoustic)
 
 ```
-Sad Beautiful Tragic (Acoustic)の歌詞を和訳・徹底解説 🧣
+Sad Beautiful Tragic (Acoustic) — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-last-great-american-dynasty-tv.html
 
-#TaylorSwift #テイラースウィフト #SadBeautifulTragicAcoustic #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SadBeautifulTragicAcoustic #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Last Time
 
 ```
-The Last Timeの歌詞を和訳・徹底解説 🧣
+The Last Time — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-last-time-tv.html
 
-#TaylorSwift #テイラースウィフト #TheLastTime #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheLastTime #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Lucky One
 
 ```
-The Lucky Oneの歌詞を和訳・徹底解説 🧣
+The Lucky One — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-lucky-one-tv.html
 
-#TaylorSwift #テイラースウィフト #TheLuckyOne #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheLuckyOne #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Moment I Knew
 
 ```
-The Moment I Knewの歌詞を和訳・徹底解説 🧣
+The Moment I Knew — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-moment-i-knew-tv.html
 
-#TaylorSwift #テイラースウィフト #TheMomentIKnew #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheMomentIKnew #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Very First Night
 
 ```
-The Very First Nightの歌詞を和訳・徹底解説 🧣
+The Very First Night — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-very-first-night-tv.html
 
-#TaylorSwift #テイラースウィフト #TheVeryFirstNight #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheVeryFirstNight #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Treacherous
 
 ```
-Treacherousの歌詞を和訳・徹底解説 🧣
+Treacherous — 歌詞に隠された意味、知ってる？ 🧣
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/treacherous-tv.html
 
-#TaylorSwift #テイラースウィフト #Treacherous #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Treacherous #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### We Are Never Ever Getting Back Together
@@ -721,7 +721,7 @@ https://we-are-swifties.com/treacherous-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/we-are-never-ever-getting-back-together-tv.html
 
-#TaylorSwift #テイラースウィフト #WeAreNeverEverGettingBackTogether #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WeAreNeverEverGettingBackTogether #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -730,12 +730,12 @@ https://we-are-swifties.com/we-are-never-ever-getting-back-together-tv.html
 ### Afterglow
 
 ```
-Afterglowの歌詞を和訳・徹底解説 💕
+Afterglow — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/afterglow.html
 
-#TaylorSwift #テイラースウィフト #Afterglow #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Afterglow #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Cornelia Street
@@ -746,7 +746,7 @@ https://we-are-swifties.com/afterglow.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cornelia-street.html
 
-#TaylorSwift #テイラースウィフト #CorneliaStreet #WeAreSwifties
+#TaylorSwift #テイラースウィフト #CorneliaStreet #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Cruel Summer
@@ -759,73 +759,73 @@ https://we-are-swifties.com/cornelia-street.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cruel-summer.html
 
-#TaylorSwift #テイラースウィフト #CruelSummer #WeAreSwifties
+#TaylorSwift #テイラースウィフト #CruelSummer #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Daylight
 
 ```
-Daylightの歌詞を和訳・徹底解説 💕
+Daylight — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/daylight.html
 
-#TaylorSwift #テイラースウィフト #Daylight #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Daylight #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Death by a Thousand Cuts
 
 ```
-Death by a Thousand Cutsの歌詞を和訳・徹底解説 💕
+Death by a Thousand Cuts — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/death-by-a-thousand-cuts.html
 
-#TaylorSwift #テイラースウィフト #DeathByAThousandCuts #WeAreSwifties
+#TaylorSwift #テイラースウィフト #DeathByAThousandCuts #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### False God
 
 ```
-False Godの歌詞を和訳・徹底解説 💕
+False God — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/false-god.html
 
-#TaylorSwift #テイラースウィフト #FalseGod #WeAreSwifties
+#TaylorSwift #テイラースウィフト #FalseGod #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Forgot That You Existed
 
 ```
-I Forgot That You Existedの歌詞を和訳・徹底解説 💕
+I Forgot That You Existed — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-forgot-that-you-existed.html
 
-#TaylorSwift #テイラースウィフト #IForgotThatYouExisted #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IForgotThatYouExisted #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### It's Nice To Have A Friend
 
 ```
-It's Nice To Have A Friendの歌詞を和訳・徹底解説 💕
+It's Nice To Have A Friend — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/its-nice-to-have-a-friend.html
 
-#TaylorSwift #テイラースウィフト #ItsNiceToHaveAFriend #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ItsNiceToHaveAFriend #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### London Boy
 
 ```
-London Boyの歌詞を和訳・徹底解説 💕
+London Boy — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/london-boy.html
 
-#TaylorSwift #テイラースウィフト #LondonBoy #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LondonBoy #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Lover
@@ -838,29 +838,29 @@ https://we-are-swifties.com/london-boy.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/lover.html
 
-#TaylorSwift #テイラースウィフト #Lover #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Lover #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### ME!
 
 ```
-ME!の歌詞を和訳・徹底解説 💕
+ME! — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/me.html
 
-#TaylorSwift #テイラースウィフト #Me #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Me #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Miss Americana &<br>The Heartbreak Prince
 
 ```
-Miss Americana &<br>The Heartbreak Princeの歌詞を和訳・徹底解説 💕
+Miss Americana &<br>The Heartbreak Prince — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/miss-americana-and-the-heartbreak-prince.html
 
-#TaylorSwift #テイラースウィフト #MissAmericanaAnd<br>theHeartbreakPrince #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MissAmericanaAnd<br>theHeartbreakPrince #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Paper Rings
@@ -871,29 +871,29 @@ https://we-are-swifties.com/miss-americana-and-the-heartbreak-prince.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/paper-rings.html
 
-#TaylorSwift #テイラースウィフト #PaperRings #WeAreSwifties
+#TaylorSwift #テイラースウィフト #PaperRings #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Soon You'll Get Better
 
 ```
-Soon You'll Get Betterの歌詞を和訳・徹底解説 💕
+Soon You'll Get Better — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/soon-youll-get-better.html
 
-#TaylorSwift #テイラースウィフト #SoonYoullGetBetter #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SoonYoullGetBetter #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Archer
 
 ```
-The Archerの歌詞を和訳・徹底解説 💕
+The Archer — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-archer.html
 
-#TaylorSwift #テイラースウィフト #TheArcher #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheArcher #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Man
@@ -904,18 +904,18 @@ https://we-are-swifties.com/the-archer.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-man.html
 
-#TaylorSwift #テイラースウィフト #TheMan #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheMan #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### You Need to Calm Down
 
 ```
-You Need to Calm Downの歌詞を和訳・徹底解説 💕
+You Need to Calm Down — 歌詞に隠された意味、知ってる？ 💕
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/you-need-to-calm-down.html
 
-#TaylorSwift #テイラースウィフト #YouNeedToCalmDown #WeAreSwifties
+#TaylorSwift #テイラースウィフト #YouNeedToCalmDown #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -924,23 +924,23 @@ https://we-are-swifties.com/you-need-to-calm-down.html
 ### Call It What You Want
 
 ```
-Call It What You Wantの歌詞を和訳・徹底解説 🐍
+Call It What You Want — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/call-it-what-you-want.html
 
-#TaylorSwift #テイラースウィフト #CallItWhatYouWant #WeAreSwifties
+#TaylorSwift #テイラースウィフト #CallItWhatYouWant #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Dancing with Our Hands Tied
 
 ```
-Dancing with Our Hands Tiedの歌詞を和訳・徹底解説 🐍
+Dancing with Our Hands Tied — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/dancing-with-our-hands-tied.html
 
-#TaylorSwift #テイラースウィフト #DancingWithOurHandsTied #WeAreSwifties
+#TaylorSwift #テイラースウィフト #DancingWithOurHandsTied #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Delicate
@@ -953,40 +953,40 @@ https://we-are-swifties.com/dancing-with-our-hands-tied.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/delicate.html
 
-#TaylorSwift #テイラースウィフト #Delicate #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Delicate #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Don't Blame Me
 
 ```
-Don't Blame Meの歌詞を和訳・徹底解説 🐍
+Don't Blame Me — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/dont-blame-me.html
 
-#TaylorSwift #テイラースウィフト #DontBlameMe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #DontBlameMe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Dress
 
 ```
-Dressの歌詞を和訳・徹底解説 🐍
+Dress — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/dress.html
 
-#TaylorSwift #テイラースウィフト #Dress #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Dress #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### End Game
 
 ```
-End Gameの歌詞を和訳・徹底解説 🐍
+End Game — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/end-game.html
 
-#TaylorSwift #テイラースウィフト #EndGame #WeAreSwifties
+#TaylorSwift #テイラースウィフト #EndGame #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Getaway Car
@@ -999,40 +999,40 @@ https://we-are-swifties.com/end-game.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/getaway-car.html
 
-#TaylorSwift #テイラースウィフト #GetawayCar #WeAreSwifties
+#TaylorSwift #テイラースウィフト #GetawayCar #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Gorgeous
 
 ```
-Gorgeousの歌詞を和訳・徹底解説 🐍
+Gorgeous — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/gorgeous.html
 
-#TaylorSwift #テイラースウィフト #Gorgeous #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Gorgeous #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Did Something Bad
 
 ```
-I Did Something Badの歌詞を和訳・徹底解説 🐍
+I Did Something Bad — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-did-something-bad.html
 
-#TaylorSwift #テイラースウィフト #IDidSomethingBad #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IDidSomethingBad #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### King of My Heart
 
 ```
-King of My Heartの歌詞を和訳・徹底解説 🐍
+King of My Heart — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/king-of-my-heart.html
 
-#TaylorSwift #テイラースウィフト #KingOfMyHeart #WeAreSwifties
+#TaylorSwift #テイラースウィフト #KingOfMyHeart #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Look What You Made Me Do
@@ -1045,51 +1045,51 @@ https://we-are-swifties.com/king-of-my-heart.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/look-what-you-made-me-do.html
 
-#TaylorSwift #テイラースウィフト #LookWhatYouMadeMeDo #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LookWhatYouMadeMeDo #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### New Year's Day
 
 ```
-New Year's Dayの歌詞を和訳・徹底解説 🐍
+New Year's Day — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/new-years-day.html
 
-#TaylorSwift #テイラースウィフト #NewYearsDay #WeAreSwifties
+#TaylorSwift #テイラースウィフト #NewYearsDay #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### ...Ready for It?
 
 ```
-...Ready for It?の歌詞を和訳・徹底解説 🐍
+...Ready for It? — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/ready-for-it.html
 
-#TaylorSwift #テイラースウィフト #ReadyForIt #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ReadyForIt #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### So It Goes...
 
 ```
-So It Goes...の歌詞を和訳・徹底解説 🐍
+So It Goes... — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/so-it-goes.html
 
-#TaylorSwift #テイラースウィフト #SoItGoes #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SoItGoes #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### This Is Why We Can't Have Nice Things
 
 ```
-This Is Why We Can't Have Nice Thingsの歌詞を和訳・徹底解説 🐍
+This Is Why We Can't Have Nice Things — 歌詞に隠された意味、知ってる？ 🐍
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/this-is-why-we-cant-have-nice-things.html
 
-#TaylorSwift #テイラースウィフト #ThisIsWhyWeCantHaveNiceThings #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ThisIsWhyWeCantHaveNiceThings #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -1105,29 +1105,29 @@ https://we-are-swifties.com/this-is-why-we-cant-have-nice-things.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/back-to-december-tv.html
 
-#TaylorSwift #テイラースウィフト #BackToDecember #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BackToDecember #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Better Than Revenge
 
 ```
-Better Than Revengeの歌詞を和訳・徹底解説 💜
+Better Than Revenge — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/better-than-revenge-tv.html
 
-#TaylorSwift #テイラースウィフト #BetterThanRevenge #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BetterThanRevenge #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Castles Crumbling
 
 ```
-Castles Crumblingの歌詞を和訳・徹底解説 💜
+Castles Crumbling — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/castles-crumbling-tv.html
 
-#TaylorSwift #テイラースウィフト #CastlesCrumbling #WeAreSwifties
+#TaylorSwift #テイラースウィフト #CastlesCrumbling #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Dear John
@@ -1140,18 +1140,18 @@ https://we-are-swifties.com/castles-crumbling-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/dear-john-tv.html
 
-#TaylorSwift #テイラースウィフト #DearJohn #WeAreSwifties
+#TaylorSwift #テイラースウィフト #DearJohn #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Electric Touch
 
 ```
-Electric Touchの歌詞を和訳・徹底解説 💜
+Electric Touch — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/electric-touch-tv.html
 
-#TaylorSwift #テイラースウィフト #ElectricTouch #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ElectricTouch #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Enchanted
@@ -1164,62 +1164,62 @@ https://we-are-swifties.com/electric-touch-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/enchanted-tv.html
 
-#TaylorSwift #テイラースウィフト #Enchanted #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Enchanted #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Foolish One
 
 ```
-Foolish Oneの歌詞を和訳・徹底解説 💜
+Foolish One — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/foolish-one-tv.html
 
-#TaylorSwift #テイラースウィフト #FoolishOne #WeAreSwifties
+#TaylorSwift #テイラースウィフト #FoolishOne #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Haunted
 
 ```
-Hauntedの歌詞を和訳・徹底解説 💜
+Haunted — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/haunted-tv.html
 
-#TaylorSwift #テイラースウィフト #Haunted #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Haunted #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Can See You
 
 ```
-I Can See Youの歌詞を和訳・徹底解説 💜
+I Can See You — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-can-see-you-tv.html
 
-#TaylorSwift #テイラースウィフト #ICanSeeYou #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ICanSeeYou #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Innocent
 
 ```
-Innocentの歌詞を和訳・徹底解説 💜
+Innocent — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/innocent-tv.html
 
-#TaylorSwift #テイラースウィフト #Innocent #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Innocent #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Last Kiss
 
 ```
-Last Kissの歌詞を和訳・徹底解説 💜
+Last Kiss — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/last-kiss-tv.html
 
-#TaylorSwift #テイラースウィフト #LastKiss #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LastKiss #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Long Live
@@ -1230,7 +1230,7 @@ https://we-are-swifties.com/last-kiss-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/long-live-tv.html
 
-#TaylorSwift #テイラースウィフト #LongLive #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LongLive #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Mean
@@ -1241,7 +1241,7 @@ https://we-are-swifties.com/long-live-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mean-tv.html
 
-#TaylorSwift #テイラースウィフト #Mean #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Mean #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Mine
@@ -1252,29 +1252,29 @@ https://we-are-swifties.com/mean-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mine-tv.html
 
-#TaylorSwift #テイラースウィフト #Mine #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Mine #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Never Grow Up
 
 ```
-Never Grow Upの歌詞を和訳・徹底解説 💜
+Never Grow Up — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/never-grow-up-tv.html
 
-#TaylorSwift #テイラースウィフト #NeverGrowUp #WeAreSwifties
+#TaylorSwift #テイラースウィフト #NeverGrowUp #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Ours
 
 ```
-Oursの歌詞を和訳・徹底解説 💜
+Ours — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/ours-tv.html
 
-#TaylorSwift #テイラースウィフト #Ours #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Ours #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Sparks Fly
@@ -1285,51 +1285,51 @@ https://we-are-swifties.com/ours-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/sparks-fly-tv.html
 
-#TaylorSwift #テイラースウィフト #SparksFly #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SparksFly #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Speak Now
 
 ```
-Speak Nowの歌詞を和訳・徹底解説 💜
+Speak Now — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/speak-now-song-tv.html
 
-#TaylorSwift #テイラースウィフト #SpeakNow #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SpeakNow #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Story of Us
 
 ```
-The Story of Usの歌詞を和訳・徹底解説 💜
+The Story of Us — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-story-of-us-tv.html
 
-#TaylorSwift #テイラースウィフト #TheStoryOfUs #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheStoryOfUs #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Timeless
 
 ```
-Timelessの歌詞を和訳・徹底解説 💜
+Timeless — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/timeless-tv.html
 
-#TaylorSwift #テイラースウィフト #Timeless #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Timeless #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### When Emma Falls in Love
 
 ```
-When Emma Falls in Loveの歌詞を和訳・徹底解説 💜
+When Emma Falls in Love — 歌詞に隠された意味、知ってる？ 💜
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/when-emma-falls-in-love-tv.html
 
-#TaylorSwift #テイラースウィフト #WhenEmmaFallsInLove #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WhenEmmaFallsInLove #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -1345,7 +1345,7 @@ https://we-are-swifties.com/when-emma-falls-in-love-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/fearless-tv.html
 
-#TaylorSwift #テイラースウィフト #Fearless #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Fearless #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Fifteen
@@ -1358,18 +1358,18 @@ https://we-are-swifties.com/fearless-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/fifteen-tv.html
 
-#TaylorSwift #テイラースウィフト #Fifteen #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Fifteen #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Hey Stephen
 
 ```
-Hey Stephenの歌詞を和訳・徹底解説 💛
+Hey Stephen — 歌詞に隠された意味、知ってる？ 💛
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/hey-stephen-tv.html
 
-#TaylorSwift #テイラースウィフト #HeyStephen #WeAreSwifties
+#TaylorSwift #テイラースウィフト #HeyStephen #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Love Story
@@ -1382,7 +1382,7 @@ https://we-are-swifties.com/hey-stephen-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/love-story-tv.html
 
-#TaylorSwift #テイラースウィフト #LoveStory #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LoveStory #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Mr. Perfectly Fine
@@ -1395,40 +1395,40 @@ https://we-are-swifties.com/love-story-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mr-perfectly-fine-tv.html
 
-#TaylorSwift #テイラースウィフト #MrPerfectlyFine #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MrPerfectlyFine #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Today Was a Fairytale
 
 ```
-Today Was a Fairytaleの歌詞を和訳・徹底解説 💛
+Today Was a Fairytale — 歌詞に隠された意味、知ってる？ 💛
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/today-was-a-fairytale-tv.html
 
-#TaylorSwift #テイラースウィフト #TodayWasAFairytale #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TodayWasAFairytale #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### White Horse
 
 ```
-White Horseの歌詞を和訳・徹底解説 💛
+White Horse — 歌詞に隠された意味、知ってる？ 💛
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/white-horse-tv.html
 
-#TaylorSwift #テイラースウィフト #WhiteHorse #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WhiteHorse #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### You Belong with Me
 
 ```
-You Belong with Meの歌詞を和訳・徹底解説 💛
+You Belong with Me — 歌詞に隠された意味、知ってる？ 💛
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/you-belong-with-me-tv.html
 
-#TaylorSwift #テイラースウィフト #YouBelongWithMe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #YouBelongWithMe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -1444,18 +1444,18 @@ https://we-are-swifties.com/you-belong-with-me-tv.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/august.html
 
-#TaylorSwift #テイラースウィフト #August #WeAreSwifties
+#TaylorSwift #テイラースウィフト #August #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### betty
 
 ```
-bettyの歌詞を和訳・徹底解説 🌿
+betty — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/betty.html
 
-#TaylorSwift #テイラースウィフト #Betty #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Betty #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### cardigan
@@ -1468,18 +1468,18 @@ https://we-are-swifties.com/betty.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cardigan.html
 
-#TaylorSwift #テイラースウィフト #Cardigan #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Cardigan #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### epiphany
 
 ```
-epiphanyの歌詞を和訳・徹底解説 🌿
+epiphany — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/epiphany.html
 
-#TaylorSwift #テイラースウィフト #Epiphany #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Epiphany #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### exile
@@ -1492,139 +1492,139 @@ https://we-are-swifties.com/epiphany.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/exile.html
 
-#TaylorSwift #テイラースウィフト #Exile #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Exile #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### hoax
 
 ```
-hoaxの歌詞を和訳・徹底解説 🌿
+hoax — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/hoax.html
 
-#TaylorSwift #テイラースウィフト #Hoax #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Hoax #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### illicit affairs
 
 ```
-illicit affairsの歌詞を和訳・徹底解説 🌿
+illicit affairs — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/illicit-affairs.html
 
-#TaylorSwift #テイラースウィフト #IllicitAffairs #WeAreSwifties
+#TaylorSwift #テイラースウィフト #IllicitAffairs #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### invisible string
 
 ```
-invisible stringの歌詞を和訳・徹底解説 🌿
+invisible string — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/invisible-string.html
 
-#TaylorSwift #テイラースウィフト #InvisibleString #WeAreSwifties
+#TaylorSwift #テイラースウィフト #InvisibleString #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### mad woman
 
 ```
-mad womanの歌詞を和訳・徹底解説 🌿
+mad woman — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mad-woman.html
 
-#TaylorSwift #テイラースウィフト #MadWoman #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MadWoman #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### mirrorball
 
 ```
-mirrorballの歌詞を和訳・徹底解説 🌿
+mirrorball — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mirrorball.html
 
-#TaylorSwift #テイラースウィフト #Mirrorball #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Mirrorball #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### my tears ricochet
 
 ```
-my tears ricochetの歌詞を和訳・徹底解説 🌿
+my tears ricochet — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/my-tears-ricochet.html
 
-#TaylorSwift #テイラースウィフト #MyTearsRicochet #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MyTearsRicochet #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### peace
 
 ```
-peaceの歌詞を和訳・徹底解説 🌿
+peace — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/peace.html
 
-#TaylorSwift #テイラースウィフト #Peace #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Peace #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### seven
 
 ```
-sevenの歌詞を和訳・徹底解説 🌿
+seven — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/seven.html
 
-#TaylorSwift #テイラースウィフト #Seven #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Seven #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### the 1
 
 ```
-the 1の歌詞を和訳・徹底解説 🌿
+the 1 — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-1.html
 
-#TaylorSwift #テイラースウィフト #The1 #WeAreSwifties
+#TaylorSwift #テイラースウィフト #The1 #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### the lakes
 
 ```
-the lakesの歌詞を和訳・徹底解説 🌿
+the lakes — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-lakes.html
 
-#TaylorSwift #テイラースウィフト #TheLakes #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheLakes #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### the last great american dynasty
 
 ```
-the last great american dynastyの歌詞を和訳・徹底解説 🌿
+the last great american dynasty — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-last-great-american-dynasty.html
 
-#TaylorSwift #テイラースウィフト #TheLastGreatAmericanDynasty #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheLastGreatAmericanDynasty #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### this is me trying
 
 ```
-this is me tryingの歌詞を和訳・徹底解説 🌿
+this is me trying — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/this-is-me-trying.html
 
-#TaylorSwift #テイラースウィフト #ThisIsMeTrying #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ThisIsMeTrying #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -1640,95 +1640,95 @@ https://we-are-swifties.com/this-is-me-trying.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/champagne-problems.html
 
-#TaylorSwift #テイラースウィフト #ChampagneProblems #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ChampagneProblems #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### closure
 
 ```
-closureの歌詞を和訳・徹底解説 🌲
+closure — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/closure.html
 
-#TaylorSwift #テイラースウィフト #Closure #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Closure #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### coney island
 
 ```
-coney islandの歌詞を和訳・徹底解説 🌲
+coney island — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/coney-island.html
 
-#TaylorSwift #テイラースウィフト #ConeyIsland #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ConeyIsland #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### cowboy like me
 
 ```
-cowboy like meの歌詞を和訳・徹底解説 🌲
+cowboy like me — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cowboy-like-me.html
 
-#TaylorSwift #テイラースウィフト #CowboyLikeMe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #CowboyLikeMe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### dorothea
 
 ```
-dorotheaの歌詞を和訳・徹底解説 🌲
+dorothea — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/dorothea.html
 
-#TaylorSwift #テイラースウィフト #Dorothea #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Dorothea #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### evermore
 
 ```
-evermoreの歌詞を和訳・徹底解説 🌲
+evermore — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/evermore-song.html
 
-#TaylorSwift #テイラースウィフト #Evermore #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Evermore #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### gold rush
 
 ```
-gold rushの歌詞を和訳・徹底解説 🌲
+gold rush — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/gold-rush.html
 
-#TaylorSwift #テイラースウィフト #GoldRush #WeAreSwifties
+#TaylorSwift #テイラースウィフト #GoldRush #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### happiness
 
 ```
-happinessの歌詞を和訳・徹底解説 🌲
+happiness — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/happiness.html
 
-#TaylorSwift #テイラースウィフト #Happiness #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Happiness #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### it's time to go
 
 ```
-it's time to goの歌詞を和訳・徹底解説 🌲
+it's time to go — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/its-time-to-go.html
 
-#TaylorSwift #テイラースウィフト #ItsTimeToGo #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ItsTimeToGo #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### ivy
@@ -1741,18 +1741,18 @@ https://we-are-swifties.com/its-time-to-go.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/ivy.html
 
-#TaylorSwift #テイラースウィフト #Ivy #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Ivy #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### long story short
 
 ```
-long story shortの歌詞を和訳・徹底解説 🌲
+long story short — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/long-story-short.html
 
-#TaylorSwift #テイラースウィフト #LongStoryShort #WeAreSwifties
+#TaylorSwift #テイラースウィフト #LongStoryShort #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### marjorie
@@ -1765,18 +1765,18 @@ https://we-are-swifties.com/long-story-short.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/marjorie.html
 
-#TaylorSwift #テイラースウィフト #Marjorie #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Marjorie #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### no body, no crime
 
 ```
-no body, no crimeの歌詞を和訳・徹底解説 🌲
+no body, no crime — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/no-body-no-crime.html
 
-#TaylorSwift #テイラースウィフト #NoBodyNoCrime #WeAreSwifties
+#TaylorSwift #テイラースウィフト #NoBodyNoCrime #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### right where you left me
@@ -1787,18 +1787,18 @@ https://we-are-swifties.com/no-body-no-crime.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/right-where-you-left-me.html
 
-#TaylorSwift #テイラースウィフト #RightWhereYouLeftMe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #RightWhereYouLeftMe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### 'tis the damn season
 
 ```
-'tis the damn seasonの歌詞を和訳・徹底解説 🌲
+'tis the damn season — 歌詞に隠された意味、知ってる？ 🌲
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/tis-the-damn-season.html
 
-#TaylorSwift #テイラースウィフト #TisTheDamnSeason #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TisTheDamnSeason #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### tolerate it
@@ -1811,7 +1811,7 @@ https://we-are-swifties.com/tis-the-damn-season.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/tolerate-it.html
 
-#TaylorSwift #テイラースウィフト #TolerateIt #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TolerateIt #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### willow
@@ -1824,7 +1824,7 @@ https://we-are-swifties.com/tolerate-it.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/willow.html
 
-#TaylorSwift #テイラースウィフト #Willow #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Willow #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -1833,111 +1833,111 @@ https://we-are-swifties.com/willow.html
 ### A Place in This World
 
 ```
-A Place in This Worldの歌詞を和訳・徹底解説 🎸
+A Place in This World — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/a-place-in-this-world-debut.html
 
-#TaylorSwift #テイラースウィフト #APlaceInThisWorld #WeAreSwifties
+#TaylorSwift #テイラースウィフト #APlaceInThisWorld #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Cold As You
 
 ```
-Cold As Youの歌詞を和訳・徹底解説 🎸
+Cold As You — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cold-as-you-debut.html
 
-#TaylorSwift #テイラースウィフト #ColdAsYou #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ColdAsYou #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Mary's Song (Oh My My My)
 
 ```
-Mary's Song (Oh My My My)の歌詞を和訳・徹底解説 🎸
+Mary's Song (Oh My My My) — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/mary-song-debut.html
 
-#TaylorSwift #テイラースウィフト #MarysSongOhMyMyMy #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MarysSongOhMyMyMy #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Our Song
 
 ```
-Our Songの歌詞を和訳・徹底解説 🎸
+Our Song — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/our-song-debut.html
 
-#TaylorSwift #テイラースウィフト #OurSong #WeAreSwifties
+#TaylorSwift #テイラースウィフト #OurSong #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Picture to Burn
 
 ```
-Picture to Burnの歌詞を和訳・徹底解説 🎸
+Picture to Burn — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/picture-to-burn-debut.html
 
-#TaylorSwift #テイラースウィフト #PictureToBurn #WeAreSwifties
+#TaylorSwift #テイラースウィフト #PictureToBurn #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Should've Said No
 
 ```
-Should've Said Noの歌詞を和訳・徹底解説 🎸
+Should've Said No — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/should-have-said-no-debut.html
 
-#TaylorSwift #テイラースウィフト #ShouldveSaidNo #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ShouldveSaidNo #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Stay Beautiful
 
 ```
-Stay Beautifulの歌詞を和訳・徹底解説 🎸
+Stay Beautiful — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/stay-beautiful-debut.html
 
-#TaylorSwift #テイラースウィフト #StayBeautiful #WeAreSwifties
+#TaylorSwift #テイラースウィフト #StayBeautiful #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Teardrops on My Guitar
 
 ```
-Teardrops on My Guitarの歌詞を和訳・徹底解説 🎸
+Teardrops on My Guitar — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/teardrops-on-my-guitar-debut.html
 
-#TaylorSwift #テイラースウィフト #TeardropsOnMyGuitar #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TeardropsOnMyGuitar #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Outside
 
 ```
-The Outsideの歌詞を和訳・徹底解説 🎸
+The Outside — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-outside-debut.html
 
-#TaylorSwift #テイラースウィフト #TheOutside #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheOutside #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Tied Together with a Smile
 
 ```
-Tied Together with a Smileの歌詞を和訳・徹底解説 🎸
+Tied Together with a Smile — 歌詞に隠された意味、知ってる？ 🎸
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/tied-together-debut.html
 
-#TaylorSwift #テイラースウィフト #TiedTogetherWithASmile #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TiedTogetherWithASmile #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Tim McGraw
@@ -1950,7 +1950,7 @@ https://we-are-swifties.com/tied-together-debut.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/tim-mcgraw-debut.html
 
-#TaylorSwift #テイラースウィフト #TimMcgraw #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TimMcgraw #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -1959,89 +1959,89 @@ https://we-are-swifties.com/tim-mcgraw-debut.html
 ### Actually Romantic
 
 ```
-Actually Romanticの歌詞を和訳・徹底解説 🎵
+Actually Romantic — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/actually-romantic.html
 
-#TaylorSwift #テイラースウィフト #ActuallyRomantic #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ActuallyRomantic #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### CANCELLED!
 
 ```
-CANCELLED!の歌詞を和訳・徹底解説 🎵
+CANCELLED! — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cancelled.html
 
-#TaylorSwift #テイラースウィフト #Cancelled #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Cancelled #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Eldest Daughter
 
 ```
-Eldest Daughterの歌詞を和訳・徹底解説 🎵
+Eldest Daughter — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/eldest-daughter.html
 
-#TaylorSwift #テイラースウィフト #EldestDaughter #WeAreSwifties
+#TaylorSwift #テイラースウィフト #EldestDaughter #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Elizabeth Taylor
 
 ```
-Elizabeth Taylorの歌詞を和訳・徹底解説 🎵
+Elizabeth Taylor — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/elizabeth-taylor.html
 
-#TaylorSwift #テイラースウィフト #ElizabethTaylor #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ElizabethTaylor #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Fate of Ophelia
 
 ```
-The Fate of Opheliaの歌詞を和訳・徹底解説 🎵
+The Fate of Ophelia — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/fate-of-ophelia.html
 
-#TaylorSwift #テイラースウィフト #TheFateOfOphelia #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheFateOfOphelia #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Father Figure
 
 ```
-Father Figureの歌詞を和訳・徹底解説 🎵
+Father Figure — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/father-figure.html
 
-#TaylorSwift #テイラースウィフト #FatherFigure #WeAreSwifties
+#TaylorSwift #テイラースウィフト #FatherFigure #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Honey
 
 ```
-Honeyの歌詞を和訳・徹底解説 🎵
+Honey — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/honey.html
 
-#TaylorSwift #テイラースウィフト #Honey #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Honey #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Life of a Showgirl
 
 ```
-The Life of a Showgirlの歌詞を和訳・徹底解説 🎵
+The Life of a Showgirl — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/life-of-a-showgirl.html
 
-#TaylorSwift #テイラースウィフト #TheLifeOfAShowgirl #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheLifeOfAShowgirl #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Opalite
@@ -2054,40 +2054,40 @@ https://we-are-swifties.com/life-of-a-showgirl.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/opalite.html
 
-#TaylorSwift #テイラースウィフト #Opalite #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Opalite #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Ruin The Friendship
 
 ```
-Ruin The Friendshipの歌詞を和訳・徹底解説 🎵
+Ruin The Friendship — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/ruin-the-friendship.html
 
-#TaylorSwift #テイラースウィフト #RuinTheFriendship #WeAreSwifties
+#TaylorSwift #テイラースウィフト #RuinTheFriendship #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Wi$h Li$t
 
 ```
-Wi$h Li$tの歌詞を和訳・徹底解説 🎵
+Wi$h Li$t — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/wish-list.html
 
-#TaylorSwift #テイラースウィフト #Wi$hLi$t #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Wi$hLi$t #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Wood
 
 ```
-Woodの歌詞を和訳・徹底解説 🎵
+Wood — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/wood.html
 
-#TaylorSwift #テイラースウィフト #Wood #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Wood #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -2096,12 +2096,12 @@ https://we-are-swifties.com/wood.html
 ### Bigger Than the Whole Sky
 
 ```
-Bigger Than the Whole Skyの歌詞を和訳・徹底解説 🎵
+Bigger Than the Whole Sky — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/bigger-than-the-whole-sky.html
 
-#TaylorSwift #テイラースウィフト #BiggerThanTheWholeSky #WeAreSwifties
+#TaylorSwift #テイラースウィフト #BiggerThanTheWholeSky #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Dear Reader
@@ -2112,7 +2112,7 @@ https://we-are-swifties.com/bigger-than-the-whole-sky.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/dear-reader.html
 
-#TaylorSwift #テイラースウィフト #DearReader #WeAreSwifties
+#TaylorSwift #テイラースウィフト #DearReader #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Glitch
@@ -2123,7 +2123,7 @@ https://we-are-swifties.com/dear-reader.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/glitch.html
 
-#TaylorSwift #テイラースウィフト #Glitch #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Glitch #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### High Infidelity
@@ -2134,7 +2134,7 @@ https://we-are-swifties.com/glitch.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/high-infidelity.html
 
-#TaylorSwift #テイラースウィフト #HighInfidelity #WeAreSwifties
+#TaylorSwift #テイラースウィフト #HighInfidelity #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Paris
@@ -2145,7 +2145,7 @@ https://we-are-swifties.com/high-infidelity.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/paris.html
 
-#TaylorSwift #テイラースウィフト #Paris #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Paris #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Great War
@@ -2156,7 +2156,7 @@ https://we-are-swifties.com/paris.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-great-war.html
 
-#TaylorSwift #テイラースウィフト #TheGreatWar #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheGreatWar #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Would've, Could've, Should've
@@ -2167,7 +2167,7 @@ https://we-are-swifties.com/the-great-war.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/would-ve-could-ve-should-ve.html
 
-#TaylorSwift #テイラースウィフト #WouldveCouldveShouldve #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WouldveCouldveShouldve #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -2181,7 +2181,7 @@ https://we-are-swifties.com/would-ve-could-ve-should-ve.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/but-daddy-i-love-him.html
 
-#TaylorSwift #テイラースウィフト #ButDaddyILoveHim #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ButDaddyILoveHim #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Clara Bow
@@ -2194,7 +2194,7 @@ https://we-are-swifties.com/but-daddy-i-love-him.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/clara-bow.html
 
-#TaylorSwift #テイラースウィフト #ClaraBow #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ClaraBow #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Down Bad
@@ -2207,7 +2207,7 @@ https://we-are-swifties.com/clara-bow.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/down-bad.html
 
-#TaylorSwift #テイラースウィフト #DownBad #WeAreSwifties
+#TaylorSwift #テイラースウィフト #DownBad #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Florida!!!
@@ -2218,7 +2218,7 @@ https://we-are-swifties.com/down-bad.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/florida.html
 
-#TaylorSwift #テイラースウィフト #Florida #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Florida #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Fortnight
@@ -2231,7 +2231,7 @@ https://we-are-swifties.com/florida.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/fortnight.html
 
-#TaylorSwift #テイラースウィフト #Fortnight #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Fortnight #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Fresh Out the Slammer
@@ -2242,7 +2242,7 @@ https://we-are-swifties.com/fortnight.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/fresh-out-the-slammer.html
 
-#TaylorSwift #テイラースウィフト #FreshOutTheSlammer #WeAreSwifties
+#TaylorSwift #テイラースウィフト #FreshOutTheSlammer #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Guilty as Sin?
@@ -2255,18 +2255,18 @@ https://we-are-swifties.com/fresh-out-the-slammer.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/guilty-as-sin.html
 
-#TaylorSwift #テイラースウィフト #GuiltyAsSin #WeAreSwifties
+#TaylorSwift #テイラースウィフト #GuiltyAsSin #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Can Do It with a Broken Heart
 
 ```
-I Can Do It with a Broken Heartの歌詞を和訳・徹底解説 🎵
+I Can Do It with a Broken Heart — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-can-do-it-with-a-broken-heart.html
 
-#TaylorSwift #テイラースウィフト #ICanDoItWithABrokenHeart #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ICanDoItWithABrokenHeart #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Can Fix Him (No Really I Can)
@@ -2277,7 +2277,7 @@ https://we-are-swifties.com/i-can-do-it-with-a-broken-heart.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-can-fix-him.html
 
-#TaylorSwift #テイラースウィフト #ICanFixHimNoReallyICan #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ICanFixHimNoReallyICan #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### loml
@@ -2288,7 +2288,7 @@ https://we-are-swifties.com/i-can-fix-him.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/loml.html
 
-#TaylorSwift #テイラースウィフト #Loml #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Loml #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### My Boy Only Breaks His Favorite Toys
@@ -2299,7 +2299,7 @@ https://we-are-swifties.com/loml.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/my-boy-only-breaks-his-favorite-toys.html
 
-#TaylorSwift #テイラースウィフト #MyBoyOnlyBreaksHisFavoriteToys #WeAreSwifties
+#TaylorSwift #テイラースウィフト #MyBoyOnlyBreaksHisFavoriteToys #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### So Long, London
@@ -2312,7 +2312,7 @@ https://we-are-swifties.com/my-boy-only-breaks-his-favorite-toys.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/so-long-london.html
 
-#TaylorSwift #テイラースウィフト #SoLongLondon #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SoLongLondon #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Alchemy
@@ -2323,7 +2323,7 @@ https://we-are-swifties.com/so-long-london.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-alchemy.html
 
-#TaylorSwift #テイラースウィフト #TheAlchemy #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheAlchemy #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Smallest Man Who Ever Lived
@@ -2334,7 +2334,7 @@ https://we-are-swifties.com/the-alchemy.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-smallest-man-who-ever-lived.html
 
-#TaylorSwift #テイラースウィフト #TheSmallestManWhoEverLived #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheSmallestManWhoEverLived #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Tortured Poets Department
@@ -2347,7 +2347,7 @@ https://we-are-swifties.com/the-smallest-man-who-ever-lived.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-tortured-poets-department.html
 
-#TaylorSwift #テイラースウィフト #TheTorturedPoetsDepartment #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheTorturedPoetsDepartment #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Who's Afraid of Little Old Me?
@@ -2358,7 +2358,7 @@ https://we-are-swifties.com/the-tortured-poets-department.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/whos-afraid-of-little-old-me.html
 
-#TaylorSwift #テイラースウィフト #WhosAfraidOfLittleOldMe #WeAreSwifties
+#TaylorSwift #テイラースウィフト #WhosAfraidOfLittleOldMe #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -2372,7 +2372,7 @@ https://we-are-swifties.com/whos-afraid-of-little-old-me.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/cassandra.html
 
-#TaylorSwift #テイラースウィフト #Cassandra #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Cassandra #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Chloe or Sam or Sophia or Marcus
@@ -2383,7 +2383,7 @@ https://we-are-swifties.com/cassandra.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/chloe-or-sam-or-sophia-or-marcus.html
 
-#TaylorSwift #テイラースウィフト #ChloeOrSamOrSophiaOrMarcus #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ChloeOrSamOrSophiaOrMarcus #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### How Did It End?
@@ -2394,7 +2394,7 @@ https://we-are-swifties.com/chloe-or-sam-or-sophia-or-marcus.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/how-did-it-end.html
 
-#TaylorSwift #テイラースウィフト #HowDidItEnd #WeAreSwifties
+#TaylorSwift #テイラースウィフト #HowDidItEnd #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### I Look in People's Windows
@@ -2405,7 +2405,7 @@ https://we-are-swifties.com/how-did-it-end.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/i-look-in-peoples-windows.html
 
-#TaylorSwift #テイラースウィフト #ILookInPeoplesWindows #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ILookInPeoplesWindows #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### imgonnagetyouback
@@ -2416,7 +2416,7 @@ https://we-are-swifties.com/i-look-in-peoples-windows.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/imgonnagetyouback.html
 
-#TaylorSwift #テイラースウィフト #Imgonnagetyouback #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Imgonnagetyouback #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Peter
@@ -2427,7 +2427,7 @@ https://we-are-swifties.com/imgonnagetyouback.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/peter.html
 
-#TaylorSwift #テイラースウィフト #Peter #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Peter #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### Robin
@@ -2438,7 +2438,7 @@ https://we-are-swifties.com/peter.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/robin.html
 
-#TaylorSwift #テイラースウィフト #Robin #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Robin #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### So High School
@@ -2449,18 +2449,18 @@ https://we-are-swifties.com/robin.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/so-high-school.html
 
-#TaylorSwift #テイラースウィフト #SoHighSchool #WeAreSwifties
+#TaylorSwift #テイラースウィフト #SoHighSchool #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### thankyouaimee
 
 ```
-thankyouaimeeの歌詞を和訳・徹底解説 🎵
+thankyouaimee — 歌詞に隠された意味、知ってる？ ✨
 
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/thankyouaimee.html
 
-#TaylorSwift #テイラースウィフト #Thankyouaimee #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Thankyouaimee #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Albatross
@@ -2471,7 +2471,7 @@ https://we-are-swifties.com/thankyouaimee.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-albatross.html
 
-#TaylorSwift #テイラースウィフト #TheAlbatross #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheAlbatross #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Black Dog
@@ -2482,7 +2482,7 @@ https://we-are-swifties.com/the-albatross.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-black-dog.html
 
-#TaylorSwift #テイラースウィフト #TheBlackDog #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheBlackDog #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Bolter
@@ -2493,7 +2493,7 @@ https://we-are-swifties.com/the-black-dog.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-bolter.html
 
-#TaylorSwift #テイラースウィフト #TheBolter #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheBolter #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Manuscript
@@ -2504,7 +2504,7 @@ https://we-are-swifties.com/the-bolter.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-manuscript.html
 
-#TaylorSwift #テイラースウィフト #TheManuscript #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheManuscript #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 ### The Prophecy
@@ -2515,7 +2515,7 @@ https://we-are-swifties.com/the-manuscript.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/the-prophecy.html
 
-#TaylorSwift #テイラースウィフト #TheProphecy #WeAreSwifties
+#TaylorSwift #テイラースウィフト #TheProphecy #Swifties #テイラー和訳 #WeAreSwifties
 ```
 
 
@@ -2529,5 +2529,5 @@ https://we-are-swifties.com/the-prophecy.html
 英語歌詞・日本語訳・解説はこちら👇
 https://we-are-swifties.com/hits-different.html
 
-#TaylorSwift #テイラースウィフト #HitsDifferent #WeAreSwifties
+#TaylorSwift #テイラースウィフト #HitsDifferent #Swifties #テイラー和訳 #WeAreSwifties
 ```
