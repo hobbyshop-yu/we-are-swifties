@@ -4,7 +4,8 @@
     "Speak Now",
     "Daylight",
     "Chloe or Sam or Sophia or Marcus",
-    "King of My Heart"
+    "King of My Heart",
+    "The Outside"
   ],
   "history": [
     {
@@ -30,6 +31,11 @@
     {
       "title": "King of My Heart",
       "time": "2026-03-13T11:27:18.057742",
+      "cycle": 1
+    },
+    {
+      "title": "The Outside",
+      "time": "2026-03-13T22:24:53.906473",
       "cycle": 1
     }
   ]
