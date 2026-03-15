@@ -37,3 +37,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 35件（A:8 B:2 C:3 D:22）
 - [x] Step3: 修正適用 — 修正: 35行 / 修正不要: 21行
 - [x] Step4: チェックリスト記録
+
+### Midnight Rain
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp (Midnight Rain 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 26件（A:8 B:1 C:2 D:15）
+- [x] Step3: 修正適用 — 修正: 26行 / 修正不要: 14行
+- [x] Step4: チェックリスト記録
+
+### Question...?
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com (Question...? 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 42件（A:12 B:2 C:4 D:24）
+- [x] Step3: 修正適用 — 修正: 42行 / 修正不要: 12行
+- [x] Step4: チェックリスト記録
+
+### Snow on the Beach
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com (Snow on the Beach 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 48件（A:15 B:5 C:6 D:22）※HTML構造問題あり
+- [x] Step3: 修正適用 — 修正: 48行（構造問題は別途対応要）
+- [x] Step4: チェックリスト記録
