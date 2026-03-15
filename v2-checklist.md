@@ -131,3 +131,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 27件（壊滅的MT・構造破壊・未翻訳3行）
 - [x] Step3: 修正適用 — 27行修正（構造破壊統合、壊滅的MT「どうやって、私」→「どうして罪深いと言えるの？」×3、未翻訳修正）
 - [x] Step4: チェックリスト記録
+
+### Who's Afraid of Little Old Me?
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / note.com / tvgroove.com
+- [x] Step2: 全行照合完了 — 問題箇所: 35件（CHORUS壊滅的MT×3・BRIDGE全行壊滅的MT8行）
+- [x] Step3: 修正適用 — 35行修正（「だから、私、そして、下へ」→「だから絞首台から飛び降りて」×3、BRIDGE全行壊滅的MT修正）
+- [x] Step4: チェックリスト記録
+
+### I Can Do It with a Broken Heart
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / ameblo.jp / songs-wayaku.com
+- [x] Step2: 全行照合完了 — 問題箇所: 28件（壊滅的MT「私、私の」×2・「下へ、私」×2・「私、それ、壊れた、心」×2）
+- [x] Step3: 修正適用 — 28行修正（壊滅的MT→意訳、未翻訳修正、敬体→常体）
+- [x] Step4: チェックリスト記録
+
+### loml
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / note.com / ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 37件（壊滅的MT×2・BRIDGE全行壊滅的MT・未翻訳2行）
+- [x] Step3: 修正適用 — 37行修正（壊滅的MT修正、未翻訳修正、敬体→常体）
+- [x] Step4: チェックリスト記録
