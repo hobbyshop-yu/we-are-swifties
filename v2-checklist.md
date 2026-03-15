@@ -75,3 +75,23 @@
 - [x] Step4: チェックリスト記録
 
 ## ✅ Midnights アルバム 全12曲 v2.0レビュー完了
+
+## The Tortured Poets Department
+
+### Fortnight
+- [x] Step1: 背景調査完了 — 参考URL: songs-wayaku.com / hatenablog.com (Fortnight 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 35件（A:12 B:3 C:8 D:12）※HTML構造問題あり
+- [x] Step3: 修正適用 — 修正: 35行（構造修正: セクション注釈4ブロック削除・単語分割統合）
+- [x] Step4: チェックリスト記録
+
+### The Tortured Poets Department
+- [x] Step1: 背景調査完了 — 参考URL: note.com / hatenablog.com (TTPD 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 28件（A:8 B:5 C:10 D:5）※VERSE 1単語分割あり
+- [x] Step3: 修正適用 — 修正: 28行（壊滅的MT「私、中に、あなたの、顔」→「面と向かって笑って言った」×2、BRIDGE壊滅的MT修正）
+- [x] Step4: チェックリスト記録
+
+### My Boy Only Breaks His Favorite Toys
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / note.com (My Boy 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 30件（A:15 B:3 C:4 D:8）
+- [x] Step3: 修正適用 — 修正: 30行（壊滅的MT「息子」→「あの子」、OUTRO全行壊滅的MT修正、BRIDGE壊滅的MT修正）
+- [x] Step4: チェックリスト記録
