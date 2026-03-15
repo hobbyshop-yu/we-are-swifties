@@ -8,7 +8,8 @@
     "The Outside",
     "You Belong with Me",
     "Our Song",
-    "Run"
+    "Run",
+    "Long Live"
   ],
   "history": [
     {
@@ -54,6 +55,11 @@
     {
       "title": "Run",
       "time": "2026-03-14T22:21:29.562559",
+      "cycle": 1
+    },
+    {
+      "title": "Long Live",
+      "time": "2026-03-15T05:18:06.989785",
       "cycle": 1
     }
   ]
