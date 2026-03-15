@@ -9,7 +9,8 @@
     "You Belong with Me",
     "Our Song",
     "Run",
-    "Long Live"
+    "Long Live",
+    "CANCELLED!"
   ],
   "history": [
     {
@@ -60,6 +61,11 @@
     {
       "title": "Long Live",
       "time": "2026-03-15T05:18:06.989785",
+      "cycle": 1
+    },
+    {
+      "title": "CANCELLED!",
+      "time": "2026-03-15T11:21:55.602253",
       "cycle": 1
     }
   ]
