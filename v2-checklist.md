@@ -113,3 +113,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 45件（A:20 B:5 C:8 D:12）※CHORUS/PRE-CHORUS/BRIDGE/VERSE3/OUTRO壊滅的MT
 - [x] Step3: 修正適用 — 修正: 45行（壊滅的MT「でも、私、愛、彼を」→「叫ぶの『でもパパ、彼を愛してるの』」×3、BRIDGE全行壊滅的MT修正、VERSE3全行壊滅的MT修正）
 - [x] Step4: チェックリスト記録
+
+### Fresh Out the Slammer
+- [x] Step1: 背景調査完了 — 参考URL: note.com / hatenablog.com / ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 28件（構造破壊・壊滅的MT・敬体）
+- [x] Step3: 修正適用 — 28行修正（構造破壊統合、「スラマーをすっきり」→「釈放されたばかり」、「赤ちゃん」→「あなた」誤訳修正）
+- [x] Step4: チェックリスト記録
+
+### Florida!!!
+- [x] Step1: 背景調査完了 — 参考URL: note.com / ameblo.jp / hatenablog.com
+- [x] Step2: 全行照合完了 — 問題箇所: 35件（未翻訳8行・壊滅的MT・敬体）
+- [x] Step3: 修正適用 — 35行修正（未翻訳「Is one hell of a drug」→「とんでもないドラッグだ」×8、壊滅的MT修正）
+- [x] Step4: チェックリスト記録
+
+### Guilty as Sin?
+- [x] Step1: 背景調査完了 — 参考URL: note.com / hatenablog.com
+- [x] Step2: 全行照合完了 — 問題箇所: 27件（壊滅的MT・構造破壊・未翻訳3行）
+- [x] Step3: 修正適用 — 27行修正（構造破壊統合、壊滅的MT「どうやって、私」→「どうして罪深いと言えるの？」×3、未翻訳修正）
+- [x] Step4: チェックリスト記録
