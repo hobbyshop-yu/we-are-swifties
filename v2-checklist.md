@@ -95,3 +95,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 30件（A:15 B:3 C:4 D:8）
 - [x] Step3: 修正適用 — 修正: 30行（壊滅的MT「息子」→「あの子」、OUTRO全行壊滅的MT修正、BRIDGE壊滅的MT修正）
 - [x] Step4: チェックリスト記録
+
+### Down Bad
+- [x] Step1: 背景調査完了 — 参考URL: note.com / hatenablog.com (Down Bad 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 40件（A:20 B:5 C:5 D:10）※CHORUS/VERSE2/BRIDGE/POST-CHORUS全域壊滅的MT
+- [x] Step3: 修正適用 — 修正: 40行（壊滅的MT「私、死ぬ、それ」→「死んでもどうでもいい」×3、「下へ、悪い」→「打ちのめされて」×6、VERSE2全行壊滅的MT修正、BRIDGE壊滅的MT修正）
+- [x] Step4: チェックリスト記録
+
+### So Long, London
+- [x] Step1: 背景調査完了 — 参考URL: note.com / songs-wayaku.com / hatenablog.com (So Long London 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 25件（A:10 B:5 C:5 D:5）※INTRO「だから、長い」×5、BRIDGE/CHORUS壊滅的MT
+- [x] Step3: 修正適用 — 修正: 25行（INTRO「だから、長い」→「さよなら、ロンドン」×5、BRIDGE壊滅的MT修正、CHORUS/VERSE3壊滅的MT修正、未翻訳6行修正）
+- [x] Step4: チェックリスト記録
+
+### But Daddy I Love Him
+- [x] Step1: 背景調査完了 — 参考URL: note.com / songs-wayaku.com / hatenablog.com (But Daddy 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 45件（A:20 B:5 C:8 D:12）※CHORUS/PRE-CHORUS/BRIDGE/VERSE3/OUTRO壊滅的MT
+- [x] Step3: 修正適用 — 修正: 45行（壊滅的MT「でも、私、愛、彼を」→「叫ぶの『でもパパ、彼を愛してるの』」×3、BRIDGE全行壊滅的MT修正、VERSE3全行壊滅的MT修正）
+- [x] Step4: チェックリスト記録
