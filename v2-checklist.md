@@ -149,3 +149,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 37件（壊滅的MT×2・BRIDGE全行壊滅的MT・未翻訳2行）
 - [x] Step3: 修正適用 — 37行修正（壊滅的MT修正、未翻訳修正、敬体→常体）
 - [x] Step4: チェックリスト記録
+
+### I Can Fix Him (No Really I Can)
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / note.com / udiscovermusic.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 15件（誤訳「反抗的」→「不快」・敬体×6）
+- [x] Step3: 修正適用 — 15行修正（「善良な主は指一本動かす必要はありません」→「神様は指一本動かす必要ない」×3等）
+- [x] Step4: チェックリスト記録
+
+### The Smallest Man Who Ever Lived
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / ameblo.jp / note.com
+- [x] Step2: 全行照合完了 — 問題箇所: 28件（壊滅的MT・未翻訳2行・構造破壊・OUTRO壊滅的MT4行）
+- [x] Step3: 修正適用 — 28行修正（壊滅的MT→意訳、未翻訳修正、構造破壊統合）
+- [x] Step4: チェックリスト記録
+
+### The Alchemy
+- [x] Step1: 背景調査完了 — 参考URL: note.com / hatenablog.com
+- [x] Step2: 全行照合完了 — 問題箇所: 37件（壊滅的MT「ベイビー」途切れ×3・「あなたの、心」×4・未翻訳2行）
+- [x] Step3: 修正適用 — 37行修正（壊滅的MT→意訳、未翻訳修正）
+- [x] Step4: チェックリスト記録
