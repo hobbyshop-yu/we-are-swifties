@@ -577,19 +577,19 @@
 ## Taylor Swift (2006)
 
 ### A Place in This World
-- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp
-- [x] Step2: 全行照合完了 — 問題箇所: 4件（B:1 D:3）
-- [x] Step3: 修正適用 — 修正: 4行（feels the way I do意味補完、heart on sleeve→さらけ出す、mission→使命、重複訳統一）
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12627156038.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（C:1 D:3）/ 問題なし根拠: 全18行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 4行（want→求めている[参考訳ameblo]、mystery→わからない[参考訳ameblo]、fly→飛び立つ[参考訳ameblo]、敬体「です」除去）
 - [x] Step4: チェックリスト記録
 
 ### Cold As You
-- [x] Step1: 背景調査完了 — 参考URL: blogspot.com / ameblo.jp / wordpress.com
-- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
-- [x] Step3: 修正適用 — 修正: 1行（nerve to adore→厚かましい夢見がちな女）
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12627160928.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:1 D:2）/ 問題なし根拠: 全20行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 5行（give a damn→くれなかった[B:参考訳ameblo]、have a way of→近づく術[参考訳ameblo]、cold as you→冷たい存在[参考訳ameblo]×3箇所）
 - [x] Step4: チェックリスト記録
 
 ### Mary's Song (Oh My My My)
-- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com / blogspot.com
-- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:1）
-- [x] Step3: 修正適用 — 修正: 2行（rolled their eyes=呆れて、×2箇所）
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12627781195.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（D:4）/ 問題なし根拠: 全30行を参考訳と並べて比較済み。creek beds現訳「小川」は参考訳「軋むベッド」より正確
+- [x] Step3: 修正適用 — 修正: 4行（木の上の小屋→ツリーハウス[参考訳ameblo]、さて削除、朝日が昇るまで[参考訳ameblo]、空に輝く星のように[参考訳ameblo]）
 - [x] Step4: チェックリスト記録
