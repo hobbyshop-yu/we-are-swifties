@@ -755,3 +755,23 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全30行を参考訳と並べて比較済み。全行意味・トーン一致
 - [x] Step3: 修正適用 — 修正不要
 - [x] Step4: チェックリスト記録
+
+## Speak Now TV (2023) Batch 4
+
+### Innocent
+- [x] Step1: 背景調査完了 — 参考URL: note.com/lyrics-wayaku.com/ameblo.jp / 取得方法: web検索
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:文字化け）/ 問題なし根拠: 全25行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 1行（文字化け「蹴り返す」→「繰り返す」live it all again）
+- [x] Step4: チェックリスト記録
+
+### Last Kiss
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/livedoor.jp / 取得方法: web検索
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:1 A:1 C:1）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 3行（文字化け「舞装」→「舗道」pavement、構造「Fresh on the pavement / , / I ran off the plane」→1行統合、誤訳「空を仰ぐ」→「呆れた顔をする」roll my eyes）
+- [x] Step4: チェックリスト記録
+
+### Long Live
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/seesaa.net / 取得方法: web検索
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（A:1 B:2）/ 問題なし根拠: 全35行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 3行（構造「bring on all the/pretenders」→1行統合、文字化け「僅ら」→「端」sidelines、文字化け「掛げた」→「掲げた」held up）
+- [x] Step4: チェックリスト記録
