@@ -641,3 +641,23 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 1件（C:1）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
 - [x] Step3: 修正適用 — 修正: 1行（敬体ますように→くれたらいいな）
 - [x] Step4: チェックリスト記録
+
+## Fearless TV (2008/2021) Batch 1
+
+### Fearless
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp (部分取得) / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全22行参考訳と比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+### Fifteen
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/moonlightbae13/entry-12587333685.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全32行参考訳と比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+### Hey Stephen
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/160fe615/entry-12658594142.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:1）/ 問題なし根拠: 全28行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 1行（dimming=暴れてくる→薄暗くなる：意味取違い修正）
+- [x] Step4: チェックリスト記録
