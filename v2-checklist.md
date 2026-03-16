@@ -561,3 +561,15 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 0件
 - [x] Step3: 修正不要
 - [x] Step4: チェックリスト記録
+
+### right where you left me
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / lyricstranslate.com / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
+- [x] Step3: 修正適用 — 修正: 2行（wages→給料を稼ぎ、haunt語順改善）
+- [x] Step4: チェックリスト記録
+
+### it's time to go
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / yougakumap.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:1 D:1）
+- [x] Step3: 修正適用 — 修正: 2行（snaps→ひび割れからパキッと、敬体統一）
+- [x] Step4: チェックリスト記録
