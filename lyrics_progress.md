@@ -429,9 +429,9 @@
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | august.html | august | 39 | |
-| ⬜ | betty.html | betty | 48 | |
-| ⬜ | cardigan.html | cardigan | 56 | |
+| ✅ | august.html | august | 39 | v2.0レビュー済 |
+| ✅ | betty.html | betty | 48 | v2.0レビュー済 |
+| ✅ | cardigan.html | cardigan | 56 | v2.0レビュー済 |
 | ⬜ | epiphany.html | epiphany | 25 | |
 | ⬜ | exile.html | exile | 65 | |
 | ⬜ | hoax.html | hoax | 35 | |
@@ -473,76 +473,76 @@
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | anti-hero.html | Anti-Hero | 48 | |
-| ⬜ | bejeweled.html | Bejeweled | 61 | |
-| ⬜ | karma.html | Karma | 54 | |
-| ⬜ | lavender-haze.html | Lavender Haze | 45 | |
-| ⬜ | maroon.html | Maroon | 49 | |
-| ⬜ | mastermind.html | Mastermind | 56 | |
-| ⬜ | midnight-rain.html | Midnight Rain | 36 | |
-| ⬜ | question.html | Question...? | 54 | |
-| ⬜ | snow-on-the-beach.html | Snow on the Beach | 67 | |
-| ⬜ | sweet-nothing.html | Sweet Nothing | 43 | |
-| ⬜ | vigilante-shit.html | Vigilante Shit | 41 | |
-| ⬜ | youre-on-your-own-kid.html | You're on Your Own, Kid | 55 | |
+| ✅ | anti-hero.html | Anti-Hero | 48 | v2.0レビュー済 |
+| ✅ | bejeweled.html | Bejeweled | 61 | v2.0レビュー済 |
+| ✅ | karma.html | Karma | 54 | v2.0レビュー済 |
+| ✅ | lavender-haze.html | Lavender Haze | 45 | v2.0レビュー済 |
+| ✅ | maroon.html | Maroon | 49 | v2.0レビュー済 |
+| ✅ | mastermind.html | Mastermind | 56 | v2.0レビュー済 |
+| ✅ | midnight-rain.html | Midnight Rain | 36 | v2.0レビュー済 |
+| ✅ | question.html | Question...? | 54 | v2.0レビュー済 |
+| ✅ | snow-on-the-beach.html | Snow on the Beach | 67 | v2.0レビュー済 |
+| ✅ | sweet-nothing.html | Sweet Nothing | 43 | v2.0レビュー済 |
+| ✅ | vigilante-shit.html | Vigilante Shit | 41 | v2.0レビュー済 |
+| ✅ | youre-on-your-own-kid.html | You're on Your Own, Kid | 55 | v2.0レビュー済 |
 
 ## Midnights (3am Edition) (2022) (7曲)
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | bigger-than-the-whole-sky.html | Bigger Than the Whole Sky | 26 | |
-| ⬜ | dear-reader.html | Dear Reader | 41 | |
-| ⬜ | glitch.html | Glitch | 29 | |
-| ⬜ | high-infidelity.html | High Infidelity | 37 | |
-| ⬜ | paris.html | Paris | 42 | |
-| ⬜ | the-great-war.html | The Great War | 46 | |
-| ⬜ | would-ve-could-ve-should-ve.html | Would've, Could've, Should've | 67 | |
+| ✅ | bigger-than-the-whole-sky.html | Bigger Than the Whole Sky | 26 | v2.0レビュー済 |
+| ✅ | dear-reader.html | Dear Reader | 41 | v2.0レビュー済 |
+| ✅ | glitch.html | Glitch | 29 | v2.0レビュー済 |
+| ✅ | high-infidelity.html | High Infidelity | 37 | v2.0レビュー済 |
+| ✅ | paris.html | Paris | 42 | v2.0レビュー済 |
+| ✅ | the-great-war.html | The Great War | 46 | v2.0レビュー済 |
+| ✅ | would-ve-could-ve-should-ve.html | Would've, Could've, Should've | 67 | v2.0レビュー済 |
 
 ## Midnights (Target Edition) (2022) (1曲)
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | hits-different.html | Hits Different | 55 | |
+| ✅ | hits-different.html | Hits Different | 55 | v2.0レビュー済 |
 
 ## THE TORTURED POETS DEPARTMENT (2024) (16曲)
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | but-daddy-i-love-him.html | But Daddy I Love Him | 97 | |
-| ⬜ | clara-bow.html | Clara Bow | 52 | |
-| ⬜ | down-bad.html | Down Bad | 74 | |
-| ⬜ | florida.html | Florida!!! | 62 | |
-| ⬜ | fortnight.html | Fortnight | 48 | |
-| ⬜ | fresh-out-the-slammer.html | Fresh Out the Slammer | 44 | |
-| ⬜ | guilty-as-sin.html | Guilty as Sin? | 57 | |
-| ⬜ | i-can-do-it-with-a-broken-heart.html | I Can Do It with a Broken Heart | 59 | |
-| ⬜ | i-can-fix-him.html | I Can Fix Him (No Really I Can) | 38 | |
-| ⬜ | my-boy-only-breaks-his-favorite-toys.html | My Boy Only Breaks His Favorite Toys | 54 | |
-| ⬜ | so-long-london.html | So Long, London | 73 | |
-| ⬜ | the-alchemy.html | The Alchemy | 50 | |
-| ⬜ | the-smallest-man-who-ever-lived.html | The Smallest Man Who Ever Lived | 52 | |
-| ⬜ | the-tortured-poets-department.html | The Tortured Poets Department | 68 | |
-| ⬜ | whos-afraid-of-little-old-me.html | Who's Afraid of Little Old Me? | 64 | |
-| ⬜ | loml.html | loml | 63 | |
+| ✅ | but-daddy-i-love-him.html | But Daddy I Love Him | 97 | v2.0レビュー済 |
+| ✅ | clara-bow.html | Clara Bow | 52 | v2.0レビュー済 |
+| ✅ | down-bad.html | Down Bad | 74 | v2.0レビュー済 |
+| ✅ | florida.html | Florida!!! | 62 | v2.0レビュー済 |
+| ✅ | fortnight.html | Fortnight | 48 | v2.0レビュー済 |
+| ✅ | fresh-out-the-slammer.html | Fresh Out the Slammer | 44 | v2.0レビュー済 |
+| ✅ | guilty-as-sin.html | Guilty as Sin? | 57 | v2.0レビュー済 |
+| ✅ | i-can-do-it-with-a-broken-heart.html | I Can Do It with a Broken Heart | 59 | v2.0レビュー済 |
+| ✅ | i-can-fix-him.html | I Can Fix Him (No Really I Can) | 38 | v2.0レビュー済 |
+| ✅ | my-boy-only-breaks-his-favorite-toys.html | My Boy Only Breaks His Favorite Toys | 54 | v2.0レビュー済 |
+| ✅ | so-long-london.html | So Long, London | 73 | v2.0レビュー済 |
+| ✅ | the-alchemy.html | The Alchemy | 50 | v2.0レビュー済 |
+| ✅ | the-smallest-man-who-ever-lived.html | The Smallest Man Who Ever Lived | 52 | v2.0レビュー済 |
+| ✅ | the-tortured-poets-department.html | The Tortured Poets Department | 68 | v2.0レビュー済 |
+| ✅ | whos-afraid-of-little-old-me.html | Who's Afraid of Little Old Me? | 64 | v2.0レビュー済 |
+| ✅ | loml.html | loml | 63 | v2.0レビュー済 |
 
 ## THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY (2024) (14曲)
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | cassandra.html | Cassandra | 57 | |
-| ⬜ | chloe-or-sam-or-sophia-or-marcus.html | Chloe or Sam or Sophia or Marcus | 49 | |
-| ⬜ | how-did-it-end.html | How Did It End? | 49 | |
-| ⬜ | i-look-in-peoples-windows.html | I Look in People's Windows | 31 | |
-| ⬜ | peter.html | Peter | 83 | |
-| ⬜ | robin.html | Robin | 42 | |
-| ⬜ | so-high-school.html | So High School | 60 | |
-| ⬜ | the-albatross.html | The Albatross | 51 | |
-| ⬜ | the-black-dog.html | The Black Dog | 56 | |
-| ⬜ | the-bolter.html | The Bolter | 81 | |
-| ⬜ | the-manuscript.html | The Manuscript | 37 | |
-| ⬜ | the-prophecy.html | The Prophecy | 68 | |
-| ⬜ | imgonnagetyouback.html | imgonnagetyouback | 49 | |
-| ⬜ | thankyouaimee.html | thankyouaimee | 93 | |
+| ✅ | cassandra.html | Cassandra | 57 | v2.0レビュー済 |
+| ✅ | chloe-or-sam-or-sophia-or-marcus.html | Chloe or Sam or Sophia or Marcus | 49 | v2.0レビュー済 |
+| ✅ | how-did-it-end.html | How Did It End? | 49 | v2.0レビュー済 |
+| ✅ | i-look-in-peoples-windows.html | I Look in People's Windows | 31 | v2.0レビュー済 |
+| ✅ | peter.html | Peter | 83 | v2.0レビュー済 |
+| ✅ | robin.html | Robin | 42 | v2.0レビュー済 |
+| ✅ | so-high-school.html | So High School | 60 | v2.0レビュー済 |
+| ✅ | the-albatross.html | The Albatross | 51 | v2.0レビュー済 |
+| ✅ | the-black-dog.html | The Black Dog | 56 | v2.0レビュー済 |
+| ✅ | the-bolter.html | The Bolter | 81 | v2.0レビュー済 |
+| ✅ | the-manuscript.html | The Manuscript | 37 | v2.0レビュー済 |
+| ✅ | the-prophecy.html | The Prophecy | 68 | v2.0レビュー済 |
+| ✅ | imgonnagetyouback.html | imgonnagetyouback | 49 | v2.0レビュー済 |
+| ✅ | thankyouaimee.html | thankyouaimee | 93 | v2.0レビュー済 |
 
 ## The Life of a Showgirl (2025) (11曲)
 

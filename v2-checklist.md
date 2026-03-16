@@ -259,3 +259,23 @@
 - [x] Step4: チェックリスト記録
 
 ## ✅ The Tortured Poets Department アルバム 全31曲 v2.0レビュー完了
+
+## folklore
+
+### august
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（C:1 D:2）
+- [x] Step3: 修正適用 — 修正: 3行（「ショッピングモールの裏で会いましょう」→敬体修正、「決して」→「私のものじゃなかった」不完全訳修正、「あなたがいると思った」→「あなたは私のものだと思っていた」）
+- [x] Step4: チェックリスト記録
+
+### betty
+- [x] Step1: 背景調査完了 — 参考URL: note.com / ameblo.jp / lyricstranslate.com
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（B:4 一人称不統一）
+- [x] Step3: 修正適用 — 修正: 4行（James視点の曲で「私」→「僕」に統一×4、「私の最悪の意図の産物」→「僕の最悪の下心が形になったような」）
+- [x] Step4: チェックリスト記録
+
+### cardigan
+- [x] Step1: 背景調査完了 — 参考URL: note.com / lyricstranslate.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
+- [x] Step3: 修正適用 — 修正: 2行（表記揺れ「思われている」→「思われる」統一、「傷ついてる」→「血を流してる」bleedin'直訳改善）
+- [x] Step4: チェックリスト記録
