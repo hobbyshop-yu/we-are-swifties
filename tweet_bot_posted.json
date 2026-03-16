@@ -13,7 +13,8 @@
     "CANCELLED!",
     "Stay Beautiful",
     "Eldest Daughter",
-    "My Boy Only Breaks His Favorite Toys"
+    "My Boy Only Breaks His Favorite Toys",
+    "The Prophecy"
   ],
   "history": [
     {
@@ -84,6 +85,11 @@
     {
       "title": "My Boy Only Breaks His Favorite Toys",
       "time": "2026-03-16T11:42:36.019433",
+      "cycle": 1
+    },
+    {
+      "title": "The Prophecy",
+      "time": "2026-03-16T22:29:00.469040",
       "cycle": 1
     }
   ]
