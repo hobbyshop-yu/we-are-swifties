@@ -573,3 +573,23 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（B:1 D:1）
 - [x] Step3: 修正適用 — 修正: 2行（snaps→ひび割れからパキッと、敬体統一）
 - [x] Step4: チェックリスト記録
+
+## Taylor Swift (2006)
+
+### A Place in This World
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（B:1 D:3）
+- [x] Step3: 修正適用 — 修正: 4行（feels the way I do意味補完、heart on sleeve→さらけ出す、mission→使命、重複訳統一）
+- [x] Step4: チェックリスト記録
+
+### Cold As You
+- [x] Step1: 背景調査完了 — 参考URL: blogspot.com / ameblo.jp / wordpress.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
+- [x] Step3: 修正適用 — 修正: 1行（nerve to adore→厚かましい夢見がちな女）
+- [x] Step4: チェックリスト記録
+
+### Mary's Song (Oh My My My)
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com / blogspot.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:1）
+- [x] Step3: 修正適用 — 修正: 2行（rolled their eyes=呆れて、×2箇所）
+- [x] Step4: チェックリスト記録
