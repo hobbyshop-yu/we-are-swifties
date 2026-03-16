@@ -593,3 +593,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 4件（D:4）/ 問題なし根拠: 全30行を参考訳と並べて比較済み。creek beds現訳「小川」は参考訳「軋むベッド」より正確
 - [x] Step3: 修正適用 — 修正: 4行（木の上の小屋→ツリーハウス[参考訳ameblo]、さて削除、朝日が昇るまで[参考訳ameblo]、空に輝く星のように[参考訳ameblo]）
 - [x] Step4: チェックリスト記録
+
+### Our Song
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/lyricsgaga/entry-11563492505.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 4行（初デート表現改善×3箇所、いい曲文脈補完）
+- [x] Step4: チェックリスト記録
+
+### Picture to Burn
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/moai0920/entry-10849346132.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全20行参考訳と比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+### Should've Said No
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/aihairoasete/entry-12804976358.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）/ 問題なし根拠: 全26行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 2行（浮気文脈補完、我慢できない改善）
+- [x] Step4: チェックリスト記録
