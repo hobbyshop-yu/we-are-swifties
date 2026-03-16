@@ -383,3 +383,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 3件（A:1行ずれ D:1訳ずれ A:1MT丸出し）
 - [x] Step3: 修正適用 — 修正: 3行（「意地悪さ〜」行ずれ分離、iron it outの比喩修正、「偽物の、そして、だから」→MT修正）
 - [x] Step4: チェックリスト記録
+
+### coney island
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / lyricstranslate.com / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:2文字化け）
+- [x] Step3: 修正適用 — 修正: 2行（「慈しだしい」→「慌ただしい」文字化け、「恴しい」→「恋しい」文字化け）
+- [x] Step4: チェックリスト記録
+
+### cowboy like me
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / hatenablog.com / lyricstranslate.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（A:1行ずれ合体）
+- [x] Step3: 修正適用 — 修正: 1行（「バビロン〜唇からぶら下がってる」先取り合体→分離）
+- [x] Step4: チェックリスト記録
+
+### dorothea
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / pixnet.net / seesaa.net
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録

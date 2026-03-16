@@ -454,9 +454,9 @@
 | ✅ | tis-the-damn-season.html | 'tis the damn season | 35 | v2.0レビュー済 |
 | ✅ | champagne-problems.html | champagne problems | 47 | v2.0レビュー済 |
 | ✅ | closure.html | closure | 26 | v2.0レビュー済 |
-| ⬜ | coney-island.html | coney island | 45 | |
-| ⬜ | cowboy-like-me.html | cowboy like me | 44 | |
-| ⬜ | dorothea.html | dorothea | 42 | |
+| ✅ | coney-island.html | coney island | 45 | v2.0レビュー済 |
+| ✅ | cowboy-like-me.html | cowboy like me | 44 | v2.0レビュー済 |
+| ✅ | dorothea.html | dorothea | 42 | v2.0レビュー済 |
 | ⬜ | evermore-song.html | evermore | 43 | |
 | ⬜ | gold-rush.html | gold rush | 40 | |
 | ⬜ | happiness.html | happiness | 43 | |
