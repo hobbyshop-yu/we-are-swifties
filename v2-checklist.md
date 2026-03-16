@@ -351,3 +351,15 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 0件
 - [x] Step3: 修正適用 — 修正不要（全行問題なし）
 - [x] Step4: チェックリスト記録
+
+### the last great american dynasty
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / lyricstranslate.com / seesaa.net
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:2 誤字）
+- [x] Step3: 修正適用 — 修正: 2行（「偏大」→「偉大」誤字修正×2箇所）
+- [x] Step4: チェックリスト記録
+
+### this is me trying
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / seesaa.net
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録
