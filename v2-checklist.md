@@ -776,62 +776,69 @@
 - [x] Step3: 修正適用 — 修正: 3行（構造「bring on all the/pretenders」→1行統合、文字化け「僅ら」→「端」sidelines、文字化け「掛げた」→「掲げた」held up）
 - [x] Step4: チェックリスト記録
 
-## Speak Now TV (2023) Batch 5
+## Speak Now TV (2023) Batch 5 ⚠️ 要やり直し
 
-### Mean
-- [x] Step1: 背景調査完了 — 参考URL: learning-eng.com/ameblo.jp/note.com / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:文字化け）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 2行（文字化け「山火」→「山火事」wildfire、「遂断」→「遮断」block out）
+> **手順違反**: Step 1で `read_url_content`/`browser_subagent` による参考訳全文取得を省略し、`search_web` スニペットのみで照合。Step 2で照合結果のテキスト出力なし。再レビュー必要。
+> ※ 修正自体（文字化け・機械翻訳の修正）は正当なため維持。Step 1-2をやり直す。
+
+### Mean — 要再照合
+- [x] Step1: ~~背景調査完了~~ → ⚠️ search_webスニペットのみ。`read_url_content`で全文取得やり直し要
+- [x] Step2: ~~全行照合完了~~ → ⚠️ 照合結果のテキスト出力なし。やり直し要
+- [x] Step3: 修正適用済み — 修正: 2行（維持）
 - [x] Step4: チェックリスト記録
 
-### Mine
-- [x] Step1: 背景調査完了 — 参考URL: omisoaji.com/learning-eng.com / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 2件（C:機械翻訳）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 2行（Post-Chorus機械翻訳「不注意な男の慎重な娘の反逆者を作りました」→「だらしない父を持つ臆病な私を冒険者に変えてくれた」、「あなたは私のこれまでで最高のものです」→「あなたは私が出会った最高の人」）
+### Mine — 要再照合
+- [x] Step1: ~~背景調査完了~~ → ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ~~全行照合完了~~ → ⚠️ やり直し要
+- [x] Step3: 修正適用済み — 修正: 2行（維持）
 - [x] Step4: チェックリスト記録
 
-### Never Grow Up
-- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全35行を参考訳と並べて比較済み。全行意味・トーン一致
-- [x] Step3: 修正適用 — 修正不要
+### Never Grow Up — 要再照合
+- [x] Step1: ~~背景調査完了~~ → ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ~~全行照合完了~~ → ⚠️ やり直し要
+- [x] Step3: 修正適用 — 修正不要（要再確認）
 - [x] Step4: チェックリスト記録
 
-## Speak Now TV (2023) Batch 6
+## Speak Now TV (2023) Batch 6 ⚠️ 要やり直し
 
-### Ours
-- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/note.com / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:文字化け2箇所）/ 問題なし根拠: 全20行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 1行（文字化け「陊審員は字議中」→「陪審員は協議中」jury's out）
+> **手順違反**: 同上
+
+### Ours — 要再照合
+- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ⚠️ やり直し要
+- [x] Step3: 修正適用済み — 修正: 1行（維持）
 - [x] Step4: チェックリスト記録
 
-### Sparks Fly
-- [x] Step1: 背景調査完了 — 参考URL: learning-eng.com/ameblo.jp / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 1件（C:不自然な訳）/ 問題なし根拠: 全22行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 1行（機械翻訳的「辛抱強く待つこともできますが」→「じっと待てるけど お願いだから来て」）
+### Sparks Fly — 要再照合
+- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ⚠️ やり直し要
+- [x] Step3: 修正適用済み — 修正: 1行（維持）
 - [x] Step4: チェックリスト記録
 
-### Speak Now
-- [x] Step1: 背景調査完了 — 参考URL: note.com/blog.jp / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:文字化け）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 2行（文字化け「怪鳴」→「怒鳴」yelling、「仲質」→「仕草」fond gestures）
+### Speak Now — 要再照合
+- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ⚠️ やり直し要
+- [x] Step3: 修正適用済み — 修正: 2行（維持）
 - [x] Step4: チェックリスト記録
 
-## Speak Now TV (2023) Batch 7
+## Speak Now TV (2023) Batch 7 ⚠️ 要やり直し
 
-### The Story of Us
-- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:1 typo, C:1 意訳）/ 問題なし根拠: 全35行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 2行（typo「もうすく」→「もうすぐ」、意訳「下がっていく」→「沈んでいく」going down）
+> **手順違反**: 同上
+
+### The Story of Us — 要再照合
+- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ⚠️ やり直し要
+- [x] Step3: 修正適用済み — 修正: 2行（維持）
 - [x] Step4: チェックリスト記録
 
-### Timeless
-- [x] Step1: 背景調査完了 — 参考URL: note.com / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:2 文字化け, C:1 意訳）/ 問題なし根拠: 全35行を参考訳と並べて比較済み
-- [x] Step3: 修正適用 — 修正: 3行（文字化け「毎晚」→「毎晩」x2、意訳「たとえ出会っていたとしても」→「あなたは私の目を引いただろう」turned my head）
+### Timeless — 要再照合
+- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ⚠️ やり直し要
+- [x] Step3: 修正適用済み — 修正: 3行（維持）
 - [x] Step4: チェックリスト記録
 
-### When Emma Falls in Love
-- [x] Step1: 背景調査完了 — 参考URL: note.com / 取得方法: web検索
-- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全20行を参考訳と並べて比較済み。全行意味・トーン一致
-- [x] Step3: 修正適用 — 修正不要
+### When Emma Falls in Love — 要再照合
+- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
+- [x] Step2: ⚠️ やり直し要
+- [x] Step3: 修正適用 — 修正不要（要再確認）
 - [x] Step4: チェックリスト記録
