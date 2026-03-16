@@ -507,3 +507,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
 - [x] Step3: 修正適用 — 修正: 1行（「誓うだろう」→「証言してくれる」）
 - [x] Step4: チェックリスト記録
+
+### happiness
+- [x] Step1: 背景調査完了 — 参考URL: youtube.com / ameblo.jp / lyricstranslate.com
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（B:1 D:3）
+- [x] Step3: 修正適用 — 修正: 4行（winning smile誤訳修正、意訳改善3箇所）
+- [x] Step4: チェックリスト記録
+
+### dorothea
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / seesaa.net / pixnet.net
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:2）
+- [x] Step3: 修正適用 — 修正: 2行（known for who you know意味取違修正×2）
+- [x] Step4: チェックリスト記録
+
+### coney island
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（A:1 D:3）
+- [x] Step3: 修正適用 — 修正: 4行（慢→慌文字化け、centerfold→世界の中心、polite→優しすぎて、フラッシュ→目に浮かんだ）
+- [x] Step4: チェックリスト記録
