@@ -315,3 +315,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
 - [x] Step3: 修正適用 — 修正: 3行（wrap your noose around訳明確化×2、大砲表現改善）
 - [x] Step4: チェックリスト記録
+
+### mirrorball
+- [x] Step1: 背景調査完了 — 参考URL: lyricstranslate.com / ameblo.jp / seesaa.net
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録
+
+### my tears ricochet
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / lyricstranslate.com / seesaa.net
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（A:1構造分割）
+- [x] Step3: 修正適用 — 修正: 1行（I/didn't分割を1行に統合）
+- [x] Step4: チェックリスト記録
+
+### peace
+- [x] Step1: 背景調査完了 — 参考URL: lyricstranslate.com / ameblo.jp / note.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（A:3 MT丸出し）
+- [x] Step3: 修正適用 — 修正: 3行（「フェンスに向かってスイング」→MT修正、「座ってください」→敬体修正、「野生を与えてください」→MT修正）
+- [x] Step4: チェックリスト記録

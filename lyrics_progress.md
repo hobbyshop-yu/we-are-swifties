@@ -438,9 +438,9 @@
 | ✅ | illicit-affairs.html | illicit affairs | 38 | v2.0レビュー済 |
 | ✅ | invisible-string.html | invisible string | 59 | v2.0レビュー済 |
 | ✅ | mad-woman.html | mad woman | 37 | v2.0レビュー済 |
-| ⬜ | mirrorball.html | mirrorball | 38 | |
-| ⬜ | my-tears-ricochet.html | my tears ricochet | 38 | |
-| ⬜ | peace.html | peace | 29 | |
+| ✅ | mirrorball.html | mirrorball | 38 | v2.0レビュー済 |
+| ✅ | my-tears-ricochet.html | my tears ricochet | 38 | v2.0レビュー済 |
+| ✅ | peace.html | peace | 29 | v2.0レビュー済 |
 | ⬜ | seven.html | seven | 36 | |
 | ⬜ | the-1.html | the 1 | 46 | |
 | ⬜ | the-lakes.html | the lakes | 30 | |
