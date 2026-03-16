@@ -167,3 +167,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 37件（壊滅的MT「ベイビー」途切れ×3・「あなたの、心」×4・未翻訳2行）
 - [x] Step3: 修正適用 — 37行修正（壊滅的MT→意訳、未翻訳修正）
 - [x] Step4: チェックリスト記録
+
+### Clara Bow
+- [x] Step1: 背景調査完了 — 参考URL: note.com / hatenablog.com / tvgroove.com
+- [x] Step2: 全行照合完了 — 問題箇所: ~25件（構造破壊l/thing分割・未翻訳4行・壊滅的MT・敬体）
+- [x] Step3: 修正適用 — 構造破壊統合、未翻訳修正、壊滅的MT→意訳、敬体→常体
+- [x] Step4: チェックリスト記録
+
+### The Black Dog
+- [x] Step1: 背景調査完了 — 参考URL: note.com / langlovers123.com / udiscovermusic.jp
+- [x] Step2: 全行照合完了 — 前回会話で修正済みを確認
+- [x] Step3: 修正適用 — 前回会話で修正済み（追加変更なし）
+- [x] Step4: チェックリスト記録
+
+### imgonnagetyouback
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / udiscovermusic.jp
+- [x] Step2: 全行照合完了 — 前回会話で大半修正済み、ダブルミーニング追加
+- [x] Step3: 修正適用 — 「取り戻す/仕返しする」ダブルミーニング表記に統一
+- [x] Step4: チェックリスト記録
