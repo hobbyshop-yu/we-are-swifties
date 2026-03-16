@@ -525,3 +525,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 4件（A:1 D:3）
 - [x] Step3: 修正適用 — 修正: 4行（慢→慌文字化け、centerfold→世界の中心、polite→優しすぎて、フラッシュ→目に浮かんだ）
 - [x] Step4: チェックリスト記録
+
+### ivy
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / yougakumap.com / pixnet.net
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（D:4）
+- [x] Step3: 修正適用 — 修正: 4行（incandescent→煌めく、Taking mine補完、fatal flaw→求めてやまない、coast is clear→誰もいない）
+- [x] Step4: チェックリスト記録
+
+### cowboy like me
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / ameblo.jp / yougakumap.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（D:3）
+- [x] Step3: 修正適用 — 修正: 3行（tricks→切り札、skeletons→秘密、hang from lips→言葉に夢中）
+- [x] Step4: チェックリスト記録
+
+### long story short
+- [x] Step1: 背景調査完了 — 参考URL: youtube.com / ameblo.jp / seesaa.net
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
+- [x] Step3: 修正適用 — 修正: 2行（悲惨→惨めさ、feels like home→帰る場所がある気がする）
+- [x] Step4: チェックリスト記録
