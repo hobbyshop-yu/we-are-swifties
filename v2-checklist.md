@@ -363,3 +363,23 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 0件
 - [x] Step3: 修正適用 — 修正不要（全行問題なし）
 - [x] Step4: チェックリスト記録
+
+## evermore
+
+### 'tis the damn season
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / we-are-swifties.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（A:2行ずれ/訳欠落 B:1誤字）
+- [x] Step3: 修正適用 — 修正: 3行（'Tis/write this down行ずれ分離、訳追加、「見拜ける」→「見抜ける」誤字修正）
+- [x] Step4: チェックリスト記録
+
+### champagne problems
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / hatenablog.com / lyricstranslate.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:1誤字 D:2訳ずれ）
+- [x] Step3: 修正適用 — 修正: 3行（「立ち尽くした」→主語修正、「冒談」→「冗談」誤字、「歩いていたことを」→「歩いた廊下を」）
+- [x] Step4: チェックリスト記録
+
+### closure
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / pixnet.net
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（A:1行ずれ D:1訳ずれ A:1MT丸出し）
+- [x] Step3: 修正適用 — 修正: 3行（「意地悪さ〜」行ずれ分離、iron it outの比喩修正、「偽物の、そして、だから」→MT修正）
+- [x] Step4: チェックリスト記録

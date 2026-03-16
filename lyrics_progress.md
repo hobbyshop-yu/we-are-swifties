@@ -451,9 +451,9 @@
 
 | 状態 | ファイル | タイトル | 行数 | 備考 |
 |:---:|--------|---------|:---:|------|
-| ⬜ | tis-the-damn-season.html | 'tis the damn season | 35 | |
-| ⬜ | champagne-problems.html | champagne problems | 47 | |
-| ⬜ | closure.html | closure | 26 | |
+| ✅ | tis-the-damn-season.html | 'tis the damn season | 35 | v2.0レビュー済 |
+| ✅ | champagne-problems.html | champagne problems | 47 | v2.0レビュー済 |
+| ✅ | closure.html | closure | 26 | v2.0レビュー済 |
 | ⬜ | coney-island.html | coney island | 45 | |
 | ⬜ | cowboy-like-me.html | cowboy like me | 44 | |
 | ⬜ | dorothea.html | dorothea | 42 | |
