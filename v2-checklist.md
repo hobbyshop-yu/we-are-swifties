@@ -661,3 +661,23 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 1件（B:1）/ 問題なし根拠: 全28行を参考訳と並べて比較済み
 - [x] Step3: 修正適用 — 修正: 1行（dimming=暴れてくる→薄暗くなる：意味取違い修正）
 - [x] Step4: チェックリスト記録
+
+## Fearless TV (2008/2021) Batch 2
+
+### Love Story
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ricanada/entry-12591156530.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全30行参考訳と比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+### Mr. Perfectly Fine
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/sweetdays23miyu/entry-12667489620.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（A:1）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 1行（誤字「精一材」→「精一杯」）
+- [x] Step4: チェックリスト記録
+
+### White Horse
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/moai0920/entry-10843259884.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（A:1）/ 問題なし根拠: 全24行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 4箇所（誤字「迫え」→「迎え」×4箇所）
+- [x] Step4: チェックリスト記録
