@@ -467,3 +467,25 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 0件
 - [x] Step3: 修正適用 — 修正不要（全行問題なし）
 - [x] Step4: チェックリスト記録
+
+---
+
+## v2.0 正規レビュー（参考訳比較・意訳改善）
+
+### willow
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / book-jockey.com / note.com
+- [x] Step2: 全行照合完了 — 問題箇所: 9件（B:1 D:8）
+- [x] Step3: 修正適用 — 修正: 9行（「さすが→あれが」意味取違、直訳→自然な意訳8箇所）
+- [x] Step4: チェックリスト記録
+
+### tolerate it
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / yougakumap.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
+- [x] Step3: 修正適用 — 修正: 1行（語順改善「ドアのそば→ドアの前で」）
+- [x] Step4: チェックリスト記録
+
+### gold rush
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / pixnet.net
+- [x] Step2: 全行照合完了 — 問題箇所: 5件（D:5）
+- [x] Step3: 修正適用 — 修正: 5行（未訳補完＋自然な表現改善）
+- [x] Step4: チェックリスト記録
