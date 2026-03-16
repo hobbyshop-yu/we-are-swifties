@@ -185,3 +185,21 @@
 - [x] Step2: 全行照合完了 — 前回会話で大半修正済み、ダブルミーニング追加
 - [x] Step3: 修正適用 — 「取り戻す/仕返しする」ダブルミーニング表記に統一
 - [x] Step4: チェックリスト記録
+
+### The Albatross
+- [x] Step1: 背景調査完了 — 参考URL: note.com / ameblo.jp (The Albatross 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 35件（A:16 B:3 C:5 D:11）
+- [x] Step3: 修正適用 — 修正: 35行（壊滅的MT「彼女、ここ、あなた」→「彼女はあなたを滅ぼすためにここにいる」×3、BRIDGE全行壊滅的MT修正、未翻訳2行修正、cross=誓う修正）
+- [x] Step4: チェックリスト記録
+
+### Chloe or Sam or Sophia or Marcus
+- [x] Step1: 背景調査完了 — 参考URL: note.com / youtube.com (Chloe or Sam 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 30件（A:18 B:2 C:3 D:7）
+- [x] Step3: 修正適用 — 修正: 30行（壊滅的MT「もし、あなた、壊す」→「もし私の冷たい心を壊したいなら」×3、tear=涙→引き裂く誤訳修正×3、BRIDGE全行壊滅的MT修正、VERSE3全行壊滅的MT修正）
+- [x] Step4: チェックリスト記録
+
+### How Did It End?
+- [x] Step1: 背景調査完了 — 参考URL: note.com / ameblo.jp (How Did It End 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 28件（A:9 B:2 C:5 D:12）
+- [x] Step3: 修正適用 — 修正: 28行（壊滅的MT「言う、それ、また」→「もう一度、感情を込めて言って」、BRIDGE全行壊滅的MT修正、CHORUS2壊滅的MT修正、敬体→常体）
+- [x] Step4: チェックリスト記録
