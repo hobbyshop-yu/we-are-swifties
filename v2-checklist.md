@@ -203,3 +203,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 28件（A:9 B:2 C:5 D:12）
 - [x] Step3: 修正適用 — 修正: 28行（壊滅的MT「言う、それ、また」→「もう一度、感情を込めて言って」、BRIDGE全行壊滅的MT修正、CHORUS2壊滅的MT修正、敬体→常体）
 - [x] Step4: チェックリスト記録
+
+### So High School
+- [x] Step1: 背景調査完了 — 参考URL: note.com (So High School 和訳)
+- [x] Step2: 全行照合完了 — 問題箇所: 38件（A:25 B:0 C:6 D:5 E:2未翻訳）
+- [x] Step3: 修正適用 — 修正: 38行（PRE-CHORUS全行壊滅的MT×2、CHORUS壊滅的MT×2、REFRAIN壊滅的MT×2、INTERLUDE敬体修正、VERSE2壊滅的MT+未翻訳修正）
+- [x] Step4: チェックリスト記録
+
+### I Look in People's Windows
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / note.com / ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 17件（A:4 B:1 C:5 D:7）
+- [x] Step3: 修正適用 — 修正: 17行（壊滅的MT「中に、彼らの」→「もしかしたらあなたがそのテーブルにいるかもしれないから」×2、未翻訳1行、敬体→常体）
+- [x] Step4: チェックリスト記録
+
+### thanK you aIMee
+- [x] Step1: 背景調査完了 — 参考URL: note.com / tvgroove.com
+- [x] Step2: 全行照合完了 — 問題箇所: 36件（E:25未翻訳 C:2 D:9）
+- [x] Step3: 修正適用 — 修正: 36行（ほぼ全行未翻訳→日本語訳に置換。Verse1/Pre-Chorus/Chorus/Bridge/Verse3/最終Chorusすべて）
+- [x] Step4: チェックリスト記録
