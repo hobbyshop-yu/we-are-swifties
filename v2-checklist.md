@@ -716,3 +716,22 @@
 - [x] Step3: 修正適用 — 修正: ~20行（セクションヘッダー注釈[Chorus: Taylor Swift...]等15行を歌詞から削除→正規セクションヘッダー化、「And I/feel like」「alone behind/walls of regret」「crumbling/down」「know me/now/,now」単語分割4箇所統合、「恩寵から落ちた」→「失墜したのではないかと怯えている」fallen from grace改善）
 - [x] Step4: チェックリスト記録
 
+## Speak Now TV (2023) Batch 2
+
+### Dear John
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/lyrics-wayaku.com / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全30行を参考訳と並べて比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+### Electric Touch
+- [x] Step1: 背景調査完了 — 参考URL: note.com / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: ~30件（A:構造破壊）/ 問題なし根拠: 全25行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: ~30行（セクションヘッダー注釈3セット削除→正規セクションヘッダー化、括弧・単語分割~20箇所統合）
+- [x] Step4: チェックリスト記録
+
+### Enchanted
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:2 A:1）/ 問題なし根拠: 全35行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 3行（誤字「上辞→上辺」「睤間→瞬間」、構造wonderstruck分割統合）
+- [x] Step4: チェックリスト記録
