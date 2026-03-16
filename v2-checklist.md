@@ -221,3 +221,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 36件（E:25未翻訳 C:2 D:9）
 - [x] Step3: 修正適用 — 修正: 36行（ほぼ全行未翻訳→日本語訳に置換。Verse1/Pre-Chorus/Chorus/Bridge/Verse3/最終Chorusすべて）
 - [x] Step4: チェックリスト記録
+
+### The Manuscript
+- [x] Step1: 背景調査完了 — 参考URL: note.com / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 18件（A:5 C:8 D:5）
+- [x] Step3: 修正適用 — 修正: 18行（壊滅的MT「大変な事件全体」→「あの熱烈な恋愛の一部始終」、「俳優たちは成功を収めていました」→「役者たちは立ち位置についた」、敬体→常体全般）
+- [x] Step4: チェックリスト記録
+
+### The Prophecy
+- [x] Step1: 背景調査完了 — 参考URL: note.com / ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 39件（A:10 B:2 C:3 E:8未翻訳 D:16）
+- [x] Step3: 修正適用 — 修正: 35行（壊滅的MT「私の会社を必要としている人」→「私のそばにいたいと思ってくれる誰か」×4、BRIDGE全行壊滅的MT修正、未翻訳8行修正、OUTRO全行修正）
+- [x] Step4: チェックリスト記録
+
+### Peter
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 42件（A:15 E:3未翻訳 C:8 D:16）
+- [x] Step3: 修正適用 — 修正: 42行（壊滅的MT「あなた、上へ」→「大人になるって言った」×4、VERSE2全行壊滅的MT修正、BRIDGE全行壊滅的MT修正、PRE-CHORUS2壊滅的MT×2、敬体→常体+未翻訳修正）
+- [x] Step4: チェックリスト記録
