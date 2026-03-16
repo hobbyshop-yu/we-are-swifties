@@ -681,3 +681,38 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 1件（A:1）/ 問題なし根拠: 全24行を参考訳と並べて比較済み
 - [x] Step3: 修正適用 — 修正: 4箇所（誤字「迫え」→「迎え」×4箇所）
 - [x] Step4: チェックリスト記録
+
+## Fearless TV (2008/2021) Batch 3
+
+### You Belong with Me
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ricanada/entry-12591316472.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（A:1）/ 問題なし根拠: 全32行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 1箇所（誤字「过え」→「迎え」）
+- [x] Step4: チェックリスト記録
+
+### Today Was a Fairytale
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12634038134.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全28行参考訳と比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+## Speak Now TV (2023) Batch 1
+
+### Back to December
+- [x] Step1: 背景調査完了 — 参考URL: learning-eng.com (Back to December 和訳) / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 7件（B:2 D:5）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 13行（誤字「ごめね」→「ごめんね」×3コーラス、「日焦け」→「日焼け」、「助手席で君を」→主語修正、「ずっと12月に戻る」→「いつも12月に戻ってしまう」×4、「自由って〜恋しい」→「自由になっても〜恋しくてたまらない」×3、「やり直す」→「全てをやり直したい」、「あの時冷たくて暗くて」→「寒くて暗い日々がやってきた」）
+- [x] Step4: チェックリスト記録
+
+### Better Than Revenge
+- [x] Step1: 背景調査完了 — 参考URL: note.com (Midnight Rain) / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（A:1 B:2）/ 問題なし根拠: 全28行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 3行（文字化け「隼」→「隅」corner、「空を仰ぐためのただの物」→「呆れて目を剥くためのネタ」roll your eyes誤訳修正×2箇所）
+- [x] Step4: チェックリスト記録
+
+### Castles Crumbling
+- [x] Step1: 背景調査完了 — 参考URL: note.com (Midnight Rain) / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: ~20件（A:15構造破壊 D:2）/ 問題なし根拠: 全20行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: ~20行（セクションヘッダー注釈[Chorus: Taylor Swift...]等15行を歌詞から削除→正規セクションヘッダー化、「And I/feel like」「alone behind/walls of regret」「crumbling/down」「know me/now/,now」単語分割4箇所統合、「恩寵から落ちた」→「失墜したのではないかと怯えている」fallen from grace改善）
+- [x] Step4: チェックリスト記録
+
