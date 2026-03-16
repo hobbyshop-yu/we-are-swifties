@@ -543,3 +543,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
 - [x] Step3: 修正適用 — 修正: 2行（悲惨→惨めさ、feels like home→帰る場所がある気がする）
 - [x] Step4: チェックリスト記録
+
+### marjorie
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
+- [x] Step3: 修正適用 — 修正: 1行（pre-chorus時制修正「話しかけていたと思う→話しかけていると思うだろう」）
+- [x] Step4: チェックリスト記録
+
+### closure
+- [x] Step1: 背景調査完了 — 参考URL: pixnet.net / ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
+- [x] Step3: 修正適用 — 修正: 1行（cut deep→深く知りすぎた 骨の髄まで）
+- [x] Step4: チェックリスト記録
+
+### evermore (feat. Bon Iver)
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com / yougakumap.com
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正不要
+- [x] Step4: チェックリスト記録
