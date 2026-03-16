@@ -629,3 +629,15 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）+旧字体3箇所 / 問題なし根拠: 全18行を参考訳と並べて比較済み
 - [x] Step3: 修正適用 — 修正: 6行（行間→空気読む、中に入れて→仲間に入れて×3箇所、孤獨→孤独×3箇所）
 - [x] Step4: チェックリスト記録
+
+### Tied Together with a Smile
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/aihairoasete/entry-12799546780.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）/ 問題なし根拠: 全20行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 5行（coming undone→ほどけていく×3箇所、水位が高くて→水は深いのに×2箇所）
+- [x] Step4: チェックリスト記録
+
+### Tim McGraw
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/aihairoasete/entry-12795383267.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（C:1）/ 問題なし根拠: 全30行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 1行（敬体ますように→くれたらいいな）
+- [x] Step4: チェックリスト記録
