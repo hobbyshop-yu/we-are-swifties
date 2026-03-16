@@ -419,3 +419,51 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（B:2文字化け+A:1行ずれ）
 - [x] Step3: 修正適用 — 修正: 2行（「睑→瞳」「懑→憑」合体分離、「毎晛→毎晩」）
 - [x] Step4: チェックリスト記録
+
+### it's time to go
+- [x] Step1: 背景調査完了 — 参考URL: pixnet.net / lyricstranslate.com / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:1文字化け）
+- [x] Step3: 修正適用 — 修正: 1行（「奈う」→「奪う」）
+- [x] Step4: チェックリスト記録
+
+### ivy
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / yougakumap.com
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録
+
+### long story short
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / seesaa.net / note.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（A:1行ずれ B:1文字化け）
+- [x] Step3: 修正適用 — 修正: 2行（黄金の門先取り合体→分離、「滓ぶ」→「滅ぶ」）
+- [x] Step4: チェックリスト記録
+
+### marjorie
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録
+
+### no body, no crime
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / note.com / ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:3文字化け）
+- [x] Step3: 修正適用 — 修正: 3行（「諮めない」→「諦めない」×2、「奈の」→「奴の」）
+- [x] Step4: チェックリスト記録
+
+### right where you left me
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / pixnet.net / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録
+
+### tolerate it
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（B:1文字化け）
+- [x] Step3: 修正適用 — 修正: 1行（「眠めてる」→「眺めてる」）
+- [x] Step4: チェックリスト記録
+
+### willow
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録

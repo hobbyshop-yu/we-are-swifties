@@ -460,14 +460,14 @@
 | ✅ | evermore-song.html | evermore | 43 | v2.0レビュー済 |
 | ✅ | gold-rush.html | gold rush | 40 | v2.0レビュー済 |
 | ✅ | happiness.html | happiness | 43 | v2.0レビュー済 |
-| ⬜ | its-time-to-go.html | it's time to go | 43 | |
-| ⬜ | ivy.html | ivy | 54 | |
-| ⬜ | long-story-short.html | long story short | 50 | |
-| ⬜ | marjorie.html | marjorie | 42 | |
-| ⬜ | no-body-no-crime.html | no body, no crime | 40 | |
-| ⬜ | right-where-you-left-me.html | right where you left me | 49 | |
-| ⬜ | tolerate-it.html | tolerate it | 40 | |
-| ⬜ | willow.html | willow | 38 | |
+| ✅ | its-time-to-go.html | it's time to go | 43 | v2.0レビュー済 |
+| ✅ | ivy.html | ivy | 54 | v2.0レビュー済 |
+| ✅ | long-story-short.html | long story short | 50 | v2.0レビュー済 |
+| ✅ | marjorie.html | marjorie | 42 | v2.0レビュー済 |
+| ✅ | no-body-no-crime.html | no body, no crime | 40 | v2.0レビュー済 |
+| ✅ | right-where-you-left-me.html | right where you left me | 49 | v2.0レビュー済 |
+| ✅ | tolerate-it.html | tolerate it | 30 | v2.0レビュー済 |
+| ✅ | willow.html | willow | 44 | v2.0レビュー済 |
 
 ## Midnights (2022) (12曲)
 
