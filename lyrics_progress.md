@@ -432,9 +432,9 @@
 | ✅ | august.html | august | 39 | v2.0レビュー済 |
 | ✅ | betty.html | betty | 48 | v2.0レビュー済 |
 | ✅ | cardigan.html | cardigan | 56 | v2.0レビュー済 |
-| ⬜ | epiphany.html | epiphany | 25 | |
-| ⬜ | exile.html | exile | 65 | |
-| ⬜ | hoax.html | hoax | 35 | |
+| ✅ | epiphany.html | epiphany | 25 | v2.0レビュー済 |
+| ✅ | exile.html | exile | 65 | v2.0レビュー済 |
+| ✅ | hoax.html | hoax | 35 | v2.0レビュー済 |
 | ⬜ | illicit-affairs.html | illicit affairs | 38 | |
 | ⬜ | invisible-string.html | invisible string | 59 | |
 | ⬜ | mad-woman.html | mad woman | 37 | |
