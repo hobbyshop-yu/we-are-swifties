@@ -441,9 +441,9 @@
 | ✅ | mirrorball.html | mirrorball | 38 | v2.0レビュー済 |
 | ✅ | my-tears-ricochet.html | my tears ricochet | 38 | v2.0レビュー済 |
 | ✅ | peace.html | peace | 29 | v2.0レビュー済 |
-| ⬜ | seven.html | seven | 36 | |
-| ⬜ | the-1.html | the 1 | 46 | |
-| ⬜ | the-lakes.html | the lakes | 30 | |
+| ✅ | seven.html | seven | 36 | v2.0レビュー済 |
+| ✅ | the-1.html | the 1 | 46 | v2.0レビュー済 |
+| ✅ | the-lakes.html | the lakes | 30 | v2.0レビュー済 |
 | ⬜ | the-last-great-american-dynasty.html | the last great american dynasty | 41 | |
 | ⬜ | this-is-me-trying.html | this is me trying | 30 | |
 
