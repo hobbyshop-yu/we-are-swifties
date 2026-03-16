@@ -611,3 +611,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）/ 問題なし根拠: 全26行を参考訳と並べて比較済み
 - [x] Step3: 修正適用 — 修正: 2行（浮気文脈補完、我慢できない改善）
 - [x] Step4: チェックリスト記録
+
+### Stay Beautiful
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/lyrics-qianxun/entry-11494458270.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（C:1 D:1）/ 問題なし根拠: 全28行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 3行（敬体ますように→いいな×2箇所、息をのみ込ませて→息ができなくなる）
+- [x] Step4: チェックリスト記録
+
+### Teardrops on My Guitar
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12627079982.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / 問題なし根拠: 全24行参考訳と比較済み。全行意味・トーン一致
+- [x] Step3: 修正適用 — 修正不要
+- [x] Step4: チェックリスト記録
+
+### The Outside
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/aihairoasete/entry-12798887453.html / 取得方法: browser_subagent
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）+旧字体3箇所 / 問題なし根拠: 全18行を参考訳と並べて比較済み
+- [x] Step3: 修正適用 — 修正: 6行（行間→空気読む、中に入れて→仲間に入れて×3箇所、孤獨→孤独×3箇所）
+- [x] Step4: チェックリスト記録
