@@ -12,7 +12,8 @@
     "Long Live",
     "CANCELLED!",
     "Stay Beautiful",
-    "Eldest Daughter"
+    "Eldest Daughter",
+    "My Boy Only Breaks His Favorite Toys"
   ],
   "history": [
     {
@@ -78,6 +79,11 @@
     {
       "title": "Eldest Daughter",
       "time": "2026-03-16T05:28:35.633969",
+      "cycle": 1
+    },
+    {
+      "title": "My Boy Only Breaks His Favorite Toys",
+      "time": "2026-03-16T11:42:36.019433",
       "cycle": 1
     }
   ]
