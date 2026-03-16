@@ -401,3 +401,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 0件
 - [x] Step3: 修正適用 — 修正不要（全行問題なし）
 - [x] Step4: チェックリスト記録
+
+### evermore (song)
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / aanii.net / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:3文字化け）
+- [x] Step3: 修正適用 — 修正: 3行（「巨り直す」→「辿り直す」、「代優」→「代償」×2）
+- [x] Step4: チェックリスト記録
+
+### gold rush
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 0件
+- [x] Step3: 修正適用 — 修正不要（全行問題なし）
+- [x] Step4: チェックリスト記録
+
+### happiness
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（B:2文字化け+A:1行ずれ）
+- [x] Step3: 修正適用 — 修正: 2行（「睑→瞳」「懑→憑」合体分離、「毎晛→毎晩」）
+- [x] Step4: チェックリスト記録

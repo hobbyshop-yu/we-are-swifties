@@ -457,9 +457,9 @@
 | ✅ | coney-island.html | coney island | 45 | v2.0レビュー済 |
 | ✅ | cowboy-like-me.html | cowboy like me | 44 | v2.0レビュー済 |
 | ✅ | dorothea.html | dorothea | 42 | v2.0レビュー済 |
-| ⬜ | evermore-song.html | evermore | 43 | |
-| ⬜ | gold-rush.html | gold rush | 40 | |
-| ⬜ | happiness.html | happiness | 43 | |
+| ✅ | evermore-song.html | evermore | 43 | v2.0レビュー済 |
+| ✅ | gold-rush.html | gold rush | 40 | v2.0レビュー済 |
+| ✅ | happiness.html | happiness | 43 | v2.0レビュー済 |
 | ⬜ | its-time-to-go.html | it's time to go | 43 | |
 | ⬜ | ivy.html | ivy | 54 | |
 | ⬜ | long-story-short.html | long story short | 50 | |
