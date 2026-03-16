@@ -435,9 +435,9 @@
 | ✅ | epiphany.html | epiphany | 25 | v2.0レビュー済 |
 | ✅ | exile.html | exile | 65 | v2.0レビュー済 |
 | ✅ | hoax.html | hoax | 35 | v2.0レビュー済 |
-| ⬜ | illicit-affairs.html | illicit affairs | 38 | |
-| ⬜ | invisible-string.html | invisible string | 59 | |
-| ⬜ | mad-woman.html | mad woman | 37 | |
+| ✅ | illicit-affairs.html | illicit affairs | 38 | v2.0レビュー済 |
+| ✅ | invisible-string.html | invisible string | 59 | v2.0レビュー済 |
+| ✅ | mad-woman.html | mad woman | 37 | v2.0レビュー済 |
 | ⬜ | mirrorball.html | mirrorball | 38 | |
 | ⬜ | my-tears-ricochet.html | my tears ricochet | 38 | |
 | ⬜ | peace.html | peace | 29 | |

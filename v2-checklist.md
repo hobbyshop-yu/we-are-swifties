@@ -297,3 +297,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
 - [x] Step3: 修正適用 — 修正: 2行（「手品」→「手さばき」、「同じくらい闇」→「同じくらい暗かった」）
 - [x] Step4: チェックリスト記録
+
+### illicit affairs
+- [x] Step1: 背景調査完了 — 参考URL: note.com / seesaa.net / youtube.com
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
+- [x] Step3: 修正適用 — 修正: 2行（「移り気なハイ」→「気まぐれな高揚感」、「ひどい混乱を見て」→「こんなひどいザマにしたのを見て」made ME修正）
+- [x] Step4: チェックリスト記録
+
+### invisible string
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / note.com / lyricstranslate.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（D:3）
+- [x] Step3: 修正適用 — 修正: 3行（2行合体訳分離「悪魔に鎖を」、先取り訳修正「一本の金の糸が」、堅い表現→「天国に連れてきてくれた」）
+- [x] Step4: チェックリスト記録
+
+### mad woman
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:2）
+- [x] Step3: 修正適用 — 修正: 3行（wrap your noose around訳明確化×2、大砲表現改善）
+- [x] Step4: チェックリスト記録
