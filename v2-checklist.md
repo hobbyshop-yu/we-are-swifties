@@ -489,3 +489,21 @@
 - [x] Step2: 全行照合完了 — 問題箇所: 5件（D:5）
 - [x] Step3: 修正適用 — 修正: 5行（未訳補完＋自然な表現改善）
 - [x] Step4: チェックリスト記録
+
+### champagne problems
+- [x] Step1: 背景調査完了 — 参考URL: hatenablog.com / ameblo.jp / yougakumap.com
+- [x] Step2: 全行照合完了 — 問題箇所: 4件（D:4）
+- [x] Step3: 修正適用 — 修正: 4行（直訳→自然な意訳、ミダス→黄金、they said補完）
+- [x] Step4: チェックリスト記録
+
+### 'tis the damn season
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / youtube.com / note.com
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（D:3）
+- [x] Step3: 修正適用 — 修正: 3行（hanging with→過ごしてた、bad perfume→まとわりつく、so-called friends補完）
+- [x] Step4: チェックリスト記録
+
+### no body, no crime
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / hatenablog.com / aanii.net
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:1）
+- [x] Step3: 修正適用 — 修正: 1行（「誓うだろう」→「証言してくれる」）
+- [x] Step4: チェックリスト記録
