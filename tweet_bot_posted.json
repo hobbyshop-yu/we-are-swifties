@@ -11,7 +11,8 @@
     "Run",
     "Long Live",
     "CANCELLED!",
-    "Stay Beautiful"
+    "Stay Beautiful",
+    "Eldest Daughter"
   ],
   "history": [
     {
@@ -72,6 +73,11 @@
     {
       "title": "Stay Beautiful",
       "time": "2026-03-15T22:23:05.582204",
+      "cycle": 1
+    },
+    {
+      "title": "Eldest Daughter",
+      "time": "2026-03-16T05:28:35.633969",
       "cycle": 1
     }
   ]
