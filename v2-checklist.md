@@ -776,28 +776,26 @@
 - [x] Step3: 修正適用 — 修正: 3行（構造「bring on all the/pretenders」→1行統合、文字化け「僅ら」→「端」sidelines、文字化け「掛げた」→「掲げた」held up）
 - [x] Step4: チェックリスト記録
 
-## Speak Now TV (2023) Batch 5 ⚠️ 要やり直し
+## Speak Now TV (2023) Batch 5 ✅ 再レビュー完了
 
-> **手順違反**: Step 1で `read_url_content`/`browser_subagent` による参考訳全文取得を省略し、`search_web` スニペットのみで照合。Step 2で照合結果のテキスト出力なし。再レビュー必要。
-> ※ 修正自体（文字化け・機械翻訳の修正）は正当なため維持。Step 1-2をやり直す。
-
-### Mean — 要再照合
-- [x] Step1: ~~背景調査完了~~ → ⚠️ search_webスニペットのみ。`read_url_content`で全文取得やり直し要
-- [x] Step2: ~~全行照合完了~~ → ⚠️ 照合結果のテキスト出力なし。やり直し要
-- [x] Step3: 修正適用済み — 修正: 2行（維持）
+### Mean
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ricanada (Rickiの洋楽和訳) / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 3件（B:2前回修正済み + D:1追加発見 L321不統一）/ Verse1〜Outro全セクション照合出力済み
+- [x] Step3: 修正適用 — 修正: 3行（前回2行維持 + L321「殴れないようにする」→「届かないくらい大きくなる」他Chorusと統一）/ 未修正行: 全セクション参考訳と意味一致確認済み
 - [x] Step4: チェックリスト記録
 
-### Mine — 要再照合
-- [x] Step1: ~~背景調査完了~~ → ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ~~全行照合完了~~ → ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 2行（維持）
+### Mine
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ricanada (Rickiの洋楽和訳) / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 追加問題: 0件 / Intro〜Outro全セクション照合出力済み。前回修正2行は参考訳と意味一致
+- [x] Step3: 修正適用 — 前回修正2行維持。追加修正なし / 未修正行: 参考訳と全行一致
 - [x] Step4: チェックリスト記録
 
-### Never Grow Up — 要再照合
-- [x] Step1: ~~背景調査完了~~ → ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ~~全行照合完了~~ → ⚠️ やり直し要
-- [x] Step3: 修正適用 — 修正不要（要再確認）
+### Never Grow Up
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み。全行参考訳と意味一致
+- [x] Step3: 修正適用 — 修正不要。全行品質良好
 - [x] Step4: チェックリスト記録
+
 
 ## Speak Now TV (2023) Batch 6 ⚠️ 要やり直し
 
