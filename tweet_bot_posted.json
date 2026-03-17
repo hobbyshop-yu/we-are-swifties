@@ -15,7 +15,8 @@
     "Eldest Daughter",
     "My Boy Only Breaks His Favorite Toys",
     "The Prophecy",
-    "Mine"
+    "Mine",
+    "We Are Never Ever Getting Back Together"
   ],
   "history": [
     {
@@ -96,6 +97,11 @@
     {
       "title": "Mine",
       "time": "2026-03-17T05:09:33.855822",
+      "cycle": 1
+    },
+    {
+      "title": "We Are Never Ever Getting Back Together",
+      "time": "2026-03-17T11:39:58.876815",
       "cycle": 1
     }
   ]
