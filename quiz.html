@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テイラー・スウィフト楽曲診断 | We are Swifties</title>
+    <meta name="description" content="5つの質問に答えて、あなたにぴったりのテイラー・スウィフトの曲を診断！結果をXでシェアしよう。">
+    <meta property="og:title" content="テイラー・スウィフト楽曲診断 | We are Swifties">
+    <meta property="og:description" content="5つの質問であなたにぴったりのテイラー曲を診断✨">
+    <meta property="og:url" content="https://we-are-swifties.com/quiz.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/quiz.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh;overflow-x:hidden}
+        .container{max-width:640px;margin:0 auto;padding:2rem 1.5rem}
+        
+        /* Header */
+        .quiz-header{text-align:center;margin-bottom:2.5rem}
+        .quiz-header h1{font-family:'Playfair Display',serif;font-size:1.8rem;background:linear-gradient(135deg,#c9a0dc,#f5c2e7,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.5rem}
+        .quiz-header p{color:#888;font-size:.9rem}
+        
+        /* Progress */
+        .progress-bar{width:100%;height:4px;background:rgba(255,255,255,.08);border-radius:4px;margin-bottom:2rem;overflow:hidden}
+        .progress-fill{height:100%;background:linear-gradient(90deg,#c9a0dc,#89b4fa);border-radius:4px;transition:width .5s ease;width:0}
+        .progress-text{text-align:center;font-size:.8rem;color:#666;margin-bottom:1.5rem}
+        
+        /* Question */
+        .question-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:2rem;animation:fadeIn .5s ease}
+        .question-emoji{font-size:2.5rem;text-align:center;margin-bottom:1rem}
+        .question-text{font-size:1.15rem;font-weight:700;text-align:center;margin-bottom:1.5rem;line-height:1.6}
+        
+        .options{display:flex;flex-direction:column;gap:.7rem}
+        .option{display:block;width:100%;padding:14px 18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;color:#e7e9ea;font-size:.95rem;cursor:pointer;transition:all .3s;text-align:left;font-family:inherit;line-height:1.5}
+        .option:hover{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);transform:translateX(4px)}
+        .option:active{transform:scale(.98)}
+        
+        /* Result */
+        .result-card{text-align:center;animation:fadeIn .6s ease}
+        .result-card .result-emoji{font-size:4rem;margin-bottom:1rem}
+        .result-card h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:#f5c2e7;margin-bottom:.5rem}
+        .result-card .result-album{color:#888;font-size:.85rem;margin-bottom:1.2rem}
+        .result-card .result-desc{font-size:.95rem;line-height:1.8;color:#bbb;margin-bottom:1.5rem;padding:0 .5rem}
+        .result-card .result-lyric{font-family:'Playfair Display',serif;font-style:italic;font-size:1.1rem;color:rgba(255,255,255,.7);margin-bottom:2rem;padding:1rem;border-left:3px solid rgba(201,160,220,.3)}
+        
+        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.95rem;font-weight:700;cursor:pointer;transition:all .3s;font-family:inherit;text-decoration:none;margin-bottom:.8rem}
+        .share-btn:hover{opacity:.9;transform:translateY(-2px)}
+        .share-btn svg{width:18px;height:18px}
+        
+        .retry-btn{display:inline-block;padding:10px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#aaa;font-size:.85rem;cursor:pointer;transition:all .3s;font-family:inherit;text-decoration:none;margin-top:.5rem}
+        .retry-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}
+        
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+        
+        @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+        
+        /* Start screen */
+        .start-screen{text-align:center}
+        .start-screen .start-visual{font-size:5rem;margin-bottom:1.5rem}
+        .start-screen p{color:#999;margin-bottom:2rem;line-height:1.8}
+        .start-btn{display:inline-block;padding:16px 48px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:1.1rem;font-weight:700;cursor:pointer;transition:all .3s;font-family:inherit}
+        .start-btn:hover{opacity:.9;transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,160,220,.3)}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1>✨ Taylor Swift 楽曲診断</h1>
+            <p>5つの質問であなたにぴったりの曲を見つけよう</p>
+        </div>
+        
+        <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
+        <div class="progress-text" id="progressText"></div>
+        
+        <div id="quizArea">
+            <div class="start-screen">
+                <div class="start-visual">🎵✨🎤</div>
+                <p>あなたの性格や気分に合う<br>テイラー・スウィフトの曲を診断します</p>
+                <button class="start-btn" onclick="startQuiz()">診断スタート</button>
+            </div>
+        </div>
+        
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+
+<script>
+const questions = [
+    {
+        emoji: "🌧️",
+        text: "雨の休日、あなたはどう過ごす？",
+        options: [
+            { text: "🎧 感傷的な音楽を聴きながら物思い", scores: { folklore: 3, evermore: 2, red: 1 } },
+            { text: "📱 友達に連絡して遊びに行く", scores: { '1989': 3, lover: 2, fearless: 1 } },
+            { text: "📓 日記を書いたり創作活動をする", scores: { ttpd: 3, speaknow: 2, midnights: 1 } },
+            { text: "🎬 映画を見てゴロゴロする", scores: { midnights: 3, reputation: 2, evermore: 1 } }
+        ]
+    },
+    {
+        emoji: "💔",
+        text: "失恋したとき、あなたはどうする？",
+        options: [
+            { text: "🔥 怒りをエネルギーに変える", scores: { reputation: 3, red: 2, ttpd: 1 } },
+            { text: "😢 思い切り泣いてから立ち直る", scores: { red: 3, evermore: 2, folklore: 1 } },
+            { text: "✍️ 気持ちを文章にして整理する", scores: { ttpd: 3, folklore: 2, speaknow: 1 } },
+            { text: "💃 新しい出会いを探しに行く", scores: { '1989': 3, lover: 2, fearless: 1 } }
+        ]
+    },
+    {
+        emoji: "🌟",
+        text: "自分を一言で表すなら？",
+        options: [
+            { text: "🦋 ロマンチスト", scores: { lover: 3, fearless: 2, speaknow: 1 } },
+            { text: "🧠 考えすぎる人", scores: { midnights: 3, ttpd: 2, folklore: 1 } },
+            { text: "🐍 自立した強い人", scores: { reputation: 3, '1989': 2, red: 1 } },
+            { text: "🍂 芸術家肌", scores: { folklore: 3, evermore: 2, ttpd: 1 } }
+        ]
+    },
+    {
+        emoji: "🎉",
+        text: "理想の金曜の夜は？",
+        options: [
+            { text: "🥂 おしゃれなバーで友達と乾杯", scores: { '1989': 3, reputation: 2, midnights: 1 } },
+            { text: "🕯️ キャンドルを灯して読書", scores: { folklore: 3, evermore: 2, ttpd: 1 } },
+            { text: "🎤 カラオケで歌いまくる", scores: { fearless: 3, speaknow: 2, red: 1 } },
+            { text: "🌙 夜の散歩に出かける", scores: { midnights: 3, lover: 2, folklore: 1 } }
+        ]
+    },
+    {
+        emoji: "💭",
+        text: "人生で最も大切にしているものは？",
+        options: [
+            { text: "❤️ 愛する人との絆", scores: { lover: 3, fearless: 2, red: 1 } },
+            { text: "🎨 自己表現と創造性", scores: { ttpd: 3, folklore: 2, speaknow: 1 } },
+            { text: "👑 自分自身の強さ", scores: { reputation: 3, '1989': 2, midnights: 1 } },
+            { text: "📖 思い出と物語", scores: { evermore: 3, red: 2, folklore: 1 } }
+        ]
+    }
+];
+
+const results = {
+    folklore: {
+        emoji: "🍂", song: "august", album: "folklore",
+        title: "august", file: "august.html",
+        desc: "あなたは繊細で芸術家気質。静かな時間に想像力を膨らませるタイプ。手に入らないものへの切なさを美しく感じ取れる感性の持ち主。",
+        lyric: "Salt air, and the rust on your door"
+    },
+    evermore: {
+        emoji: "🤎", song: "willow", album: "evermore",
+        title: "willow", file: "willow.html",
+        desc: "あなたは深い思考と豊かな内面世界を持つ人。人の心の機微を感じ取り、物語の中に真実を見出す。",
+        lyric: "I'm like the water when your ship rolled in that night"
+    },
+    red: {
+        emoji: "🧣", song: "All Too Well", album: "Red (Taylor's Version)",
+        title: "All Too Well", file: "all-too-well-tv.html",
+        desc: "あなたは情熱的で、恋愛に全力投球するタイプ。感情の起伏が激しいけど、それが魅力。思い出を大切にする人。",
+        lyric: "And you call me up again just to break me like a promise"
+    },
+    '1989': {
+        emoji: "🌊", song: "Blank Space", album: "1989 (Taylor's Version)",
+        title: "Blank Space", file: "blank-space-tv.html",
+        desc: "あなたは社交的で自信に満ちている。トレンドに敏感で、自分のスタイルを持っている。人生を楽しむ天才。",
+        lyric: "Got a long list of ex-lovers, they'll tell you I'm insane"
+    },
+    reputation: {
+        emoji: "🐍", song: "Don't Blame Me", album: "reputation",
+        title: "Don't Blame Me", file: "dont-blame-me.html",
+        desc: "あなたは強くて自立した人。周囲の評価を気にせず、自分の道を貫く。でも愛する人の前では素直になれる。",
+        lyric: "Don't blame me, love made me crazy"
+    },
+    lover: {
+        emoji: "💕", song: "Cruel Summer", album: "Lover",
+        title: "Cruel Summer", file: "cruel-summer.html",
+        desc: "あなたは根っからのロマンチスト。恋愛を信じ、人の優しさを大切にする。太陽のような存在。",
+        lyric: "It's a cruel summer with you"
+    },
+    midnights: {
+        emoji: "🌙", song: "Anti-Hero", album: "Midnights",
+        title: "Anti-Hero", file: "anti-hero.html",
+        desc: "あなたは自分と向き合う勇気を持っている。夜中に考えすぎることもあるけど、その内省こそがあなたの強さ。",
+        lyric: "It's me, hi, I'm the problem, it's me"
+    },
+    ttpd: {
+        emoji: "🪶", song: "Fortnight", album: "THE TORTURED POETS DEPARTMENT",
+        title: "Fortnight", file: "fortnight.html",
+        desc: "あなたは言葉の力を信じるアーティスト。傷ついた経験を創造に変えられる人。深い感受性の持ち主。",
+        lyric: "I love you, it's ruining my life"
+    },
+    fearless: {
+        emoji: "💛", song: "Love Story", album: "Fearless (Taylor's Version)",
+        title: "Love Story", file: "love-story-tv.html",
+        desc: "あなたは恐れを知らない冒険者。おとぎ話を信じる純粋さと、飛び込む勇気の持ち主。",
+        lyric: "Romeo, take me somewhere we can be alone"
+    },
+    speaknow: {
+        emoji: "💜", song: "Enchanted", album: "Speak Now (Taylor's Version)",
+        title: "Enchanted", file: "enchanted-tv.html",
+        desc: "あなたは素直で表現力豊かな人。言いたいことを言える勇気があり、一目惚れを信じるタイプ。",
+        lyric: "Please don't be in love with someone else"
+    }
+};
+
+let currentQ = 0;
+let scores = {};
+
+function startQuiz() {
+    scores = {};
+    currentQ = 0;
+    showQuestion(0);
+}
+
+function showQuestion(idx) {
+    const q = questions[idx];
+    const pct = ((idx) / questions.length * 100);
+    document.getElementById('progress').style.width = pct + '%';
+    document.getElementById('progressText').textContent = `${idx + 1} / ${questions.length}`;
+    
+    let html = `<div class="question-card">
+        <div class="question-emoji">${q.emoji}</div>
+        <div class="question-text">${q.text}</div>
+        <div class="options">`;
+    
+    q.options.forEach((opt, i) => {
+        html += `<button class="option" onclick="selectOption(${idx}, ${i})">${opt.text}</button>`;
+    });
+    
+    html += `</div></div>`;
+    document.getElementById('quizArea').innerHTML = html;
+}
+
+function selectOption(qIdx, optIdx) {
+    const opt = questions[qIdx].options[optIdx];
+    for (const [album, score] of Object.entries(opt.scores)) {
+        scores[album] = (scores[album] || 0) + score;
+    }
+    
+    currentQ++;
+    if (currentQ < questions.length) {
+        showQuestion(currentQ);
+    } else {
+        showResult();
+    }
+}
+
+function showResult() {
+    document.getElementById('progress').style.width = '100%';
+    document.getElementById('progressText').textContent = '診断完了！';
+    
+    // Find top album
+    let topAlbum = '';
+    let topScore = 0;
+    for (const [album, score] of Object.entries(scores)) {
+        if (score > topScore) {
+            topScore = score;
+            topAlbum = album;
+        }
+    }
+    
+    const r = results[topAlbum] || results.midnights;
+    const tweetText = encodeURIComponent(`🎵 テイラー・スウィフト楽曲診断の結果…\n\n私にぴったりの曲は「${r.title}」${r.emoji}\n\n「${r.lyric}」\n\nあなたも診断してみて👇`);
+    const tweetUrl = encodeURIComponent('https://we-are-swifties.com/quiz.html');
+    
+    let html = `<div class="result-card">
+        <div class="result-emoji">${r.emoji}</div>
+        <h2>${r.title}</h2>
+        <div class="result-album">${r.album}</div>
+        <div class="result-desc">${r.desc}</div>
+        <div class="result-lyric">"${r.lyric}"</div>
+        <a class="share-btn" href="https://twitter.com/intent/tweet?text=${tweetText}&url=${tweetUrl}&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            結果をXでシェア
+        </a><br>
+        <button class="retry-btn" onclick="startQuiz()">🔄 もう一度診断する</button><br>
+        <a href="${r.file}" class="retry-btn" style="margin-top:1rem">🎵 ${r.title}の歌詞・解説を見る</a>
+    </div>`;
+    
+    document.getElementById('quizArea').innerHTML = html;
+}
+</script>
+</body>
+</html>

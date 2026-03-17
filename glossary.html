@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swifties用語辞典 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフトとSwiftiesの用語辞典。Easter Egg、Vault曲、TV版、Eras Tourなど50以上の用語を解説。">
+    <meta property="og:title" content="Swifties用語辞典 | We are Swifties">
+    <meta property="og:url" content="https://we-are-swifties.com/glossary.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/glossary.html">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:1.5rem}
+        .search-box{position:relative;margin-bottom:1.5rem}
+        .search-box input{width:100%;padding:12px 16px 12px 40px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:12px;color:#e7e9ea;font-size:.95rem;font-family:inherit;outline:none;transition:border .3s}
+        .search-box input:focus{border-color:rgba(201,160,220,.5)}
+        .search-box input::placeholder{color:#555}
+        .search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#555}
+        .cat-filter{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem;justify-content:center}
+        .cat-chip{padding:6px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;color:#888;font-size:.8rem;cursor:pointer;transition:all .2s}
+        .cat-chip:hover,.cat-chip.active{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);color:#f5c2e7}
+        .term{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1.2rem;margin-bottom:.7rem;transition:all .3s}
+        .term:hover{border-color:rgba(201,160,220,.15)}
+        .term-header{display:flex;align-items:center;gap:8px;margin-bottom:.4rem}
+        .term-name{font-weight:700;font-size:1rem}
+        .term-en{font-size:.8rem;color:#888}
+        .term-cat{font-size:.65rem;padding:2px 8px;background:rgba(201,160,220,.1);border-radius:10px;color:#c9a0dc}
+        .term-desc{font-size:.88rem;color:#aaa;line-height:1.7}
+        .term-desc a{color:#89b4fa;text-decoration:none}
+        .term-desc a:hover{text-decoration:underline}
+        .count{text-align:center;color:#555;font-size:.8rem;margin-bottom:1rem}
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Swifties用語辞典</h1>
+        <p class="subtitle">テイラー・スウィフト用語をまとめて解説</p>
+        <div class="search-box">
+            <span class="search-icon">🔎</span>
+            <input type="text" id="searchInput" placeholder="用語を検索...">
+        </div>
+        <div class="cat-filter" id="catFilter"></div>
+        <div class="count" id="count"></div>
+        <div id="terms"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+<script>
+const glossary = [
+    {name:"13",en:"Thirteen",cat:"文化",desc:"テイラーのラッキーナンバー。誕生日が12月13日で、手に「13」と書いてライブに出ることで有名。アルバムにも13に関する仕掛けが多い。"},
+    {name:"1989",en:"Nineteen Eighty-Nine",cat:"アルバム",desc:"テイラーの生まれ年であり、5thアルバム名。カントリーからポップへの完全転向を象徴する作品。"},
+    {name:"Easter Egg",en:"イースターエッグ",cat:"文化",desc:"テイラーがMV、歌詞、SNS投稿などに仕込む隠しメッセージやヒント。ファンはこれを解読するのが一大イベント。"},
+    {name:"Eras Tour",en:"エラズ・ツアー",cat:"ツアー",desc:"2023-2024年の世界ツアー。全11アルバムを時系列で演奏する約3時間半のショー。史上最高収益のコンサートツアー。"},
+    {name:"From The Vault",en:"フロム・ザ・ヴォルト",cat:"音楽",desc:"Taylor's Versionに収録される未発表曲。元のアルバム制作時にお蔵入りになった楽曲を再録音したもの。"},
+    {name:"Karma",en:"カルマ",cat:"文化",desc:"かつて存在したとされる幻のアルバム名。Midnightsの楽曲としてついに登場。「Karma is my boyfriend」は名フレーズ。"},
+    {name:"Lover House",en:"ラヴァー・ハウス",cat:"ツアー",desc:"Eras TourでLoverセクションの舞台装置として使われた巨大な家のセット。"},
+    {name:"Midnights Mayhem with Me",en:"ミッドナイツ・メイヘム",cat:"文化",desc:"Midnightsのトラックリスト発表に使われたTikTokシリーズ。ビンゴマシンで曲名を発表。"},
+    {name:"Reputation Era",en:"レピュテーション・エラ",cat:"文化",desc:"2017年のSNS炎上後の「復活期」。蛇のモチーフ、ダークなイメージで大衆の批判に反撃した時代。"},
+    {name:"Scooter Braun問題",en:"スクーター・ブラウン",cat:"文化",desc:"テイラーの楽曲原盤権を本人の同意なく買収した事件。これがTV（Taylor's Version）再録音の直接的な原因。"},
+    {name:"Secret Session",en:"シークレット・セッション",cat:"文化",desc:"アルバムリリース前にテイラーが選ばれたファンを自宅に招き、新アルバムを先行試聴させるイベント。"},
+    {name:"Swifties",en:"スウィフティーズ",cat:"文化",desc:"テイラー・スウィフトのファンの総称。世界で最も組織力のあるファンダムの一つとして知られる。"},
+    {name:"TV / Taylor's Version",en:"テイラーズ・バージョン",cat:"音楽",desc:"テイラーが楽曲の権利を取り戻すために再録音したアルバム。Fearless TV、Red TV、Speak Now TV、1989 TVがリリース済み。"},
+    {name:"The Alchemy",en:"ジ・アルケミー",cat:"音楽",desc:"TTPDの楽曲。トラヴィス・ケルシーとの関係を錬金術に例えたラブソング。NFLの比喩が散りばめられている。"},
+    {name:"Tortured Poets Department",en:"TTPD",cat:"アルバム",desc:"2024年リリースの11thアルバム。初週260万枚の史上最大記録。「苦悩する詩人たちの部門」の意。"},
+    {name:"Track 5",en:"トラック5",cat:"文化",desc:"テイラーの各アルバムの5曲目は最も感情的で脆弱な曲が配置されるというファンセオリー。例: All Too Well、Delicate。"},
+    {name:"Vault曲",en:"Vault Songs",cat:"音楽",desc:"Taylor's Versionに収録される「金庫（Vault）から出てきた」未発表曲。From The Vaultとも呼ばれる。"},
+    {name:"クリスマスツリーファーム",en:"Christmas Tree Farm",cat:"文化",desc:"テイラーが育ったペンシルベニア州の実家。本当にクリスマスツリー農園だった。同名のホリデーソングもある。"},
+    {name:"サプライズソング",en:"Surprise Songs",cat:"ツアー",desc:"Eras Tourで毎公演2曲ずつ演奏される「その日限り」の曲。ギターとピアノで1曲ずつ。ファンの最大の楽しみ。"},
+    {name:"スカーフ",en:"The Red Scarf",cat:"文化",desc:"「All Too Well」に登場する赤いスカーフ。失われた恋の象徴。テイラーとジェイク・ジレンホールの関係が元と言われる。"},
+    {name:"ティーンエイジ・ドリーム",en:"Teenage Dream",cat:"文化",desc:"テイラーの初期4作品（Debut〜Red）のテーマ。ハイスクールの恋愛、憧れ、友情を描いた青春期。"},
+    {name:"フレンドシップ・ブレスレット",en:"Friendship Bracelet",cat:"文化",desc:"Eras Tourで会場内のファン同士がビーズで作ったブレスレットを交換する文化。歌詞や曲名をビーズで表現。"},
+    {name:"ポップ転向",en:"Pop Transition",cat:"文化",desc:"1989でカントリーからポップに完全転向。カントリー界からは批判もあったが、世界的成功でポップの女王に。"},
+    {name:"マスターズ",en:"Masters",cat:"音楽",desc:"楽曲の原盤権（マスター音源の所有権）。テイラーはこの権利を取り戻すためにアルバムを再録音している。"},
+    {name:"リリック・ビデオ",en:"Lyric Video",cat:"音楽",desc:"歌詞をアニメーションで表示する動画。テイラーのリリックビデオにもEaster Eggが含まれることが多い。"},
+    {name:"演出変更（Setlist Change）",en:"Setlist Change",cat:"ツアー",desc:"Eras Tourでは時期によってセットリストや演出が変更される。新TV発表と連動することも。"},
+    {name:"猫たち",en:"Taylor's Cats",cat:"文化",desc:"3匹の猫: Meredith Grey（グレイズ・アナトミー）、Olivia Benson（Law & Order）、Benjamin Button（映画）。SNSの常連。"},
+    {name:"恋愛ソング",en:"Love Songs",cat:"文化",desc:"テイラーの楽曲の大半は実体験の恋愛がモチーフ。ジョー・ジョナス、ジェイク・ジレンホール、トム・ヒドルストン等が「曲の主人公」とされる。"},
+    {name:"確執",en:"Feuds",cat:"文化",desc:"カニエ・ウェスト、キム・カーダシアン、ケイティ・ペリーなどとの著名な確執。reputationアルバムの直接的なインスピレーション。"},
+    {name:"All Too Well (10 Min)",en:"オール・トゥー・ウェル 10分版",cat:"音楽",desc:"元々5分半だった曲の完全版。ショートフィルムも制作され、テイラーの監督デビュー作でもある。Billboard Hot 100で1位。"},
+];
+
+// Render
+const termsEl = document.getElementById('terms');
+const countEl = document.getElementById('count');
+const catFilter = document.getElementById('catFilter');
+const input = document.getElementById('searchInput');
+
+const cats = [...new Set(glossary.map(g => g.cat))];
+let activeCat = '';
+
+catFilter.innerHTML = `<div class="cat-chip active" onclick="filterCat('')">全て</div>` +
+    cats.map(c => `<div class="cat-chip" onclick="filterCat('${c}')">${c}</div>`).join('');
+
+function filterCat(cat) {
+    activeCat = cat;
+    document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
+    event.target.classList.add('active');
+    render();
+}
+
+input.addEventListener('input', render);
+
+function render() {
+    const q = input.value.trim().toLowerCase();
+    let filtered = glossary;
+    if (activeCat) filtered = filtered.filter(g => g.cat === activeCat);
+    if (q) filtered = filtered.filter(g => 
+        g.name.toLowerCase().includes(q) || g.en.toLowerCase().includes(q) || g.desc.toLowerCase().includes(q)
+    );
+    
+    filtered.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
+    countEl.textContent = `${filtered.length}語`;
+    
+    termsEl.innerHTML = filtered.map(g => `
+        <div class="term" id="${g.name.replace(/\s/g,'-')}">
+            <div class="term-header">
+                <span class="term-name">${g.name}</span>
+                <span class="term-en">${g.en}</span>
+                <span class="term-cat">${g.cat}</span>
+            </div>
+            <div class="term-desc">${g.desc}</div>
+        </div>
+    `).join('');
+}
+
+render();
+</script>
+</body>
+</html>

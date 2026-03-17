@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>曲ランキングメーカー | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフトのアルバム曲をあなただけのランキングに！結果をXでシェアしよう。">
+    <meta property="og:title" content="曲ランキングメーカー | We are Swifties">
+    <meta property="og:description" content="あなたのテイラー曲ランキングを作ろう🏆">
+    <meta property="og:url" content="https://we-are-swifties.com/ranking.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/ranking.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:640px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
+        
+        .album-select{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin-bottom:2rem}
+        .album-chip{padding:10px 8px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#aaa;font-size:.8rem;cursor:pointer;transition:all .3s;text-align:center}
+        .album-chip:hover{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3)}
+        .album-chip.active{background:rgba(201,160,220,.15);border-color:rgba(201,160,220,.4);color:#f5c2e7}
+        
+        .instruction{text-align:center;color:#666;font-size:.85rem;margin-bottom:1rem}
+        
+        .rank-list{list-style:none;display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.5rem;min-height:100px}
+        .rank-item{display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;cursor:grab;transition:all .15s;user-select:none}
+        .rank-item:active{cursor:grabbing;background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);transform:scale(1.02)}
+        .rank-num{font-weight:700;color:#c9a0dc;min-width:24px;font-size:.9rem}
+        .rank-title{flex:1;font-size:.9rem}
+        .rank-grip{color:#444;font-size:1.1rem}
+        .rank-item.dragging{opacity:.4}
+        
+        .btn-row{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem}
+        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.9rem;font-weight:700;cursor:pointer;transition:all .3s;font-family:inherit;text-decoration:none}
+        .share-btn:hover{opacity:.9;transform:translateY(-2px)}
+        .share-btn svg{width:16px;height:16px}
+        .copy-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#aaa;font-size:.9rem;cursor:pointer;transition:all .3s;font-family:inherit}
+        .copy-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}
+        
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+        .toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:rgba(201,160,220,.9);color:#0a0a0f;padding:10px 24px;border-radius:50px;font-size:.85rem;font-weight:700;opacity:0;transition:opacity .3s;pointer-events:none}
+        .toast.show{opacity:1}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 曲ランキングメーカー</h1>
+        <p class="subtitle">ドラッグ&ドロップで並べ替えてシェア</p>
+        
+        <div class="album-select" id="albumSelect"></div>
+        <p class="instruction" id="instruction">アルバムを選択してね</p>
+        <ul class="rank-list" id="rankList"></ul>
+        <div class="btn-row" id="btnRow" style="display:none"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+    <div class="toast" id="toast">コピーしました！</div>
+
+<script>
+const albums = {
+    'Midnights 🌙': ['Anti-Hero','Lavender Haze','Karma','Maroon','Snow on the Beach','Midnight Rain','Bejeweled','Question...?','Vigilante Shit','Mastermind','Sweet Nothing','Glitch','You\'re on Your Own, Kid'],
+    '1989 TV 🌊': ['Blank Space','Style','Shake It Off','Wildest Dreams','Bad Blood','Out of the Woods','Clean','New Romantics','Welcome to New York','How You Get the Girl','I Wish You Would','All You Had to Do Was Stay','Is It Over Now?'],
+    'Red TV 🧣': ['All Too Well','22','Red','I Knew You Were Trouble','We Are Never Ever Getting Back Together','Begin Again','State of Grace','Treacherous','Holy Ground','Starlight','The Lucky One','Everything Has Changed','Stay Stay Stay'],
+    'Lover 💕': ['Cruel Summer','Lover','The Archer','Cornelia Street','Paper Rings','Death by a Thousand Cuts','ME!','You Need to Calm Down','The Man','Miss Americana','Daylight','Afterglow','London Boy'],
+    'folklore 🍂': ['cardigan','exile','the 1','the last great american dynasty','august','betty','illicit affairs','my tears ricochet','mirrorball','seven','mad woman','invisible string','peace'],
+    'evermore 🤎': ['willow','champagne problems','tolerate it','no body, no crime','happiness','dorothea','coney island','ivy','cowboy like me','long story short','marjorie','closure','right where you left me'],
+    'reputation 🐍': ['...Ready for It?','End Game','I Did Something Bad','Don\'t Blame Me','Delicate','Look What You Made Me Do','So It Goes','Gorgeous','Getaway Car','King of My Heart','Dancing with Our Hands Tied','Dress','Call It What You Want'],
+    'TTPD 🪶': ['Fortnight','The Tortured Poets Department','My Boy Only Breaks His Favorite Toys','Down Bad','So Long, London','But Daddy I Love Him','Fresh Out the Slammer','Florida!!!','Guilty as Sin?','Who\'s Afraid of Little Old Me?','Clara Bow','The Smallest Man Who Ever Lived','thanK you aIMee'],
+    'Fearless TV 💛': ['Love Story','You Belong with Me','Fearless','Fifteen','White Horse','The Way I Loved You','You\'re Not Sorry','Tell Me Why','Jump Then Fall','The Other Side of the Door','Mr. Perfectly Fine','That\'s When','Don\'t You'],
+    'Speak Now TV 💜': ['Enchanted','Back to December','Mean','Mine','Sparks Fly','Dear John','The Story of Us','Better Than Revenge','Last Kiss','Long Live','Haunted','Ours','Superman'],
+};
+
+const selectEl = document.getElementById('albumSelect');
+const listEl = document.getElementById('rankList');
+const instructionEl = document.getElementById('instruction');
+const btnRow = document.getElementById('btnRow');
+let currentAlbum = '';
+
+// Render album chips
+for (const name of Object.keys(albums)) {
+    const chip = document.createElement('div');
+    chip.className = 'album-chip';
+    chip.textContent = name;
+    chip.onclick = () => selectAlbum(name, chip);
+    selectEl.appendChild(chip);
+}
+
+function selectAlbum(name, chip) {
+    document.querySelectorAll('.album-chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    currentAlbum = name;
+    
+    // Shuffle and render
+    const songs = [...albums[name]].sort(() => Math.random() - 0.5);
+    renderList(songs);
+    instructionEl.textContent = '↕ ドラッグで並べ替えてランキングを作ろう';
+    btnRow.style.display = 'flex';
+    renderButtons();
+}
+
+function renderList(songs) {
+    listEl.innerHTML = songs.map((s, i) => 
+        `<li class="rank-item" draggable="true" data-title="${s}">
+            <span class="rank-num">${i+1}</span>
+            <span class="rank-title">${s}</span>
+            <span class="rank-grip">⠿</span>
+        </li>`
+    ).join('');
+    setupDragDrop();
+}
+
+function setupDragDrop() {
+    const items = listEl.querySelectorAll('.rank-item');
+    let dragItem = null;
+    
+    items.forEach(item => {
+        item.addEventListener('dragstart', e => {
+            dragItem = item;
+            item.classList.add('dragging');
+            e.dataTransfer.effectAllowed = 'move';
+        });
+        item.addEventListener('dragend', () => {
+            item.classList.remove('dragging');
+            updateNumbers();
+        });
+        item.addEventListener('dragover', e => {
+            e.preventDefault();
+            if (item === dragItem) return;
+            const rect = item.getBoundingClientRect();
+            const mid = rect.top + rect.height / 2;
+            if (e.clientY < mid) {
+                listEl.insertBefore(dragItem, item);
+            } else {
+                listEl.insertBefore(dragItem, item.nextSibling);
+            }
+        });
+    });
+    
+    // Touch support
+    let touchItem = null, touchClone = null;
+    items.forEach(item => {
+        item.addEventListener('touchstart', e => {
+            touchItem = item;
+            item.classList.add('dragging');
+        }, {passive: true});
+        item.addEventListener('touchmove', e => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const target = document.elementFromPoint(touch.clientX, touch.clientY);
+            if (target && target.closest('.rank-item') && target.closest('.rank-item') !== touchItem) {
+                const t = target.closest('.rank-item');
+                const rect = t.getBoundingClientRect();
+                if (touch.clientY < rect.top + rect.height/2) {
+                    listEl.insertBefore(touchItem, t);
+                } else {
+                    listEl.insertBefore(touchItem, t.nextSibling);
+                }
+            }
+        }, {passive: false});
+        item.addEventListener('touchend', () => {
+            if (touchItem) touchItem.classList.remove('dragging');
+            touchItem = null;
+            updateNumbers();
+        });
+    });
+}
+
+function updateNumbers() {
+    listEl.querySelectorAll('.rank-item').forEach((item, i) => {
+        item.querySelector('.rank-num').textContent = i + 1;
+    });
+    renderButtons();
+}
+
+function getRankingText() {
+    const items = listEl.querySelectorAll('.rank-item');
+    let text = `🏆 My ${currentAlbum} ランキング\n\n`;
+    items.forEach((item, i) => {
+        const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i+1}.`;
+        text += `${medal} ${item.dataset.title}\n`;
+    });
+    text += `\nあなたも作ってみて👇`;
+    return text;
+}
+
+function renderButtons() {
+    const text = getRankingText();
+    const encoded = encodeURIComponent(text);
+    const url = encodeURIComponent('https://we-are-swifties.com/ranking.html');
+    btnRow.innerHTML = `
+        <a class="share-btn" href="https://twitter.com/intent/tweet?text=${encoded}&url=${url}&hashtags=TaylorSwift,WeAreSwifties" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Xでシェア
+        </a>
+        <button class="copy-btn" onclick="copyRanking()">📋 コピー</button>
+    `;
+}
+
+function copyRanking() {
+    navigator.clipboard.writeText(getRankingText()).then(() => {
+        const toast = document.getElementById('toast');
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2000);
+    });
+}
+</script>
+</body>
+</html>

@@ -1,914 +1,916 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>Taylor Swift - Honey 歌詞・和訳・徹底解説 | We are Swifties</title>
-    <meta name="description" content="テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の再定義と真実の愛。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #0c0a06;
-            --bg-card: #1e1810;
-            --text-primary: #f8f0e0;
-            --text-secondary: #c8b088;
-            --accent-main: #d8a040;
-            --accent-light: #f0c860;
-            --english-color: #f0c860;
-            --japanese-color: #faf0d8;
-            --commentary-color: #9a8050;
-            --gradient-main: linear-gradient(135deg, #b88030 0%, #d8a040 40%, #f0c860 100%);
-            --gradient-dark: linear-gradient(180deg, #0c0a06 0%, #141008 100%);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        .hero {
-            position: relative;
-            min-height: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            background: var(--gradient-dark);
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(ellipse at 30% 40%, rgba(216, 160, 64, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(240, 200, 96, 0.06) 0%, transparent 50%);
-            animation: shimmer 12s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% {
-                transform: translateX(-3%) translateY(-3%);
-            }
-
-            100% {
-                transform: translateX(3%) translateY(3%);
-            }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 3rem 2rem;
-        }
-
-        .hero-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
-            color: var(--accent-main);
-            margin-bottom: 0.8rem;
-        }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 8vw, 4rem);
-            font-weight: 700;
-            background: var(--gradient-main);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.2;
-            margin-bottom: 0.3rem;
-        }
-
-        .hero-artist {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-        }
-
-        .hero-album {
-            display: inline-block;
-            margin-top: 0.6rem;
-            padding: 0.3rem 1rem;
-            border: 1px solid rgba(216, 160, 64, 0.3);
-            border-radius: 20px;
-            font-size: 0.7rem;
-            color: var(--accent-light);
-        }
-
-        .main-content {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 4rem;
-        }
-
-        .song-intro {
-            background: var(--bg-card);
-            border: 1px solid rgba(216, 160, 64, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .song-intro::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--gradient-main);
-        }
-
-        .song-intro h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-light);
-            margin-bottom: 1rem;
-        }
-
-        .song-intro p {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 2;
-        }
-
-        .song-intro .keyword {
-            color: var(--accent-light);
-            font-weight: 500;
-        }
-
-        .section-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin: 3rem 0 1.5rem;
-        }
-
-        .section-header .line {
-            flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, rgba(216, 160, 64, 0.3), transparent);
-        }
-
-        .section-header h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.95rem;
-            color: var(--accent-light);
-            letter-spacing: 0.08em;
-            white-space: nowrap;
-        }
-
-        .lyric-block {
-            margin-bottom: 2rem;
-        }
-
-        .lyric-pair {
-            margin-bottom: 0.6rem;
-        }
-
-        .lyric-en {
-            font-size: 1.05rem;
-            color: var(--english-color);
-        }
-
-        .lyric-ja {
-            font-size: 0.92rem;
-            color: var(--japanese-color);
-        }
-
-        .commentary {
-            background: var(--bg-card);
-            border-left: 3px solid var(--accent-main);
-            border-radius: 0 12px 12px 0;
-            padding: 1.2rem 1.5rem;
-            margin: 1rem 0 2rem;
-            font-size: 0.88rem;
-            color: var(--commentary-color);
-            line-height: 1.9;
-        }
-
-        .note-icon {
-            margin-right: 0.5rem;
-        }
-
-        .mascot-section {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 1rem 0 2rem;
-        }
-
-        .mascot-card {
-            display: flex;
-            align-items: flex-end;
-            gap: 1rem;
-        }
-
-        .mascot-img {
-            width: 110px;
-            height: 110px;
-            object-fit: contain;
-            flex-shrink: 0;
-            filter: drop-shadow(0 2px 8px rgba(216, 160, 64, 0.2));
-        }
-
-        .mascot-bubble {
-            background: var(--bg-card);
-            border: 1px solid rgba(216, 160, 64, 0.15);
-            border-radius: 16px 16px 16px 4px;
-            padding: 1rem 1.3rem;
-            font-size: 0.85rem;
-            color: var(--text-primary);
-            line-height: 1.7;
-            max-width: 500px;
-        }
-
-        .mascot-bubble .trivia-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.6rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--accent-main);
-            margin-bottom: 0.3rem;
-        }
-
-        .article-footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid rgba(216, 160, 64, 0.1);
-        }
-
-        .article-footer .site-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            background: var(--gradient-main);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.3rem;
-        }
-
-        .article-footer .copyright {
-            font-size: 0.7rem;
-            color: var(--commentary-color);
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            color: var(--accent-main);
-            text-decoration: none;
-            font-size: 0.85rem;
-        }
-
-        .back-link:hover {
-            color: var(--accent-light);
-        }
-
-        @media (max-width: 600px) {
-            .main-content {
-                padding: 2rem 1rem 4rem;
-            }
-
-            .song-intro {
-                padding: 1.5rem;
-            }
-
-            .mascot-card {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .mascot-bubble {
-                border-radius: 16px;
-            }
-
-            .mascot-img {
-                width: 90px;
-                height: 90px;
-            }
-        }
-
-        /* ========== YouTube Embed ========== */
-        .youtube-section {
-            margin-bottom: 2rem;
-        }
-
-        .youtube-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-light);
-            margin-bottom: 1rem;
-        }
-
-        .youtube-wrapper {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid rgba(216, 160, 64, 0.15);
-        }
-
-        .youtube-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    
-        /* Global Nav */
-        .global-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 1rem 1.5rem;
-            background: rgba(12, 8, 6, 0.95);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .global-nav a {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-        .global-nav a.nav-home {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.9rem;
-            font-weight: 700;
-            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0;
-            text-transform: none;
-        }
-
-        @media (max-width: 600px) {
-            .global-nav { gap: 1rem; flex-wrap: wrap; }
-            .global-nav a { font-size: 0.65rem; }
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links a {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-
-        .youtube-section.is-sticky {
-            position: sticky;
-            top: 60px;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-        .youtube-section.is-sticky .youtube-wrapper {
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            border-color: rgba(255,255,255,0.15);
-        }
-        
-        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
-
-        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
-    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}</style>
-
-    <!-- OGP / Twitter Card -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Honey 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta property="og:description" content="テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の意味を愛で書き換えるラブソング。">
-    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/honey.html">
-    <meta property="og:image" content="https://img.youtube.com/vi/4-EzK5UB40U/maxresdefault.jpg">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="720">
-    <meta property="og:site_name" content="We are Swifties">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Honey 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta name="twitter:description" content="テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の意味を愛で書き換えるラブソング。">
-    <meta name="twitter:image" content="https://img.youtube.com/vi/4-EzK5UB40U/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Honey 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の再定義と真実の愛。","image":"https://img.youtube.com/vi/4-EzK5UB40U/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/honey.html","about":{"@type":"MusicComposition","name":"Honey","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
-</script>
-    <link rel="canonical" href="https://we-are-swifties.com/honey.html">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Honey", "item": "https://we-are-swifties.com/honey.html"}]}
-</script>
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-    <section class="hero">
-        <div class="hero-content">
-            <p class="hero-label">Lyrics &amp; Commentary</p>
-            <h1 class="hero-title">Honey</h1>
-            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
-        </div>
-    </section>
-    <nav class="breadcrumb" aria-label="パンくずリスト">
-        <ol>
-            <li><a href="index.html#album-toc">🏠 TOP</a></li>
-            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
-            <li aria-current="page">Honey</li>
-        </ol>
-    </nav>
-
-    <main class="main-content">
-        <a href="index.html" class="back-link">← トップページに戻る</a>
-        <div class="song-intro">
-            <h2>✦ この曲について</h2>
-            <p>「<span class="keyword">Honey</span>」は、<span class="keyword">愛称（pet
-                    name）の再定義</span>を歌うラブソング。テイラーはこれまで他人から「<span class="keyword">sweetheart</span>」「<span
-                    class="keyword">honey</span>」と呼ばれるたびに、それが<span class="keyword">見下し</span>や<span
-                    class="keyword">皮肉</span>として使われてきた。業界やメディアからのパッシブアグレッシブな「ハニー」に泣いてきた。しかしTravisが「honey」と呼ぶ時、その言葉は<span
-                    class="keyword">全く違う響き</span>を持つ——彼は本気でそう呼んでいるから。</p>
-        </div>
-
-        <!-- YouTube Embed -->
-        <div class="youtube-section">
-            <h2>▶ Official Lyric Video</h2>
-            <div class="youtube-wrapper">
-                <iframe src="https://www.youtube.com/embed/4-EzK5UB40U?enablejsapi=1" title="Taylor Swift - Honey (Lyric Video)"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20Honey%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8CHoney%E3%80%8D%E3%81%AE%E8%8B%B1%E8%AA%9E%E6%AD%8C%E8%A9%9E%E3%83%BB%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E3%83%BB%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%E3%80%82%E6%84%9B%E7%A7%B0%E3%81%AE%E6%84%8F%E5%91%B3%E3%82%92%E6%84%9B%E3%81%A7%E6%9B%B8%E3%81%8D%E6%8F%9B%E3%81%88%E3%82%8B%E3%83%A9%E3%83%96%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%82&url=https%3A%2F%2Fwe-are-swifties.com%2Fhoney.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
-
-
-        
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>INTRO</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">You can call me &quot;honey&quot; if you want because I&#x27;m the one you want</p>
-                <p class="lyric-ja">必要に応じて私を「ハニー」と呼んでください、なぜなら私はあなたが望む人だからです</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Mm, mm</p>
-                <p class="lyric-ja">ンー, ンー</p>
-            </div>
-        </div>
-
-
-        <div class="commentary"><p><span class="note-icon">🎵</span>「Honey」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
+<!DOCTYPE html>
+<html lang="ja">
 
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+    <title>Taylor Swift - Honey 歌詞・和訳・徹底解説 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の再定義と真実の愛。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0c0a06;
+            --bg-card: #1e1810;
+            --text-primary: #f8f0e0;
+            --text-secondary: #c8b088;
+            --accent-main: #d8a040;
+            --accent-light: #f0c860;
+            --english-color: #f0c860;
+            --japanese-color: #faf0d8;
+            --commentary-color: #9a8050;
+            --gradient-main: linear-gradient(135deg, #b88030 0%, #d8a040 40%, #f0c860 100%);
+            --gradient-dark: linear-gradient(180deg, #0c0a06 0%, #141008 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 40%, rgba(216, 160, 64, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(240, 200, 96, 0.06) 0%, transparent 50%);
+            animation: shimmer 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.8rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .hero-album {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.3rem 1rem;
+            border: 1px solid rgba(216, 160, 64, 0.3);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--accent-light);
+        }
+
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(216, 160, 64, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-main);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(216, 160, 64, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--accent-light);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .lyric-block {
+            margin-bottom: 2rem;
+        }
+
+        .lyric-pair {
+            margin-bottom: 0.6rem;
+        }
+
+        .lyric-en {
+            font-size: 1.05rem;
+            color: var(--english-color);
+        }
+
+        .lyric-ja {
+            font-size: 0.92rem;
+            color: var(--japanese-color);
+        }
+
+        .commentary {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-main);
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.5rem;
+            margin: 1rem 0 2rem;
+            font-size: 0.88rem;
+            color: var(--commentary-color);
+            line-height: 1.9;
+        }
+
+        .note-icon {
+            margin-right: 0.5rem;
+        }
+
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 1rem 0 2rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(216, 160, 64, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(216, 160, 64, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(216, 160, 64, 0.1);
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-main);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-light);
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+
+        /* ========== YouTube Embed ========== */
+        .youtube-section {
+            margin-bottom: 2rem;
+        }
+
+        .youtube-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .youtube-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(216, 160, 64, 0.15);
+        }
+
+        .youtube-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    
+        /* Global Nav */
+        .global-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(12, 8, 6, 0.95);
+            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .global-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .global-nav a.nav-home {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        @media (max-width: 600px) {
+            .global-nav { gap: 1rem; flex-wrap: wrap; }
+            .global-nav a { font-size: 0.65rem; }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        
+        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
+
+        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
+    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}.recommend-section{margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06)}.recommend-section h3{text-align:center;font-size:.95rem;color:#888;margin-bottom:1rem}.rec-cards{display:flex;flex-direction:column;gap:.5rem}.rec-card{display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;text-decoration:none;color:#e7e9ea;transition:all .3s}.rec-card:hover{background:rgba(201,160,220,.08);border-color:rgba(201,160,220,.2);transform:translateX(4px)}.rec-emoji{font-size:1.3rem}.rec-info{flex:1}.rec-title{font-size:.9rem;font-weight:600}.rec-desc{font-size:.75rem;color:#888;margin-top:2px}</style>
+
+    <!-- OGP / Twitter Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Honey 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta property="og:description" content="テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の意味を愛で書き換えるラブソング。">
+    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/honey.html">
+    <meta property="og:image" content="https://img.youtube.com/vi/4-EzK5UB40U/maxresdefault.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:site_name" content="We are Swifties">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Honey 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta name="twitter:description" content="テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の意味を愛で書き換えるラブソング。">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/4-EzK5UB40U/maxresdefault.jpg">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PESZB0HW0B');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Honey 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Honey」の英語歌詞・日本語訳・徹底解説。愛称の再定義と真実の愛。","image":"https://img.youtube.com/vi/4-EzK5UB40U/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/honey.html","about":{"@type":"MusicComposition","name":"Honey","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
+</script>
+    <link rel="canonical" href="https://we-are-swifties.com/honey.html">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Honey", "item": "https://we-are-swifties.com/honey.html"}]}
+</script>
+</head>
+
+<body>
+    <nav class="global-nav">
+        <a href="index.html" class="nav-home">We are Swifties</a>
+        <a href="index.html">曲一覧</a>
+        <a href="about.html">運営者情報</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">Honey</h1>
+            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+        <ol>
+            <li><a href="index.html#album-toc">🏠 TOP</a></li>
+            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
+            <li aria-current="page">Honey</li>
+        </ol>
+    </nav>
+
+    <main class="main-content">
+        
+<div class="recommend-section"><h3>🎵 この曲が好きなら</h3><div class="rec-cards"><a class="rec-card" href="father-figure.html"><span class="rec-emoji">🎪</span><div class="rec-info"><div class="rec-title">Father Figure</div><div class="rec-desc">テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説</div></div></a><a class="rec-card" href="run-tv.html"><span class="rec-emoji">🧣</span><div class="rec-info"><div class="rec-title">Run</div><div class="rec-desc">「一緒に逃げよう」——Ed Sheeranとの二度目のコラボで描く無鉄砲な恋の逃</div></div></a><a class="rec-card" href="stay-beautiful-debut.html"><span class="rec-emoji">🌟</span><div class="rec-info"><div class="rec-title">Stay Beautiful</div><div class="rec-desc">🌸 遠くから見つめる片思い。「ずっと美しくいて」。</div></div></a></div></div>
+<a href="index.html" class="back-link">← トップページに戻る</a>
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>「<span class="keyword">Honey</span>」は、<span class="keyword">愛称（pet
+                    name）の再定義</span>を歌うラブソング。テイラーはこれまで他人から「<span class="keyword">sweetheart</span>」「<span
+                    class="keyword">honey</span>」と呼ばれるたびに、それが<span class="keyword">見下し</span>や<span
+                    class="keyword">皮肉</span>として使われてきた。業界やメディアからのパッシブアグレッシブな「ハニー」に泣いてきた。しかしTravisが「honey」と呼ぶ時、その言葉は<span
+                    class="keyword">全く違う響き</span>を持つ——彼は本気でそう呼んでいるから。</p>
+        </div>
+
+        <!-- YouTube Embed -->
+        <div class="youtube-section">
+            <h2>▶ Official Lyric Video</h2>
+            <div class="youtube-wrapper">
+                <iframe src="https://www.youtube.com/embed/4-EzK5UB40U?enablejsapi=1" title="Taylor Swift - Honey (Lyric Video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
         </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">When anyone called me &quot;sweetheart&quot;</p>
-                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was passive-aggressive at the bar</p>
-                <p class="lyric-ja">それはバーでの嫌味だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And the bitch was telling me to back off</p>
-                <p class="lyric-ja">その女は私に「手を引け」と言ってた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&#x27;Cause her man had looked at me wrong</p>
-                <p class="lyric-ja">彼女の男が私をジロジロ見たから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">If anyone called me &quot;honey&quot;</p>
-                <p class="lyric-ja">誰かが私を「ハニー」と呼んだら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was standing in the bathroom, white teeth</p>
-                <p class="lyric-ja">それはバスルームで白い歯を見せながら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They were saying that skirt don&#x27;t fit me</p>
-                <p class="lyric-ja">「そのスカート似合わないよ」って</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And I cried the whole way home</p>
-                <p class="lyric-ja">帰り道ずっと泣いた</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>POST-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">But you touched my face</p>
-                <p class="lyric-ja">でもあなたは私の顔に触れて</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Redefined all of those blues when you say &quot;honey&quot;</p>
-                <p class="lyric-ja">「ハニー」って言うだけで、全ての悲しみを書き換えた</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 1</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Summertime spritz, pink skies</p>
-                <p class="lyric-ja">夏のスプリッツ、ピンクの空</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You can call me &quot;honey&quot; if you want because I&#x27;m the one you want</p>
-                <p class="lyric-ja">必要に応じて私を「ハニー」と呼んでください、なぜなら私はあなたが望む人だからです</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wintergreen kiss, all mine</p>
-                <p class="lyric-ja">ウィンターグリーンのキス、全部私のもの</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You give it different meaning &#x27;cause you mean it when you talk</p>
-                <p class="lyric-ja">あなたが言うと全然違う意味になる、だって本気だから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Honey, I&#x27;m home, we could play house</p>
-                <p class="lyric-ja">ハニー、ただいま、おままごとしよう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">We can bed down, pick me up</p>
-                <p class="lyric-ja">ベッドに横になって、抱き上げて</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Who&#x27;s the baddest in the land?</p>
-                <p class="lyric-ja">この世で一番カッコいいのは誰？</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">What&#x27;s the plan? (What&#x27;s the plan?)</p>
-                <p class="lyric-ja">計画は何ですか？ （計画は何ですか？）</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You could be my forever-night stand, honey</p>
-                <p class="lyric-ja">あなたは私の永遠の夜の相手になるかもしれません、ハニー</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">When anyone called me &quot;sweetheart&quot;</p>
-                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was passive-aggressive at the bar</p>
-                <p class="lyric-ja">それはバーでの嫌味だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And the bitch was telling me to back off</p>
-                <p class="lyric-ja">その女は私に「手を引け」と言ってた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&#x27;Cause her man had looked at me wrong</p>
-                <p class="lyric-ja">彼女の男が私をジロジロ見たから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">If anyone called me &quot;honey&quot;</p>
-                <p class="lyric-ja">誰かが私を「ハニー」と呼んだら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was standing in the bathroom, white teeth</p>
-                <p class="lyric-ja">それはバスルームで白い歯を見せながら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They were saying that skirt don&#x27;t fit me</p>
-                <p class="lyric-ja">「そのスカート似合わないよ」って</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And I cried the whole way home</p>
-                <p class="lyric-ja">帰り道ずっと泣いた</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>POST-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">But you touched my face</p>
-                <p class="lyric-ja">でもあなたは私の顔に触れて</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Redefined all of those blues when you say—</p>
-                <p class="lyric-ja">「ハニー」って言うだけで、全ての悲しみを書き換えた——</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 2</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">You can call me &quot;honey&quot; if you want because I&#x27;m the one you want</p>
-                <p class="lyric-ja">必要に応じて私を「ハニー」と呼んでください、なぜなら私はあなたが望む人だからです</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I&#x27;m the one you want</p>
-                <p class="lyric-ja">あなた、欲しい</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You give it different meaning &#x27;cause you mean it when you talk</p>
-                <p class="lyric-ja">あなたが言うと全然違う意味になる、だって本気だから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sweetie, it&#x27;s yours, kicking in doors</p>
-                <p class="lyric-ja">スウィーティー、全部あなたのもの、ドアを蹴り開けて</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Take it to the floor, give me more</p>
-                <p class="lyric-ja">それ、私を</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Buy the paint in the color of your eyes (Of your eyes)</p>
-                <p class="lyric-ja">あなたの目の色のペンキを買うの（あなたの目の色の）</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And graffiti my whole damn life, honey</p>
-                <p class="lyric-ja">そして、私の、人生</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>BRIDGE</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">When anyone called me late night</p>
-                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">He was screwing around with my mind</p>
-                <p class="lyric-ja">それは私の心を弄んでいた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Asking, &quot;What are you wearing?&quot;, too high</p>
-                <p class="lyric-ja">「何着てるの？」って聞いてくる、酔いすぎて</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">To remember in the morning</p>
-                <p class="lyric-ja">翌朝は覚えてもいない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And when anyone called me &quot;lovely&quot;</p>
-                <p class="lyric-ja">誰かに「ラブリー」と呼ばれても</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They were finding ways not to praise me</p>
-                <p class="lyric-ja">それは褒めないための方便だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But you say it like you&#x27;re in awe of me</p>
-                <p class="lyric-ja">ツイートで言うなら卑怯だよ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And you stay until the morning</p>
-                <p class="lyric-ja">でもあなたは朝まで側にいてくれる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Honey</p>
-                <p class="lyric-ja">Honey</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">When anyone called me &quot;sweetheart&quot;</p>
-                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was passive-aggressive at the bar</p>
-                <p class="lyric-ja">それはバーでの嫌味だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And the bitch was telling me to back off</p>
-                <p class="lyric-ja">その女は私に「手を引け」と言ってた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&#x27;Cause her man had looked at me wrong (He looked at me wrong)</p>
-                <p class="lyric-ja">彼女の男が私をジロジロ見たから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">If anyone called me &quot;honey&quot; (Ooh)</p>
-                <p class="lyric-ja">誰かに「スウィートハート」と呼ばれるなら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was standing in the bathroom (Yeah), white teeth</p>
-                <p class="lyric-ja">それはバスルームで白い歯を見せながら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They were saying that skirt don&#x27;t fit me</p>
-                <p class="lyric-ja">「そのスカート似合わないよ」って</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And I cried the whole way home (Cried the whole way home)</p>
-                <p class="lyric-ja">帰り道ずっと泣いた</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>OUTRO</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">But you can call me &quot;honey&quot; if you want</p>
-                <p class="lyric-ja">でも、あなた、私を、もし、欲しい</p>
-            </div>
-        </div>
-
-
-
-        <section class="mascot-section" id="mascot-trivia">
-            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-piano.png"
-                    alt="Olivia mascot">
-                <div class="mascot-bubble">
-                    <p class="trivia-label">🐱 Did You Know?</p>
-                    <p id="mascot-text">英語の「honey」「sweetheart」は愛情表現だけど、皮肉や見下しとして使われることも多いの。テイラーは両方の経験があるんだよ🍯</p>
-                </div>
-            </div>
-        </section>
-        
-    <section class="album-links">
-        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
-        <div class="album-links-grid">
-            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
-            <a href="cancelled.html" class="album-link">CANCELLED!</a>
-            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
-            <a href="father-figure.html" class="album-link">Father Figure</a>
-            <span class="album-link current">▶ Honey</span>
-            <a href="opalite.html" class="album-link">Opalite</a>
-            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
-            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
-            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
-            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
-            <a href="wood.html" class="album-link">Wood</a>
-        </div>
-    </section>
-
-        <footer class="article-footer">
-            <p class="site-name">We are Swifties</p>
-            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
-        </footer>
-    </main>
-    <script>
-        const triviaList = [
-            { img: 'images/cat-piano.png', text: '英語の「honey」「sweetheart」は愛情表現だけど、皮肉や見下しとして使われることも多いの。テイラーは両方の経験があるんだよ🍯' },
-            { img: 'images/cat-guitar.png', text: 'テイラーは「言葉の力」を誰よりも知っている作詞家。一つの愛称で曲を一曲書けるのはすごい才能だよね✍️' },
-            { img: 'images/cat-mic.png', text: 'Travis Kelceのポッドキャスト「New Heights」でテイラーのことを「honey」と呼ぶシーンが何度もあるよ🎙️' },
-        ];
-        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
-        document.getElementById('mascot-image').src = pick.img;
-        document.getElementById('mascot-text').textContent = pick.text;
-    </script>
-
-    <script>
-    // YouTube Sticky-on-Play
-    (function(){
-        var ytSection = document.querySelector('.youtube-section');
-        if (!ytSection) return;
-        var wrapper = ytSection.querySelector('.youtube-wrapper');
-        if (!wrapper) return;
-        var oldIframe = wrapper.querySelector('iframe');
-        if (!oldIframe) return;
-
-        // Extract video ID from src
-        var src = oldIframe.getAttribute('src') || '';
-        var match = src.match(/embed\/([^?&]+)/);
-        if (!match) return;
-        var videoId = match[1];
-
-        // Create a div placeholder to replace the iframe
-        var placeholder = document.createElement('div');
-        placeholder.id = 'yt-sticky-player';
-        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
-
-        // Load YouTube IFrame API
-        var tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        document.head.appendChild(tag);
-
-        window.onYouTubeIframeAPIReady = function() {
-            new YT.Player('yt-sticky-player', {
-                videoId: videoId,
-                playerVars: { rel: 0 },
-                events: {
-                    onStateChange: function(e) {
-                        if (e.data === YT.PlayerState.PLAYING) {
-                            ytSection.classList.add('is-sticky');
-                        } else {
-                            ytSection.classList.remove('is-sticky');
-                        }
-                    }
-                }
-            });
-        };
-    })();
-    </script>
-</body>
-
+<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20Honey%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8CHoney%E3%80%8D%E3%81%AE%E8%8B%B1%E8%AA%9E%E6%AD%8C%E8%A9%9E%E3%83%BB%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E3%83%BB%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%E3%80%82%E6%84%9B%E7%A7%B0%E3%81%AE%E6%84%8F%E5%91%B3%E3%82%92%E6%84%9B%E3%81%A7%E6%9B%B8%E3%81%8D%E6%8F%9B%E3%81%88%E3%82%8B%E3%83%A9%E3%83%96%E3%82%BD%E3%83%B3%E3%82%B0%E3%80%82&url=https%3A%2F%2Fwe-are-swifties.com%2Fhoney.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
+
+
+        
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>INTRO</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">You can call me &quot;honey&quot; if you want because I&#x27;m the one you want</p>
+                <p class="lyric-ja">必要に応じて私を「ハニー」と呼んでください、なぜなら私はあなたが望む人だからです</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Mm, mm</p>
+                <p class="lyric-ja">ンー, ンー</p>
+            </div>
+        </div>
+
+
+        <div class="commentary"><p><span class="note-icon">🎵</span>「Honey」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">When anyone called me &quot;sweetheart&quot;</p>
+                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was passive-aggressive at the bar</p>
+                <p class="lyric-ja">それはバーでの嫌味だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And the bitch was telling me to back off</p>
+                <p class="lyric-ja">その女は私に「手を引け」と言ってた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&#x27;Cause her man had looked at me wrong</p>
+                <p class="lyric-ja">彼女の男が私をジロジロ見たから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">If anyone called me &quot;honey&quot;</p>
+                <p class="lyric-ja">誰かが私を「ハニー」と呼んだら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was standing in the bathroom, white teeth</p>
+                <p class="lyric-ja">それはバスルームで白い歯を見せながら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They were saying that skirt don&#x27;t fit me</p>
+                <p class="lyric-ja">「そのスカート似合わないよ」って</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And I cried the whole way home</p>
+                <p class="lyric-ja">帰り道ずっと泣いた</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>POST-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">But you touched my face</p>
+                <p class="lyric-ja">でもあなたは私の顔に触れて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Redefined all of those blues when you say &quot;honey&quot;</p>
+                <p class="lyric-ja">「ハニー」って言うだけで、全ての悲しみを書き換えた</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Summertime spritz, pink skies</p>
+                <p class="lyric-ja">夏のスプリッツ、ピンクの空</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You can call me &quot;honey&quot; if you want because I&#x27;m the one you want</p>
+                <p class="lyric-ja">必要に応じて私を「ハニー」と呼んでください、なぜなら私はあなたが望む人だからです</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wintergreen kiss, all mine</p>
+                <p class="lyric-ja">ウィンターグリーンのキス、全部私のもの</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You give it different meaning &#x27;cause you mean it when you talk</p>
+                <p class="lyric-ja">あなたが言うと全然違う意味になる、だって本気だから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Honey, I&#x27;m home, we could play house</p>
+                <p class="lyric-ja">ハニー、ただいま、おままごとしよう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">We can bed down, pick me up</p>
+                <p class="lyric-ja">ベッドに横になって、抱き上げて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Who&#x27;s the baddest in the land?</p>
+                <p class="lyric-ja">この世で一番カッコいいのは誰？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">What&#x27;s the plan? (What&#x27;s the plan?)</p>
+                <p class="lyric-ja">計画は何ですか？ （計画は何ですか？）</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You could be my forever-night stand, honey</p>
+                <p class="lyric-ja">あなたは私の永遠の夜の相手になるかもしれません、ハニー</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">When anyone called me &quot;sweetheart&quot;</p>
+                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was passive-aggressive at the bar</p>
+                <p class="lyric-ja">それはバーでの嫌味だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And the bitch was telling me to back off</p>
+                <p class="lyric-ja">その女は私に「手を引け」と言ってた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&#x27;Cause her man had looked at me wrong</p>
+                <p class="lyric-ja">彼女の男が私をジロジロ見たから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">If anyone called me &quot;honey&quot;</p>
+                <p class="lyric-ja">誰かが私を「ハニー」と呼んだら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was standing in the bathroom, white teeth</p>
+                <p class="lyric-ja">それはバスルームで白い歯を見せながら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They were saying that skirt don&#x27;t fit me</p>
+                <p class="lyric-ja">「そのスカート似合わないよ」って</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And I cried the whole way home</p>
+                <p class="lyric-ja">帰り道ずっと泣いた</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>POST-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">But you touched my face</p>
+                <p class="lyric-ja">でもあなたは私の顔に触れて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Redefined all of those blues when you say—</p>
+                <p class="lyric-ja">「ハニー」って言うだけで、全ての悲しみを書き換えた——</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 2</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">You can call me &quot;honey&quot; if you want because I&#x27;m the one you want</p>
+                <p class="lyric-ja">必要に応じて私を「ハニー」と呼んでください、なぜなら私はあなたが望む人だからです</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I&#x27;m the one you want</p>
+                <p class="lyric-ja">あなた、欲しい</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You give it different meaning &#x27;cause you mean it when you talk</p>
+                <p class="lyric-ja">あなたが言うと全然違う意味になる、だって本気だから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sweetie, it&#x27;s yours, kicking in doors</p>
+                <p class="lyric-ja">スウィーティー、全部あなたのもの、ドアを蹴り開けて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Take it to the floor, give me more</p>
+                <p class="lyric-ja">それ、私を</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Buy the paint in the color of your eyes (Of your eyes)</p>
+                <p class="lyric-ja">あなたの目の色のペンキを買うの（あなたの目の色の）</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And graffiti my whole damn life, honey</p>
+                <p class="lyric-ja">そして、私の、人生</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">When anyone called me late night</p>
+                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">He was screwing around with my mind</p>
+                <p class="lyric-ja">それは私の心を弄んでいた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Asking, &quot;What are you wearing?&quot;, too high</p>
+                <p class="lyric-ja">「何着てるの？」って聞いてくる、酔いすぎて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">To remember in the morning</p>
+                <p class="lyric-ja">翌朝は覚えてもいない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And when anyone called me &quot;lovely&quot;</p>
+                <p class="lyric-ja">誰かに「ラブリー」と呼ばれても</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They were finding ways not to praise me</p>
+                <p class="lyric-ja">それは褒めないための方便だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But you say it like you&#x27;re in awe of me</p>
+                <p class="lyric-ja">ツイートで言うなら卑怯だよ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you stay until the morning</p>
+                <p class="lyric-ja">でもあなたは朝まで側にいてくれる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Honey</p>
+                <p class="lyric-ja">Honey</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">When anyone called me &quot;sweetheart&quot;</p>
+                <p class="lyric-ja">誰かが深夜に電話してきたら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was passive-aggressive at the bar</p>
+                <p class="lyric-ja">それはバーでの嫌味だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And the bitch was telling me to back off</p>
+                <p class="lyric-ja">その女は私に「手を引け」と言ってた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&#x27;Cause her man had looked at me wrong (He looked at me wrong)</p>
+                <p class="lyric-ja">彼女の男が私をジロジロ見たから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">If anyone called me &quot;honey&quot; (Ooh)</p>
+                <p class="lyric-ja">誰かに「スウィートハート」と呼ばれるなら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was standing in the bathroom (Yeah), white teeth</p>
+                <p class="lyric-ja">それはバスルームで白い歯を見せながら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They were saying that skirt don&#x27;t fit me</p>
+                <p class="lyric-ja">「そのスカート似合わないよ」って</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And I cried the whole way home (Cried the whole way home)</p>
+                <p class="lyric-ja">帰り道ずっと泣いた</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>OUTRO</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">But you can call me &quot;honey&quot; if you want</p>
+                <p class="lyric-ja">でも、あなた、私を、もし、欲しい</p>
+            </div>
+        </div>
+
+
+
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-piano.png"
+                    alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">英語の「honey」「sweetheart」は愛情表現だけど、皮肉や見下しとして使われることも多いの。テイラーは両方の経験があるんだよ🍯</p>
+                </div>
+            </div>
+        </section>
+        
+    <section class="album-links">
+        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
+        <div class="album-links-grid">
+            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
+            <a href="cancelled.html" class="album-link">CANCELLED!</a>
+            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
+            <a href="father-figure.html" class="album-link">Father Figure</a>
+            <span class="album-link current">▶ Honey</span>
+            <a href="opalite.html" class="album-link">Opalite</a>
+            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
+            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
+            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
+            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
+            <a href="wood.html" class="album-link">Wood</a>
+        </div>
+    </section>
+
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-piano.png', text: '英語の「honey」「sweetheart」は愛情表現だけど、皮肉や見下しとして使われることも多いの。テイラーは両方の経験があるんだよ🍯' },
+            { img: 'images/cat-guitar.png', text: 'テイラーは「言葉の力」を誰よりも知っている作詞家。一つの愛称で曲を一曲書けるのはすごい才能だよね✍️' },
+            { img: 'images/cat-mic.png', text: 'Travis Kelceのポッドキャスト「New Heights」でテイラーのことを「honey」と呼ぶシーンが何度もあるよ🎙️' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function(){
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var oldIframe = wrapper.querySelector('iframe');
+        if (!oldIframe) return;
+
+        // Extract video ID from src
+        var src = oldIframe.getAttribute('src') || '';
+        var match = src.match(/embed\/([^?&]+)/);
+        if (!match) return;
+        var videoId = match[1];
+
+        // Create a div placeholder to replace the iframe
+        var placeholder = document.createElement('div');
+        placeholder.id = 'yt-sticky-player';
+        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
+
+        // Load YouTube IFrame API
+        var tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+
+        window.onYouTubeIframeAPIReady = function() {
+            new YT.Player('yt-sticky-player', {
+                videoId: videoId,
+                playerVars: { rel: 0 },
+                events: {
+                    onStateChange: function(e) {
+                        if (e.data === YT.PlayerState.PLAYING) {
+                            ytSection.classList.add('is-sticky');
+                        } else {
+                            ytSection.classList.remove('is-sticky');
+                        }
+                    }
+                }
+            });
+        };
+    })();
+    </script>
+</body>
+
 </html>

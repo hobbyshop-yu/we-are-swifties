@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌詞検索 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト全219曲の歌詞を英語・日本語で検索。あのフレーズがどの曲か、すぐ見つかる。">
+    <meta property="og:title" content="歌詞検索 | We are Swifties">
+    <meta property="og:description" content="テイラー・スウィフト全曲の歌詞を横断検索🔍">
+    <meta property="og:url" content="https://we-are-swifties.com/search.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/search.html">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
+        .search-box{position:relative;margin-bottom:1.5rem}
+        .search-box input{width:100%;padding:14px 18px 14px 44px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:12px;color:#e7e9ea;font-size:1rem;font-family:inherit;outline:none;transition:border .3s}
+        .search-box input:focus{border-color:rgba(201,160,220,.5)}
+        .search-box input::placeholder{color:#555}
+        .search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#555;font-size:1.1rem}
+        .stats{text-align:center;color:#555;font-size:.8rem;margin-bottom:1rem}
+        .results{display:flex;flex-direction:column;gap:.8rem}
+        .result-item{display:block;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:1rem 1.2rem;text-decoration:none;color:#e7e9ea;transition:all .3s}
+        .result-item:hover{background:rgba(201,160,220,.08);border-color:rgba(201,160,220,.2);transform:translateX(4px)}
+        .result-title{font-weight:700;font-size:1rem;margin-bottom:.2rem}
+        .result-album{font-size:.75rem;color:#888;margin-bottom:.5rem}
+        .result-match{font-size:.85rem;color:#aaa;line-height:1.6}
+        .result-match mark{background:rgba(201,160,220,.25);color:#f5c2e7;padding:1px 3px;border-radius:3px}
+        .no-results{text-align:center;color:#555;padding:3rem;font-size:.95rem}
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 歌詞検索</h1>
+        <p class="subtitle">全曲の歌詞を英語・日本語で横断検索</p>
+        <div class="search-box">
+            <span class="search-icon">🔎</span>
+            <input type="text" id="searchInput" placeholder="歌詞やフレーズを入力..." autofocus>
+        </div>
+        <div class="stats" id="stats"></div>
+        <div class="results" id="results"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+    <script src="lyrics-data.js"></script>
+    <script>
+    const input = document.getElementById('searchInput');
+    const resultsEl = document.getElementById('results');
+    const statsEl = document.getElementById('stats');
+    
+    statsEl.textContent = `${SONGS_DATA.length}曲の歌詞から検索できます`;
+    
+    let debounceTimer;
+    input.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(doSearch, 200);
+    });
+    
+    function doSearch() {
+        const q = input.value.trim().toLowerCase();
+        if (q.length < 2) {
+            resultsEl.innerHTML = '';
+            statsEl.textContent = `${SONGS_DATA.length}曲の歌詞から検索できます`;
+            return;
+        }
+        
+        const matches = [];
+        for (const song of SONGS_DATA) {
+            const titleMatch = song.title.toLowerCase().includes(q);
+            const lyricsMatch = song.lyrics.toLowerCase().includes(q);
+            if (titleMatch || lyricsMatch) {
+                let snippet = '';
+                if (lyricsMatch) {
+                    const idx = song.lyrics.toLowerCase().indexOf(q);
+                    const start = Math.max(0, idx - 30);
+                    const end = Math.min(song.lyrics.length, idx + q.length + 30);
+                    snippet = (start > 0 ? '...' : '') + song.lyrics.slice(start, end) + (end < song.lyrics.length ? '...' : '');
+                } else {
+                    snippet = song.en.slice(0,2).join(' / ');
+                }
+                matches.push({ ...song, snippet, titleMatch });
+            }
+        }
+        
+        // Sort: title matches first
+        matches.sort((a, b) => (b.titleMatch ? 1 : 0) - (a.titleMatch ? 1 : 0));
+        
+        statsEl.textContent = `${matches.length}件ヒット`;
+        
+        if (matches.length === 0) {
+            resultsEl.innerHTML = '<div class="no-results">該当する曲が見つかりませんでした</div>';
+            return;
+        }
+        
+        resultsEl.innerHTML = matches.slice(0, 20).map(m => {
+            const highlighted = m.snippet.replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), '<mark>$&</mark>');
+            return `<a class="result-item" href="${m.file}">
+                <div class="result-title">${m.title}</div>
+                <div class="result-album">${m.album}</div>
+                <div class="result-match">${highlighted}</div>
+            </a>`;
+        }).join('');
+    }
+    </script>
+</body>
+</html>
