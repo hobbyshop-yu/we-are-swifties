@@ -736,27 +736,24 @@
 - [x] Step3: 修正適用 — 修正: 3行（誤字「上辞→上辺」「睤間→瞬間」、構造wonderstruck分割統合）
 - [x] Step4: チェックリスト記録
 
-## Speak Now TV (2023) Batch 3 ⚠️ 要やり直し
+## Speak Now TV (2023) Batch 3 ✅ 再レビュー完了
 
-> **手順違反**: Step 1で `read_url_content`/`browser_subagent` による参考訳全文取得を省略し、`search_web` スニペットのみで照合。再レビュー必要。
-> ※ 修正自体（文字化け修正）は正当なため維持。Step 1-2をやり直す。
-
-### Foolish One — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 7行（維持）
+### Foolish One
+- [x] Step1: 背景調査完了 — 参考URL: note.com/vigilanteshit/n/n728515c8d0a0 / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み。全行参考訳と意味一致。HTML「袖で待つ」は参考訳「羽に乗せる」より正確
+- [x] Step3: 修正適用 — 修正不要。前回修正7行（文字化け）維持。全行品質良好
 - [x] Step4: チェックリスト記録
 
-### Haunted — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 1行（維持）
+### Haunted
+- [x] Step1: 背景調査完了 — 参考URL: note.com/pinkspider27club/n/n4d236a68b35b / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み。全行参考訳と意味一致
+- [x] Step3: 修正適用 — 修正不要。前回修正1行（文字化け「懑→憑」）維持。全行品質良好
 - [x] Step4: チェックリスト記録
 
-### I Can See You — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用 — 修正不要（要再確認）
+### I Can See You
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/mei-you-0416/entry-12809523946.html / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Intro〜Outro全セクション照合出力済み。全行参考訳と意味一致。Bridge歌詞HTMLがGeniusベースで正確
+- [x] Step3: 修正適用 — 修正不要。全行品質良好
 - [x] Step4: チェックリスト記録
 
 ## Speak Now TV (2023) Batch 4 ⚠️ 要やり直し
