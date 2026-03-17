@@ -1,319 +1,652 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>プライバシーポリシー | We are Swifties</title>
-    <meta name="description" content="We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #0c0806;
-            --bg-secondary: #140e0a;
-            --bg-card: #1a120d;
-            --text-primary: #f5ebe0;
-            --text-secondary: #b89e8a;
-            --accent-gold: #d4a853;
-            --accent-gold-light: #e8c779;
-            --gradient-gold: linear-gradient(135deg, #c42b3b 0%, #d4a853 35%, #e8c779 65%, #f0d896 100%);
-            --gradient-dark: linear-gradient(180deg, #0c0806 0%, #140e0a 50%, #1a120d 100%);
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-            min-height: 100vh;
-        }
-
-        /* Global Nav */
-        .global-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 1rem 1.5rem;
-            background: rgba(12, 8, 6, 0.95);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .global-nav a {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .global-nav a:hover { color: var(--accent-gold-light); }
-        .global-nav a.nav-home {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.9rem;
-            font-weight: 700;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0;
-            text-transform: none;
-        }
-
-        @media (max-width: 600px) {
-            .global-nav { gap: 1rem; flex-wrap: wrap; }
-            .global-nav a { font-size: 0.65rem; }
-        }
-
-        /* Hero */
-        .hero {
-            position: relative;
-            min-height: 20vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: var(--gradient-dark);
-            padding: 2rem 1rem;
-        }
-
-        .hero-content { position: relative; z-index: 1; padding: 2rem; }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(1.5rem, 5vw, 2.5rem);
-            font-weight: 700;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.3;
-        }
-
-        .hero-sub {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-top: 0.5rem;
-        }
-
-        /* Main content */
-        .main-content {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 4rem;
-        }
-
-        .main-content h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-gold-light);
-            margin: 2rem 0 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid rgba(212, 168, 83, 0.15);
-        }
-
-        .main-content h2:first-child { margin-top: 0; }
-
-        .main-content p {
-            font-size: 0.9rem;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-            line-height: 2;
-        }
-
-        .main-content ul, .main-content ol {
-            margin: 0.5rem 0 1.5rem 1.5rem;
-            font-size: 0.88rem;
-            color: var(--text-primary);
-        }
-
-        .main-content li { margin-bottom: 0.5rem; line-height: 1.8; }
-
-        .main-content a {
-            color: var(--accent-gold-light);
-            text-decoration: underline;
-            text-decoration-color: rgba(232, 199, 121, 0.3);
-        }
-
-        .main-content a:hover { text-decoration-color: var(--accent-gold-light); }
-
-        /* Footer */
-        .footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid rgba(212, 168, 83, 0.1);
-        }
-
-        .footer .site-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links a {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover { color: var(--accent-gold-light); }
-
-        .footer .copyright {
-            font-size: 0.7rem;
-            color: #6a5040;
-        }
-
-        /* Google Form embed */
-        .form-container {
-            background: var(--bg-card);
-            border-radius: 12px;
-            padding: 1rem;
-            margin: 1.5rem 0;
-        }
-
-        .form-container iframe {
-            width: 100%;
-            height: 800px;
-            border: none;
-            border-radius: 8px;
-        }
-
-        /* Profile card */
-        .profile-card {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            background: var(--bg-card);
-            border: 1px solid rgba(212, 168, 83, 0.12);
-            border-radius: 14px;
-            padding: 2rem;
-            margin: 1.5rem 0;
-        }
-
-        .profile-icon {
-            font-size: 3rem;
-            flex-shrink: 0;
-        }
-
-        .profile-info h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            color: var(--accent-gold-light);
-            margin-bottom: 0.3rem;
-        }
-
-        .profile-info p {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-bottom: 0;
-        }
-
-        @media (max-width: 600px) {
-            .profile-card { flex-direction: column; text-align: center; }
-            .main-content { padding: 2rem 1rem 3rem; }
-        }
-    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="canonical" href="https://we-are-swifties.com/privacy-policy.html">
-    <meta property="og:url" content="https://we-are-swifties.com/privacy-policy.html">
-    <meta property="og:type" content="article"><meta property="og:title" content="プライバシーポリシー | We are Swifties"><meta property="og:description" content="We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。"><meta property="og:url" content="https://we-are-swifties.com/privacy-policy.html"><meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "Article", "headline": "プライバシーポリシー | We are Swifties", "description": "We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。", "author": {"@type": "Person", "name": "Yu@Swifties"}, "publisher": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}, "mainEntityOfPage": "https://we-are-swifties.com/privacy-policy.html"}
-</script>
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">プライバシーポリシー</h1>
-            <p class="hero-sub">Privacy Policy</p>
-        </div>
-    </section>
-
-    <main class="main-content">
-        <h2>当サイトについて</h2>
-        <p>当サイト「We are Swifties」（以下「当サイト」）は、テイラー・スウィフトの歌詞の日本語訳・解説を行う個人運営のファンサイトです。当サイトの利用にあたり、以下のプライバシーポリシーを定めます。</p>
-
-        <h2>個人情報の収集について</h2>
-        <p>当サイトでは、お問い合わせフォームを通じてお名前やメールアドレスなどの個人情報をご提供いただくことがあります。これらの情報は、お問い合わせへの回答のみに使用し、第三者に提供・開示することはありません。</p>
-
-        <h2>アクセス解析ツールについて</h2>
-        <p>当サイトでは、Googleが提供するアクセス解析ツール「Google Analytics」を利用しています。Google Analyticsはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。Cookie の使用を無効にすることで収集を拒否することができますので、お使いのブラウザの設定をご確認ください。Google Analyticsの利用規約については<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener">こちら</a>をご覧ください。</p>
-
-        <h2>広告配信サービスについて</h2>
-        <p>当サイトでは、第三者配信の広告サービス「Google AdSense」の導入を予定しています。Google AdSenseでは、ユーザーの興味に応じた商品やサービスの広告を表示するため、Cookieを使用することがあります。Cookieの無効化については、<a href="https://adssettings.google.com/" target="_blank" rel="noopener">広告設定</a>から行うことができます。</p>
-
-        <h2>著作権・免責事項</h2>
-        <p>当サイトに掲載されている歌詞の英語原文は、原著作者（Taylor Swift / 各レーベル / 各出版社）に帰属します。当サイトでは著作権法第32条に基づき「引用」として使用しており、歌詞を利用した感想・解説・翻訳を目的とした非営利のファンサイトです。</p>
-        <p>日本語訳および解説文は、当サイト運営者のオリジナルコンテンツです。無断転載はご遠慮ください。</p>
-        <p>当サイトの情報は正確性を期していますが、その内容の完全性や正確性を保証するものではありません。当サイトの利用によって生じたいかなる損害についても責任を負いかねます。</p>
-
-        <h2>リンクについて</h2>
-        <p>当サイトはリンクフリーです。リンクを貼る際の許可は不要です。ただし、インラインフレームの使用や画像への直接リンクはご遠慮ください。</p>
-
-        <h2>プライバシーポリシーの変更</h2>
-        <p>当サイトは、個人情報に関して適用される法令を遵守するとともに、本ポリシーの内容を適宜見直しを行い、改善に努めます。修正された最新のプライバシーポリシーは常にこのページに掲載されます。</p>
-
-        <p style="color: var(--text-secondary); font-size: 0.8rem; margin-top: 2rem;">最終更新日: 2026年3月10日</p>
-    </main>
-
-    <footer class="footer">
-        <p class="site-name">We are Swifties</p>
-        <div class="footer-links">
-            <a href="index.html">ホーム</a>
-            <a href="about.html">運営者情報</a>
-            <a href="contact.html">お問い合わせ</a>
-            <a href="privacy-policy.html">プライバシーポリシー</a>
-        </div>
-        <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
-    </footer>
+<!DOCTYPE html>
+
+<html lang="ja">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+
+    <title>プライバシーポリシー | We are Swifties</title>
+
+    <meta name="description" content="We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+
+        rel="stylesheet">
+
+    <style>
+
+        :root {
+
+            --bg-primary: #0c0806;
+
+            --bg-secondary: #140e0a;
+
+            --bg-card: #1a120d;
+
+            --text-primary: #f5ebe0;
+
+            --text-secondary: #b89e8a;
+
+            --accent-gold: #d4a853;
+
+            --accent-gold-light: #e8c779;
+
+            --gradient-gold: linear-gradient(135deg, #c42b3b 0%, #d4a853 35%, #e8c779 65%, #f0d896 100%);
+
+            --gradient-dark: linear-gradient(180deg, #0c0806 0%, #140e0a 50%, #1a120d 100%);
+
+        }
+
+
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+
+        body {
+
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+
+            background: var(--bg-primary);
+
+            color: var(--text-primary);
+
+            line-height: 1.8;
+
+            min-height: 100vh;
+
+        }
+
+
+
+        /* Global Nav */
+
+        .global-nav {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            gap: 2rem;
+
+            padding: 1rem 1.5rem;
+
+            background: rgba(12, 8, 6, 0.95);
+
+            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 100;
+
+            backdrop-filter: blur(10px);
+
+            -webkit-backdrop-filter: blur(10px);
+
+        }
+
+
+
+        .global-nav a {
+
+            font-family: 'Inter', sans-serif;
+
+            font-size: 0.75rem;
+
+            font-weight: 500;
+
+            letter-spacing: 0.1em;
+
+            text-transform: uppercase;
+
+            color: var(--text-secondary);
+
+            text-decoration: none;
+
+            transition: color 0.3s;
+
+        }
+
+
+
+        .global-nav a:hover { color: var(--accent-gold-light); }
+
+        .global-nav a.nav-home {
+
+            font-family: 'Playfair Display', serif;
+
+            font-size: 0.9rem;
+
+            font-weight: 700;
+
+            background: var(--gradient-gold);
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+            background-clip: text;
+
+            letter-spacing: 0;
+
+            text-transform: none;
+
+        }
+
+
+
+        @media (max-width: 600px) {
+
+            .global-nav { gap: 1rem; flex-wrap: wrap; }
+
+            .global-nav a { font-size: 0.65rem; }
+
+        }
+
+
+
+        /* Hero */
+
+        .hero {
+
+            position: relative;
+
+            min-height: 20vh;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            text-align: center;
+
+            background: var(--gradient-dark);
+
+            padding: 2rem 1rem;
+
+        }
+
+
+
+        .hero-content { position: relative; z-index: 1; padding: 2rem; }
+
+
+
+        .hero-title {
+
+            font-family: 'Playfair Display', serif;
+
+            font-size: clamp(1.5rem, 5vw, 2.5rem);
+
+            font-weight: 700;
+
+            background: var(--gradient-gold);
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+            background-clip: text;
+
+            line-height: 1.3;
+
+        }
+
+
+
+        .hero-sub {
+
+            font-size: 0.85rem;
+
+            color: var(--text-secondary);
+
+            margin-top: 0.5rem;
+
+        }
+
+
+
+        /* Main content */
+
+        .main-content {
+
+            max-width: 780px;
+
+            margin: 0 auto;
+
+            padding: 3rem 1.5rem 4rem;
+
+        }
+
+
+
+        .main-content h2 {
+
+            font-family: 'Playfair Display', serif;
+
+            font-size: 1.3rem;
+
+            color: var(--accent-gold-light);
+
+            margin: 2rem 0 1rem;
+
+            padding-bottom: 0.5rem;
+
+            border-bottom: 1px solid rgba(212, 168, 83, 0.15);
+
+        }
+
+
+
+        .main-content h2:first-child { margin-top: 0; }
+
+
+
+        .main-content p {
+
+            font-size: 0.9rem;
+
+            color: var(--text-primary);
+
+            margin-bottom: 1rem;
+
+            line-height: 2;
+
+        }
+
+
+
+        .main-content ul, .main-content ol {
+
+            margin: 0.5rem 0 1.5rem 1.5rem;
+
+            font-size: 0.88rem;
+
+            color: var(--text-primary);
+
+        }
+
+
+
+        .main-content li { margin-bottom: 0.5rem; line-height: 1.8; }
+
+
+
+        .main-content a {
+
+            color: var(--accent-gold-light);
+
+            text-decoration: underline;
+
+            text-decoration-color: rgba(232, 199, 121, 0.3);
+
+        }
+
+
+
+        .main-content a:hover { text-decoration-color: var(--accent-gold-light); }
+
+
+
+        /* Footer */
+
+        .footer {
+
+            text-align: center;
+
+            padding: 2rem;
+
+            border-top: 1px solid rgba(212, 168, 83, 0.1);
+
+        }
+
+
+
+        .footer .site-name {
+
+            font-family: 'Playfair Display', serif;
+
+            font-size: 1rem;
+
+            background: var(--gradient-gold);
+
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+
+            background-clip: text;
+
+            margin-bottom: 0.5rem;
+
+        }
+
+
+
+        .footer-links {
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 1.5rem;
+
+            flex-wrap: wrap;
+
+            margin-bottom: 0.5rem;
+
+        }
+
+
+
+        .footer-links a {
+
+            font-size: 0.7rem;
+
+            color: var(--text-secondary);
+
+            text-decoration: none;
+
+            letter-spacing: 0.05em;
+
+            transition: color 0.3s;
+
+        }
+
+
+
+        .footer-links a:hover { color: var(--accent-gold-light); }
+
+
+
+        .footer .copyright {
+
+            font-size: 0.7rem;
+
+            color: #6a5040;
+
+        }
+
+
+
+        /* Google Form embed */
+
+        .form-container {
+
+            background: var(--bg-card);
+
+            border-radius: 12px;
+
+            padding: 1rem;
+
+            margin: 1.5rem 0;
+
+        }
+
+
+
+        .form-container iframe {
+
+            width: 100%;
+
+            height: 800px;
+
+            border: none;
+
+            border-radius: 8px;
+
+        }
+
+
+
+        /* Profile card */
+
+        .profile-card {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 1.5rem;
+
+            background: var(--bg-card);
+
+            border: 1px solid rgba(212, 168, 83, 0.12);
+
+            border-radius: 14px;
+
+            padding: 2rem;
+
+            margin: 1.5rem 0;
+
+        }
+
+
+
+        .profile-icon {
+
+            font-size: 3rem;
+
+            flex-shrink: 0;
+
+        }
+
+
+
+        .profile-info h3 {
+
+            font-family: 'Playfair Display', serif;
+
+            font-size: 1.1rem;
+
+            color: var(--accent-gold-light);
+
+            margin-bottom: 0.3rem;
+
+        }
+
+
+
+        .profile-info p {
+
+            font-size: 0.85rem;
+
+            color: var(--text-secondary);
+
+            margin-bottom: 0;
+
+        }
+
+
+
+        @media (max-width: 600px) {
+
+            .profile-card { flex-direction: column; text-align: center; }
+
+            .main-content { padding: 2rem 1rem 3rem; }
+
+        }
+
+    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
+
+    <!-- Google Analytics (GA4) -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag(){dataLayer.push(arguments);}
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PESZB0HW0B');
+
+    </script>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <link rel="canonical" href="https://we-are-swifties.com/privacy-policy.html">
+
+    <meta property="og:url" content="https://we-are-swifties.com/privacy-policy.html">
+
+    <meta property="og:type" content="article"><meta property="og:title" content="プライバシーポリシー | We are Swifties"><meta property="og:description" content="We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。"><meta property="og:url" content="https://we-are-swifties.com/privacy-policy.html"><meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+
+{"@context": "https://schema.org", "@type": "Article", "headline": "プライバシーポリシー | We are Swifties", "description": "We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。", "author": {"@type": "Person", "name": "Yu@Swifties"}, "publisher": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}, "mainEntityOfPage": "https://we-are-swifties.com/privacy-policy.html"}
+
+</script>
+
+</head>
+
+
+
+<body>
+
+    <nav class="global-nav">
+
+        <a href="index.html" class="nav-home">We are Swifties</a>
+
+        <a href="index.html">曲一覧</a>
+
+        <a href="about.html">運営者情報</a>
+
+        <a href="contact.html">お問い合わせ</a>
+
+    </nav>
+
+
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1 class="hero-title">プライバシーポリシー</h1>
+
+            <p class="hero-sub">Privacy Policy</p>
+
+        </div>
+
+    </section>
+
+
+
+    <main class="main-content">
+
+        <h2>当サイトについて</h2>
+
+        <p>当サイト「We are Swifties」（以下「当サイト」）は、テイラー・スウィフトの歌詞の日本語訳・解説を行う個人運営のファンサイトです。当サイトの利用にあたり、以下のプライバシーポリシーを定めます。</p>
+
+
+
+        <h2>個人情報の収集について</h2>
+
+        <p>当サイトでは、お問い合わせフォームを通じてお名前やメールアドレスなどの個人情報をご提供いただくことがあります。これらの情報は、お問い合わせへの回答のみに使用し、第三者に提供・開示することはありません。</p>
+
+
+
+        <h2>アクセス解析ツールについて</h2>
+
+        <p>当サイトでは、Googleが提供するアクセス解析ツール「Google Analytics」を利用しています。Google Analyticsはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。Cookie の使用を無効にすることで収集を拒否することができますので、お使いのブラウザの設定をご確認ください。Google Analyticsの利用規約については<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener">こちら</a>をご覧ください。</p>
+
+
+
+        <h2>広告配信サービスについて</h2>
+
+        <p>当サイトでは、第三者配信の広告サービス「Google AdSense」の導入を予定しています。Google AdSenseでは、ユーザーの興味に応じた商品やサービスの広告を表示するため、Cookieを使用することがあります。Cookieの無効化については、<a href="https://adssettings.google.com/" target="_blank" rel="noopener">広告設定</a>から行うことができます。</p>
+
+
+
+        <h2>著作権・免責事項</h2>
+
+        <p>当サイトに掲載されている歌詞の英語原文は、原著作者（Taylor Swift / 各レーベル / 各出版社）に帰属します。当サイトでは著作権法第32条に基づき「引用」として使用しており、歌詞を利用した感想・解説・翻訳を目的とした非営利のファンサイトです。</p>
+
+        <p>日本語訳および解説文は、当サイト運営者のオリジナルコンテンツです。無断転載はご遠慮ください。</p>
+
+        <p>当サイトの情報は正確性を期していますが、その内容の完全性や正確性を保証するものではありません。当サイトの利用によって生じたいかなる損害についても責任を負いかねます。</p>
+
+
+
+        <h2>リンクについて</h2>
+
+        <p>当サイトはリンクフリーです。リンクを貼る際の許可は不要です。ただし、インラインフレームの使用や画像への直接リンクはご遠慮ください。</p>
+
+
+
+        <h2>プライバシーポリシーの変更</h2>
+
+        <p>当サイトは、個人情報に関して適用される法令を遵守するとともに、本ポリシーの内容を適宜見直しを行い、改善に努めます。修正された最新のプライバシーポリシーは常にこのページに掲載されます。</p>
+
+
+
+        <p style="color: var(--text-secondary); font-size: 0.8rem; margin-top: 2rem;">最終更新日: 2026年3月10日</p>
+
+    
+<div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06)">
+<h2 style="font-size:1.1rem;color:#c9a0dc;margin-bottom:1rem">著作権について</h2>
+<p style="font-size:.85rem;color:#aaa;line-height:1.8;margin-bottom:1rem">当サイトに掲載する歌詞は、著作権法第32条に基づく「引用」の範囲内で、批評・解説を目的として使用しています。</p>
+<ul style="font-size:.85rem;color:#aaa;line-height:2;padding-left:1.5rem">
+<li>歌詞の著作権は各楽曲の権利者に帰属します</li>
+<li>当サイトは日本語による解説・批評を主目的とし、原文歌詞はその引用として掲載しています</li>
+<li>権利者様より掲載に問題がある旨のご連絡をいただいた場合は、速やかに対応いたします</li>
+<li>お問い合わせは<a href="contact.html" style="color:#89b4fa">こちら</a>からお願いいたします</li>
+</ul>
+</div>
+
+<div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06)">
+<h2 style="font-size:1.1rem;color:#c9a0dc;margin-bottom:1rem">広告について</h2>
+<p style="font-size:.85rem;color:#aaa;line-height:1.8">当サイトでは、第三者配信の広告サービス（Google AdSense）を利用する場合があります。広告配信事業者は、ユーザーの興味に応じた広告を表示するために、Cookie（クッキー）を使用することがあります。Cookieの使用を望まない場合は、ブラウザの設定から無効にすることが可能です。詳しくは<a href="https://policies.google.com/technologies/ads?hl=ja" style="color:#89b4fa" target="_blank" rel="noopener">Googleのポリシー</a>をご確認ください。</p>
+</div>
+</main>
+
+
+
+    <footer class="footer">
+
+        <p class="site-name">We are Swifties</p>
+
+        <div class="footer-links">
+
+            <a href="index.html">ホーム</a>
+
+            <a href="about.html">運営者情報</a>
+
+            <a href="contact.html">お問い合わせ</a>
+
+            <a href="privacy-policy.html">プライバシーポリシー</a>
+
+        </div>
+
+        <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+
+    </footer>
+
 <div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
-</body>
-
+</body>
+
+
+
 </html>
