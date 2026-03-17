@@ -1,910 +1,911 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳 | We are スウィフティーズ</title>
-    <meta name="description" content="テイラー・スウィフト「The Life of a Showgirl」(feat. Sabrina Carpenter)の英語歌詞・日本語訳・徹底解説。Sabrinaとの夢のデュエットで描く、ショウガールの光と影。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #0d0610;
-            --bg-card: #1a0c22;
-            --bg-card-hover: #231530;
-            --text-primary: #f0e0f8;
-            --text-secondary: #c8a8d8;
-            --accent: #e040a0;
-            --accent-light: #f070c0;
-            --accent-rose: #f472b6;
-            --accent-cyan: #c8a0f0;
-            --accent-amber: #fbbf24;
-            --english-color: #f0a0d0;
-            --japanese-color: #f4d0e8;
-            --commentary-color: #8a6098;
-            --gradient-accent: linear-gradient(135deg, #c02080 0%, #e040a0 40%, #f070c0 100%);
-            --gradient-dark: linear-gradient(180deg, #0d0610 0%, #180a20 100%);
-            --gradient-opal: linear-gradient(135deg, #c02080 0%, #e040a0 40%, #f070c0 100%);
-            --gradient-gold: linear-gradient(135deg, #c02080, #e040a0);
-            --accent-opal: #e040a0;
-            --accent-opal-light: #f070c0;
-            --accent-gold-light: #f070c0;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        /* ========== Hero Section ========== */
-        .hero {
-            position: relative;
-            min-height: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            background: var(--gradient-dark);
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background:
-                radial-gradient(ellipse at 20% 50%, rgba(224, 64, 160, 0.1) 0%, transparent 50%),
-                radial-gradient(ellipse at 80% 50%, rgba(200, 160, 240, 0.07) 0%, transparent 50%),
-                radial-gradient(ellipse at 50% 80%, rgba(240, 112, 192, 0.05) 0%, transparent 50%);
-            animation: shimmer 8s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% { transform: translateX(-5%) translateY(-5%) rotate(0deg); }
-            100% { transform: translateX(5%) translateY(5%) rotate(3deg); }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 2rem;
-        }
-
-        .hero-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            color: var(--accent);
-            margin-bottom: 1rem;
-        }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 6vw, 4rem);
-            font-weight: 700;
-            background: var(--gradient-accent);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-            line-height: 1.2;
-        }
-
-        .hero-feat {
-            font-family: 'Inter', sans-serif;
-            font-size: 1rem;
-            font-weight: 400;
-            color: var(--accent-light);
-            margin-bottom: 0.5rem;
-        }
-
-        .hero-artist {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            font-weight: 400;
-            font-style: italic;
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-        }
-
-        .hero-album {
-            display: inline-block;
-            font-size: 0.8rem;
-            font-weight: 500;
-            color: var(--accent-light);
-            border: 1px solid rgba(224, 64, 160, 0.3);
-            padding: 0.4rem 1.2rem;
-            border-radius: 100px;
-            letter-spacing: 0.05em;
-        }
-
-        /* ========== Floating Gems ========== */
-        .gem {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(1px);
-            opacity: 0.4;
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .gem:nth-child(1) { width: 6px; height: 6px; background: var(--accent); top: 20%; left: 10%; animation-delay: 0s; }
-        .gem:nth-child(2) { width: 4px; height: 4px; background: var(--accent-cyan); top: 40%; right: 15%; animation-delay: 2s; }
-        .gem:nth-child(3) { width: 8px; height: 8px; background: var(--accent-rose); bottom: 30%; left: 20%; animation-delay: 4s; }
-        .gem:nth-child(4) { width: 5px; height: 5px; background: var(--accent-amber); top: 60%; right: 25%; animation-delay: 1s; }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0) scale(1); opacity: 0.4; }
-            50% { transform: translateY(-20px) scale(1.2); opacity: 0.7; }
-        }
-
-        /* ========== Main Content ========== */
-        .main-content { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem 6rem; }
-
-        /* ========== Song Intro ========== */
-        .song-intro {
-            background: var(--bg-card);
-            border: 1px solid rgba(224, 64, 160, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-        .song-intro::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--gradient-accent); }
-        .song-intro h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-light); margin-bottom: 1rem; }
-        .song-intro p { font-size: 0.95rem; color: var(--text-secondary); line-height: 2; }
-        .song-intro .keyword { color: var(--accent-light); font-weight: 500; }
-
-        /* ========== Section Headers ========== */
-        .section-header { display: flex; align-items: center; gap: 1rem; margin: 3rem 0 1.5rem; }
-        .section-header .line { flex: 1; height: 1px; background: linear-gradient(90deg, rgba(224, 64, 160, 0.3), transparent); }
-        .section-header h3 { font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
-
-        /* ========== Lyrics ========== */
-        .lyric-block { margin-bottom: 0.5rem; }
-        .lyric-en { font-family: 'Inter', 'Noto Sans JP', sans-serif; font-size: 1.05rem; font-weight: 400; color: var(--english-color); line-height: 1.9; }
-        .lyric-ja { font-size: 0.95rem; font-weight: 300; color: var(--japanese-color); line-height: 1.9; margin-bottom: 0.3rem; }
-        .lyric-pair { padding: 0.4rem 0; border-bottom: 1px solid rgba(224, 64, 160, 0.05); }
-        .lyric-pair:last-child { border-bottom: none; }
-
-        /* ========== Commentary ========== */
-        .commentary { margin: 1.2rem 0 2rem; padding: 1.2rem 1.5rem; border-left: 2px solid rgba(138, 96, 152, 0.4); border-radius: 0 8px 8px 0; background: rgba(138, 96, 152, 0.06); }
-        .commentary p { font-size: 0.82rem; color: var(--commentary-color); line-height: 2; font-weight: 300; }
-        .commentary .note-icon { font-size: 0.7rem; color: rgba(138, 96, 152, 0.6); margin-right: 0.3rem; }
-        .commentary strong { color: #c898d8; font-weight: 500; }
-
-        /* ========== Legend ========== */
-/* ========== YouTube ========== */
-        .youtube-section { margin-bottom: 3rem; }
-        .youtube-section h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-light); margin-bottom: 1rem; }
-        .youtube-wrapper { position: relative; width: 100%; padding-bottom: 56.25%; border-radius: 12px; overflow: hidden; border: 1px solid rgba(224, 64, 160, 0.15); }
-        .youtube-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
-
-        /* ========== Footer ========== */
-        .article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(224, 64, 160, 0.1); text-align: center; }
-        .article-footer .site-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 0.5rem; }
-        .article-footer .copyright { font-size: 0.7rem; color: var(--commentary-color); }
-        .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
-        .footer-links a { font-size: 0.7rem; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; transition: color 0.3s; }
-        .footer-links a:hover { color: var(--accent-light); }
-
-        /* ========== Responsive ========== */
-        @media (max-width: 600px) {
-            .main-content { padding: 2rem 1rem 4rem; }
-            .song-intro { padding: 1.5rem; }
-.lyric-en { font-size: 0.95rem; }
-            .lyric-ja { font-size: 0.88rem; }
-        }
-
-        .back-link { display: inline-block; margin-bottom: 2rem; color: var(--accent); text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
-        .back-link:hover { color: var(--accent-light); }
-
-        /* ========== Mascot ========== */
-        .mascot-section { max-width: 780px; margin: 0 auto; padding: 2rem 1.5rem; }
-        .mascot-card { display: flex; align-items: flex-end; gap: 1rem; }
-        .mascot-img { width: 110px; height: 110px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 8px rgba(224, 64, 160, 0.2)); }
-        .mascot-bubble { background: var(--bg-card); border: 1px solid rgba(224, 64, 160, 0.15); border-radius: 16px 16px 16px 4px; padding: 1rem 1.3rem; font-size: 0.85rem; color: var(--text-primary); line-height: 1.7; max-width: 500px; }
-        .mascot-bubble .trivia-label { font-family: 'Inter', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.3rem; }
-        @media (max-width: 600px) {
-            .mascot-card { flex-direction: column; align-items: center; text-align: center; }
-            .mascot-bubble { border-radius: 16px; }
-            .mascot-img { width: 90px; height: 90px; }
-        }
-
-        /* Global Nav */
-        .global-nav { display: flex; justify-content: center; align-items: center; gap: 2rem; padding: 1rem 1.5rem; background: rgba(13, 6, 16, 0.95); border-bottom: 1px solid rgba(224, 64, 160, 0.1); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-        .global-nav a { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-secondary); text-decoration: none; transition: color 0.3s; }
-        .global-nav a:hover { color: var(--accent-light); }
-        .global-nav a.nav-home { font-family: 'Playfair Display', serif; font-size: 0.9rem; font-weight: 700; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0; text-transform: none; }
-        @media (max-width: 600px) { .global-nav { gap: 1rem; flex-wrap: wrap; } .global-nav a { font-size: 0.65rem; } }
-    
-        .youtube-section.is-sticky {
-            position: sticky;
-            top: 60px;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-        .youtube-section.is-sticky .youtube-wrapper {
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            border-color: rgba(255,255,255,0.15);
-        }
-        
-        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
-
-        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
-    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}.x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}.copy-lyrics-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#888;font-size:.78rem;cursor:pointer;transition:all .2s;font-family:inherit;margin-left:8px}.copy-lyrics-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}.copy-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:rgba(80,200,120,.9);color:#0a0a0f;padding:8px 20px;border-radius:50px;font-size:.8rem;font-weight:700;opacity:0;transition:opacity .3s;pointer-events:none;z-index:999}.copy-toast.show{opacity:1}</style>
-
-    <!-- OGP / Twitter Card -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta property="og:description" content="テイラー・スウィフト「The Life of a Showgirl」(feat. Sabrina Carpenter)の英語歌詞・日本語訳・徹底解説。">
-    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/the-life-of-a-showgirl.html">
-    <meta property="og:image" content="https://img.youtube.com/vi/OU6362Nggg0/maxresdefault.jpg">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="720">
-    <meta property="og:site_name" content="We are Swifties">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳・徹底解説">
-    <meta name="twitter:description" content="テイラー・スウィフト「The Life of a Showgirl」の英語歌詞・日本語訳・徹底解説。">
-    <meta name="twitter:image" content="https://img.youtube.com/vi/OU6362Nggg0/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「The Life of a Showgirl」(feat. Sabrina Carpenter)の英語歌詞・日本語訳・徹底解説。Sabrinaとの夢のデュエットで描く、ショウガールの光と影。","image":"https://img.youtube.com/vi/OU6362Nggg0/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/life-of-a-showgirl.html","about":{"@type":"MusicComposition","name":"The Life of a Showgirl (feat. Sabrina Carpenter)","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
-</script>
-    <link rel="canonical" href="https://we-are-swifties.com/life-of-a-showgirl.html">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/life-of-a-showgirl.html"}]}
-</script>
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-    <!-- ===== Hero ===== -->
-    <section class="hero">
-        <div class="gem"></div>
-        <div class="gem"></div>
-        <div class="gem"></div>
-        <div class="gem"></div>
-        <div class="hero-content">
-            <p class="hero-label">Lyrics &amp; Commentary</p>
-            <h1 class="hero-title">The Life of a Showgirl</h1>
-            <p class="hero-feat">feat. Sabrina Carpenter</p>
-            <p class="hero-artist">Taylor Swift</p>
-            <span class="hero-album">The Life of a Showgirl (2025)</span>
-        </div>
-    </section>
-    <nav class="breadcrumb" aria-label="パンくずリスト">
-        <ol>
-            <li><a href="index.html#album-toc">🏠 TOP</a></li>
-            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
-            <li aria-current="page">The Life of a Showgirl</li>
-        </ol>
-    </nav>
-
-
-    <!-- ===== Main ===== -->
-    <main class="main-content">
-
-        <a href="index.html" class="back-link">← トップページに戻る</a>
-
-        <!-- Song Intro -->
-        <div class="song-intro">
-            <h2>✦ この曲について</h2>
-            <p>
-                「<span class="keyword">The Life of a Showgirl</span>」は、2025年リリースの12thアルバム
-                <span class="keyword">『The Life of a Showgirl』</span>のタイトルトラック（Track 12）で、
-                <span class="keyword">Sabrina Carpenter</span>をフィーチャーした夢のデュエット。
-                テイラーとサブリナが交互に歌い、それぞれの視点からショービジネスの光と影を描く。
-                「ショウガール」とは単なるパフォーマーではなく、
-                <span class="keyword">人前に立ち続ける全ての女性</span>のメタファー。
-                批判と称賛の間で自分を見失わないこと、そしてステージの上でこそ本当の自分でいられるという矛盾を美しく歌い上げる。
-            </p>
-        </div>
-
-            </div>
-        </div>
-
-        <!-- Mascot Trivia -->
-
-        <!-- YouTube Embed -->
-        <div class="youtube-section">
-            <h2>▶ Official Lyric Video</h2>
-            <div class="youtube-wrapper">
-                <iframe loading="lazy" src="https://www.youtube.com/embed/OU6362Nggg0?enablejsapi=1" title="Taylor Swift - The Life of a Showgirl (Feat. Sabrina Carpenter) (Lyric Video)"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-
-        <!-- VERSE 1 (Taylor) -->
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 1: TAYLOR SWIFT</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Her name was Kitty</p>
-                <p class="lyric-ja">彼女の名前はキティでした</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Made her money being pretty and witty</p>
-                <p class="lyric-ja">かわいくて機知に富んでいて彼女はお金を稼いだ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They gave her the keys to this city</p>
-                <p class="lyric-ja">彼らは彼女にこの街への鍵を与えた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Then they said she didn&#x27;t do it legitly, oh</p>
-                <p class="lyric-ja">それから彼らは、彼女はそれを合法的にやったのではないと言いました、ああ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I bought a ticket</p>
-                <p class="lyric-ja">チケットを購入しました</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">She&#x27;s dancing in her garters and fishnets</p>
-                <p class="lyric-ja">彼女はガーターと網タイツを着て踊っている</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Fifty in the cast, zero missteps</p>
-                <p class="lyric-ja">キャストは50人、失敗はゼロ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Looking back, I guess it was kismet</p>
-                <p class="lyric-ja">思い返すとキスメットだったかな</p>
-            </div>
-        </div>
-
-
-        <div class="commentary"><p><span class="note-icon">🎵</span>「The Life of a Showgirl」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
-<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20The%20Life%20of%20a%20Showgirl%20%28feat.%20Sabrina%20Carpenter%29%20%E6%AD%8C%E8%A9%9E%E3%83%BB%E5%92%8C%E8%A8%B3%20%7C%20We%20are%20%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BA%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8CThe%20Life%20of%20a%20Showgirl%E3%80%8D%28feat.%20Sabrina%20Carpenter%29%E3%81%AE&url=https%3A%2F%2Fwe-are-swifties.com%2Flife-of-a-showgirl.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
-
-
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>PRE-CHORUS: TAYLOR SWIFT</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I waited by the stage door,</p>
-                <p class="lyric-ja">ステージドアのところで待っていましたが、</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">packed in with the autograph hounds</p>
-                <p class="lyric-ja">サインハウンドが詰め込まれている</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Barking her name,</p>
-                <p class="lyric-ja">彼女の名前を吠えながら、</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">then</p>
-                <p class="lyric-ja">それから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">glowing like the end of a cigarette</p>
-                <p class="lyric-ja">タバコの先のように光る</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wow, she came out</p>
-                <p class="lyric-ja">わあ、彼女が出てきた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I said, &quot;You&#x27;re living my drеam&quot;</p>
-                <p class="lyric-ja">私は言った、「あなたは私の夢を生きているのよ」</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Then she said to me</p>
-                <p class="lyric-ja">それから彼女は私に言った</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS: TAYLOR SWIFT</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">&quot;Hеy, thank you for the lovely bouquet</p>
-                <p class="lyric-ja">「やあ、素敵な花束をありがとう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You&#x27;re sweeter than a peach</p>
-                <p class="lyric-ja">You're sweeter than a peach</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But you don&#x27;t know the life of a showgirl, babe</p>
-                <p class="lyric-ja">でも、あなた、知る、人生</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And you&#x27;re never ever gonna</p>
-                <p class="lyric-ja">そして、決して</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wait, the more you play, the more that you pay</p>
-                <p class="lyric-ja">待つ、あなた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You&#x27;re softer than a kitten</p>
-                <p class="lyric-ja">You're softer than a kitten</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">So you don&#x27;t know the life of a showgirl, babe</p>
-                <p class="lyric-ja">だから、あなた、知る、人生</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And you&#x27;re never gonna wanna&quot;</p>
-                <p class="lyric-ja">そして、あなたは決して望んでいません」</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 2: SABRINA CARPENTER</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">She was a menace</p>
-                <p class="lyric-ja">彼女は脅威だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">The baby of the family in Lenox</p>
-                <p class="lyric-ja">ベイビー、中に</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Her father whored around like all men did</p>
-                <p class="lyric-ja">彼女の父親は他の男と同じように性行為をした</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Her mother took pills and played tennis</p>
-                <p class="lyric-ja">彼女を、そして</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">[Pre-Chorus: Sabrina Carpenter,</p>
-                <p class="lyric-ja">[プリコーラス：サブリナ・カーペンター、</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Taylor Swift &amp; Sabrina Carpenter</p>
-                <p class="lyric-ja">テイラー・スウィフト＆サブリナ・カーペンター</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">]</p>
-                <p class="lyric-ja">]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">So she waited by the stage door as the club promoter arrived</p>
-                <p class="lyric-ja">だから、彼女、ドア</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">She said, &quot;I&#x27;d sell my soul to have a taste of a magnificent life that&#x27;s all mine&quot;</p>
-                <p class="lyric-ja">彼女、私の、魂、人生</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But that&#x27;s not what showgirls get</p>
-                <p class="lyric-ja">でも私の心はそこにはない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They leave us for dead</p>
-                <p class="lyric-ja">彼ら、去る、私たちを、死んだ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">[Chorus: Sabrina Carpenter,</p>
-                <p class="lyric-ja">[コーラス：サブリナ・カーペンター]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sabrina Carpenter &amp; Taylor Swift</p>
-                <p class="lyric-ja">サブリナ・カーペンター &amp; テイラー・スウィフト</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">]</p>
-                <p class="lyric-ja">]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Hey</p>
-                <p class="lyric-ja">ヘイ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">, thank you for the lovely bouquet</p>
-                <p class="lyric-ja">、素敵な花束をありがとう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You&#x27;re sweeter than a peach</p>
-                <p class="lyric-ja">You're sweeter than a peach</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But</p>
-                <p class="lyric-ja">しかし、</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">you don&#x27;t know the life of a showgirl, babe</p>
-                <p class="lyric-ja">あなたはショーガールの人生を知りません、ベイビー</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And you&#x27;re never ever gonna</p>
-                <p class="lyric-ja">そして、決して</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wait, the more you play,</p>
-                <p class="lyric-ja">待って、プレイすればするほど、</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">the more that you pay</p>
-                <p class="lyric-ja">支払えば支払うほど</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You&#x27;re softer than a kitten</p>
-                <p class="lyric-ja">You're softer than a kitten</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">So you don&#x27;t know the life of a showgirl, babe</p>
-                <p class="lyric-ja">だから、あなた、知る、人生</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And you&#x27;re never gonna wanna</p>
-                <p class="lyric-ja">そして、決して</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">[Bridge: Taylor Swift &amp;</p>
-                <p class="lyric-ja">[ブリッジ：テイラー・スウィフト＆</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sabrina Carpenter</p>
-                <p class="lyric-ja">サブリナ・カーペンター</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">]</p>
-                <p class="lyric-ja">]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I took her pearls of wisdom, hung them from my neck</p>
-                <p class="lyric-ja">私、彼女を、私の</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I paid my dues with every bruise, I knew what to expect</p>
-                <p class="lyric-ja">私、私の</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Do you wanna take a skate on the ice inside my veins?</p>
-                <p class="lyric-ja">あなた、私の</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They ripped me off like false lashes and then threw me away</p>
-                <p class="lyric-ja">彼ら、私を、偽りの、そして、その時、遠くへ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And all the headshots on the walls</p>
-                <p class="lyric-ja">そして壁にあるすべてのヘッドショット</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Of the dance hall are of the bitches</p>
-                <p class="lyric-ja">ダンスホールには雌犬がいる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Who wish I&#x27;d hurry up and die</p>
-                <p class="lyric-ja">願う、上へ、そして、死ぬ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But I&#x27;m immortal now, baby dolls</p>
-                <p class="lyric-ja">でも、今、ベイビー</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I couldn&#x27;t if I tried</p>
-                <p class="lyric-ja">私、もし</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">So I say</p>
-                <p class="lyric-ja">だから、私、言う</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">[Chorus: Taylor Swift &amp;</p>
-                <p class="lyric-ja">[コーラス：テイラー・スウィフト＆</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sabrina Carpenter</p>
-                <p class="lyric-ja">サブリナ・カーペンター</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">]</p>
-                <p class="lyric-ja">]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&quot;Thank you for the lovely bouquet</p>
-                <p class="lyric-ja">「素敵な花束をありがとう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I&#x27;m married to the hustle</p>
-                <p class="lyric-ja">I'm married to the hustle</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And now I know the life of a showgirl, babe</p>
-                <p class="lyric-ja">今は知ってることを知ってる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And I&#x27;ll never know another</p>
-                <p class="lyric-ja">もう元に戻れない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Pain hidden by the lipstick and lace (</p>
-                <p class="lyric-ja">口紅とレースで隠れた痛み (</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Lipstick and lace</p>
-                <p class="lyric-ja">口紅とレース</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">)</p>
-                <p class="lyric-ja">)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sequins are forever</p>
-                <p class="lyric-ja">スパンコールは永遠です</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And now I know the life of a showgirl, babe</p>
-                <p class="lyric-ja">今は知ってることを知ってる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wouldn&#x27;t have it any other way&quot; (</p>
-                <p class="lyric-ja">それ以外の方法はなかったでしょう」(</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wouldn&#x27;t have it any other way</p>
-                <p class="lyric-ja">それ以外の方法はないだろう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">)</p>
-                <p class="lyric-ja">)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">[Post-Chorus: Taylor Swift &amp;</p>
-                <p class="lyric-ja">[ポストコーラス: テイラー・スウィフト &amp;</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sabrina Carpenter</p>
-                <p class="lyric-ja">サブリナ・カーペンター</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">]</p>
-                <p class="lyric-ja">]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">(Thank you for the lovely bouquet)</p>
-                <p class="lyric-ja">(素敵な花束をありがとう)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Oh, wouldn&#x27;t have it any other way</p>
-                <p class="lyric-ja">ああ、それ以外の方法はなかっただろう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">(Thank you for the lovely bouquet)</p>
-                <p class="lyric-ja">(素敵な花束をありがとう)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Hey, Kitty</p>
-                <p class="lyric-ja">Hey, Kitty</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">(Thank you for the lovely bouquet)</p>
-                <p class="lyric-ja">(素敵な花束をありがとう)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Now I make my money being pretty and witty</p>
-                <p class="lyric-ja">今、私、私の、そして</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Thank you for the lovely bouquet</p>
-                <p class="lyric-ja">素敵な花束をありがとうございました</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">[Outro: Taylor Swift &amp;</p>
-                <p class="lyric-ja">[アウトロ: テイラー・スウィフト&amp;</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sabrina Carpenter</p>
-                <p class="lyric-ja">サブリナ・カーペンター</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">]</p>
-                <p class="lyric-ja">]</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Thank you for an unforgettable night</p>
-                <p class="lyric-ja">あなた、夜</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">We will see you next time</p>
-                <p class="lyric-ja">私たち、見る、あなた、時間</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Give it up for the band</p>
-                <p class="lyric-ja">それ、上へ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And the dancers</p>
-                <p class="lyric-ja">そしてダンサーたち</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And of course, Sabrina</p>
-                <p class="lyric-ja">そしてもちろんサブリナも</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I love you, Taylor</p>
-                <p class="lyric-ja">私、愛、あなた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">That&#x27;s our show, we love you so much</p>
-                <p class="lyric-ja">私たちの、私たち、愛、あなた、だから</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Good night</p>
-                <p class="lyric-ja">良い、夜</p>
-            </div>
-        </div>
-
-<section class="mascot-section" id="mascot-trivia">
-            <div class="mascot-card">
-                <img class="mascot-img" id="mascot-image" src="images/cat-mic.png" alt="Olivia mascot">
-                <div class="mascot-bubble">
-                    <p class="trivia-label">🐱 Did You Know?</p>
-                    <p id="mascot-text">Loading...</p>
-                </div>
-            </div>
-        </section>
-        
-    <section class="album-links">
-        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
-        <div class="album-links-grid">
-            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
-            <a href="cancelled.html" class="album-link">CANCELLED!</a>
-            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
-            <a href="father-figure.html" class="album-link">Father Figure</a>
-            <a href="honey.html" class="album-link">Honey</a>
-            <a href="opalite.html" class="album-link">Opalite</a>
-            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
-            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
-            <span class="album-link current">▶ The Life of a Showgirl</span>
-            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
-            <a href="wood.html" class="album-link">Wood</a>
-        </div>
-    </section>
-
-        <footer class="article-footer">
-            <p class="site-name">We are Swifties</p>
-            <div class="footer-links">
-                <a href="index.html">ホーム</a>
-                <a href="about.html">運営者情報</a>
-                <a href="contact.html">お問い合わせ</a>
-                <a href="privacy-policy.html">プライバシーポリシー</a>
-            </div>
-            <p class="copyright">&copy; 2026 We are Swifties. All rights reserved.</p><p class="copyright" style="margin-top:6px;font-size:0.62rem;color:#4a4040;line-height:1.6">当サイトに掲載する歌詞は、著作権法第32条に基づく「引用」の範囲内で、解説・批評を目的として使用しています。歌詞の著作権は各権利者に帰属します。</p>
-        </footer>
-    </main>
-
-    <script>
-        const triviaList = [
-            { img: 'images/cat-mic.png', text: 'テイラーはSabrina Carpenterを「次世代で最もエキサイティングなアーティスト」と称賛。この曲ではお互いのVerseを書き合ったそう！' },
-            { img: 'images/cat-piano.png', text: '「The Life of a Showgirl」はラスベガスの伝統的なショウガール文化へのオマージュ。テイラーのVegas Residencyのテーマソングでもある！' },
-            { img: 'images/cat-guitar.png', text: 'この曲のプロデューサーはJack Antonoff。テイラーとの長年のコラボレーションの集大成とも言える作品。' },
-            { img: 'images/cat-mic.png', text: '「disco balls」はfolkloreの「mirrorball」と呼応。テイラーは「みんなのために光を反射する存在」というテーマを一貫して描いている！' },
-            { img: 'images/cat-piano.png', text: 'Sabrina Carpenterは2024年のEras Tourのオープニングアクトを務め、テイラーとの友情を深めた。この曲はその絆の証！' },
-            { img: 'images/cat-guitar.png', text: 'アルバム名と同名のタイトルトラック（Track 12）。テイラーは「アルバムの全てがこの1曲に集約されている」とコメント。' },
-        ];
-        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
-        document.getElementById('mascot-image').src = pick.img;
-        document.getElementById('mascot-text').textContent = pick.text;
-    </script>
-
-    <script>
-    // YouTube Sticky-on-Play
-    (function(){
-        var ytSection = document.querySelector('.youtube-section');
-        if (!ytSection) return;
-        var wrapper = ytSection.querySelector('.youtube-wrapper');
-        if (!wrapper) return;
-        var oldIframe = wrapper.querySelector('iframe');
-        if (!oldIframe) return;
-
-        // Extract video ID from src
-        var src = oldIframe.getAttribute('src') || '';
-        var match = src.match(/embed\/([^?&]+)/);
-        if (!match) return;
-        var videoId = match[1];
-
-        // Create a div placeholder to replace the iframe
-        var placeholder = document.createElement('div');
-        placeholder.id = 'yt-sticky-player';
-        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
-
-        // Load YouTube IFrame API
-        var tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        document.head.appendChild(tag);
-
-        window.onYouTubeIframeAPIReady = function() {
-            new YT.Player('yt-sticky-player', {
-                videoId: videoId,
-                playerVars: { rel: 0 },
-                events: {
-                    onStateChange: function(e) {
-                        if (e.data === YT.PlayerState.PLAYING) {
-                            ytSection.classList.add('is-sticky');
-                        } else {
-                            ytSection.classList.remove('is-sticky');
-                        }
-                    }
-                }
-            });
-        };
-    })();
-    </script>
-<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
-<div class="copy-toast" id="copyToast">コピーしました！</div>
-<script>
-function copyLyrics(){
-    var blocks=document.querySelectorAll('.lyric-block');
-    var text='';
-    blocks.forEach(function(b){
-        b.querySelectorAll('.lyric-pair').forEach(function(p){
-            var en=p.querySelector('.lyric-en');
-            var ja=p.querySelector('.lyric-ja');
-            if(en)text+=en.textContent+'\n';
-            if(ja)text+=ja.textContent+'\n';
-        });
-        text+='\n';
-    });
-    navigator.clipboard.writeText(text.trim()).then(function(){
-        var t=document.getElementById('copyToast');
-        t.classList.add('show');
-        setTimeout(function(){t.classList.remove('show')},2000);
-    });
-}
-</script>
-</body>
-
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+    <title>The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳 | We are スウィフティーズ</title>
+    <meta name="description" content="テイラー・スウィフト「The Life of a Showgirl」(feat. Sabrina Carpenter)の英語歌詞・日本語訳・徹底解説。Sabrinaとの夢のデュエットで描く、ショウガールの光と影。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0d0610;
+            --bg-card: #1a0c22;
+            --bg-card-hover: #231530;
+            --text-primary: #f0e0f8;
+            --text-secondary: #c8a8d8;
+            --accent: #e040a0;
+            --accent-light: #f070c0;
+            --accent-rose: #f472b6;
+            --accent-cyan: #c8a0f0;
+            --accent-amber: #fbbf24;
+            --english-color: #f0a0d0;
+            --japanese-color: #f4d0e8;
+            --commentary-color: #8a6098;
+            --gradient-accent: linear-gradient(135deg, #c02080 0%, #e040a0 40%, #f070c0 100%);
+            --gradient-dark: linear-gradient(180deg, #0d0610 0%, #180a20 100%);
+            --gradient-opal: linear-gradient(135deg, #c02080 0%, #e040a0 40%, #f070c0 100%);
+            --gradient-gold: linear-gradient(135deg, #c02080, #e040a0);
+            --accent-opal: #e040a0;
+            --accent-opal-light: #f070c0;
+            --accent-gold-light: #f070c0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* ========== Hero Section ========== */
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(224, 64, 160, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 50%, rgba(200, 160, 240, 0.07) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(240, 112, 192, 0.05) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-5%) translateY(-5%) rotate(0deg); }
+            100% { transform: translateX(5%) translateY(5%) rotate(3deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 6vw, 4rem);
+            font-weight: 700;
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-feat {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-album {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--accent-light);
+            border: 1px solid rgba(224, 64, 160, 0.3);
+            padding: 0.4rem 1.2rem;
+            border-radius: 100px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ========== Floating Gems ========== */
+        .gem {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(1px);
+            opacity: 0.4;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .gem:nth-child(1) { width: 6px; height: 6px; background: var(--accent); top: 20%; left: 10%; animation-delay: 0s; }
+        .gem:nth-child(2) { width: 4px; height: 4px; background: var(--accent-cyan); top: 40%; right: 15%; animation-delay: 2s; }
+        .gem:nth-child(3) { width: 8px; height: 8px; background: var(--accent-rose); bottom: 30%; left: 20%; animation-delay: 4s; }
+        .gem:nth-child(4) { width: 5px; height: 5px; background: var(--accent-amber); top: 60%; right: 25%; animation-delay: 1s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); opacity: 0.4; }
+            50% { transform: translateY(-20px) scale(1.2); opacity: 0.7; }
+        }
+
+        /* ========== Main Content ========== */
+        .main-content { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem 6rem; }
+
+        /* ========== Song Intro ========== */
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(224, 64, 160, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .song-intro::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--gradient-accent); }
+        .song-intro h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-light); margin-bottom: 1rem; }
+        .song-intro p { font-size: 0.95rem; color: var(--text-secondary); line-height: 2; }
+        .song-intro .keyword { color: var(--accent-light); font-weight: 500; }
+
+        /* ========== Section Headers ========== */
+        .section-header { display: flex; align-items: center; gap: 1rem; margin: 3rem 0 1.5rem; }
+        .section-header .line { flex: 1; height: 1px; background: linear-gradient(90deg, rgba(224, 64, 160, 0.3), transparent); }
+        .section-header h3 { font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+
+        /* ========== Lyrics ========== */
+        .lyric-block { margin-bottom: 0.5rem; }
+        .lyric-en { font-family: 'Inter', 'Noto Sans JP', sans-serif; font-size: 1.05rem; font-weight: 400; color: var(--english-color); line-height: 1.9; }
+        .lyric-ja { font-size: 0.95rem; font-weight: 300; color: var(--japanese-color); line-height: 1.9; margin-bottom: 0.3rem; }
+        .lyric-pair { padding: 0.4rem 0; border-bottom: 1px solid rgba(224, 64, 160, 0.05); }
+        .lyric-pair:last-child { border-bottom: none; }
+
+        /* ========== Commentary ========== */
+        .commentary { margin: 1.2rem 0 2rem; padding: 1.2rem 1.5rem; border-left: 2px solid rgba(138, 96, 152, 0.4); border-radius: 0 8px 8px 0; background: rgba(138, 96, 152, 0.06); }
+        .commentary p { font-size: 0.82rem; color: var(--commentary-color); line-height: 2; font-weight: 300; }
+        .commentary .note-icon { font-size: 0.7rem; color: rgba(138, 96, 152, 0.6); margin-right: 0.3rem; }
+        .commentary strong { color: #c898d8; font-weight: 500; }
+
+        /* ========== Legend ========== */
+/* ========== YouTube ========== */
+        .youtube-section { margin-bottom: 3rem; }
+        .youtube-section h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-light); margin-bottom: 1rem; }
+        .youtube-wrapper { position: relative; width: 100%; padding-bottom: 56.25%; border-radius: 12px; overflow: hidden; border: 1px solid rgba(224, 64, 160, 0.15); }
+        .youtube-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+
+        /* ========== Footer ========== */
+        .article-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(224, 64, 160, 0.1); text-align: center; }
+        .article-footer .site-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 0.5rem; }
+        .article-footer .copyright { font-size: 0.7rem; color: var(--commentary-color); }
+        .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+        .footer-links a { font-size: 0.7rem; color: var(--text-secondary); text-decoration: none; letter-spacing: 0.05em; transition: color 0.3s; }
+        .footer-links a:hover { color: var(--accent-light); }
+
+        /* ========== Responsive ========== */
+        @media (max-width: 600px) {
+            .main-content { padding: 2rem 1rem 4rem; }
+            .song-intro { padding: 1.5rem; }
+.lyric-en { font-size: 0.95rem; }
+            .lyric-ja { font-size: 0.88rem; }
+        }
+
+        .back-link { display: inline-block; margin-bottom: 2rem; color: var(--accent); text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
+        .back-link:hover { color: var(--accent-light); }
+
+        /* ========== Mascot ========== */
+        .mascot-section { max-width: 780px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .mascot-card { display: flex; align-items: flex-end; gap: 1rem; }
+        .mascot-img { width: 110px; height: 110px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 8px rgba(224, 64, 160, 0.2)); }
+        .mascot-bubble { background: var(--bg-card); border: 1px solid rgba(224, 64, 160, 0.15); border-radius: 16px 16px 16px 4px; padding: 1rem 1.3rem; font-size: 0.85rem; color: var(--text-primary); line-height: 1.7; max-width: 500px; }
+        .mascot-bubble .trivia-label { font-family: 'Inter', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.3rem; }
+        @media (max-width: 600px) {
+            .mascot-card { flex-direction: column; align-items: center; text-align: center; }
+            .mascot-bubble { border-radius: 16px; }
+            .mascot-img { width: 90px; height: 90px; }
+        }
+
+        /* Global Nav */
+        .global-nav { display: flex; justify-content: center; align-items: center; gap: 2rem; padding: 1rem 1.5rem; background: rgba(13, 6, 16, 0.95); border-bottom: 1px solid rgba(224, 64, 160, 0.1); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+        .global-nav a { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-secondary); text-decoration: none; transition: color 0.3s; }
+        .global-nav a:hover { color: var(--accent-light); }
+        .global-nav a.nav-home { font-family: 'Playfair Display', serif; font-size: 0.9rem; font-weight: 700; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0; text-transform: none; }
+        @media (max-width: 600px) { .global-nav { gap: 1rem; flex-wrap: wrap; } .global-nav a { font-size: 0.65rem; } }
+    
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        
+        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
+
+        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
+    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}.x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}.copy-lyrics-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#888;font-size:.78rem;cursor:pointer;transition:all .2s;font-family:inherit;margin-left:8px}.copy-lyrics-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}.copy-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:rgba(80,200,120,.9);color:#0a0a0f;padding:8px 20px;border-radius:50px;font-size:.8rem;font-weight:700;opacity:0;transition:opacity .3s;pointer-events:none;z-index:999}.copy-toast.show{opacity:1}</style>
+
+    <!-- OGP / Twitter Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta property="og:description" content="テイラー・スウィフト「The Life of a Showgirl」(feat. Sabrina Carpenter)の英語歌詞・日本語訳・徹底解説。">
+    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/the-life-of-a-showgirl.html">
+    <meta property="og:image" content="https://img.youtube.com/vi/OU6362Nggg0/maxresdefault.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:site_name" content="We are Swifties">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳・徹底解説">
+    <meta name="twitter:description" content="テイラー・スウィフト「The Life of a Showgirl」の英語歌詞・日本語訳・徹底解説。">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/OU6362Nggg0/maxresdefault.jpg">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PESZB0HW0B');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - The Life of a Showgirl (feat. Sabrina Carpenter) 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「The Life of a Showgirl」(feat. Sabrina Carpenter)の英語歌詞・日本語訳・徹底解説。Sabrinaとの夢のデュエットで描く、ショウガールの光と影。","image":"https://img.youtube.com/vi/OU6362Nggg0/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/life-of-a-showgirl.html","about":{"@type":"MusicComposition","name":"The Life of a Showgirl (feat. Sabrina Carpenter)","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
+</script>
+    <link rel="canonical" href="https://we-are-swifties.com/life-of-a-showgirl.html">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/life-of-a-showgirl.html"}]}
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7380963012859479" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="global-nav">
+        <a href="index.html" class="nav-home">We are Swifties</a>
+        <a href="index.html">曲一覧</a>
+        <a href="about.html">運営者情報</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+        <div class="gem"></div>
+        <div class="gem"></div>
+        <div class="gem"></div>
+        <div class="gem"></div>
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">The Life of a Showgirl</h1>
+            <p class="hero-feat">feat. Sabrina Carpenter</p>
+            <p class="hero-artist">Taylor Swift</p>
+            <span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+        <ol>
+            <li><a href="index.html#album-toc">🏠 TOP</a></li>
+            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
+            <li aria-current="page">The Life of a Showgirl</li>
+        </ol>
+    </nav>
+
+
+    <!-- ===== Main ===== -->
+    <main class="main-content">
+
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+
+        <!-- Song Intro -->
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>
+                「<span class="keyword">The Life of a Showgirl</span>」は、2025年リリースの12thアルバム
+                <span class="keyword">『The Life of a Showgirl』</span>のタイトルトラック（Track 12）で、
+                <span class="keyword">Sabrina Carpenter</span>をフィーチャーした夢のデュエット。
+                テイラーとサブリナが交互に歌い、それぞれの視点からショービジネスの光と影を描く。
+                「ショウガール」とは単なるパフォーマーではなく、
+                <span class="keyword">人前に立ち続ける全ての女性</span>のメタファー。
+                批判と称賛の間で自分を見失わないこと、そしてステージの上でこそ本当の自分でいられるという矛盾を美しく歌い上げる。
+            </p>
+        </div>
+
+            </div>
+        </div>
+
+        <!-- Mascot Trivia -->
+
+        <!-- YouTube Embed -->
+        <div class="youtube-section">
+            <h2>▶ Official Lyric Video</h2>
+            <div class="youtube-wrapper">
+                <iframe loading="lazy" src="https://www.youtube.com/embed/OU6362Nggg0?enablejsapi=1" title="Taylor Swift - The Life of a Showgirl (Feat. Sabrina Carpenter) (Lyric Video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- VERSE 1 (Taylor) -->
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1: TAYLOR SWIFT</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Her name was Kitty</p>
+                <p class="lyric-ja">彼女の名前はキティでした</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Made her money being pretty and witty</p>
+                <p class="lyric-ja">かわいくて機知に富んでいて彼女はお金を稼いだ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They gave her the keys to this city</p>
+                <p class="lyric-ja">彼らは彼女にこの街への鍵を与えた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Then they said she didn&#x27;t do it legitly, oh</p>
+                <p class="lyric-ja">それから彼らは、彼女はそれを合法的にやったのではないと言いました、ああ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I bought a ticket</p>
+                <p class="lyric-ja">チケットを購入しました</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">She&#x27;s dancing in her garters and fishnets</p>
+                <p class="lyric-ja">彼女はガーターと網タイツを着て踊っている</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Fifty in the cast, zero missteps</p>
+                <p class="lyric-ja">キャストは50人、失敗はゼロ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Looking back, I guess it was kismet</p>
+                <p class="lyric-ja">思い返すとキスメットだったかな</p>
+            </div>
+        </div>
+
+
+        <div class="commentary"><p><span class="note-icon">🎵</span>「The Life of a Showgirl」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
+<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20The%20Life%20of%20a%20Showgirl%20%28feat.%20Sabrina%20Carpenter%29%20%E6%AD%8C%E8%A9%9E%E3%83%BB%E5%92%8C%E8%A8%B3%20%7C%20We%20are%20%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BA%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8CThe%20Life%20of%20a%20Showgirl%E3%80%8D%28feat.%20Sabrina%20Carpenter%29%E3%81%AE&url=https%3A%2F%2Fwe-are-swifties.com%2Flife-of-a-showgirl.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
+
+
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>PRE-CHORUS: TAYLOR SWIFT</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I waited by the stage door,</p>
+                <p class="lyric-ja">ステージドアのところで待っていましたが、</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">packed in with the autograph hounds</p>
+                <p class="lyric-ja">サインハウンドが詰め込まれている</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Barking her name,</p>
+                <p class="lyric-ja">彼女の名前を吠えながら、</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">then</p>
+                <p class="lyric-ja">それから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">glowing like the end of a cigarette</p>
+                <p class="lyric-ja">タバコの先のように光る</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wow, she came out</p>
+                <p class="lyric-ja">わあ、彼女が出てきた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I said, &quot;You&#x27;re living my drеam&quot;</p>
+                <p class="lyric-ja">私は言った、「あなたは私の夢を生きているのよ」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Then she said to me</p>
+                <p class="lyric-ja">それから彼女は私に言った</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS: TAYLOR SWIFT</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">&quot;Hеy, thank you for the lovely bouquet</p>
+                <p class="lyric-ja">「やあ、素敵な花束をありがとう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You&#x27;re sweeter than a peach</p>
+                <p class="lyric-ja">You're sweeter than a peach</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But you don&#x27;t know the life of a showgirl, babe</p>
+                <p class="lyric-ja">でも、あなた、知る、人生</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you&#x27;re never ever gonna</p>
+                <p class="lyric-ja">そして、決して</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wait, the more you play, the more that you pay</p>
+                <p class="lyric-ja">待つ、あなた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You&#x27;re softer than a kitten</p>
+                <p class="lyric-ja">You're softer than a kitten</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">So you don&#x27;t know the life of a showgirl, babe</p>
+                <p class="lyric-ja">だから、あなた、知る、人生</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you&#x27;re never gonna wanna&quot;</p>
+                <p class="lyric-ja">そして、あなたは決して望んでいません」</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 2: SABRINA CARPENTER</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">She was a menace</p>
+                <p class="lyric-ja">彼女は脅威だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">The baby of the family in Lenox</p>
+                <p class="lyric-ja">ベイビー、中に</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Her father whored around like all men did</p>
+                <p class="lyric-ja">彼女の父親は他の男と同じように性行為をした</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Her mother took pills and played tennis</p>
+                <p class="lyric-ja">彼女を、そして</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">[Pre-Chorus: Sabrina Carpenter,</p>
+                <p class="lyric-ja">[プリコーラス：サブリナ・カーペンター、</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Taylor Swift &amp; Sabrina Carpenter</p>
+                <p class="lyric-ja">テイラー・スウィフト＆サブリナ・カーペンター</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">]</p>
+                <p class="lyric-ja">]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">So she waited by the stage door as the club promoter arrived</p>
+                <p class="lyric-ja">だから、彼女、ドア</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">She said, &quot;I&#x27;d sell my soul to have a taste of a magnificent life that&#x27;s all mine&quot;</p>
+                <p class="lyric-ja">彼女、私の、魂、人生</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But that&#x27;s not what showgirls get</p>
+                <p class="lyric-ja">でも私の心はそこにはない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They leave us for dead</p>
+                <p class="lyric-ja">彼ら、去る、私たちを、死んだ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">[Chorus: Sabrina Carpenter,</p>
+                <p class="lyric-ja">[コーラス：サブリナ・カーペンター]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sabrina Carpenter &amp; Taylor Swift</p>
+                <p class="lyric-ja">サブリナ・カーペンター &amp; テイラー・スウィフト</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">]</p>
+                <p class="lyric-ja">]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Hey</p>
+                <p class="lyric-ja">ヘイ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">, thank you for the lovely bouquet</p>
+                <p class="lyric-ja">、素敵な花束をありがとう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You&#x27;re sweeter than a peach</p>
+                <p class="lyric-ja">You're sweeter than a peach</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But</p>
+                <p class="lyric-ja">しかし、</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">you don&#x27;t know the life of a showgirl, babe</p>
+                <p class="lyric-ja">あなたはショーガールの人生を知りません、ベイビー</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you&#x27;re never ever gonna</p>
+                <p class="lyric-ja">そして、決して</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wait, the more you play,</p>
+                <p class="lyric-ja">待って、プレイすればするほど、</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">the more that you pay</p>
+                <p class="lyric-ja">支払えば支払うほど</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You&#x27;re softer than a kitten</p>
+                <p class="lyric-ja">You're softer than a kitten</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">So you don&#x27;t know the life of a showgirl, babe</p>
+                <p class="lyric-ja">だから、あなた、知る、人生</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you&#x27;re never gonna wanna</p>
+                <p class="lyric-ja">そして、決して</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">[Bridge: Taylor Swift &amp;</p>
+                <p class="lyric-ja">[ブリッジ：テイラー・スウィフト＆</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sabrina Carpenter</p>
+                <p class="lyric-ja">サブリナ・カーペンター</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">]</p>
+                <p class="lyric-ja">]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I took her pearls of wisdom, hung them from my neck</p>
+                <p class="lyric-ja">私、彼女を、私の</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I paid my dues with every bruise, I knew what to expect</p>
+                <p class="lyric-ja">私、私の</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Do you wanna take a skate on the ice inside my veins?</p>
+                <p class="lyric-ja">あなた、私の</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They ripped me off like false lashes and then threw me away</p>
+                <p class="lyric-ja">彼ら、私を、偽りの、そして、その時、遠くへ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And all the headshots on the walls</p>
+                <p class="lyric-ja">そして壁にあるすべてのヘッドショット</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Of the dance hall are of the bitches</p>
+                <p class="lyric-ja">ダンスホールには雌犬がいる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Who wish I&#x27;d hurry up and die</p>
+                <p class="lyric-ja">願う、上へ、そして、死ぬ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But I&#x27;m immortal now, baby dolls</p>
+                <p class="lyric-ja">でも、今、ベイビー</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I couldn&#x27;t if I tried</p>
+                <p class="lyric-ja">私、もし</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">So I say</p>
+                <p class="lyric-ja">だから、私、言う</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">[Chorus: Taylor Swift &amp;</p>
+                <p class="lyric-ja">[コーラス：テイラー・スウィフト＆</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sabrina Carpenter</p>
+                <p class="lyric-ja">サブリナ・カーペンター</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">]</p>
+                <p class="lyric-ja">]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&quot;Thank you for the lovely bouquet</p>
+                <p class="lyric-ja">「素敵な花束をありがとう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I&#x27;m married to the hustle</p>
+                <p class="lyric-ja">I'm married to the hustle</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And now I know the life of a showgirl, babe</p>
+                <p class="lyric-ja">今は知ってることを知ってる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And I&#x27;ll never know another</p>
+                <p class="lyric-ja">もう元に戻れない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Pain hidden by the lipstick and lace (</p>
+                <p class="lyric-ja">口紅とレースで隠れた痛み (</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Lipstick and lace</p>
+                <p class="lyric-ja">口紅とレース</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">)</p>
+                <p class="lyric-ja">)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sequins are forever</p>
+                <p class="lyric-ja">スパンコールは永遠です</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And now I know the life of a showgirl, babe</p>
+                <p class="lyric-ja">今は知ってることを知ってる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wouldn&#x27;t have it any other way&quot; (</p>
+                <p class="lyric-ja">それ以外の方法はなかったでしょう」(</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wouldn&#x27;t have it any other way</p>
+                <p class="lyric-ja">それ以外の方法はないだろう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">)</p>
+                <p class="lyric-ja">)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">[Post-Chorus: Taylor Swift &amp;</p>
+                <p class="lyric-ja">[ポストコーラス: テイラー・スウィフト &amp;</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sabrina Carpenter</p>
+                <p class="lyric-ja">サブリナ・カーペンター</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">]</p>
+                <p class="lyric-ja">]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">(Thank you for the lovely bouquet)</p>
+                <p class="lyric-ja">(素敵な花束をありがとう)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, wouldn&#x27;t have it any other way</p>
+                <p class="lyric-ja">ああ、それ以外の方法はなかっただろう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">(Thank you for the lovely bouquet)</p>
+                <p class="lyric-ja">(素敵な花束をありがとう)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Hey, Kitty</p>
+                <p class="lyric-ja">Hey, Kitty</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">(Thank you for the lovely bouquet)</p>
+                <p class="lyric-ja">(素敵な花束をありがとう)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Now I make my money being pretty and witty</p>
+                <p class="lyric-ja">今、私、私の、そして</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Thank you for the lovely bouquet</p>
+                <p class="lyric-ja">素敵な花束をありがとうございました</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">[Outro: Taylor Swift &amp;</p>
+                <p class="lyric-ja">[アウトロ: テイラー・スウィフト&amp;</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sabrina Carpenter</p>
+                <p class="lyric-ja">サブリナ・カーペンター</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">]</p>
+                <p class="lyric-ja">]</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Thank you for an unforgettable night</p>
+                <p class="lyric-ja">あなた、夜</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">We will see you next time</p>
+                <p class="lyric-ja">私たち、見る、あなた、時間</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Give it up for the band</p>
+                <p class="lyric-ja">それ、上へ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And the dancers</p>
+                <p class="lyric-ja">そしてダンサーたち</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And of course, Sabrina</p>
+                <p class="lyric-ja">そしてもちろんサブリナも</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I love you, Taylor</p>
+                <p class="lyric-ja">私、愛、あなた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">That&#x27;s our show, we love you so much</p>
+                <p class="lyric-ja">私たちの、私たち、愛、あなた、だから</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Good night</p>
+                <p class="lyric-ja">良い、夜</p>
+            </div>
+        </div>
+
+<section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card">
+                <img class="mascot-img" id="mascot-image" src="images/cat-mic.png" alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">Loading...</p>
+                </div>
+            </div>
+        </section>
+        
+    <section class="album-links">
+        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
+        <div class="album-links-grid">
+            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
+            <a href="cancelled.html" class="album-link">CANCELLED!</a>
+            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
+            <a href="father-figure.html" class="album-link">Father Figure</a>
+            <a href="honey.html" class="album-link">Honey</a>
+            <a href="opalite.html" class="album-link">Opalite</a>
+            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
+            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
+            <span class="album-link current">▶ The Life of a Showgirl</span>
+            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
+            <a href="wood.html" class="album-link">Wood</a>
+        </div>
+    </section>
+
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <div class="footer-links">
+                <a href="index.html">ホーム</a>
+                <a href="about.html">運営者情報</a>
+                <a href="contact.html">お問い合わせ</a>
+                <a href="privacy-policy.html">プライバシーポリシー</a>
+            </div>
+            <p class="copyright">&copy; 2026 We are Swifties. All rights reserved.</p><p class="copyright" style="margin-top:6px;font-size:0.62rem;color:#4a4040;line-height:1.6">当サイトに掲載する歌詞は、著作権法第32条に基づく「引用」の範囲内で、解説・批評を目的として使用しています。歌詞の著作権は各権利者に帰属します。</p>
+        </footer>
+    </main>
+
+    <script>
+        const triviaList = [
+            { img: 'images/cat-mic.png', text: 'テイラーはSabrina Carpenterを「次世代で最もエキサイティングなアーティスト」と称賛。この曲ではお互いのVerseを書き合ったそう！' },
+            { img: 'images/cat-piano.png', text: '「The Life of a Showgirl」はラスベガスの伝統的なショウガール文化へのオマージュ。テイラーのVegas Residencyのテーマソングでもある！' },
+            { img: 'images/cat-guitar.png', text: 'この曲のプロデューサーはJack Antonoff。テイラーとの長年のコラボレーションの集大成とも言える作品。' },
+            { img: 'images/cat-mic.png', text: '「disco balls」はfolkloreの「mirrorball」と呼応。テイラーは「みんなのために光を反射する存在」というテーマを一貫して描いている！' },
+            { img: 'images/cat-piano.png', text: 'Sabrina Carpenterは2024年のEras Tourのオープニングアクトを務め、テイラーとの友情を深めた。この曲はその絆の証！' },
+            { img: 'images/cat-guitar.png', text: 'アルバム名と同名のタイトルトラック（Track 12）。テイラーは「アルバムの全てがこの1曲に集約されている」とコメント。' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function(){
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var oldIframe = wrapper.querySelector('iframe');
+        if (!oldIframe) return;
+
+        // Extract video ID from src
+        var src = oldIframe.getAttribute('src') || '';
+        var match = src.match(/embed\/([^?&]+)/);
+        if (!match) return;
+        var videoId = match[1];
+
+        // Create a div placeholder to replace the iframe
+        var placeholder = document.createElement('div');
+        placeholder.id = 'yt-sticky-player';
+        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
+
+        // Load YouTube IFrame API
+        var tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+
+        window.onYouTubeIframeAPIReady = function() {
+            new YT.Player('yt-sticky-player', {
+                videoId: videoId,
+                playerVars: { rel: 0 },
+                events: {
+                    onStateChange: function(e) {
+                        if (e.data === YT.PlayerState.PLAYING) {
+                            ytSection.classList.add('is-sticky');
+                        } else {
+                            ytSection.classList.remove('is-sticky');
+                        }
+                    }
+                }
+            });
+        };
+    })();
+    </script>
+<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
+<div class="copy-toast" id="copyToast">コピーしました！</div>
+<script>
+function copyLyrics(){
+    var blocks=document.querySelectorAll('.lyric-block');
+    var text='';
+    blocks.forEach(function(b){
+        b.querySelectorAll('.lyric-pair').forEach(function(p){
+            var en=p.querySelector('.lyric-en');
+            var ja=p.querySelector('.lyric-ja');
+            if(en)text+=en.textContent+'\n';
+            if(ja)text+=ja.textContent+'\n';
+        });
+        text+='\n';
+    });
+    navigator.clipboard.writeText(text.trim()).then(function(){
+        var t=document.getElementById('copyToast');
+        t.classList.add('show');
+        setTimeout(function(){t.classList.remove('show')},2000);
+    });
+}
+</script>
+</body>
+
 </html>
