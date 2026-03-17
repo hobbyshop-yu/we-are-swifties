@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌詞当てクイズ | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフトの歌詞クイズ！歌詞の一節からどの曲か当てよう。10問中何問正解できる？">
+    <meta property="og:title" content="歌詞当てクイズ | We are Swifties">
+    <meta property="og:description" content="歌詞の一節からどの曲か当てよう🎵 10問チャレンジ！">
+    <meta property="og:url" content="https://we-are-swifties.com/lyrics-quiz.html">
+    <meta property="og:image" content="https://we-are-swifties.com/images/og-quiz.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/lyrics-quiz.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:640px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
+        .progress{width:100%;height:4px;background:rgba(255,255,255,.08);border-radius:4px;margin-bottom:.5rem;overflow:hidden}
+        .progress-fill{height:100%;background:linear-gradient(90deg,#c9a0dc,#89b4fa);border-radius:4px;transition:width .4s;width:0}
+        .score-bar{display:flex;justify-content:space-between;font-size:.8rem;color:#666;margin-bottom:1.5rem}
+        .q-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:2rem;animation:fadeIn .4s}
+        .lyric-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:1.3rem;color:#f5c2e7;text-align:center;line-height:1.6;margin-bottom:1.5rem;padding:1rem;border-left:3px solid rgba(201,160,220,.3)}
+        .options{display:flex;flex-direction:column;gap:.6rem}
+        .opt{display:block;width:100%;padding:12px 16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#e7e9ea;font-size:.9rem;cursor:pointer;transition:all .2s;text-align:left;font-family:inherit}
+        .opt:hover:not(.disabled){background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3)}
+        .opt.correct{background:rgba(80,200,120,.15);border-color:rgba(80,200,120,.5);color:#50c878}
+        .opt.wrong{background:rgba(200,60,60,.15);border-color:rgba(200,60,60,.5);color:#e85050}
+        .opt.disabled{cursor:default;opacity:.6}
+        .next-btn{display:block;margin:1rem auto 0;padding:10px 28px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.9rem;font-weight:700;cursor:pointer;font-family:inherit;transition:all .3s}
+        .next-btn:hover{opacity:.9;transform:translateY(-1px)}
+        .result{text-align:center;animation:fadeIn .5s}
+        .result .big-score{font-size:4rem;font-weight:900;background:linear-gradient(135deg,#f5c2e7,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.5rem}
+        .result .label{font-size:1.2rem;margin-bottom:.5rem}
+        .result .comment{color:#888;font-size:.9rem;margin-bottom:1.5rem}
+        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.9rem;font-weight:700;cursor:pointer;font-family:inherit;text-decoration:none;margin-bottom:.5rem}
+        .share-btn:hover{opacity:.9}
+        .share-btn svg{width:16px;height:16px}
+        .retry-btn{display:inline-block;padding:10px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#aaa;font-size:.85rem;cursor:pointer;font-family:inherit;text-decoration:none}
+        .retry-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+        @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎤 歌詞当てクイズ</h1>
+        <p class="subtitle">歌詞の一節から曲名を当てよう！</p>
+        <div class="progress"><div class="progress-fill" id="progress"></div></div>
+        <div class="score-bar"><span id="qNum"></span><span id="scoreDisplay"></span></div>
+        <div id="quizArea"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+<script>
+const allQuestions = [
+    {lyric: "It's me, hi, I'm the problem, it's me", answer: "Anti-Hero", opts: ["Karma", "Anti-Hero", "Lavender Haze", "Vigilante Shit"]},
+    {lyric: "Long story short, I survived", answer: "Long Story Short", opts: ["Long Story Short", "Clean", "Begin Again", "Daylight"]},
+    {lyric: "We are never ever ever getting back together", answer: "We Are Never Ever Getting Back Together", opts: ["Bad Blood", "We Are Never Ever Getting Back Together", "I Knew You Were Trouble", "Picture to Burn"]},
+    {lyric: "I've been the archer, I've been the prey", answer: "The Archer", opts: ["The Archer", "Bad Blood", "Look What You Made Me Do", "Vigilante Shit"]},
+    {lyric: "Band-aids don't fix bullet holes", answer: "Bad Blood", opts: ["I Did Something Bad", "Bad Blood", "Look What You Made Me Do", "Mean"]},
+    {lyric: "Romeo, take me somewhere we can be alone", answer: "Love Story", opts: ["Enchanted", "Love Story", "You Belong with Me", "Fearless"]},
+    {lyric: "You belong with me, you belong with me", answer: "You Belong with Me", opts: ["Love Story", "Mine", "You Belong with Me", "Ours"]},
+    {lyric: "I knew you were trouble when you walked in", answer: "I Knew You Were Trouble", opts: ["Red", "I Knew You Were Trouble", "22", "All Too Well"]},
+    {lyric: "Cause the players gonna play, play, play", answer: "Shake It Off", opts: ["Blank Space", "Bad Blood", "ME!", "Shake It Off"]},
+    {lyric: "Darling, I'm a nightmare dressed like a daydream", answer: "Blank Space", opts: ["Blank Space", "Style", "Wildest Dreams", "New Romantics"]},
+    {lyric: "I remember it all too well", answer: "All Too Well", opts: ["Red", "All Too Well", "Begin Again", "The Last Time"]},
+    {lyric: "In my defense, I have none", answer: "Anti-Hero", opts: ["champagne problems", "Anti-Hero", "tolerate it", "Fortnight"]},
+    {lyric: "So it goes, he can't keep his wild eyes on the road", answer: "Style", opts: ["Getaway Car", "Style", "Wildest Dreams", "Out of the Woods"]},
+    {lyric: "I'm the problem, it's me", answer: "Anti-Hero", opts: ["Karma", "Anti-Hero", "Mastermind", "Bejeweled"]},
+    {lyric: "You drew stars around my scars", answer: "cardigan", opts: ["invisible string", "cardigan", "august", "willow"]},
+    {lyric: "I love you, it's ruining my life", answer: "Fortnight", opts: ["loml", "Fortnight", "So Long, London", "Down Bad"]},
+    {lyric: "She would've made such a lovely bride", answer: "champagne problems", opts: ["tolerate it", "champagne problems", "happiness", "right where you left me"]},
+    {lyric: "I once believed love would be burning red", answer: "Red", opts: ["All Too Well", "Red", "Begin Again", "State of Grace"]},
+    {lyric: "I don't wanna look at anything else now that I saw you", answer: "Daylight", opts: ["Lover", "Daylight", "Cornelia Street", "Paper Rings"]},
+    {lyric: "My tears ricochet", answer: "my tears ricochet", opts: ["this is me trying", "my tears ricochet", "hoax", "epiphany"]},
+    {lyric: "You're on your own, kid, you always have been", answer: "You're on Your Own, Kid", opts: ["Anti-Hero", "You're on Your Own, Kid", "Midnight Rain", "Maroon"]},
+    {lyric: "When you are young, they assume you know nothing", answer: "cardigan", opts: ["seven", "betty", "cardigan", "the 1"]},
+    {lyric: "Don't blame me, love made me crazy", answer: "Don't Blame Me", opts: ["Gorgeous", "Don't Blame Me", "Delicate", "Getaway Car"]},
+    {lyric: "He looks up grinning like a devil", answer: "Cruel Summer", opts: ["Lover", "Cruel Summer", "Paper Rings", "The Man"]},
+    {lyric: "I'm like the water when your ship rolled in that night", answer: "willow", opts: ["cardigan", "willow", "ivy", "gold rush"]},
+    {lyric: "Karma is my boyfriend", answer: "Karma", opts: ["Bejeweled", "Lavender Haze", "Karma", "Mastermind"]},
+    {lyric: "Say you'll remember me standing in a nice dress", answer: "Wildest Dreams", opts: ["Style", "Wildest Dreams", "New Romantics", "Clean"]},
+    {lyric: "I'm a crumpled up piece of paper lying here", answer: "All Too Well", opts: ["Sad Beautiful Tragic", "All Too Well", "Back to December", "Last Kiss"]},
+    {lyric: "Back then I swore I was gonna marry him someday", answer: "Fifteen", opts: ["Love Story", "Fifteen", "Mine", "Mary's Song"]},
+    {lyric: "I got that red lip classic thing that you like", answer: "Style", opts: ["Blank Space", "Style", "22", "New Romantics"]},
+];
+
+let questions = [];
+let current = 0;
+let score = 0;
+const TOTAL = 10;
+
+function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+function startQuiz() {
+    questions = shuffle([...allQuestions]).slice(0, TOTAL);
+    current = 0;
+    score = 0;
+    showQ();
+}
+
+function showQ() {
+    const q = questions[current];
+    document.getElementById('progress').style.width = ((current)/TOTAL*100) + '%';
+    document.getElementById('qNum').textContent = `Q${current+1} / ${TOTAL}`;
+    document.getElementById('scoreDisplay').textContent = `✅ ${score}問正解`;
+    
+    const shuffledOpts = shuffle([...q.opts]);
+    document.getElementById('quizArea').innerHTML = `
+        <div class="q-card">
+            <div class="lyric-quote">"${q.lyric}"</div>
+            <div class="options">
+                ${shuffledOpts.map((o,i) => `<button class="opt" onclick="answer(this,'${o.replace(/'/g,"\\'")}','${q.answer.replace(/'/g,"\\'")}')">${o}</button>`).join('')}
+            </div>
+        </div>`;
+}
+
+function answer(btn, selected, correct) {
+    const opts = document.querySelectorAll('.opt');
+    opts.forEach(o => {
+        o.classList.add('disabled');
+        o.onclick = null;
+        if (o.textContent === correct) o.classList.add('correct');
+    });
+    if (selected === correct) {
+        btn.classList.add('correct');
+        score++;
+    } else {
+        btn.classList.add('wrong');
+    }
+    document.getElementById('scoreDisplay').textContent = `✅ ${score}問正解`;
+    
+    const nextHtml = current < TOTAL - 1 
+        ? `<button class="next-btn" onclick="current++;showQ()">次の問題 →</button>`
+        : `<button class="next-btn" onclick="showResult()">結果を見る 🎉</button>`;
+    btn.closest('.q-card').insertAdjacentHTML('beforeend', nextHtml);
+}
+
+function showResult() {
+    document.getElementById('progress').style.width = '100%';
+    document.getElementById('qNum').textContent = '完了！';
+    
+    const pct = Math.round(score/TOTAL*100);
+    let rank, comment;
+    if (pct >= 90) { rank = 'S'; comment = 'Swiftieマスター！完璧🌟'; }
+    else if (pct >= 70) { rank = 'A'; comment = 'さすが！かなりのSwiftie💛'; }
+    else if (pct >= 50) { rank = 'B'; comment = 'いい線いってる！もう一回？🎵'; }
+    else { rank = 'C'; comment = 'まだまだ伸びしろあり！再挑戦しよう💪'; }
+    
+    const text = encodeURIComponent(`🎤 テイラー歌詞当てクイズ\n\n${score}/${TOTAL}問正解！ランク: ${rank}\n${comment}\n\nあなたも挑戦👇`);
+    const url = encodeURIComponent('https://we-are-swifties.com/lyrics-quiz.html');
+    
+    document.getElementById('quizArea').innerHTML = `
+        <div class="result">
+            <div class="big-score">${score}/${TOTAL}</div>
+            <div class="label">ランク: ${rank}</div>
+            <div class="comment">${comment}</div>
+            <a class="share-btn" href="https://twitter.com/intent/tweet?text=${text}&url=${url}&hashtags=TaylorSwift,WeAreSwifties" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                結果をXでシェア
+            </a><br>
+            <button class="retry-btn" onclick="startQuiz()">🔄 もう一度挑戦</button>
+        </div>`;
+}
+
+startQuiz();
+</script>
+</body>
+</html>
