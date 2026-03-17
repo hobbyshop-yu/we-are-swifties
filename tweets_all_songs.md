@@ -1,2533 +1,4092 @@
-# 全曲ツイートテンプレート集 v2
+# 全曲ツイートテンプレート集 v3.0
 
 サイト: https://we-are-swifties.com
+総曲数: 220曲
 
-総曲数: 219曲
+## 📌 投稿ルール
 
-各ツイートには曲名ハッシュタグ+豆知識付き
+1. **本文にURLを入れない** → リンクは「リプ欄」に貼る（Xアルゴリズム対策）
+2. **画像を必ず添付** → 歌詞カード or MVキャプチャ
+3. **ハッシュタグは4個以下**
+4. **投稿時間** → 日本時間 20:00〜22:00
+5. **各ツイートのリプに解説URLを投稿**
 
 ---
-
 
 ## 🌙 Midnights
 
 ### Anti-Hero
 
 ```
-「It's me, hi, I'm the problem」🪞
+Anti-Hero — この曲で泣いた人🙋‍♀️
 
-💡 Billboard Hot 100で8週連続1位を獲得
+#Anti-Hero #TaylorSwift #テイラースウィフト
+```
 
-英語歌詞・日本語訳・解説はこちら👇
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/anti-hero.html
 
-#TaylorSwift #テイラースウィフト #Antihero #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Bejeweled
 
 ```
-私を飾らなくても輝く💎
+【Bejeweledの裏話】🌙
 
-英語歌詞・日本語訳・解説はこちら👇
+「あなたに大切にされなくても、私は自分で輝ける」——自己肯定の宣言。MVはシンデレラのパロディで、Laura Dernがフェアリーゴッドマザーを演じた。
+
+#TaylorSwift #テイラースウィフト #Bejeweled
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/bejeweled.html
 
-#TaylorSwift #テイラースウィフト #Bejeweled #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
+```
+
+### Bigger Than The Whole Sky
+
+```
+❓ クイズ：Bigger Than The Whole Sky
+
+失ったものへの追悼。多くのファンが流産への暗示と解釈している。「会えなかった誰かへの悲しみが、空全体よりも大きい」。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/bigger-than-the-whole-sky.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Dear Reader
+
+```
+Dear Readerって正直過小評価されてない？🔥
+
+「親愛なる読者へ」——テイラーからの手紙。私のアドバイスは聞かないで。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#DearReader #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/dear-reader.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Glitch
+
+```
+✨ Glitch
+
+「グリッチ」——予定外の恋。バグのように突然現れた感情。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/glitch.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### High Infidelity
+
+```
+High Infidelity — この曲で泣いた人🙋‍♀️
+
+#HighInfidelity #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/high-infidelity.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Hits Different
+
+```
+【Hits Differentの裏話】🌙
+
+元々はTarget限定盤のボーナストラック。「失恋後、全てが違って見える」——同じ場所、同じ歌、同じ景色が、一人だと全く違う意味を持つ。
+
+#TaylorSwift #テイラースウィフト #HitsDifferent
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/hits-different.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Karma
 
 ```
-カルマは私の彼氏😼
+❓ クイズ：Karma
 
-💡 元々「Karma」というアルバムが計画されていたがお蔵入り
+「カルマが私の彼氏」「カルマは猫」——因果応報を擬人化。悪いことをした人には必ず返ってくる、という最高にキャッチーなカル…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/karma.html
 
-#TaylorSwift #テイラースウィフト #Karma #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Lavender Haze
 
 ```
-ラベンダーの霧の中で💜
+Lavender Hazeって正直過小評価されてない？🔥
 
-💡 Mad Menのセリフから着想
+「ラベンダーの霞」——恋に溺れた幸福な霧の中にいたい、という50年代の恋愛観。
 
-英語歌詞・日本語訳・解説はこちら👇
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#LavenderHaze #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/lavender-haze.html
 
-#TaylorSwift #テイラースウィフト #LavenderHaze #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Maroon
 
 ```
-赤じゃなくマルーン🍷
+✨ Maroon
 
-英語歌詞・日本語訳・解説はこちら👇
+「あの頃の色はマルーン」——Redの成熟版。色褪せた恋の記憶を深い赤紫で塗る。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/maroon.html
 
-#TaylorSwift #テイラースウィフト #Maroon #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Mastermind
 
 ```
-全部計画通り🧠
+Mastermind — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#Mastermind #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/mastermind.html
 
-#TaylorSwift #テイラースウィフト #Mastermind #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Midnight Rain
 
 ```
-真夜中の雨🌧️ テイラーが選んだ道。
+【Midnight Rainの裏話】🌙
 
-英語歌詞・日本語訳・解説はこちら👇
+「彼はsunshine、私はmidnight rain」——安定した幸せを与えてくれる人を選ばず、野心と夢を優先した過去の選択。オートチューン加工された冒頭が斬新。
+
+#TaylorSwift #テイラースウィフト #MidnightRain
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/midnight-rain.html
 
-#TaylorSwift #テイラースウィフト #MidnightRain #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
+```
+
+### Paris
+
+```
+❓ クイズ：Paris
+
+「パリ」は実際の都市ではなく、二人だけの秘密の世界の暗号。「I'm so in love that I might st…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/paris.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Question...?
 
 ```
-あの夜のこと覚えてる❓
+Question...?って正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「質問...?」——元恋人への未解決の疑問。あの夜のことを覚えてる？
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Question #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/question.html
 
-#TaylorSwift #テイラースウィフト #Question #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Snow on the Beach
 
 ```
-Snow on the Beach — 歌詞に隠された意味、知ってる？ 🌙
+✨ Snow on the Beach
 
-英語歌詞・日本語訳・解説はこちら👇
+「ビーチに降る雪」——ありえないほど美しい恋。Lana Del Reyとのコラボ。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/snow-on-the-beach.html
 
-#TaylorSwift #テイラースウィフト #SnowOnTheBeach #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Sweet Nothing
 
 ```
-何もないけど甘い🍬
+Sweet Nothing — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#SweetNothing #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/sweet-nothing.html
 
-#TaylorSwift #テイラースウィフト #SweetNothing #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
+```
+
+### The Great War
+
+```
+【The Great Warの裏話】🌙
+
+Joe Alwynとの関係の最大の危機を第一次世界大戦の比喩で描く。「戦争が終わった時、私たちは互いを選んだ」——最悪を乗り越えた証。
+
+#TaylorSwift #テイラースウィフト #TheGreatWar
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-great-war.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Vigilante Shit
 
 ```
-自警団は今夜も動く🦹‍♀️
+❓ クイズ：Vigilante Shit
 
-英語歌詞・日本語訳・解説はこちら👇
+テイラーの最もダークな楽曲。「復讐は私の仕事」——直接的な攻撃ではなく、静かに相手を追い詰める知的な復讐劇。Scoote…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/vigilante-shit.html
 
-#TaylorSwift #テイラースウィフト #VigilanteShit #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### You're on Your Own, Kid
+### Would Ve Could Ve Should Ve
 
 ```
-You're on Your Own, Kid — 歌詞に隠された意味、知ってる？ 🌙
+Would Ve Could Ve Should Veって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「するべきだった、できたはず」——John Mayerとの関係を最も直接的に告発する怒りの楽曲。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#WouldVeCouldVeShouldVe #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/would-ve-could-ve-should-ve.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Youre On Your Own Kid
+
+```
+✨ Youre On Your Own Kid
+
+「一人でやるしかない」——Track 5のもう一つの候補。自立と孤独と成長の物語。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/youre-on-your-own-kid.html
 
-#TaylorSwift #テイラースウィフト #YoureOnYourOwnKid #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
+## 🌊 1989 TV
 
-## 🌊 1989 (Taylor's Version)
-
-### All You Had to Do Was Stay
+### All You Had To Do Was Stay Tv
 
 ```
-All You Had to Do Was Stay — 歌詞に隠された意味、知ってる？ 🌊
+All You Had To Do Was Stay Tv — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#AllYouHadToDoWasStayTv #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/all-you-had-to-do-was-stay-tv.html
 
-#TaylorSwift #テイラースウィフト #AllYouHadToDoWasStay #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Bad Blood
 
 ```
-悪い血🩸
+【Bad Bloodの裏話】🌊
 
-英語歌詞・日本語訳・解説はこちら👇
+Katy Perryとの確執が元と広く報じられた楽曲。バックダンサーの引き抜きが発端とされる。MVにはセレーナ・ゴメス、シンディ・クロフォード、カーラ・デルヴィーニュなど豪華セレブ
+
+#TaylorSwift #テイラースウィフト #BadBlood
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/bad-blood-tv.html
 
-#TaylorSwift #テイラースウィフト #BadBlood #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Blank Space
 
 ```
-空白を埋めて🖊️
+❓ クイズ：Blank Space
 
-💡 MVはYouTubeで30億回以上再生
+テイラーがメディアに作られた自分のイメージを逆手に取った楽曲。「恋多き女」「男を次々と乗り換える」というレッテルを、あえ…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/blank-space-tv.html
 
-#TaylorSwift #テイラースウィフト #BlankSpace #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Clean
 
 ```
-やっと清らかに💧
+Cleanって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「雨が全部洗い流した日」——失恋からの完全な回復を宣言するクロージング・トラック。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Clean #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/clean-tv.html
 
-#TaylorSwift #テイラースウィフト #Clean #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### How You Get the Girl
 
 ```
-How You Get the Girl — 歌詞に隠された意味、知ってる？ 🌊
+✨ How You Get the Girl
 
-英語歌詞・日本語訳・解説はこちら👇
+「女の子を取り戻す方法」——雨の中で6ヶ月ぶりに現れる、ロマンチックな妄想マニュアル。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/how-you-get-the-girl-tv.html
 
-#TaylorSwift #テイラースウィフト #HowYouGetTheGirl #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### I Know Places
 
 ```
-I Know Places — 歌詞に隠された意味、知ってる？ 🌊
+I Know Places — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#IKnowPlaces #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-know-places-tv.html
 
-#TaylorSwift #テイラースウィフト #IKnowPlaces #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### I Wish You Would
 
 ```
-I Wish You Would — 歌詞に隠された意味、知ってる？ 🌊
+【I Wish You Wouldの裏話】🌊
 
-英語歌詞・日本語訳・解説はこちら👇
+深夜2時に元カレの家の前を車で通り過ぎる——やり直したいのに連絡できないもどかしさを描いた楽曲。テイラーは「二人のすれ違いの瞬間——実は相手も同じことを考えていた」というドラマチッ
+
+#TaylorSwift #テイラースウィフト #IWishYouWould
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-wish-you-would-tv.html
 
-#TaylorSwift #テイラースウィフト #IWishYouWould #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Is It Over Now?
 
 ```
-Is It Over Now? — 歌詞に隠された意味、知ってる？ 🌊
+❓ クイズ：Is It Over Now?
 
-英語歌詞・日本語訳・解説はこちら👇
+Vault曲の中で最も直接的にHarry Stylesとの関係を描いたとされる楽曲。「blue dress」「red l…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/is-it-over-now-tv.html
 
-#TaylorSwift #テイラースウィフト #IsItOverNow #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### New Romantics
 
 ```
-傷が勲章🏅
+New Romanticsって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「傷跡が誇り」——壊れた世代の新しいロマンティスト宣言。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#NewRomantics #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/new-romantics-tv.html
 
-#TaylorSwift #テイラースウィフト #NewRomantics #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Now That We Don't Talk
+### Now That We Dont Talk Tv
 
 ```
-Now That We Don't Talk — 歌詞に隠された意味、知ってる？ 🌊
+✨ Now That We Dont Talk Tv
 
-英語歌詞・日本語訳・解説はこちら👇
+「もう話さなくなって——むしろ最高」。元カレとの絶縁を祝うアップテンポ曲。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/now-that-we-dont-talk-tv.html
 
-#TaylorSwift #テイラースウィフト #NowThatWeDontTalk #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Out of the Woods
 
 ```
-Out of the Woods — 歌詞に隠された意味、知ってる？ 🌊
+Out of the Woods — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#OutoftheWoods #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/out-of-the-woods-tv.html
 
-#TaylorSwift #テイラースウィフト #OutOfTheWoods #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Say Don't Go
 
 ```
-Say Don't Go — 歌詞に隠された意味、知ってる？ 🌊
+【Say Don't Goの裏話】🌊
 
-英語歌詞・日本語訳・解説はこちら👇
+Vault曲の中でも特にファン人気の高い楽曲。自分から去ることはできない、だから相手に引き止めてほしい——その切実さが80年代風シンセに乗って疾走する。
+
+#TaylorSwift #テイラースウィフト #SayDontGo
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/say-dont-go-tv.html
 
-#TaylorSwift #テイラースウィフト #SayDontGo #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Shake It Off
 
 ```
-ヘイターよ、シェイクイットオフ💃
+❓ クイズ：Shake It Off
 
-💡 テイラーがポップに完全転向した象徴
+テイラーの最も商業的に成功した楽曲の一つ。批判やゴシップに対する最高の回答は「踊って振り払うこと」。Max Martin…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/shake-it-off-tv.html
 
-#TaylorSwift #テイラースウィフト #ShakeItOff #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### \"Slut!\"
-
-```
-\"Slut!\" — 歌詞に隠された意味、知ってる？ 🌊
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/slut-tv.html
-
-#TaylorSwift #テイラースウィフト #\slut\ #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Style
 
 ```
-スタイルは永遠👗
+Styleって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「スタイルは永遠に色褪せない」——ハリー・スタイルズとの恋を彷彿とさせるタイムレスなポップソング。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Style #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/style-tv.html
 
-#TaylorSwift #テイラースウィフト #Style #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Suburban Legends
 
 ```
-Suburban Legends — 歌詞に隠された意味、知ってる？ 🌊
+✨ Suburban Legends
 
-英語歌詞・日本語訳・解説はこちら👇
+「郊外の伝説になろう」——フライデーナイトの輝きを永遠に刻む青春賛歌。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/suburban-legends-tv.html
 
-#TaylorSwift #テイラースウィフト #SuburbanLegends #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### This Love
 
 ```
-This Love — 歌詞に隠された意味、知ってる？ 🌊
+This Love — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#ThisLove #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/this-love-tv.html
 
-#TaylorSwift #テイラースウィフト #ThisLove #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Welcome to New York
 
 ```
-Welcome to New York — 歌詞に隠された意味、知ってる？ 🌊
+【Welcome to New Yorkの裏話】🌊
 
-英語歌詞・日本語訳・解説はこちら👇
+テイラーがナッシュビルからNYに引っ越した実体験を元にした楽曲。1989年代のシンセポップを全面的に取り入れた新境地の幕開け。収益の一部はNYの教育プログラムに寄付された。
+
+#TaylorSwift #テイラースウィフト #WelcometoNewYork
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/welcome-to-new-york-tv.html
 
-#TaylorSwift #テイラースウィフト #WelcomeToNewYork #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Wildest Dreams
 
 ```
-最も大胆な夢🌅
+❓ クイズ：Wildest Dreams
 
-英語歌詞・日本語訳・解説はこちら👇
+恋が始まる前から終わりを予感している楽曲。「say you'll remember me」——永遠でなくてもいい、せめて…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/wildest-dreams-tv.html
 
-#TaylorSwift #テイラースウィフト #WildestDreams #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Wonderland
 
 ```
-Wonderland — 歌詞に隠された意味、知ってる？ 🌊
+Wonderlandって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+不思議の国のアリスのように——美しいけど危険な恋のワンダーランドに迷い込む。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Wonderland #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/wonderland-tv.html
 
-#TaylorSwift #テイラースウィフト #Wonderland #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### You Are in Love
 
 ```
-You Are in Love — 歌詞に隠された意味、知ってる？ 🌊
+✨ You Are in Love
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/you-are-in-love-tv.html
+静かに気づく瞬間——「ああ、これが本物の愛なんだ」と。
 
-#TaylorSwift #テイラースウィフト #YouAreInLove #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト
 ```
 
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/you-are-in-love-tv.html
 
-## 🧣 Red (Taylor's Version)
+#WeAreSwifties #テイラー和訳
+```
+
+### \"Slut!\"
+
+```
+\"Slut!\" — この曲で泣いた人🙋‍♀️
+
+#\Slut\ #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/slut-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+## 🧣 Red TV
 
 ### 22
 
 ```
-22歳の自由と楽しさ🎉
+【22の裏話】🧣
 
-英語歌詞・日本語訳・解説はこちら👇
+22歳の自由と楽しさを全開で表現したパーティーソング。失恋すらもネタにして友達と笑い飛ばす。「I don't know about you, but I'm feeling 22」
+
+#TaylorSwift #テイラースウィフト #22
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/22-tv.html
 
-#TaylorSwift #テイラースウィフト #22 #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### All Too Well (10 Minute Version)
-
-```
-10分バージョン⏱️
-
-💡 短編映画はトロント映画祭で上映された
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/all-too-well-10-min-tv.html
-
-#TaylorSwift #テイラースウィフト #AllTooWell10MinuteVersion #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### All Too Well
 
 ```
-ファンとテイラーが最高と認める曲🧣
+❓ クイズ：All Too Well
 
-💡 ライブでは毎回涙ぐむ
+ファンとテイラー自身が最高傑作と認める楽曲。Jake Gyllenhaalとの恋を描いたとされる。「あの赤いスカーフ」が…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/all-too-well-tv.html
 
-#TaylorSwift #テイラースウィフト #AllTooWell #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
+```
+
+### All Too Well 10 Min Tv
+
+```
+All Too Well 10 Min Tvって正直過小評価されてない？🔥
+
+テイラー・スウィフト最高傑作の完全版。10分間のショートフィルムがグラミーにノミネートされた伝説。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#AllTooWell10MinTv #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/all-too-well-10-min-tv.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Babe
 
 ```
-Babe — 歌詞に隠された意味、知ってる？ 🧣
+✨ Babe
 
-英語歌詞・日本語訳・解説はこちら👇
+「ベイブ、私がいなくて寂しくなるわ」——裏切った相手への冷静な別れ宣告。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/babe-tv.html
 
-#TaylorSwift #テイラースウィフト #Babe #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Begin Again
 
 ```
-Begin Again — 歌詞に隠された意味、知ってる？ 🧣
+Begin Again — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#BeginAgain #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/begin-again-tv.html
 
-#TaylorSwift #テイラースウィフト #BeginAgain #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Better Man
 
 ```
-Better Man — 歌詞に隠された意味、知ってる？ 🧣
+【Better Manの裏話】🧣
 
-英語歌詞・日本語訳・解説はこちら👇
+元々はLittle Big Townに提供され、グラミー賞にノミネートされた楽曲。TV版で初めてテイラー自身が歌唱。「愛は十分あった、でも相手が十分な人じゃなかった」。
+
+#TaylorSwift #テイラースウィフト #BetterMan
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/better-man-tv.html
 
-#TaylorSwift #テイラースウィフト #BetterMan #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Come Back... Be Here
 
 ```
-Come Back... Be Here — 歌詞に隠された意味、知ってる？ 🧣
+❓ クイズ：Come Back... Be Here
 
-英語歌詞・日本語訳・解説はこちら👇
+遠距離恋愛の寂しさを描く。「NYは大きすぎて一人は寂しい」——出会ったばかりの相手がいないと街が空っぽに感じる。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/come-back-be-here-tv.html
 
-#TaylorSwift #テイラースウィフト #ComeBackBeHere #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Everything Has Changed
+### Everything Has Changed Tv
 
 ```
-Everything Has Changed — 歌詞に隠された意味、知ってる？ 🧣
+Everything Has Changed Tvって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「全てが変わった」——Ed Sheeranとのデュエットで描く運命の出会い。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#EverythingHasChangedTv #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/everything-has-changed-tv.html
 
-#TaylorSwift #テイラースウィフト #EverythingHasChanged #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Forever Winter
 
 ```
-Forever Winter — 歌詞に隠された意味、知ってる？ 🧣
+✨ Forever Winter
 
-英語歌詞・日本語訳・解説はこちら👇
+「永遠の冬」——大切な人のメンタルヘルスへの祈りと無力感を描いた楽曲。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/forever-winter-tv.html
 
-#TaylorSwift #テイラースウィフト #ForeverWinter #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Girl at Home
 
 ```
-Girl at Home — 歌詞に隠された意味、知ってる？ 🧣
+Girl at Home — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#GirlatHome #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/girl-at-home-tv.html
 
-#TaylorSwift #テイラースウィフト #GirlAtHome #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Holy Ground
 
 ```
-Holy Ground — 歌詞に隠された意味、知ってる？ 🧣
+【Holy Groundの裏話】🧣
 
-英語歌詞・日本語訳・解説はこちら👇
+失恋を怒りや悲しみではなく感謝で振り返る稀有な楽曲。「あの場所は聖地」——痛みではなく美しさを選ぶテイラーの成熟。
+
+#TaylorSwift #テイラースウィフト #HolyGround
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/holy-ground-tv.html
 
-#TaylorSwift #テイラースウィフト #HolyGround #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### I Almost Do
 
 ```
-I Almost Do — 歌詞に隠された意味、知ってる？ 🧣
+❓ クイズ：I Almost Do
 
-英語歌詞・日本語訳・解説はこちら👇
+別れた相手に電話しそうになる夜を描いたバラード。「I almost do」——「もう少しでそうするところだった」の繰り返…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-almost-do-tv.html
 
-#TaylorSwift #テイラースウィフト #IAlmostDo #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### I Bet You Think About Me
+### I Bet You Think About Me Tv
 
 ```
-I Bet You Think About Me — 歌詞に隠された意味、知ってる？ 🧣
+I Bet You Think About Me Tvって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「私のこと考えてるでしょ」——Chris Stapletonとの田舎vs都会の皮肉たっぷりなカントリーソング。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#IBetYouThinkAboutMeTv #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-bet-you-think-about-me-tv.html
 
-#TaylorSwift #テイラースウィフト #IBetYouThinkAboutMe #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### I Knew You Were Trouble
+### I Knew You Were Trouble Tv
 
 ```
-トラブルだとわかってた⚡
+✨ I Knew You Were Trouble Tv
 
-英語歌詞・日本語訳・解説はこちら👇
+「トラブルだって最初からわかってた」——ヤバい恋に飛び込んだ自分を責める名曲。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-knew-you-were-trouble-tv.html
 
-#TaylorSwift #テイラースウィフト #IKnewYouWereTrouble #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Message in a Bottle
 
 ```
-Message in a Bottle — 歌詞に隠された意味、知ってる？ 🧣
+Message in a Bottle — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#MessageinaBottle #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/message-in-a-bottle-tv.html
 
-#TaylorSwift #テイラースウィフト #MessageInABottle #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Nothing New
 
 ```
-Nothing New — 歌詞に隠された意味、知ってる？ 🧣
+【Nothing Newの裏話】🧣
 
-英語歌詞・日本語訳・解説はこちら👇
+Phoebe Bridgersとのデュエット。「若さという新しさが失われた時、世界は私を捨てるのか？」——テイラーが22歳で書いた不安が、30代の今、現実味を帯びる。
+
+#TaylorSwift #テイラースウィフト #NothingNew
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/nothing-new-tv.html
 
-#TaylorSwift #テイラースウィフト #NothingNew #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Red
 
 ```
-恋の色は赤🟥
+❓ クイズ：Red
 
-英語歌詞・日本語訳・解説はこちら👇
+恋愛の感情を色で表現した楽曲。「彼を愛することは赤のようだった」——情熱的で激しく、秋の紅葉のように美しいけど散っていく…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/red-tv.html
 
-#TaylorSwift #テイラースウィフト #Red #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Ronan
 
 ```
-Ronan — 歌詞に隠された意味、知ってる？ 🧣
+Ronanって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+4歳で亡くなった少年への追悼曲。テイラーが涙なしには歌えない、最も悲しい楽曲。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Ronan #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/ronan-tv.html
 
-#TaylorSwift #テイラースウィフト #Ronan #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Run
 
 ```
-Run — 歌詞に隠された意味、知ってる？ 🧣
+✨ Run
 
-英語歌詞・日本語訳・解説はこちら👇
+「一緒に逃げよう」——Ed Sheeranとの二度目のコラボで描く無鉄砲な恋の逃避行。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/run-tv.html
 
-#TaylorSwift #テイラースウィフト #Run #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Sad Beautiful Tragic
 
 ```
-Sad Beautiful Tragic — 歌詞に隠された意味、知ってる？ 🧣
+Sad Beautiful Tragic — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#SadBeautifulTragic #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/sad-beautiful-tragic-tv.html
 
-#TaylorSwift #テイラースウィフト #SadBeautifulTragic #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Starlight
 
 ```
-Starlight — 歌詞に隠された意味、知ってる？ 🧣
+【Starlightの裏話】🧣
 
-英語歌詞・日本語訳・解説はこちら👇
+Ethel KennedyとRobert F. Kennedyの出会いにインスパイアされた楽曲。1945年の夜を想像し、「don't you see the starlight?」
+
+#TaylorSwift #テイラースウィフト #Starlight
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/starlight-tv.html
 
-#TaylorSwift #テイラースウィフト #Starlight #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### State of Grace
 
 ```
-State of Grace — 歌詞に隠された意味、知ってる？ 🧣
+❓ クイズ：State of Grace
 
-英語歌詞・日本語訳・解説はこちら👇
+Redアルバムの幕開けを飾るロックナンバー。恋に落ちる瞬間を「恩寵の状態（State of Grace）」と表現。U2の…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/state-of-grace-tv.html
 
-#TaylorSwift #テイラースウィフト #StateOfGrace #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Stay Stay Stay
 
 ```
-Stay Stay Stay — 歌詞に隠された意味、知ってる？ 🧣
+Stay Stay Stayって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「怒ってもどこにも行かないで」——喧嘩しても離れない、軽やかで可愛いラブソング。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#StayStayStay #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/stay-stay-stay-tv.html
 
-#TaylorSwift #テイラースウィフト #StayStayStay #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Sad Beautiful Tragic (Acoustic)
-
-```
-Sad Beautiful Tragic (Acoustic) — 歌詞に隠された意味、知ってる？ 🧣
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-last-great-american-dynasty-tv.html
-
-#TaylorSwift #テイラースウィフト #SadBeautifulTragicAcoustic #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Last Time
 
 ```
-The Last Time — 歌詞に隠された意味、知ってる？ 🧣
+✨ The Last Time
 
-英語歌詞・日本語訳・解説はこちら👇
+「これが最後」——Snow PatrolのGary Lightbodyとのデュエットで描く最後通牒。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-last-time-tv.html
 
-#TaylorSwift #テイラースウィフト #TheLastTime #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Lucky One
 
 ```
-The Lucky One — 歌詞に隠された意味、知ってる？ 🧣
+The Lucky One — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#TheLuckyOne #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-lucky-one-tv.html
 
-#TaylorSwift #テイラースウィフト #TheLuckyOne #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Moment I Knew
 
 ```
-The Moment I Knew — 歌詞に隠された意味、知ってる？ 🧣
+【The Moment I Knewの裏話】🧣
 
-英語歌詞・日本語訳・解説はこちら👇
+テイラーの21歳の誕生日パーティーにJake Gylenhaalが来なかった実話がベース。「あなたが来るはずだった場所にいない」——その瞬間に全てが終わったとわかった。
+
+#TaylorSwift #テイラースウィフト #TheMomentIKnew
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-moment-i-knew-tv.html
 
-#TaylorSwift #テイラースウィフト #TheMomentIKnew #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Very First Night
 
 ```
-The Very First Night — 歌詞に隠された意味、知ってる？ 🧣
+❓ クイズ：The Very First Night
 
-英語歌詞・日本語訳・解説はこちら👇
+「あの最初の夜」の記憶がいつまでも鮮明に残る——恋の始まりの魔法を描いたアップテンポなVault曲。80年代ポップの影響…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-very-first-night-tv.html
 
-#TaylorSwift #テイラースウィフト #TheVeryFirstNight #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Treacherous
 
 ```
-Treacherous — 歌詞に隠された意味、知ってる？ 🧣
+Treacherousって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「危険だとわかってるのに止められない」——引き寄せられる恋の危うさ。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Treacherous #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/treacherous-tv.html
 
-#TaylorSwift #テイラースウィフト #Treacherous #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### We Are Never Ever Getting Back Together
+### We Are Never Ever Getting Back Together Tv
 
 ```
-絶対ヨリ戻さない❌
+✨ We Are Never Ever Getting Back Together Tv
 
-英語歌詞・日本語訳・解説はこちら👇
+「絶対に絶対によりを戻さない！」——テイラー最大のポップヒットにして究極のブレイクアップソング。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/we-are-never-ever-getting-back-together-tv.html
 
-#TaylorSwift #テイラースウィフト #WeAreNeverEverGettingBackTogether #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
-
 
 ## 💕 Lover
 
 ### Afterglow
 
 ```
-Afterglow — 歌詞に隠された意味、知ってる？ 💕
+Afterglow — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#Afterglow #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/afterglow.html
 
-#TaylorSwift #テイラースウィフト #Afterglow #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Cornelia Street
 
 ```
-コーネリアストリートに戻れない🏠
+【Cornelia Streetの裏話】💕
 
-英語歌詞・日本語訳・解説はこちら👇
+NYのコーネリア・ストリート——テイラーが実際に住んでいた通り。「別れたらあの通りを二度と歩けない」——場所に恋の記憶が刻まれる。City of Loverコンサートのライブバージ
+
+#TaylorSwift #テイラースウィフト #CorneliaStreet
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/cornelia-street.html
 
-#TaylorSwift #テイラースウィフト #CorneliaStreet #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Cruel Summer
 
 ```
-残酷な夏🌞
+❓ クイズ：Cruel Summer
 
-💡 シングルカットはアルバム発売から4年後の2023年
+LoverアルバムのTrack 2にして、Eras Tour最大のアンセム。2016年夏、Joe Alwynとの秘密の恋…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/cruel-summer.html
 
-#TaylorSwift #テイラースウィフト #CruelSummer #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Daylight
 
 ```
-Daylight — 歌詞に隠された意味、知ってる？ 💕
+Daylightって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+愛の色は赤じゃなくて金色だと気づく成長の物語。Loverアルバムのクロージングトラック。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Daylight #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/daylight.html
 
-#TaylorSwift #テイラースウィフト #Daylight #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Death by a Thousand Cuts
+### Death By A Thousand Cuts
 
 ```
-Death by a Thousand Cuts — 歌詞に隠された意味、知ってる？ 💕
+✨ Death By A Thousand Cuts
 
-英語歌詞・日本語訳・解説はこちら👇
+千の切り傷で死ぬ——小さな痛みが致命傷に。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/death-by-a-thousand-cuts.html
 
-#TaylorSwift #テイラースウィフト #DeathByAThousandCuts #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### False God
 
 ```
-False God — 歌詞に隠された意味、知ってる？ 💕
+False God — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#FalseGod #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/false-god.html
 
-#TaylorSwift #テイラースウィフト #FalseGod #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### I Forgot That You Existed
 
 ```
-I Forgot That You Existed — 歌詞に隠された意味、知ってる？ 💕
+【I Forgot That You Existedの裏話】💕
 
-英語歌詞・日本語訳・解説はこちら👇
+Loverアルバムのオープニング曲。reputation時代の怒りを経て、「もはや怒りすら感じない、存在を忘れていた」という最も軽やかな復讐。indifference（無関心）が最
+
+#TaylorSwift #テイラースウィフト #IForgotThatYouExisted
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-forgot-that-you-existed.html
 
-#TaylorSwift #テイラースウィフト #IForgotThatYouExisted #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### It's Nice To Have A Friend
+### Its Nice To Have A Friend
 
 ```
-It's Nice To Have A Friend — 歌詞に隠された意味、知ってる？ 💕
+❓ クイズ：Its Nice To Have A Friend
 
-英語歌詞・日本語訳・解説はこちら👇
+Loverアルバムの中で最もミニマルで実験的な曲。スチールドラムとトロント少年合唱団のハーモニーで、幼馴染みから恋人、そ…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/its-nice-to-have-a-friend.html
 
-#TaylorSwift #テイラースウィフト #ItsNiceToHaveAFriend #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### London Boy
 
 ```
-London Boy — 歌詞に隠された意味、知ってる？ 💕
+London Boyって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+ロンドンへの愛とJoe Alwynとの恋を綴った軽快なラブソング。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#LondonBoy #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/london-boy.html
 
-#TaylorSwift #テイラースウィフト #LondonBoy #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Lover
 
 ```
-ラバー💍
+✨ Lover
 
-💡 テイラーが自身の結婚式の曲としてイメージして書いた
+「私のベストフレンドは恋人」——テイラー史上最もロマンチックなウェディングソング。
 
-英語歌詞・日本語訳・解説はこちら👇
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/lover.html
 
-#TaylorSwift #テイラースウィフト #Lover #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### ME!
 
 ```
-ME! — 歌詞に隠された意味、知ってる？ 💕
+ME! — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#ME #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/me.html
 
-#TaylorSwift #テイラースウィフト #Me #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Miss Americana &<br>The Heartbreak Prince
+### Miss Americana And The Heartbreak Prince
 
 ```
-Miss Americana &<br>The Heartbreak Prince — 歌詞に隠された意味、知ってる？ 💕
+【Miss Americana And The Heartbreak Princeの裏話】💕
 
-英語歌詞・日本語訳・解説はこちら👇
+アメリカの高校生活をメタファーに、政治的幻滅と社会への失望を描く。2018年の中間選挙でテイラーが初めて政治的発言をした背景がある。プロムクイーンと傷ついた王子——アメリカンドリー
+
+#TaylorSwift #テイラースウィフト #MissAmericanaAndTheHeartbreakPrince
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/miss-americana-and-the-heartbreak-prince.html
 
-#TaylorSwift #テイラースウィフト #MissAmericanaAnd<br>theHeartbreakPrince #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Paper Rings
 
 ```
-ダイヤじゃなくて紙のリングでいい💍
+❓ クイズ：Paper Rings
 
-英語歌詞・日本語訳・解説はこちら👇
+「ダイヤの指輪じゃなくて紙の指輪でいい」——物質的なものではなく、あなた自身が欲しいというピュアなラブソング。Lover…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/paper-rings.html
 
-#TaylorSwift #テイラースウィフト #PaperRings #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Soon You'll Get Better
+### Soon Youll Get Better
 
 ```
-Soon You'll Get Better — 歌詞に隠された意味、知ってる？ 💕
+Soon Youll Get Betterって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+母のがんとの闘いを歌った、Lover最も感動的な曲。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#SoonYoullGetBetter #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/soon-youll-get-better.html
 
-#TaylorSwift #テイラースウィフト #SoonYoullGetBetter #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Archer
 
 ```
-The Archer — 歌詞に隠された意味、知ってる？ 💕
+✨ The Archer
 
-英語歌詞・日本語訳・解説はこちら👇
+Track 5の伝統。自分が矢を射る側でもあり、的でもある。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-archer.html
 
-#TaylorSwift #テイラースウィフト #TheArcher #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Man
 
 ```
-もし男だったら🤵
+The Man — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#TheMan #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-man.html
 
-#TaylorSwift #テイラースウィフト #TheMan #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### You Need to Calm Down
 
 ```
-You Need to Calm Down — 歌詞に隠された意味、知ってる？ 💕
+【You Need to Calm Downの裏話】💕
 
-英語歌詞・日本語訳・解説はこちら👇
+LGBTQ+コミュニティへの連帯とヘイターへの反撃。「shade never made anybody less gay」——批判は誰も変えられない。MVにはRuPaul、Elle
+
+#TaylorSwift #テイラースウィフト #YouNeedtoCalmDown
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/you-need-to-calm-down.html
 
-#TaylorSwift #テイラースウィフト #YouNeedToCalmDown #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
+## 🍂 folklore
 
-## 🐍 reputation
+### The Last Great American Dynasty
 
-### Call It What You Want
-
-```
-Call It What You Want — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/call-it-what-you-want.html
-
-#TaylorSwift #テイラースウィフト #CallItWhatYouWant #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Dancing with Our Hands Tied
-
-```
-Dancing with Our Hands Tied — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/dancing-with-our-hands-tied.html
-
-#TaylorSwift #テイラースウィフト #DancingWithOurHandsTied #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Delicate
-
-```
-繊細な関係🌧️
-
-💡 MVでテイラーは「見えない人」になって踊る
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/delicate.html
-
-#TaylorSwift #テイラースウィフト #Delicate #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Don't Blame Me
-
-```
-Don't Blame Me — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/dont-blame-me.html
-
-#TaylorSwift #テイラースウィフト #DontBlameMe #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Dress
-
-```
-Dress — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/dress.html
-
-#TaylorSwift #テイラースウィフト #Dress #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### End Game
-
-```
-End Game — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/end-game.html
-
-#TaylorSwift #テイラースウィフト #EndGame #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Getaway Car
-
-```
-逃走車🚗
-
-💡 ボニー&クライドのメタファー
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/getaway-car.html
-
-#TaylorSwift #テイラースウィフト #GetawayCar #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Gorgeous
-
-```
-Gorgeous — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/gorgeous.html
-
-#TaylorSwift #テイラースウィフト #Gorgeous #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### I Did Something Bad
-
-```
-I Did Something Bad — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/i-did-something-bad.html
-
-#TaylorSwift #テイラースウィフト #IDidSomethingBad #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### King of My Heart
-
-```
-King of My Heart — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/king-of-my-heart.html
-
-#TaylorSwift #テイラースウィフト #KingOfMyHeart #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Look What You Made Me Do
-
-```
-見て。あなたのせいよ🐍
-
-💡 MVでテイラーの過去のペルソナが全員登場
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/look-what-you-made-me-do.html
-
-#TaylorSwift #テイラースウィフト #LookWhatYouMadeMeDo #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### New Year's Day
-
-```
-New Year's Day — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/new-years-day.html
-
-#TaylorSwift #テイラースウィフト #NewYearsDay #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### ...Ready for It?
-
-```
-...Ready for It? — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/ready-for-it.html
-
-#TaylorSwift #テイラースウィフト #ReadyForIt #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### So It Goes...
-
-```
-So It Goes... — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/so-it-goes.html
-
-#TaylorSwift #テイラースウィフト #SoItGoes #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### This Is Why We Can't Have Nice Things
-
-```
-This Is Why We Can't Have Nice Things — 歌詞に隠された意味、知ってる？ 🐍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/this-is-why-we-cant-have-nice-things.html
-
-#TaylorSwift #テイラースウィフト #ThisIsWhyWeCantHaveNiceThings #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-
-## 💜 Speak Now (Taylor's Version)
-
-### Back to December
-
-```
-12月に戻りたい❄️
-
-💡 テイラーが公に謝罪した最初の曲
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/back-to-december-tv.html
-
-#TaylorSwift #テイラースウィフト #BackToDecember #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Better Than Revenge
-
-```
-Better Than Revenge — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/better-than-revenge-tv.html
-
-#TaylorSwift #テイラースウィフト #BetterThanRevenge #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Castles Crumbling
-
-```
-Castles Crumbling — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/castles-crumbling-tv.html
-
-#TaylorSwift #テイラースウィフト #CastlesCrumbling #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Dear John
-
-```
-ディア・ジョン💔
-
-💡 ジョン・メイヤーは「気分が悪くなった」とコメント
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/dear-john-tv.html
-
-#TaylorSwift #テイラースウィフト #DearJohn #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Electric Touch
-
-```
-Electric Touch — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/electric-touch-tv.html
-
-#TaylorSwift #テイラースウィフト #ElectricTouch #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Enchanted
-
-```
-一目惚れの夜✨
-
-💡 Owl CityのAdamが返答カバーを発表
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/enchanted-tv.html
-
-#TaylorSwift #テイラースウィフト #Enchanted #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Foolish One
-
 ```
-Foolish One — 歌詞に隠された意味、知ってる？ 💜
+❓ クイズ：The Last Great American Dynasty
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/foolish-one-tv.html
+🏛️ ロードアイランドの邸宅の前の持ち主Rebekah Harknessの実話。テイラー自身の物語と重なる。…
 
-#TaylorSwift #テイラースウィフト #FoolishOne #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Haunted
-
-```
-Haunted — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/haunted-tv.html
-
-#TaylorSwift #テイラースウィフト #Haunted #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### I Can See You
-
-```
-I Can See You — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/i-can-see-you-tv.html
-
-#TaylorSwift #テイラースウィフト #ICanSeeYou #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Innocent
-
-```
-Innocent — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/innocent-tv.html
-
-#TaylorSwift #テイラースウィフト #Innocent #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Last Kiss
-
-```
-Last Kiss — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/last-kiss-tv.html
-
-#TaylorSwift #テイラースウィフト #LastKiss #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Long Live
-
-```
-永遠に⚔️ ファンへのラブレター。
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/long-live-tv.html
-
-#TaylorSwift #テイラースウィフト #LongLive #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Mean
-
-```
-いじめっ子へ🎻 グラミー受賞。
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/mean-tv.html
-
-#TaylorSwift #テイラースウィフト #Mean #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Mine
-
-```
-あなたは最高の出来事💎
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/mine-tv.html
-
-#TaylorSwift #テイラースウィフト #Mine #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Never Grow Up
-
-```
-Never Grow Up — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/never-grow-up-tv.html
-
-#TaylorSwift #テイラースウィフト #NeverGrowUp #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Ours
-
-```
-Ours — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/ours-tv.html
-
-#TaylorSwift #テイラースウィフト #Ours #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Sparks Fly
-
-```
-火花が散る✨
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/sparks-fly-tv.html
-
-#TaylorSwift #テイラースウィフト #SparksFly #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Speak Now
-
-```
-Speak Now — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/speak-now-song-tv.html
-
-#TaylorSwift #テイラースウィフト #SpeakNow #Swifties #テイラー和訳 #WeAreSwifties
-```
+この続き知ってる？答えはリプ欄👇
 
-### The Story of Us
-
-```
-The Story of Us — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-story-of-us-tv.html
-
-#TaylorSwift #テイラースウィフト #TheStoryOfUs #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Timeless
-
-```
-Timeless — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/timeless-tv.html
-
-#TaylorSwift #テイラースウィフト #Timeless #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### When Emma Falls in Love
-
-```
-When Emma Falls in Love — 歌詞に隠された意味、知ってる？ 💜
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/when-emma-falls-in-love-tv.html
-
-#TaylorSwift #テイラースウィフト #WhenEmmaFallsInLove #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-
-## 💛 Fearless (Taylor's Version)
-
-### Fearless
-
-```
-恐れ知らず💛
-
-💡 グラミー賞アルバム・オブ・ザ・イヤー。当時20歳で最年少
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/fearless-tv.html
-
-#TaylorSwift #テイラースウィフト #Fearless #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Fifteen
-
-```
-15歳の私へ🏫
-
-💡 親友Abigail Andersonが歌詞に登場
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/fifteen-tv.html
-
-#TaylorSwift #テイラースウィフト #Fifteen #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Hey Stephen
-
-```
-Hey Stephen — 歌詞に隠された意味、知ってる？ 💛
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/hey-stephen-tv.html
-
-#TaylorSwift #テイラースウィフト #HeyStephen #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Love Story
-
-```
-ロミオとジュリエット💕
-
-💡 カントリーとポップの両方で1位を獲得
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/love-story-tv.html
-
-#TaylorSwift #テイラースウィフト #LoveStory #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Mr. Perfectly Fine
-
-```
-完璧なミスター👔
-
-💡 Sophie Turner（当時ジョーの妻）がSNSで反応して話題に
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/mr-perfectly-fine-tv.html
-
-#TaylorSwift #テイラースウィフト #MrPerfectlyFine #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Today Was a Fairytale
-
-```
-Today Was a Fairytale — 歌詞に隠された意味、知ってる？ 💛
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/today-was-a-fairytale-tv.html
-
-#TaylorSwift #テイラースウィフト #TodayWasAFairytale #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### White Horse
-
-```
-White Horse — 歌詞に隠された意味、知ってる？ 💛
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/white-horse-tv.html
-
-#TaylorSwift #テイラースウィフト #WhiteHorse #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #Swifties #テイラースウィフト
 ```
-
-### You Belong with Me
 
+📎 リプ欄:
 ```
-You Belong with Me — 歌詞に隠された意味、知ってる？ 💛
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-last-great-american-dynasty.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/you-belong-with-me-tv.html
-
-#TaylorSwift #テイラースウィフト #YouBelongWithMe #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
-
-
-## 🌿 folklore
 
 ### august
 
 ```
-8月の片思い🌻
+augustって正直過小評価されてない？🔥
 
-💡 テイラーは「最も書きやすかった」と語った
+🌊 三角関係の「もう一人の女の子」の視点。オーガスティンの8月の恋——手に入らないものへの渇望。
 
-英語歌詞・日本語訳・解説はこちら👇
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#august #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/august.html
 
-#TaylorSwift #テイラースウィフト #August #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### betty
 
 ```
-betty — 歌詞に隠された意味、知ってる？ ✨
+✨ betty
 
-英語歌詞・日本語訳・解説はこちら👇
+🎸 三角関係のジェームスの視点。ベティに謝罪する——高校のダンスパーティーで。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/betty.html
 
-#TaylorSwift #テイラースウィフト #Betty #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### cardigan
 
 ```
-あなたは昔のカーディガン🧶
+cardigan — この曲で泣いた人🙋‍♀️
 
-💡 folklore三部作の一つ
+#cardigan #TaylorSwift #テイラースウィフト
+```
 
-英語歌詞・日本語訳・解説はこちら👇
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/cardigan.html
 
-#TaylorSwift #テイラースウィフト #Cardigan #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### epiphany
 
 ```
-epiphany — 歌詞に隠された意味、知ってる？ ✨
+【epiphanyの裏話】🍂
 
-英語歌詞・日本語訳・解説はこちら👇
+🏥 戦場と病院——テイラーの祖父の戦争経験とコロナ禍の医療従事者を重ねる。
+
+#TaylorSwift #テイラースウィフト #epiphany
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/epiphany.html
 
-#TaylorSwift #テイラースウィフト #Epiphany #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### exile
 
 ```
-追放🌊
+❓ クイズ：exile
 
-💡 Bon Iverとリモートで録音された
+🚪 Bon Iverとのデュエット。すれ違う二人の視点——「あなたの幸せが私の追放」。…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/exile.html
 
-#TaylorSwift #テイラースウィフト #Exile #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### hoax
 
 ```
-hoax — 歌詞に隠された意味、知ってる？ ✨
+hoaxって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+🖤 folkloreの最終曲。壊れた関係にしがみつく——それが嘘だとわかっていても。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#hoax #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/hoax.html
 
-#TaylorSwift #テイラースウィフト #Hoax #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### illicit affairs
 
 ```
-illicit affairs — 歌詞に隠された意味、知ってる？ ✨
+✨ illicit affairs
 
-英語歌詞・日本語訳・解説はこちら👇
+🕯️ 不倫の描写——誰にも言えない関係の美しさと罪悪感。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/illicit-affairs.html
 
-#TaylorSwift #テイラースウィフト #IllicitAffairs #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### invisible string
 
 ```
-invisible string — 歌詞に隠された意味、知ってる？ ✨
+invisible string — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#invisiblestring #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/invisible-string.html
 
-#TaylorSwift #テイラースウィフト #InvisibleString #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### mad woman
 
 ```
-mad woman — 歌詞に隠された意味、知ってる？ ✨
+【mad womanの裏話】🍂
 
-英語歌詞・日本語訳・解説はこちら👇
+🔥 「狂った女」のレッテルを貼られた女性の怒り。声を上げると「ヒステリック」と呼ばれる不条理。
+
+#TaylorSwift #テイラースウィフト #madwoman
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/mad-woman.html
 
-#TaylorSwift #テイラースウィフト #MadWoman #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### mirrorball
 
 ```
-mirrorball — 歌詞に隠された意味、知ってる？ ✨
+❓ クイズ：mirrorball
 
-英語歌詞・日本語訳・解説はこちら👇
+🪩 ミラーボールのように全方向に光を反射する——人の期待に応え続けるパフォーマーの孤独。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/mirrorball.html
 
-#TaylorSwift #テイラースウィフト #Mirrorball #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### my tears ricochet
 
 ```
-my tears ricochet — 歌詞に隠された意味、知ってる？ ✨
+my tears ricochetって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+💧 Track 5。裏切られた者の亡霊が復讐に戻る。原盤権問題への暗喩。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#mytearsricochet #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/my-tears-ricochet.html
 
-#TaylorSwift #テイラースウィフト #MyTearsRicochet #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### peace
 
 ```
-peace — 歌詞に隠された意味、知ってる？ ✨
+✨ peace
 
-英語歌詞・日本語訳・解説はこちら👇
+🕊️ 「あなたに平和を与えられない」——有名人の恋の最も正直な告白。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/peace.html
 
-#TaylorSwift #テイラースウィフト #Peace #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### seven
 
 ```
-seven — 歌詞に隠された意味、知ってる？ ✨
+seven — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#seven #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/seven.html
 
-#TaylorSwift #テイラースウィフト #Seven #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### the 1
 
 ```
-the 1 — 歌詞に隠された意味、知ってる？ ✨
+【the 1の裏話】🍂
 
-英語歌詞・日本語訳・解説はこちら👇
+🌿 もしあの時違う選択をしていたら——パラレルワールドの私たちを想像する幕開けの曲。
+
+#TaylorSwift #テイラースウィフト #the1
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-1.html
 
-#TaylorSwift #テイラースウィフト #The1 #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### the lakes
 
 ```
-the lakes — 歌詞に隠された意味、知ってる？ ✨
+❓ クイズ：the lakes
 
-英語歌詞・日本語訳・解説はこちら👇
+🏔️ ボーナストラック。湖水地方への逃避——ロマン派詩人への憧れ。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-lakes.html
 
-#TaylorSwift #テイラースウィフト #TheLakes #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### the last great american dynasty
-
-```
-the last great american dynasty — 歌詞に隠された意味、知ってる？ ✨
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-last-great-american-dynasty.html
-
-#TaylorSwift #テイラースウィフト #TheLastGreatAmericanDynasty #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### this is me trying
 
 ```
-this is me trying — 歌詞に隠された意味、知ってる？ ✨
+this is me tryingって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/this-is-me-trying.html
+🥀 底辺から這い上がろうとする人の叫び。「これが私なりの努力」——不完全でも前に進む。
 
-#TaylorSwift #テイラースウィフト #ThisIsMeTrying #Swifties #テイラー和訳 #WeAreSwifties
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#thisismetrying #TaylorSwift #テイラースウィフト
 ```
 
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/this-is-me-trying.html
 
-## 🌲 evermore
+#WeAreSwifties #テイラー和訳
+```
+
+## 🤎 evermore
+
+### 'tis the damn season
+
+```
+✨ 'tis the damn season
+
+🎄 クリスマスに帰省して元恋人と再会。一時の恋——でも私はLAに帰る。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/tis-the-damn-season.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Right Where You Left Me
+
+```
+Right Where You Left Me — この曲で泣いた人🙋‍♀️
+
+#RightWhereYouLeftMe #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/right-where-you-left-me.html
+
+#WeAreSwifties #テイラー和訳
+```
 
 ### champagne problems
 
 ```
-シャンパンの問題🥂
+【champagne problemsの裏話】🤎
 
-💡 テイラーが「最も書くのが辛かった曲の一つ」と語った
+🥂 プロポーズを断った女性の物語。シャンパンの問題——贅沢な世界の壁。
 
-英語歌詞・日本語訳・解説はこちら👇
+#TaylorSwift #テイラースウィフト #champagneproblems
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/champagne-problems.html
 
-#TaylorSwift #テイラースウィフト #ChampagneProblems #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### closure
 
 ```
-closure — 歌詞に隠された意味、知ってる？ 🌲
+❓ クイズ：closure
 
-英語歌詞・日本語訳・解説はこちら👇
+📦 元恋人からの「closure（けじめ）」メールに「いらない」と応答。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/closure.html
 
-#TaylorSwift #テイラースウィフト #Closure #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### coney island
 
 ```
-coney island — 歌詞に隠された意味、知ってる？ 🌲
+coney islandって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+🎡 The Nationalとのコラボ。コニーアイランドの閉園——終わった関係の寂しさ。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#coneyisland #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/coney-island.html
 
-#TaylorSwift #テイラースウィフト #ConeyIsland #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### cowboy like me
 
 ```
-cowboy like me — 歌詞に隠された意味、知ってる？ 🌲
+✨ cowboy like me
 
-英語歌詞・日本語訳・解説はこちら👇
+🤠 二人の詐欺師が本当の愛に落ちる物語。カウボーイのようなペテン師同士。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/cowboy-like-me.html
 
-#TaylorSwift #テイラースウィフト #CowboyLikeMe #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### dorothea
 
 ```
-dorothea — 歌詞に隠された意味、知ってる？ 🌲
+dorothea — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#dorothea #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/dorothea.html
 
-#TaylorSwift #テイラースウィフト #Dorothea #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### evermore
 
 ```
-evermore — 歌詞に隠された意味、知ってる？ 🌲
+【evermoreの裏話】🤎
 
-英語歌詞・日本語訳・解説はこちら👇
+🌲 Bon Iverとの再コラボ。永遠に続く苦しみ——でも「Pain won't be for evermore」。
+
+#TaylorSwift #テイラースウィフト #evermore
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/evermore-song.html
 
-#TaylorSwift #テイラースウィフト #Evermore #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### gold rush
 
 ```
-gold rush — 歌詞に隠された意味、知ってる？ 🌲
+❓ クイズ：gold rush
 
-英語歌詞・日本語訳・解説はこちら👇
+✨ ゴールドラッシュ——みんなが欲しがる人への片思い。手に入らないから輝く。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/gold-rush.html
 
-#TaylorSwift #テイラースウィフト #GoldRush #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### happiness
 
 ```
-happiness — 歌詞に隠された意味、知ってる？ 🌲
+happinessって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+🌅 別れた後にもまだ幸せの記憶が残っている——どちらが悪いわけでもない。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#happiness #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/happiness.html
 
-#TaylorSwift #テイラースウィフト #Happiness #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### it's time to go
 
 ```
-it's time to go — 歌詞に隠された意味、知ってる？ 🌲
+✨ it's time to go
 
-英語歌詞・日本語訳・解説はこちら👇
+🚪 去る時が来た——有害な関係、仕事、人を手放す勇気。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/its-time-to-go.html
 
-#TaylorSwift #テイラースウィフト #ItsTimeToGo #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### ivy
 
 ```
-蔦が絡む禁断の愛🌿
+ivy — この曲で泣いた人🙋‍♀️
 
-💡 ファンの間でサフィック・ソングとして人気
+#ivy #TaylorSwift #テイラースウィフト
+```
 
-英語歌詞・日本語訳・解説はこちら👇
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/ivy.html
 
-#TaylorSwift #テイラースウィフト #Ivy #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### long story short
 
 ```
-long story short — 歌詞に隠された意味、知ってる？ 🌲
+【long story shortの裏話】🤎
 
-英語歌詞・日本語訳・解説はこちら👇
+📖 長い話を短くすると——ロマンスの失敗と復活を駆け足で語る。
+
+#TaylorSwift #テイラースウィフト #longstoryshort
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/long-story-short.html
 
-#TaylorSwift #テイラースウィフト #LongStoryShort #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### marjorie
 
 ```
-おばあちゃんへ👵
+❓ クイズ：marjorie
 
-💡 祖母の実際のオペラ録音がサンプリング
+👵 亡くなった祖母Marjorie Finckerへの追悼。彼女のオペラの声がサンプリングされている。…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/marjorie.html
 
-#TaylorSwift #テイラースウィフト #Marjorie #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### no body, no crime
 
 ```
-no body, no crime — 歌詞に隠された意味、知ってる？ 🌲
+no body, no crimeって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+🔪 HAIM共演のマーダーミステリー。不倫夫の完全犯罪——死体がなければ犯罪じゃない。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#nobodynocrime #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/no-body-no-crime.html
 
-#TaylorSwift #テイラースウィフト #NoBodyNoCrime #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### right where you left me
-
-```
-置いていかれた場所📍
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/right-where-you-left-me.html
-
-#TaylorSwift #テイラースウィフト #RightWhereYouLeftMe #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### 'tis the damn season
-
-```
-'tis the damn season — 歌詞に隠された意味、知ってる？ 🌲
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/tis-the-damn-season.html
-
-#TaylorSwift #テイラースウィフト #TisTheDamnSeason #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### tolerate it
 
 ```
-我慢してるだけ🍽️
+✨ tolerate it
 
-💡 Rebecca(1938)からインスピレーション
+🍽️ テーブルの向かいで無視される愛——献身が「tolerate（我慢）」でしかない絶望。
 
-英語歌詞・日本語訳・解説はこちら👇
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/tolerate-it.html
 
-#TaylorSwift #テイラースウィフト #TolerateIt #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### willow
 
 ```
-柳🌿
+willow — この曲で泣いた人🙋‍♀️
 
-💡 発売日に24時間で1億回再生
+#willow #TaylorSwift #テイラースウィフト
+```
 
-英語歌詞・日本語訳・解説はこちら👇
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/willow.html
 
-#TaylorSwift #テイラースウィフト #Willow #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
+## 🐍 reputation
 
-## 🎸 Taylor Swift
-
-### A Place in This World
-
-```
-A Place in This World — 歌詞に隠された意味、知ってる？ 🎸
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/a-place-in-this-world-debut.html
-
-#TaylorSwift #テイラースウィフト #APlaceInThisWorld #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Cold As You
+### ...Ready for It?
 
 ```
-Cold As You — 歌詞に隠された意味、知ってる？ 🎸
+【...Ready for It?の裏話】🐍
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/cold-as-you-debut.html
+reputation時代の幕開けを告げるアグレッシブなオープニング。「古いテイラーは死んだ」——2016年のキャンセル騒動から復活した新しいテイラーの宣言。
 
-#TaylorSwift #テイラースウィフト #ColdAsYou #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト #ReadyforIt
 ```
 
-### Mary's Song (Oh My My My)
-
+📎 リプ欄:
 ```
-Mary's Song (Oh My My My) — 歌詞に隠された意味、知ってる？ 🎸
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/ready-for-it.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/mary-song-debut.html
-
-#TaylorSwift #テイラースウィフト #MarysSongOhMyMyMy #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Our Song
+### Call It What You Want
 
 ```
-Our Song — 歌詞に隠された意味、知ってる？ 🎸
+❓ クイズ：Call It What You Want
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/our-song-debut.html
+世間から全てを奪われた後に見つけた愛。「my castle crumbled overnight」——城は崩れたけど、あ…
 
-#TaylorSwift #テイラースウィフト #OurSong #Swifties #テイラー和訳 #WeAreSwifties
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
 ```
 
-### Picture to Burn
-
+📎 リプ欄:
 ```
-Picture to Burn — 歌詞に隠された意味、知ってる？ 🎸
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/call-it-what-you-want.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/picture-to-burn-debut.html
-
-#TaylorSwift #テイラースウィフト #PictureToBurn #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Should've Said No
+### Dancing With Our Hands Tied
 
 ```
-Should've Said No — 歌詞に隠された意味、知ってる？ 🎸
+Dancing With Our Hands Tiedって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/should-have-said-no-debut.html
+「手を縛られたまま踊る」——世間の目から隠れて愛し合うスリル。
 
-#TaylorSwift #テイラースウィフト #ShouldveSaidNo #Swifties #テイラー和訳 #WeAreSwifties
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#DancingWithOurHandsTied #TaylorSwift #テイラースウィフト
 ```
 
-### Stay Beautiful
-
+📎 リプ欄:
 ```
-Stay Beautiful — 歌詞に隠された意味、知ってる？ 🎸
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/dancing-with-our-hands-tied.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/stay-beautiful-debut.html
-
-#TaylorSwift #テイラースウィフト #StayBeautiful #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Teardrops on My Guitar
+### Delicate
 
 ```
-Teardrops on My Guitar — 歌詞に隠された意味、知ってる？ 🎸
+✨ Delicate
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/teardrops-on-my-guitar-debut.html
+「これは繊細なもの」——評判が最悪な時に見つけた本物の恋の脆さと美しさ。
 
-#TaylorSwift #テイラースウィフト #TeardropsOnMyGuitar #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト
 ```
 
-### The Outside
-
+📎 リプ欄:
 ```
-The Outside — 歌詞に隠された意味、知ってる？ 🎸
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/delicate.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-outside-debut.html
-
-#TaylorSwift #テイラースウィフト #TheOutside #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Tied Together with a Smile
+### Don't Blame Me
 
 ```
-Tied Together with a Smile — 歌詞に隠された意味、知ってる？ 🎸
+Don't Blame Me — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/tied-together-debut.html
-
-#TaylorSwift #テイラースウィフト #TiedTogetherWithASmile #Swifties #テイラー和訳 #WeAreSwifties
+#DontBlameMe #TaylorSwift #テイラースウィフト
 ```
 
-### Tim McGraw
-
+📎 リプ欄:
 ```
-全てはここから始まった🤠
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/dont-blame-me.html
 
-💡 Tim McGraw本人はこの曲を聴いて涙した
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/tim-mcgraw-debut.html
-
-#TaylorSwift #テイラースウィフト #TimMcgraw #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-
-## 🎵 Lyrics &amp; Commentary
-
-### Actually Romantic
+### Dress
 
 ```
-Actually Romantic — 歌詞に隠された意味、知ってる？ ✨
+【Dressの裏話】🐍
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/actually-romantic.html
+テイラー史上最もセクシーな楽曲。「even in my worst lies, you saw the truth in me」——外の世界では嘘をついていても、彼の前では真実でい
 
-#TaylorSwift #テイラースウィフト #ActuallyRomantic #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト #Dress
 ```
 
-### CANCELLED!
-
+📎 リプ欄:
 ```
-CANCELLED! — 歌詞に隠された意味、知ってる？ ✨
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/dress.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/cancelled.html
-
-#TaylorSwift #テイラースウィフト #Cancelled #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Eldest Daughter
+### End Game
 
 ```
-Eldest Daughter — 歌詞に隠された意味、知ってる？ ✨
+❓ クイズ：End Game
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/eldest-daughter.html
+Ed SheeranとFutureをフィーチャーした豪華トリプルコラボ。「big reputation」を持つ二人が最終…
 
-#TaylorSwift #テイラースウィフト #EldestDaughter #Swifties #テイラー和訳 #WeAreSwifties
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
 ```
 
-### Elizabeth Taylor
-
+📎 リプ欄:
 ```
-Elizabeth Taylor — 歌詞に隠された意味、知ってる？ ✨
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/end-game.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/elizabeth-taylor.html
-
-#TaylorSwift #テイラースウィフト #ElizabethTaylor #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### The Fate of Ophelia
+### Getaway Car
 
 ```
-The Fate of Ophelia — 歌詞に隠された意味、知ってる？ ✨
+Getaway Carって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/fate-of-ophelia.html
+「逃走車」——Tom Hiddlestonとの逃避行と、最初から破綻が見えていた恋のスリル。
 
-#TaylorSwift #テイラースウィフト #TheFateOfOphelia #Swifties #テイラー和訳 #WeAreSwifties
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#GetawayCar #TaylorSwift #テイラースウィフト
 ```
 
-### Father Figure
-
+📎 リプ欄:
 ```
-Father Figure — 歌詞に隠された意味、知ってる？ ✨
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/getaway-car.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/father-figure.html
-
-#TaylorSwift #テイラースウィフト #FatherFigure #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Honey
+### Gorgeous
 
 ```
-Honey — 歌詞に隠された意味、知ってる？ ✨
+✨ Gorgeous
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/honey.html
+「ゴージャスすぎて怒る」——一目惚れのもどかしさをユーモラスに描く。
 
-#TaylorSwift #テイラースウィフト #Honey #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト
 ```
 
-### The Life of a Showgirl
-
+📎 リプ欄:
 ```
-The Life of a Showgirl — 歌詞に隠された意味、知ってる？ ✨
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/gorgeous.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/life-of-a-showgirl.html
-
-#TaylorSwift #テイラースウィフト #TheLifeOfAShowgirl #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Opalite
+### I Did Something Bad
 
 ```
-テイラーの声は宝石💎 Opaliteの歌詞に隠された意味とは？
+I Did Something Bad — この曲で泣いた人🙋‍♀️
 
-💡 OpaliteのMVはラスベガスのベラージオ前で撮影された
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/opalite.html
-
-#TaylorSwift #テイラースウィフト #Opalite #Swifties #テイラー和訳 #WeAreSwifties
+#IDidSomethingBad #TaylorSwift #テイラースウィフト
 ```
 
-### Ruin The Friendship
-
+📎 リプ欄:
 ```
-Ruin The Friendship — 歌詞に隠された意味、知ってる？ ✨
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/i-did-something-bad.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/ruin-the-friendship.html
-
-#TaylorSwift #テイラースウィフト #RuinTheFriendship #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Wi$h Li$t
+### King of My Heart
 
 ```
-Wi$h Li$t — 歌詞に隠された意味、知ってる？ ✨
+【King of My Heartの裏話】🐍
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/wish-list.html
+Joe Alwynへの愛の宣言。「ドル紙幣の王様たちとは違う」——名声やお金ではなく本物の愛で私の心の王になった人。
 
-#TaylorSwift #テイラースウィフト #Wi$hLi$t #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト #KingofMyHeart
 ```
 
-### Wood
-
+📎 リプ欄:
 ```
-Wood — 歌詞に隠された意味、知ってる？ ✨
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/king-of-my-heart.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/wood.html
-
-#TaylorSwift #テイラースウィフト #Wood #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-
-## 🎵 Midnights (3am Edition)
-
-### Bigger Than the Whole Sky
+### Look What You Made Me Do
 
 ```
-Bigger Than the Whole Sky — 歌詞に隠された意味、知ってる？ ✨
+❓ クイズ：Look What You Made Me Do
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/bigger-than-the-whole-sky.html
+2016年のキャンセル騒動から復活したテイラーの宣戦布告。「旧いテイラーは電話に出られません。死んだので」——ポップカル…
 
-#TaylorSwift #テイラースウィフト #BiggerThanTheWholeSky #Swifties #テイラー和訳 #WeAreSwifties
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
 ```
 
-### Dear Reader
-
+📎 リプ欄:
 ```
-親愛なる読者📖
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/look-what-you-made-me-do.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/dear-reader.html
-
-#TaylorSwift #テイラースウィフト #DearReader #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Glitch
+### New Year's Day
 
 ```
-バグった恋❤️
+New Year's Dayって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/glitch.html
+「新年の朝もそばにいて」——パーティーの後の静けさの中に本物の愛を見つける。
 
-#TaylorSwift #テイラースウィフト #Glitch #Swifties #テイラー和訳 #WeAreSwifties
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#NewYearsDay #TaylorSwift #テイラースウィフト
 ```
 
-### High Infidelity
-
+📎 リプ欄:
 ```
-浮気の上位クラス📅
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/new-years-day.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/high-infidelity.html
-
-#TaylorSwift #テイラースウィフト #HighInfidelity #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Paris
+### So It Goes...
 
 ```
-パリ=二人だけの世界🗼
+✨ So It Goes...
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/paris.html
+「そういうもの」——暗闘と情熱が交差するミッドナイトのダークポップ。
 
-#TaylorSwift #テイラースウィフト #Paris #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト
 ```
 
-### The Great War
-
+📎 リプ欄:
 ```
-大戦争⚔️
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/so-it-goes.html
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-great-war.html
-
-#TaylorSwift #テイラースウィフト #TheGreatWar #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### Would've, Could've, Should've
+### This Is Why We Cant Have Nice Things
 
 ```
-19歳の後悔📿
+This Is Why We Cant Have Nice Things — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/would-ve-could-ve-should-ve.html
-
-#TaylorSwift #テイラースウィフト #WouldveCouldveShouldve #Swifties #テイラー和訳 #WeAreSwifties
+#ThisIsWhyWeCantHaveNiceThings #TaylorSwift #テイラースウィフト
 ```
 
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/this-is-why-we-cant-have-nice-things.html
 
-## 🎵 THE TORTURED POETS DEPARTMENT
+#WeAreSwifties #テイラー和訳
+```
+
+## 🪶 TTPD
 
 ### But Daddy I Love Him
 
 ```
-「でもパパ愛してるの」💔
+【But Daddy I Love Himの裏話】🪶
 
-英語歌詞・日本語訳・解説はこちら👇
+リトル・マーメイドのアリエルの台詞がタイトル。「周囲が反対しても、私は彼を選ぶ」——Travis Kelceとの恋にファンが賛否両論だった2023年への返答。
+
+#TaylorSwift #テイラースウィフト #ButDaddyILoveHim
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/but-daddy-i-love-him.html
 
-#TaylorSwift #テイラースウィフト #ButDaddyILoveHim #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
+```
+
+### Cassandra
+
+```
+❓ クイズ：Cassandra
+
+ギリシャ神話のカサンドラ——全てを予言できるのに誰にも信じてもらえない。テイラーが警告し続けたことを誰も聞かなかった。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/cassandra.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Chloe Or Sam Or Sophia Or Marcus
+
+```
+Chloe Or Sam Or Sophia Or Marcusって正直過小評価されてない？🔥
+
+「クロエかサムかソフィアかマーカス」——名前のない恋人たちへの問いかけ。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#ChloeOrSamOrSophiaOrMarcus #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/chloe-or-sam-or-sophia-or-marcus.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Clara Bow
 
 ```
-クララ・ボウ🎀
+✨ Clara Bow
 
-💡 1920年代の「It Girl」。美の基準の連鎖
+「クララ・ボウ」——次のIt Girlが来る。テイラーもやがて次の誰かに取って代わられる。
 
-英語歌詞・日本語訳・解説はこちら👇
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/clara-bow.html
 
-#TaylorSwift #テイラースウィフト #ClaraBow #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Down Bad
 
 ```
-宇宙に取り残された気分🛸
+Down Bad — この曲で泣いた人🙋‍♀️
 
-💡 UFO誘拐のメタファーは失恋の衝撃を表現
+#DownBad #TaylorSwift #テイラースウィフト
+```
 
-英語歌詞・日本語訳・解説はこちら👇
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/down-bad.html
 
-#TaylorSwift #テイラースウィフト #DownBad #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Florida!!!
 
 ```
-フロリダよ、私を消して🌴 Florence Machineとのコラボ。
+【Florida!!!の裏話】🪶
 
-英語歌詞・日本語訳・解説はこちら👇
+Florence Welchとのコラボ。「フロリダは完璧な逃亡先」——全てから逃げて、新しいアイデンティティを作れる場所。テイラーの大胆なロックサウンド。
+
+#TaylorSwift #テイラースウィフト #Florida
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/florida.html
 
-#TaylorSwift #テイラースウィフト #Florida #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Fortnight
 
 ```
-2週間ごとに考える🫧
+❓ クイズ：Fortnight
 
-💡「fortnight」は2週間という意味の古英語
+Post Maloneとのコラボ。「2週間ごとにあなたのことを考える」——禁じられた相手への執着。MVでテイラーが精神病…
 
-英語歌詞・日本語訳・解説はこちら👇
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/fortnight.html
 
-#TaylorSwift #テイラースウィフト #Fortnight #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Fresh Out the Slammer
 
 ```
-刑務所から出たばかり🔓 自由の喜び。
+Fresh Out the Slammerって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「刑務所出たて」——6年間の関係という檻から解放された直後の新しい恋。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#FreshOuttheSlammer #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/fresh-out-the-slammer.html
 
-#TaylorSwift #テイラースウィフト #FreshOutTheSlammer #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Guilty as Sin?
 
 ```
-罪悪感と欲望の狭間で⚖️
+✨ Guilty as Sin?
 
-💡 カトリックの「original sin」を暗示
+「罪深い？」——想像の中の不義。考えただけで罪になるのか？
 
-英語歌詞・日本語訳・解説はこちら👇
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/guilty-as-sin.html
 
-#TaylorSwift #テイラースウィフト #GuiltyAsSin #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### I Can Do It with a Broken Heart
-
-```
-I Can Do It with a Broken Heart — 歌詞に隠された意味、知ってる？ ✨
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/i-can-do-it-with-a-broken-heart.html
-
-#TaylorSwift #テイラースウィフト #ICanDoItWithABrokenHeart #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### I Can Fix Him (No Really I Can)
-
-```
-私が直してあげる🔧 …本当に？
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/i-can-fix-him.html
-
-#TaylorSwift #テイラースウィフト #ICanFixHimNoReallyICan #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### loml
-
-```
-「人生の愛」の意味が変わる瞬間💔
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/loml.html
-
-#TaylorSwift #テイラースウィフト #Loml #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### My Boy Only Breaks His Favorite Toys
-
-```
-お気に入りのおもちゃだけ壊す男の子🧸
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/my-boy-only-breaks-his-favorite-toys.html
-
-#TaylorSwift #テイラースウィフト #MyBoyOnlyBreaksHisFavoriteToys #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### So Long, London
-
-```
-ロンドンよさようなら🇬🇧
-
-💡 テイラーとジョーの6年間のロンドン生活を反映
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/so-long-london.html
-
-#TaylorSwift #テイラースウィフト #SoLongLondon #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### The Alchemy
-
-```
-錬金術⚗️ テイラーの恋愛はケミストリー。
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-alchemy.html
-
-#TaylorSwift #テイラースウィフト #TheAlchemy #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### The Smallest Man Who Ever Lived
-
-```
-史上最小の男🔬 テイラーの最も辛辣な曲。
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-smallest-man-who-ever-lived.html
-
-#TaylorSwift #テイラースウィフト #TheSmallestManWhoEverLived #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### The Tortured Poets Department
-
-```
-拷問詩人協会へようこそ🪶
-
-💡 アルバム名はジョーとのグループチャット名から
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/the-tortured-poets-department.html
-
-#TaylorSwift #テイラースウィフト #TheTorturedPoetsDepartment #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Who's Afraid of Little Old Me?
-
-```
-小さな私を恐れるのは誰？👻
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/whos-afraid-of-little-old-me.html
-
-#TaylorSwift #テイラースウィフト #WhosAfraidOfLittleOldMe #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-
-## 🎵 THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY
-
-### Cassandra
-
-```
-誰も信じてくれないカサンドラ🏛️
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/cassandra.html
-
-#TaylorSwift #テイラースウィフト #Cassandra #Swifties #テイラー和訳 #WeAreSwifties
-```
-
-### Chloe or Sam or Sophia or Marcus
-
-```
-名前の羅列💭
-
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/chloe-or-sam-or-sophia-or-marcus.html
-
-#TaylorSwift #テイラースウィフト #ChloeOrSamOrSophiaOrMarcus #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### How Did It End?
 
 ```
-「どう終わったの？」と聞かれ続ける辛さ😢
+How Did It End? — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#HowDidItEnd #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/how-did-it-end.html
 
-#TaylorSwift #テイラースウィフト #HowDidItEnd #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### I Look in People's Windows
+### I Can Do It With A Broken Heart
 
 ```
-人の窓を覗く🪟
+【I Can Do It With A Broken Heartの裏話】🪶
 
-英語歌詞・日本語訳・解説はこちら👇
+Eras Tour中にJoe Alwynとの破局を経験しながらも毎晩3時間のステージに立ち続けたプロ意識。「lights, camera, bitch, smile」——壊れてても
+
+#TaylorSwift #テイラースウィフト #ICanDoItWithABrokenHeart
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/i-can-do-it-with-a-broken-heart.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### I Can Fix Him
+
+```
+❓ クイズ：I Can Fix Him
+
+「悪い男を変えられる」と信じる万人共通の幻想を描く。カッコ内の「No Really I Can」が必死さを示す。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/i-can-fix-him.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### I Look In Peoples Windows
+
+```
+I Look In Peoples Windowsって正直過小評価されてない？🔥
+
+「他人の窓を覗く」——失恋後、他人の幸せが痛い。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#ILookInPeoplesWindows #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/i-look-in-peoples-windows.html
 
-#TaylorSwift #テイラースウィフト #ILookInPeoplesWindows #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### imgonnagetyouback
+### My Boy Only Breaks His Favorite Toys
 
 ```
-取り返す…それとも復讐？🔥
+✨ My Boy Only Breaks His Favorite Toys
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/imgonnagetyouback.html
+「彼は好きなおもちゃだけ壊す」——大切にされてるから壊されるという矛盾。
 
-#TaylorSwift #テイラースウィフト #Imgonnagetyouback #Swifties #テイラー和訳 #WeAreSwifties
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/my-boy-only-breaks-his-favorite-toys.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Peter
 
 ```
-ネバーランドに行ったピーター✨
+Peter — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
+#Peter #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/peter.html
 
-#TaylorSwift #テイラースウィフト #Peter #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### Robin
 
 ```
-ロビンフッドの恋人🏹
+【Robinの裏話】🪶
 
-英語歌詞・日本語訳・解説はこちら👇
+巣から飛び立つのを恐れる小鳥への語りかけ。「飛べるのに巣にいる」ロビンに自分を重ねる。母性的な優しさに満ちた楽曲。
+
+#TaylorSwift #テイラースウィフト #Robin
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/robin.html
 
-#TaylorSwift #テイラースウィフト #Robin #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### So High School
 
 ```
-高校生みたいな恋💕
+❓ クイズ：So High School
 
-英語歌詞・日本語訳・解説はこちら👇
+Travis Kelceとの恋が高校生みたいにときめく。「touch me while your brothers pl…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/so-high-school.html
 
-#TaylorSwift #テイラースウィフト #SoHighSchool #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-### thankyouaimee
+### So Long, London
 
 ```
-thankyouaimee — 歌詞に隠された意味、知ってる？ ✨
+So Long, Londonって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/thankyouaimee.html
+「さよならロンドン」——6年間の恋の終わり。Joe Alwynとの別れを最も直接的に描いた楽曲。
 
-#TaylorSwift #テイラースウィフト #Thankyouaimee #Swifties #テイラー和訳 #WeAreSwifties
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#SoLongLondon #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/so-long-london.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Albatross
 
 ```
-アルバトロス🦅 愛の守護者。
+✨ The Albatross
 
-英語歌詞・日本語訳・解説はこちら👇
+「アルバトロス」——呪いの鳥。触れたら破滅する存在として描かれるテイラー。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-albatross.html
 
-#TaylorSwift #テイラースウィフト #TheAlbatross #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
+```
+
+### The Alchemy
+
+```
+The Alchemy — この曲で泣いた人🙋‍♀️
+
+#TheAlchemy #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-alchemy.html
+
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Black Dog
 
 ```
-「Black Dog」はロンドンのパブ🍺
+【The Black Dogの裏話】🪶
 
-英語歌詞・日本語訳・解説はこちら👇
+ロンドンのパブ「The Black Dog」。位置情報の共有を切り忘れた元恋人が新しい相手とパブにいることがわかる——デジタル時代の失恋の残酷さ。
+
+#TaylorSwift #テイラースウィフト #TheBlackDog
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-black-dog.html
 
-#TaylorSwift #テイラースウィフト #TheBlackDog #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Bolter
 
 ```
-逃げる女🏃‍♀️ 安定が怖い。
+❓ クイズ：The Bolter
 
-英語歌詞・日本語訳・解説はこちら👇
+恋から逃げ続けるパターンを持つ女性の物語。「she's the bolter」——テイラー自身の恋愛パターンへの自己分析…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-bolter.html
 
-#TaylorSwift #テイラースウィフト #TheBolter #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Manuscript
 
 ```
-最後のページ📖
+The Manuscriptって正直過小評価されてない？🔥
 
-英語歌詞・日本語訳・解説はこちら👇
+「原稿」——全てを書き終えた後の静けさ。物語は完結した。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#TheManuscript #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-manuscript.html
 
-#TaylorSwift #テイラースウィフト #TheManuscript #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
 ### The Prophecy
 
 ```
-予言が外れた⚡
+✨ The Prophecy
 
-英語歌詞・日本語訳・解説はこちら👇
+「予言」——愛される運命から外れているのではないかという恐怖。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
 https://we-are-swifties.com/the-prophecy.html
 
-#TaylorSwift #テイラースウィフト #TheProphecy #Swifties #テイラー和訳 #WeAreSwifties
+#WeAreSwifties #テイラー和訳
 ```
 
-
-## 🎵 Midnights (Target Edition)
-
-### Hits Different
+### The Smallest Man Who Ever Lived
 
 ```
-特別に響く🎯
+The Smallest Man Who Ever Lived — この曲で泣いた人🙋‍♀️
 
-英語歌詞・日本語訳・解説はこちら👇
-https://we-are-swifties.com/hits-different.html
+#TheSmallestManWhoEverLived #TaylorSwift #テイラースウィフト
+```
 
-#TaylorSwift #テイラースウィフト #HitsDifferent #Swifties #テイラー和訳 #WeAreSwifties
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-smallest-man-who-ever-lived.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### The Tortured Poets Department
+
+```
+【The Tortured Poets Departmentの裏話】🪶
+
+アルバムのタイトル曲。「苦悩する詩人たち」の自嘲的な世界。Charlie Puthとの秘密のWhat'sAppグループ名が元ネタとされる。
+
+#TaylorSwift #テイラースウィフト #TheTorturedPoetsDepartment
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-tortured-poets-department.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Whos Afraid Of Little Old Me
+
+```
+❓ クイズ：Whos Afraid Of Little Old Me
+
+音楽業界に利用された少女が権力を手に入れた後の咆哮。「the cage was a fine home」——檻の中で育て…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/whos-afraid-of-little-old-me.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### imgonnagetyouback
+
+```
+imgonnagetyoubackって正直過小評価されてない？🔥
+
+「取り戻すわ/仕返しするわ」——get you backの二重の意味が炸裂するダブル・ミーニング。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#imgonnagetyouback #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/imgonnagetyouback.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### loml
+
+```
+✨ loml
+
+「人生の愛」——love of my lifeの略。でも最後はloss of my lifeに変わる。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/loml.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### thankyouaimee
+
+```
+thankyouaimee — この曲で泣いた人🙋‍♀️
+
+#thankyouaimee #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/thankyouaimee.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+## 🎪 Showgirl
+
+### Actually Romantic
+
+```
+【Actually Romanticの裏話】🎪
+
+「Actually Romantic」は、テイラーを嫌っているアーティストへの皮肉なラブレター。テイラー自身が「あなたを嫌っている人への手紙」と説明。裏で悪口を言い、元カレとハイタ
+
+#TaylorSwift #テイラースウィフト #ActuallyRomantic
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/actually-romantic.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### CANCELLED!
+
+```
+❓ クイズ：CANCELLED!
+
+「CANCELLED!」は、キャンセルカルチャーの嵐を生き延びた者たちの連帯を歌うアンセム。テイラーは2016年のKan…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/cancelled.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Elizabeth Taylor
+
+```
+Elizabeth Taylorって正直過小評価されてない？🔥
+
+テイラー・スウィフト「Elizabeth Taylor」の英語歌詞・日本語訳・徹底解説。ハリウッド伝説の女優に重ねた名声と愛の物語。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#ElizabethTaylor #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/elizabeth-taylor.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Father Figure
+
+```
+✨ Father Figure
+
+テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造を暴いた衝撃曲。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/father-figure.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Honey
+
+```
+Honey — この曲で泣いた人🙋‍♀️
+
+#Honey #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/honey.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Life Of A Showgirl
+
+```
+【Life Of A Showgirlの裏話】🎪
+
+「The Life of a Showgirl」は、2025年リリースの12thアルバム
+                『The Life of a Showgirl』の
+
+#TaylorSwift #テイラースウィフト #LifeOfAShowgirl
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/life-of-a-showgirl.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Opalite
+
+```
+❓ クイズ：Opalite
+
+「Opalite（オパライト）」は、2025年リリースの12thアルバム
+                『The…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/opalite.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Ruin The Friendship
+
+```
+Ruin The Friendshipって正直過小評価されてない？🔥
+
+テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情を超えた恋心と永遠の後悔。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#RuinTheFriendship #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/ruin-the-friendship.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### The Fate of Ophelia
+
+```
+✨ The Fate of Ophelia
+
+テイラー・スウィフト「The Fate of Ophelia」の英語歌詞・日本語訳・徹底解説。シェイクスピアのオフィーリアに重ねたラブソング。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/fate-of-ophelia.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Wi$h Li$t
+
+```
+Wi$h Li$t — この曲で泣いた人🙋‍♀️
+
+#Wi$hLi$t #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/wish-list.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Wood
+
+```
+【Woodの裏話】🎪
+
+「Wood」は、恋する喜びに満ちたプレイフルなトラック。タイトルは英語の慣用句"knock on
+                    wood"（木を叩く＝ジンクスよけ）の言
+
+#TaylorSwift #テイラースウィフト #Wood
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/wood.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+## 💛 Fearless TV
+
+### Fearless
+
+```
+❓ クイズ：Fearless
+
+アルバム表題曲。テイラーは16歳でこの曲を書いた。「fearless」は恐怖がないことではなく、「恐怖があっても飛び込む…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/fearless-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Fifteen
+
+```
+Fifteenって正直過小評価されてない？🔥
+
+15歳——高校初日の期待と不安、初恋の甘さと痛み。親友Abigailとの青春の記憶。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Fifteen #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/fifteen-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Hey Stephen
+
+```
+✨ Hey Stephen
+
+好きな男の子の名前を連呼する、テイラー最も純粋な片思いソング。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/hey-stephen-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Love Story
+
+```
+Love Story — この曲で泣いた人🙋‍♀️
+
+#LoveStory #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/love-story-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Mr. Perfectly Fine
+
+```
+【Mr. Perfectly Fineの裏話】💛
+
+2008年に書かれ、13年間Vaultに眠っていた。公開後、Sophie Turner（当時Joe Jonasの妻）が「これは最高」とSNSに投稿し大きな話題に。Joe Jonas
+
+#TaylorSwift #テイラースウィフト #MrPerfectlyFine
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/mr-perfectly-fine-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Today Was a Fairytale
+
+```
+❓ クイズ：Today Was a Fairytale
+
+映画「Valentine's Day」（2010年）のために書き下ろした楽曲。テイラー自身も映画に出演しTaylor L…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/today-was-a-fairytale-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### White Horse
+
+```
+White Horseって正直過小評価されてない？🔥
+
+おとぎ話は現実じゃなかった——白馬の王子様を待つのをやめた少女の覚醒。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#WhiteHorse #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/white-horse-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### You Belong with Me
+
+```
+✨ You Belong with Me
+
+「あの子じゃなくて私のほうが合ってるのに」——片思いの切なさと確信を描いた全米No.1ヒット。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/you-belong-with-me-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+## 💜 Speak Now TV
+
+### Back to December
+
+```
+Back to December — この曲で泣いた人🙋‍♀️
+
+#BacktoDecember #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/back-to-december-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Better Than Revenge
+
+```
+【Better Than Revengeの裏話】💜
+
+🔥 略奪愛への報復。「彼女はハリウッドの伝説じゃない、ただのマットレス」。
+
+#TaylorSwift #テイラースウィフト #BetterThanRevenge
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/better-than-revenge-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Castles Crumbling
+
+```
+❓ クイズ：Castles Crumbling
+
+🏰 崩れ落ちる城——名声の裏側の孤独。From The Vault。feat. Hayley Williams。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/castles-crumbling-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Dear John
+
+```
+Dear Johnって正直過小評価されてない？🔥
+
+💔 ジョン・メイヤーとの年齢差恋愛への告発。「私は若すぎた」。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#DearJohn #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/dear-john-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Electric Touch
+
+```
+✨ Electric Touch
+
+⚡ 初デートの電気ショック——触れた瞬間の衝撃。From The Vault。feat. Fall Out Boy。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/electric-touch-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Enchanted
+
+```
+Enchanted — この曲で泣いた人🙋‍♀️
+
+#Enchanted #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/enchanted-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Foolish One
+
+```
+【Foolish Oneの裏話】💜
+
+🃏 気づいてないふりをして——片思いの「愚かな一人」。From The Vault。
+
+#TaylorSwift #テイラースウィフト #FoolishOne
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/foolish-one-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Haunted
+
+```
+❓ クイズ：Haunted
+
+👻 崩壊する関係に取り憑かれる——Speak Nowで最もドラマチックな曲。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/haunted-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### I Can See You
+
+```
+I Can See Youって正直過小評価されてない？🔥
+
+👀 密かな欲望——「見えてるよ」。From The Vault。MV付きで話題に。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#ICanSeeYou #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/i-can-see-you-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Innocent
+
+```
+✨ Innocent
+
+🕊️ カニエ・ウェストへの赦し。「あなたはまだ無邪気でいられる」。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/innocent-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Last Kiss
+
+```
+Last Kiss — この曲で泣いた人🙋‍♀️
+
+#LastKiss #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/last-kiss-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Long Live
+
+```
+【Long Liveの裏話】💜
+
+⚔️ ファンとバンドメンバーへの感謝。「いつか私たちの物語が語られる時」。
+
+#TaylorSwift #テイラースウィフト #LongLive
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/long-live-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Mean
+
+```
+❓ クイズ：Mean
+
+🎻 いじめっ子への反撃アンセム。「いつか大きな街に住む、あなたはまだ意地悪なまま」。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/mean-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Mine
+
+```
+Mineって正直過小評価されてない？🔥
+
+💎 「あなたは私にとって最高の出来事」——愛の安全地帯を見つけた喜び。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#Mine #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/mine-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Never Grow Up
+
+```
+✨ Never Grow Up
+
+👶 大人にならないで——小さかった頃の純粋さへの願い。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/never-grow-up-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Ours
+
+```
+Ours — この曲で泣いた人🙋‍♀️
+
+#Ours #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/ours-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Sparks Fly
+
+```
+【Sparks Flyの裏話】💜
+
+✨ ライブで初披露された伝説の曲。火花が散る——抗えない引力。
+
+#TaylorSwift #テイラースウィフト #SparksFly
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/sparks-fly-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Speak Now
+
+```
+❓ クイズ：Speak Now
+
+💒 結婚式に乗り込む——「今言わないと永遠に後悔する」。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/speak-now-song-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### The Story of Us
+
+```
+The Story of Usって正直過小評価されてない？🔥
+
+📖 気まずい再会——「私たちの物語」が悲劇に変わった。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#TheStoryofUs #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-story-of-us-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Timeless
+
+```
+✨ Timeless
+
+⏳ 時代を超える愛。古い新聞の中の二人のように——永遠の物語。From The Vault。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/timeless-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### When Emma Falls In Love Tv
+
+```
+When Emma Falls In Love Tv — この曲で泣いた人🙋‍♀️
+
+#WhenEmmaFallsInLoveTv #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/when-emma-falls-in-love-tv.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+## 🌟 Taylor Swift (Debut)
+
+### A Place in This World
+
+```
+【A Place in This Worldの裏話】🌟
+
+🌍 居場所を探す少女——「この世界のどこかに自分の場所がある」。
+
+#TaylorSwift #テイラースウィフト #APlaceinThisWorld
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/a-place-in-this-world-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Cold As You
+
+```
+❓ クイズ：Cold As You
+
+❄️ 冷たい恋人への痛烈なバラード。「あなたほど冷たい人はいない」。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/cold-as-you-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Mary Song Debut
+
+```
+Mary Song Debutって正直過小評価されてない？🔥
+
+👧 幼なじみとの純粋な恋物語。7歳から87歳まで——一生の愛。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#MarySongDebut #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/mary-song-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Our Song
+
+```
+✨ Our Song
+
+🎵 「私たちの歌」がないから作った——日常の音が二人の歌になる。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/our-song-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Picture to Burn
+
+```
+Picture to Burn — この曲で泣いた人🙋‍♀️
+
+#PicturetoBurn #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/picture-to-burn-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Should've Said No
+
+```
+【Should've Said Noの裏話】🌟
+
+🚫 浮気した彼への怒りのカントリーロック。「ノーと言えばよかったのに」。
+
+#TaylorSwift #テイラースウィフト #ShouldveSaidNo
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/should-have-said-no-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Stay Beautiful
+
+```
+❓ クイズ：Stay Beautiful
+
+🌸 遠くから見つめる片思い。「ずっと美しくいて」。…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/stay-beautiful-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Teardrops On My Guitar Debut
+
+```
+Teardrops On My Guitar Debutって正直過小評価されてない？🔥
+
+🎸 片思いの涙。「彼は私の好きな人——でも彼女がいる」。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#TeardropsOnMyGuitarDebut #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/teardrops-on-my-guitar-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### The Outside
+
+```
+✨ The Outside
+
+🚪 仲間外れの少女——「外側にいる」孤独。テイラーが12歳で書いた曲。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/the-outside-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Tied Together Debut
+
+```
+Tied Together Debut — この曲で泣いた人🙋‍♀️
+
+#TiedTogetherDebut #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/tied-together-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Tim McGraw
+
+```
+【Tim McGrawの裏話】🌟
+
+テイラー・スウィフトの記念すべきデビューシングル（2006年）。高校の授業中に書き上げたこの曲は、夏の終わりに離ればなれになる恋人への切ない思いを歌っている。「ティム・マグロウの曲
+
+#TaylorSwift #テイラースウィフト #TimMcGraw
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/tim-mcgraw-debut.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+## 🎵 Other
+
+### Eldest Daughter
+
+```
+❓ クイズ：Eldest Daughter
+
+「Eldest Daughter」はアルバムのTrack
+                    5——テイラーが最も…
+
+この続き知ってる？答えはリプ欄👇
+
+#TaylorSwift #Swifties #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/eldest-daughter.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Privacy Policy
+
+```
+Privacy Policyって正直過小評価されてない？🔥
+
+We are Swiftiesのプライバシーポリシー。Cookie・アクセス解析・広告配信・著作権に関する方針。
+
+好きな人はRT！もっと評価されるべき人はいいね👍
+
+#PrivacyPolicy #TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/privacy-policy.html
+
+#WeAreSwifties #テイラー和訳
+```
+
+### Travis Kelce
+
+```
+✨ Travis Kelce
+
+Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。
+
+#TaylorSwift #テイラースウィフト
+```
+
+📎 リプ欄:
+```
+🔗 英語歌詞・日本語訳・徹底解説
+https://we-are-swifties.com/travis-kelce.html
+
+#WeAreSwifties #テイラー和訳
 ```

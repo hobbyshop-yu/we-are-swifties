@@ -1,1134 +1,1136 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>Taylor Swift - Opalite 歌詞・和訳・徹底解説 | We are スウィフティーズ</title>
-    <meta name="description" content="テイラー・スウィフト「Opalite（オパライト）」の英語歌詞・日本語訳・徹底解説。Travis Kelceへの愛を宝石に込めた珠玉のラブソングを読み解きます。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #060d12;
-            --bg-card: #0c1a22;
-            --bg-card-hover: #122530;
-            --text-primary: #e0f0f8;
-            --text-secondary: #8ab4c8;
-            --accent-opal: #4dd9e8;
-            --accent-opal-light: #7ae8f4;
-            --accent-rose: #f472b6;
-            --accent-cyan: #4dd9e8;
-            --accent-amber: #fbbf24;
-            --english-color: #7ae8f4;
-            --japanese-color: #d4f5fa;
-            --commentary-color: #4a6a78;
-            --gradient-opal: linear-gradient(135deg, #4dd9e8 0%, #7ae8f4 40%, #b0f0f8 100%);
-            --gradient-dark: linear-gradient(180deg, #060d12 0%, #0a1a24 100%);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        /* ========== Hero Section ========== */
-        .hero {
-            position: relative;
-            min-height: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            background: var(--gradient-dark);
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background:
-                radial-gradient(ellipse at 20% 50%, rgba(77, 217, 232, 0.1) 0%, transparent 50%),
-                radial-gradient(ellipse at 80% 50%, rgba(122, 232, 244, 0.07) 0%, transparent 50%),
-                radial-gradient(ellipse at 50% 80%, rgba(176, 240, 248, 0.05) 0%, transparent 50%);
-            animation: shimmer 8s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% {
-                transform: translateX(-5%) translateY(-5%) rotate(0deg);
-            }
-
-            100% {
-                transform: translateX(5%) translateY(5%) rotate(3deg);
-            }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 2rem;
-        }
-
-        .hero-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            color: var(--accent-opal);
-            margin-bottom: 1rem;
-        }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(3rem, 8vw, 6rem);
-            font-weight: 700;
-            background: var(--gradient-opal);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-            line-height: 1.2;
-        }
-
-        .hero-artist {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            font-weight: 400;
-            font-style: italic;
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-        }
-
-        .hero-album {
-            display: inline-block;
-            font-size: 0.8rem;
-            font-weight: 500;
-            color: var(--accent-opal-light);
-            border: 1px solid rgba(167, 139, 250, 0.3);
-            padding: 0.4rem 1.2rem;
-            border-radius: 100px;
-            letter-spacing: 0.05em;
-        }
-
-        /* ========== Floating Gems ========== */
-        .gem {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(1px);
-            opacity: 0.4;
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .gem:nth-child(1) {
-            width: 6px;
-            height: 6px;
-            background: var(--accent-opal);
-            top: 20%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .gem:nth-child(2) {
-            width: 4px;
-            height: 4px;
-            background: var(--accent-cyan);
-            top: 40%;
-            right: 15%;
-            animation-delay: 2s;
-        }
-
-        .gem:nth-child(3) {
-            width: 8px;
-            height: 8px;
-            background: var(--accent-rose);
-            bottom: 30%;
-            left: 20%;
-            animation-delay: 4s;
-        }
-
-        .gem:nth-child(4) {
-            width: 5px;
-            height: 5px;
-            background: var(--accent-amber);
-            top: 60%;
-            right: 25%;
-            animation-delay: 1s;
-        }
-
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0) scale(1);
-                opacity: 0.4;
-            }
-
-            50% {
-                transform: translateY(-20px) scale(1.2);
-                opacity: 0.7;
-            }
-        }
-
-        /* ========== Main Content ========== */
-        .main-content {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 6rem;
-        }
-
-        /* ========== Song Intro ========== */
-        .song-intro {
-            background: var(--bg-card);
-            border: 1px solid rgba(77, 217, 232, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .song-intro::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--gradient-opal);
-        }
-
-        .song-intro h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-opal-light);
-            margin-bottom: 1rem;
-        }
-
-        .song-intro p {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 2;
-        }
-
-        .song-intro .keyword {
-            color: var(--accent-opal-light);
-            font-weight: 500;
-        }
-
-        /* ========== Section Headers ========== */
-        .section-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin: 3rem 0 1.5rem;
-        }
-
-        .section-header .line {
-            flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, rgba(77, 217, 232, 0.3), transparent);
-        }
-
-        .section-header h3 {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.25em;
-            text-transform: uppercase;
-            color: var(--accent-opal);
-            white-space: nowrap;
-        }
-
-        /* ========== Lyrics Blocks ========== */
-        .lyrics-block {
-            margin-bottom: 0.5rem;
-        }
-
-        .lyric-line {
-            padding: 0.2rem 0;
-        }
-
-        .lyric-en {
-            font-family: 'Inter', 'Noto Sans JP', sans-serif;
-            font-size: 1.05rem;
-            font-weight: 400;
-            color: var(--english-color);
-            line-height: 1.9;
-        }
-
-        .lyric-ja {
-            font-size: 0.95rem;
-            font-weight: 300;
-            color: var(--japanese-color);
-            line-height: 1.9;
-            margin-bottom: 0.3rem;
-        }
-
-        .lyric-pair {
-            padding: 0.4rem 0;
-            border-bottom: 1px solid rgba(77, 217, 232, 0.05);
-        }
-
-        .lyric-pair:last-child {
-            border-bottom: none;
-        }
-
-        /* ========== Commentary ========== */
-        .commentary {
-            margin: 1.2rem 0 2rem;
-            padding: 1.2rem 1.5rem;
-            border-left: 2px solid rgba(74, 106, 120, 0.4);
-            border-radius: 0 8px 8px 0;
-            background: rgba(74, 106, 120, 0.06);
-        }
-
-        .commentary p {
-            font-size: 0.82rem;
-            color: var(--commentary-color);
-            line-height: 2;
-            font-weight: 300;
-        }
-
-        .commentary .note-icon {
-            font-size: 0.7rem;
-            color: rgba(74, 106, 120, 0.6);
-            margin-right: 0.3rem;
-        }
-
-        .commentary strong {
-            color: #7ab8c8;
-            font-weight: 500;
-        }
-
-        /* ========== Legend ========== */
-/* ========== YouTube Embed ========== */
-        .youtube-section {
-            margin-bottom: 3rem;
-        }
-
-        .youtube-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-opal-light);
-            margin-bottom: 1rem;
-        }
-
-        .youtube-wrapper {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid rgba(167, 139, 250, 0.15);
-        }
-
-        .youtube-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        /* ========== Travis Profile Card ========== */
-        .profile-card {
-            background: var(--bg-card);
-            border: 1px solid rgba(167, 139, 250, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .profile-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, #f472b6, #a78bfa, #67e8f9);
-        }
-
-        .profile-card h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-opal-light);
-            margin-bottom: 1.2rem;
-        }
-
-        .profile-card .profile-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .stat-item {
-            background: rgba(167, 139, 250, 0.06);
-            border: 1px solid rgba(167, 139, 250, 0.1);
-            border-radius: 10px;
-            padding: 0.8rem 1rem;
-            text-align: center;
-        }
-
-        .stat-value {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--accent-opal-light);
-            display: block;
-        }
-
-        .stat-label {
-            font-size: 0.7rem;
-            color: var(--commentary-color);
-            letter-spacing: 0.05em;
-        }
-
-        .profile-card .profile-text {
-            font-size: 0.92rem;
-            color: var(--text-secondary);
-            line-height: 2;
-            margin-bottom: 1rem;
-        }
-
-        .profile-card .keyword {
-            color: var(--accent-opal-light);
-            font-weight: 500;
-        }
-
-        .timeline {
-            position: relative;
-            padding-left: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: linear-gradient(180deg, var(--accent-opal), var(--accent-rose));
-            border-radius: 1px;
-        }
-
-        .timeline-item {
-            position: relative;
-            padding-bottom: 1rem;
-            padding-left: 1rem;
-        }
-
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: -1.75rem;
-            top: 0.5rem;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--accent-opal);
-            border: 2px solid var(--bg-card);
-        }
-
-        .timeline-date {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 600;
-            color: var(--accent-opal);
-            letter-spacing: 0.05em;
-        }
-
-        .timeline-text {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        /* ========== Footer ========== */
-        .article-footer {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(77, 217, 232, 0.1);
-            text-align: center;
-        }
-
-        .article-footer .site-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            background: var(--gradient-opal);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-        }
-
-        .article-footer .copyright {
-            font-size: 0.7rem;
-            color: var(--commentary-color);
-        }
-
-        /* ========== Responsive ========== */
-        @media (max-width: 600px) {
-            .main-content {
-                padding: 2rem 1rem 4rem;
-            }
-
-            .song-intro {
-                padding: 1.5rem;
-            }
-.lyric-en {
-                font-size: 0.95rem;
-            }
-
-            .lyric-ja {
-                font-size: 0.88rem;
-            }
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            color: var(--accent-opal);
-            text-decoration: none;
-            font-size: 0.85rem;
-            transition: color 0.3s;
-        }
-
-        .back-link:hover {
-            color: #b0f0f8;
-        }
-
-        /* ========== Mascot Trivia ========== */
-        .mascot-section {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 2rem 1.5rem;
-        }
-
-        .mascot-card {
-            display: flex;
-            align-items: flex-end;
-            gap: 1rem;
-        }
-
-        .mascot-img {
-            width: 110px;
-            height: 110px;
-            object-fit: contain;
-            flex-shrink: 0;
-            filter: drop-shadow(0 2px 8px rgba(77, 217, 232, 0.2));
-        }
-
-        .mascot-bubble {
-            background: var(--bg-card);
-            border: 1px solid rgba(77, 217, 232, 0.15);
-            border-radius: 16px 16px 16px 4px;
-            padding: 1rem 1.3rem;
-            font-size: 0.85rem;
-            color: var(--text-primary);
-            line-height: 1.7;
-            max-width: 500px;
-        }
-
-        .mascot-bubble .trivia-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.6rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--accent-opal);
-            margin-bottom: 0.3rem;
-        }
-
-        @media (max-width: 600px) {
-            .mascot-card {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .mascot-bubble {
-                border-radius: 16px;
-            }
-
-            .mascot-img {
-                width: 90px;
-                height: 90px;
-            }
-        }
-    
-        /* Global Nav */
-        .global-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 1rem 1.5rem;
-            background: rgba(12, 8, 6, 0.95);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .global-nav a {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-        .global-nav a.nav-home {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.9rem;
-            font-weight: 700;
-            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0;
-            text-transform: none;
-        }
-
-        @media (max-width: 600px) {
-            .global-nav { gap: 1rem; flex-wrap: wrap; }
-            .global-nav a { font-size: 0.65rem; }
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links a {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-
-        .youtube-section.is-sticky {
-            position: sticky;
-            top: 60px;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-        .youtube-section.is-sticky .youtube-wrapper {
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            border-color: rgba(255,255,255,0.15);
-        }
-        
-        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
-
-        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
-    </style>
-
-    <!-- OGP / Twitter Card -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Opalite 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta property="og:description" content="テイラー・スウィフト「Opalite」の英語歌詞・日本語訳・徹底解説。人工オパールに重ねた愛の物語。">
-    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/opalite.html">
-    <meta property="og:image" content="https://img.youtube.com/vi/3PJC6uPIekc/maxresdefault.jpg">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="720">
-    <meta property="og:site_name" content="We are Swifties">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Opalite 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta name="twitter:description" content="テイラー・スウィフト「Opalite」の英語歌詞・日本語訳・徹底解説。人工オパールに重ねた愛の物語。">
-    <meta name="twitter:image" content="https://img.youtube.com/vi/3PJC6uPIekc/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Opalite 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Opalite（オパライト）」の英語歌詞・日本語訳・徹底解説。Travis Kelceへの愛を宝石に込めた珠玉のラブソングを読み解きます。","image":"https://img.youtube.com/vi/3PJC6uPIekc/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/opalite.html","about":{"@type":"MusicComposition","name":"Opalite","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
-</script>
-    <link rel="canonical" href="https://we-are-swifties.com/opalite.html">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Opalite", "item": "https://we-are-swifties.com/opalite.html"}]}
-</script>
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-    <!-- ===== Hero ===== -->
-    <section class="hero">
-        <div class="gem"></div>
-        <div class="gem"></div>
-        <div class="gem"></div>
-        <div class="gem"></div>
-        <div class="hero-content">
-            <p class="hero-label">Lyrics &amp; Commentary</p>
-            <h1 class="hero-title">Opalite</h1>
-            <p class="hero-artist">Taylor Swift</p>
-            <span class="hero-album">The Life of a Showgirl (2025)</span>
-        </div>
-    </section>
-    <nav class="breadcrumb" aria-label="パンくずリスト">
-        <ol>
-            <li><a href="index.html#album-toc">🏠 TOP</a></li>
-            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
-            <li aria-current="page">Opalite</li>
-        </ol>
-    </nav>
-
-
-    <!-- ===== Main ===== -->
-    <main class="main-content">
-
-        <a href="index.html" class="back-link">← トップページに戻る</a>
-
-        <!-- Song Intro -->
-        <div class="song-intro">
-            <h2>✦ この曲について</h2>
-            <p>
-                「<span class="keyword">Opalite（オパライト）</span>」は、2025年リリースの12thアルバム
-                <span class="keyword">『The Life of a Showgirl』</span>収録曲。
-                オパライトとは<span class="keyword">人工的に作られたオパール</span>のこと。
-                テイラーはこの石に「幸せは自分で作り出せる」という意味を込めた。
-                婚約者<span class="keyword">Travis Kelce</span>の誕生石がオパールであることも、この曲のタイトルに深く関わっている。
-                Travis 自身が「このアルバムで一番好きな曲」と公言している、二人の愛が結晶した一曲。
-            </p>
-        </div>
-
-        <!-- Mascot Trivia -->
-
-                <!-- YouTube Embed -->
-        <div class="youtube-section">
-            <h2>▶ Official Lyric Video</h2>
-            <div class="youtube-wrapper">
-                <iframe src="https://www.youtube.com/embed/4FUIEcnvT04" title="Taylor Swift - Opalite (Official Lyric Video)"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-
-        <!-- VERSE 1 -->
-
-        
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 1</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I had a bad habit</p>
-                <p class="lyric-ja">悪い癖があった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Of missing lovers past</p>
-                <p class="lyric-ja">行方不明の恋人たちの過去</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">My brother used to call it</p>
-                <p class="lyric-ja">兄はこう呼んでいた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&quot;Eating out of the trash&quot;</p>
-                <p class="lyric-ja">「ゴミ箱を漁ること」</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It&#x27;s never gonna last</p>
-                <p class="lyric-ja">長続きしないって</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I thought my house was haunted</p>
-                <p class="lyric-ja">家には幽霊がいると思ってた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I used to live with ghosts</p>
-                <p class="lyric-ja">幽霊と一緒に暮らしてた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And all the perfect couples</p>
-                <p class="lyric-ja">完璧なカップルたちはみんな</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Said, &quot;When you know, you know&quot;</p>
-                <p class="lyric-ja">「わかる時はわかるよ」って言ってた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And, &quot;When you don&#x27;t, you don&#x27;t&quot;</p>
-                <p class="lyric-ja">「わからない時はわからない」って</p>
-            </div>
-        </div>
-
-
-        <div class="commentary"><p><span class="note-icon">🎵</span>「Opalite」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
-
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>PRE-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">And all of the foes, and all of the friends (Ha, ha)</p>
-                <p class="lyric-ja">全ての敵も、全ての友も</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Have seen it before, they&#x27;ll see it again (Ha, ha)</p>
-                <p class="lyric-ja">前に見たことがある、彼らはまた見るだろう (ハッ、ハ)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Life is a song, it ends when it ends</p>
-                <p class="lyric-ja">人生は歌、終わる時に終わる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I was wrong</p>
-                <p class="lyric-ja">私は間違っていました</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">But my mama told me, &quot;It&#x27;s alright</p>
-                <p class="lyric-ja">でもママが言った、「大丈夫よ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You were dancing through the lightning strikes</p>
-                <p class="lyric-ja">稲妻の中で踊っていたのね</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sleepless in the onyx night</p>
-                <p class="lyric-ja">漆黒の夜に眠れずに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh</p>
-                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Oh, my Lord</p>
-                <p class="lyric-ja">ああ、神様</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Never made no one like you bеfore</p>
-                <p class="lyric-ja">これまで誰もあなたのような人を作ったことはありません</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You had to make your own sunshine</p>
-                <p class="lyric-ja">自分で自分の太陽を作らなきゃいけなかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But now, thе sky is opalite, oh-oh, oh, oh, oh, oh&quot;</p>
-                <p class="lyric-ja">でも今、空はオパール色だ、ああ、ああ、ああ、ああ、ああ」</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 2</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">You couldn&#x27;t understand it</p>
-                <p class="lyric-ja">あなた、それ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Why you felt alone</p>
-                <p class="lyric-ja">なぜ、あなた、一人</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You were in it for real</p>
-                <p class="lyric-ja">あなたは本気だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">She was in her phone</p>
-                <p class="lyric-ja">彼女はスマホの中にいた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And you were just a pose</p>
-                <p class="lyric-ja">あなたはただのポーズだった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And don&#x27;t we try to love love? (Love, love)</p>
-                <p class="lyric-ja">私たちは愛を愛そうとしないの？</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">We give it all we got (Give it all we got)</p>
-                <p class="lyric-ja">持てるもの全てを捧げて</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You finally left the table (Uh, uh)</p>
-                <p class="lyric-ja">あなたはやっとテーブルを離れた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And what a simple thought</p>
-                <p class="lyric-ja">そしてなんと単純な考えだろう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You&#x27;re starving &#x27;til you&#x27;re not</p>
-                <p class="lyric-ja">飢えてた、もう飢えてない</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>PRE-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">And all of the foes, and all of the friends (Ha, ha)</p>
-                <p class="lyric-ja">全ての敵も、全ての友も</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Have messed up before, they&#x27;ll mess up again</p>
-                <p class="lyric-ja">前にも失敗した、また失敗する</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">(Ha, ha)</p>
-                <p class="lyric-ja">(ははは)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Life is a song, it ends when it ends</p>
-                <p class="lyric-ja">人生は歌、終わる時に終わる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You move on</p>
-                <p class="lyric-ja">あなたは先に進みます</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">And that&#x27;s when I told you, &quot;It&#x27;s alright</p>
-                <p class="lyric-ja">その時、あなたに言った、「大丈夫</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You were dancing through the lightning strikes</p>
-                <p class="lyric-ja">稲妻の中で踊っていたのね</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Sleepless in the onyx night</p>
-                <p class="lyric-ja">漆黒の夜に眠れずに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh</p>
-                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Oh, my Lord</p>
-                <p class="lyric-ja">ああ、神様</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Never met no one like you before</p>
-                <p class="lyric-ja">あなたみたいな人に出会ったことがない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You had to make your own sunshine</p>
-                <p class="lyric-ja">自分で自分の太陽を作らなきゃいけなかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh, oh&quot;</p>
-                <p class="lyric-ja">でも今、空はオパライトに輝いてる」</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>BRIDGE</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">This is just</p>
-                <p class="lyric-ja">これはただの</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">A storm inside a teacup</p>
-                <p class="lyric-ja">ティーカップの中の嵐</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But shelter here with me, my love</p>
-                <p class="lyric-ja">でも、ここ、私を、私の、愛</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Thunder like a drum</p>
-                <p class="lyric-ja">太鼓のような雷</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">This life will beat you up, up, up, up</p>
-                <p class="lyric-ja">人生、あなた、上へ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">This is just</p>
-                <p class="lyric-ja">これはただの</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">A temporary speed bump</p>
-                <p class="lyric-ja">一時的なスピードバンプ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But failure brings you freedom</p>
-                <p class="lyric-ja">でも失敗が自由をくれる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And I can bring you love, love, love, love (Love)</p>
-                <p class="lyric-ja">そして私は愛を届けられる</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Don&#x27;t you sweat it, baby, it&#x27;s alright</p>
-                <p class="lyric-ja">心配しないで、ベイビー、大丈夫</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You were dancing through the lightning strikes</p>
-                <p class="lyric-ja">稲妻の中で踊っていたのね</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Oh, so sleepless in the onyx night</p>
-                <p class="lyric-ja">漆黒の夜に眠れずに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh</p>
-                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Oh, my Lord</p>
-                <p class="lyric-ja">ああ、神様</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Never met no one like you before (No)</p>
-                <p class="lyric-ja">あなたみたいな人に出会ったことがない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You had to make your own sunshine</p>
-                <p class="lyric-ja">自分で自分の太陽を作らなきゃいけなかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh, oh</p>
-                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
-            </div>
-        </div>
-
-
-
-        <section class="mascot-section" id="mascot-trivia">
-            <div class="mascot-card">
-                <img class="mascot-img" id="mascot-image" src="images/cat-piano.png" alt="Olivia mascot">
-                <div class="mascot-bubble">
-                    <p class="trivia-label">🐱 Did You Know?</p>
-                    <p id="mascot-text">「Opalite」は天然石ではなく人工的に作られた宝石。「幸せは自分で作るもの」というメタファーなんだよ！</p>
-                </div>
-            </div>
-        </section>
-        
-    <section class="album-links">
-        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
-        <div class="album-links-grid">
-            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
-            <a href="cancelled.html" class="album-link">CANCELLED!</a>
-            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
-            <a href="father-figure.html" class="album-link">Father Figure</a>
-            <a href="honey.html" class="album-link">Honey</a>
-            <span class="album-link current">▶ Opalite</span>
-            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
-            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
-            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
-            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
-            <a href="wood.html" class="album-link">Wood</a>
-        </div>
-    </section>
-
-        <footer class="article-footer">
-            <p class="site-name">We are Swifties</p>
-            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
-        </footer>
-
-    </main>
-
-    <script>
-        const triviaList = [
-            { img: 'images/cat-piano.png', text: '「Opalite」は天然石ではなく人工的に作られた宝石。「幸せは自分で作るもの」というメタファーなんだよ！' },
-            { img: 'images/cat-guitar.png', text: 'テイラーはTravis Kelceの試合を観戦したことで世界中のニュースになったよ。NFLの視聴率も急上昇！🏈' },
-            { img: 'images/cat-mic.png', text: 'TravisはEras Tourのステージにサプライズ登場したことも！テイラーをお姫様抱っこしたんだよ💕' },
-            { img: 'images/cat-piano.png', text: '「onyx night」は漆黒の宝石オニキスの夜。曲中には宝石のメタファーがたくさん隠されているよ💎' },
-            { img: 'images/cat-guitar.png', text: '「you had to make your own sunshine」——自分で太陽を作る。テイラーの人生哲学が詰まった一行だね✨' },
-            { img: 'images/cat-mic.png', text: '「The Life of a Showgirl」はLas Vegasレジデンシー公演に合わせてリリースされたEPだよ🎰' },
-        ];
-        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
-        document.getElementById('mascot-image').src = pick.img;
-        document.getElementById('mascot-text').textContent = pick.text;
-    </script>
-
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+    <title>Taylor Swift - Opalite 歌詞・和訳・徹底解説 | We are スウィフティーズ</title>
+    <meta name="description" content="テイラー・スウィフト「Opalite（オパライト）」の英語歌詞・日本語訳・徹底解説。Travis Kelceへの愛を宝石に込めた珠玉のラブソングを読み解きます。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #060d12;
+            --bg-card: #0c1a22;
+            --bg-card-hover: #122530;
+            --text-primary: #e0f0f8;
+            --text-secondary: #8ab4c8;
+            --accent-opal: #4dd9e8;
+            --accent-opal-light: #7ae8f4;
+            --accent-rose: #f472b6;
+            --accent-cyan: #4dd9e8;
+            --accent-amber: #fbbf24;
+            --english-color: #7ae8f4;
+            --japanese-color: #d4f5fa;
+            --commentary-color: #4a6a78;
+            --gradient-opal: linear-gradient(135deg, #4dd9e8 0%, #7ae8f4 40%, #b0f0f8 100%);
+            --gradient-dark: linear-gradient(180deg, #060d12 0%, #0a1a24 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* ========== Hero Section ========== */
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(77, 217, 232, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 50%, rgba(122, 232, 244, 0.07) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(176, 240, 248, 0.05) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-5%) translateY(-5%) rotate(0deg);
+            }
+
+            100% {
+                transform: translateX(5%) translateY(5%) rotate(3deg);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--accent-opal);
+            margin-bottom: 1rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 700;
+            background: var(--gradient-opal);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-album {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--accent-opal-light);
+            border: 1px solid rgba(167, 139, 250, 0.3);
+            padding: 0.4rem 1.2rem;
+            border-radius: 100px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ========== Floating Gems ========== */
+        .gem {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(1px);
+            opacity: 0.4;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .gem:nth-child(1) {
+            width: 6px;
+            height: 6px;
+            background: var(--accent-opal);
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .gem:nth-child(2) {
+            width: 4px;
+            height: 4px;
+            background: var(--accent-cyan);
+            top: 40%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+
+        .gem:nth-child(3) {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-rose);
+            bottom: 30%;
+            left: 20%;
+            animation-delay: 4s;
+        }
+
+        .gem:nth-child(4) {
+            width: 5px;
+            height: 5px;
+            background: var(--accent-amber);
+            top: 60%;
+            right: 25%;
+            animation-delay: 1s;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+                opacity: 0.4;
+            }
+
+            50% {
+                transform: translateY(-20px) scale(1.2);
+                opacity: 0.7;
+            }
+        }
+
+        /* ========== Main Content ========== */
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 6rem;
+        }
+
+        /* ========== Song Intro ========== */
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(77, 217, 232, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-opal);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-opal-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-opal-light);
+            font-weight: 500;
+        }
+
+        /* ========== Section Headers ========== */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(77, 217, 232, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-opal);
+            white-space: nowrap;
+        }
+
+        /* ========== Lyrics Blocks ========== */
+        .lyrics-block {
+            margin-bottom: 0.5rem;
+        }
+
+        .lyric-line {
+            padding: 0.2rem 0;
+        }
+
+        .lyric-en {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--english-color);
+            line-height: 1.9;
+        }
+
+        .lyric-ja {
+            font-size: 0.95rem;
+            font-weight: 300;
+            color: var(--japanese-color);
+            line-height: 1.9;
+            margin-bottom: 0.3rem;
+        }
+
+        .lyric-pair {
+            padding: 0.4rem 0;
+            border-bottom: 1px solid rgba(77, 217, 232, 0.05);
+        }
+
+        .lyric-pair:last-child {
+            border-bottom: none;
+        }
+
+        /* ========== Commentary ========== */
+        .commentary {
+            margin: 1.2rem 0 2rem;
+            padding: 1.2rem 1.5rem;
+            border-left: 2px solid rgba(74, 106, 120, 0.4);
+            border-radius: 0 8px 8px 0;
+            background: rgba(74, 106, 120, 0.06);
+        }
+
+        .commentary p {
+            font-size: 0.82rem;
+            color: var(--commentary-color);
+            line-height: 2;
+            font-weight: 300;
+        }
+
+        .commentary .note-icon {
+            font-size: 0.7rem;
+            color: rgba(74, 106, 120, 0.6);
+            margin-right: 0.3rem;
+        }
+
+        .commentary strong {
+            color: #7ab8c8;
+            font-weight: 500;
+        }
+
+        /* ========== Legend ========== */
+/* ========== YouTube Embed ========== */
+        .youtube-section {
+            margin-bottom: 3rem;
+        }
+
+        .youtube-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-opal-light);
+            margin-bottom: 1rem;
+        }
+
+        .youtube-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(167, 139, 250, 0.15);
+        }
+
+        .youtube-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* ========== Travis Profile Card ========== */
+        .profile-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(167, 139, 250, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .profile-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #f472b6, #a78bfa, #67e8f9);
+        }
+
+        .profile-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-opal-light);
+            margin-bottom: 1.2rem;
+        }
+
+        .profile-card .profile-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-item {
+            background: rgba(167, 139, 250, 0.06);
+            border: 1px solid rgba(167, 139, 250, 0.1);
+            border-radius: 10px;
+            padding: 0.8rem 1rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent-opal-light);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+            letter-spacing: 0.05em;
+        }
+
+        .profile-card .profile-text {
+            font-size: 0.92rem;
+            color: var(--text-secondary);
+            line-height: 2;
+            margin-bottom: 1rem;
+        }
+
+        .profile-card .keyword {
+            color: var(--accent-opal-light);
+            font-weight: 500;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--accent-opal), var(--accent-rose));
+            border-radius: 1px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.75rem;
+            top: 0.5rem;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-opal);
+            border: 2px solid var(--bg-card);
+        }
+
+        .timeline-date {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--accent-opal);
+            letter-spacing: 0.05em;
+        }
+
+        .timeline-text {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        /* ========== Footer ========== */
+        .article-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(77, 217, 232, 0.1);
+            text-align: center;
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            background: var(--gradient-opal);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        /* ========== Responsive ========== */
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+.lyric-en {
+                font-size: 0.95rem;
+            }
+
+            .lyric-ja {
+                font-size: 0.88rem;
+            }
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-opal);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: #b0f0f8;
+        }
+
+        /* ========== Mascot Trivia ========== */
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(77, 217, 232, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(77, 217, 232, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-opal);
+            margin-bottom: 0.3rem;
+        }
+
+        @media (max-width: 600px) {
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    
+        /* Global Nav */
+        .global-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(12, 8, 6, 0.95);
+            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .global-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .global-nav a.nav-home {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        @media (max-width: 600px) {
+            .global-nav { gap: 1rem; flex-wrap: wrap; }
+            .global-nav a { font-size: 0.65rem; }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        
+        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
+
+        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
+    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}</style>
+
+    <!-- OGP / Twitter Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Opalite 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta property="og:description" content="テイラー・スウィフト「Opalite」の英語歌詞・日本語訳・徹底解説。人工オパールに重ねた愛の物語。">
+    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/opalite.html">
+    <meta property="og:image" content="https://img.youtube.com/vi/3PJC6uPIekc/maxresdefault.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:site_name" content="We are Swifties">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Opalite 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta name="twitter:description" content="テイラー・スウィフト「Opalite」の英語歌詞・日本語訳・徹底解説。人工オパールに重ねた愛の物語。">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/3PJC6uPIekc/maxresdefault.jpg">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PESZB0HW0B');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Opalite 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Opalite（オパライト）」の英語歌詞・日本語訳・徹底解説。Travis Kelceへの愛を宝石に込めた珠玉のラブソングを読み解きます。","image":"https://img.youtube.com/vi/3PJC6uPIekc/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/opalite.html","about":{"@type":"MusicComposition","name":"Opalite","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
+</script>
+    <link rel="canonical" href="https://we-are-swifties.com/opalite.html">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Opalite", "item": "https://we-are-swifties.com/opalite.html"}]}
+</script>
+</head>
+
+<body>
+    <nav class="global-nav">
+        <a href="index.html" class="nav-home">We are Swifties</a>
+        <a href="index.html">曲一覧</a>
+        <a href="about.html">運営者情報</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+        <div class="gem"></div>
+        <div class="gem"></div>
+        <div class="gem"></div>
+        <div class="gem"></div>
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">Opalite</h1>
+            <p class="hero-artist">Taylor Swift</p>
+            <span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+        <ol>
+            <li><a href="index.html#album-toc">🏠 TOP</a></li>
+            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
+            <li aria-current="page">Opalite</li>
+        </ol>
+    </nav>
+
+
+    <!-- ===== Main ===== -->
+    <main class="main-content">
+
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+
+        <!-- Song Intro -->
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>
+                「<span class="keyword">Opalite（オパライト）</span>」は、2025年リリースの12thアルバム
+                <span class="keyword">『The Life of a Showgirl』</span>収録曲。
+                オパライトとは<span class="keyword">人工的に作られたオパール</span>のこと。
+                テイラーはこの石に「幸せは自分で作り出せる」という意味を込めた。
+                婚約者<span class="keyword">Travis Kelce</span>の誕生石がオパールであることも、この曲のタイトルに深く関わっている。
+                Travis 自身が「このアルバムで一番好きな曲」と公言している、二人の愛が結晶した一曲。
+            </p>
+        </div>
+
+        <!-- Mascot Trivia -->
+
+                <!-- YouTube Embed -->
+        <div class="youtube-section">
+            <h2>▶ Official Lyric Video</h2>
+            <div class="youtube-wrapper">
+                <iframe src="https://www.youtube.com/embed/4FUIEcnvT04" title="Taylor Swift - Opalite (Official Lyric Video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- VERSE 1 -->
+
+        
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I had a bad habit</p>
+                <p class="lyric-ja">悪い癖があった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Of missing lovers past</p>
+                <p class="lyric-ja">行方不明の恋人たちの過去</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">My brother used to call it</p>
+                <p class="lyric-ja">兄はこう呼んでいた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&quot;Eating out of the trash&quot;</p>
+                <p class="lyric-ja">「ゴミ箱を漁ること」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It&#x27;s never gonna last</p>
+                <p class="lyric-ja">長続きしないって</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I thought my house was haunted</p>
+                <p class="lyric-ja">家には幽霊がいると思ってた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I used to live with ghosts</p>
+                <p class="lyric-ja">幽霊と一緒に暮らしてた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And all the perfect couples</p>
+                <p class="lyric-ja">完璧なカップルたちはみんな</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Said, &quot;When you know, you know&quot;</p>
+                <p class="lyric-ja">「わかる時はわかるよ」って言ってた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And, &quot;When you don&#x27;t, you don&#x27;t&quot;</p>
+                <p class="lyric-ja">「わからない時はわからない」って</p>
+            </div>
+        </div>
+
+
+        <div class="commentary"><p><span class="note-icon">🎵</span>「Opalite」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
+<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20Opalite%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8COpalite%E3%80%8D%E3%81%AE%E8%8B%B1%E8%AA%9E%E6%AD%8C%E8%A9%9E%E3%83%BB%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E3%83%BB%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%E3%80%82%E4%BA%BA%E5%B7%A5%E3%82%AA%E3%83%91%E3%83%BC%E3%83%AB%E3%81%AB%E9%87%8D%E3%81%AD%E3%81%9F%E6%84%9B%E3%81%AE%E7%89%A9%E8%AA%9E%E3%80%82&url=https%3A%2F%2Fwe-are-swifties.com%2Fopalite.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
+
+
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>PRE-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">And all of the foes, and all of the friends (Ha, ha)</p>
+                <p class="lyric-ja">全ての敵も、全ての友も</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Have seen it before, they&#x27;ll see it again (Ha, ha)</p>
+                <p class="lyric-ja">前に見たことがある、彼らはまた見るだろう (ハッ、ハ)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Life is a song, it ends when it ends</p>
+                <p class="lyric-ja">人生は歌、終わる時に終わる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I was wrong</p>
+                <p class="lyric-ja">私は間違っていました</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">But my mama told me, &quot;It&#x27;s alright</p>
+                <p class="lyric-ja">でもママが言った、「大丈夫よ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You were dancing through the lightning strikes</p>
+                <p class="lyric-ja">稲妻の中で踊っていたのね</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sleepless in the onyx night</p>
+                <p class="lyric-ja">漆黒の夜に眠れずに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh</p>
+                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, my Lord</p>
+                <p class="lyric-ja">ああ、神様</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Never made no one like you bеfore</p>
+                <p class="lyric-ja">これまで誰もあなたのような人を作ったことはありません</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You had to make your own sunshine</p>
+                <p class="lyric-ja">自分で自分の太陽を作らなきゃいけなかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But now, thе sky is opalite, oh-oh, oh, oh, oh, oh&quot;</p>
+                <p class="lyric-ja">でも今、空はオパール色だ、ああ、ああ、ああ、ああ、ああ」</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 2</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">You couldn&#x27;t understand it</p>
+                <p class="lyric-ja">あなた、それ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Why you felt alone</p>
+                <p class="lyric-ja">なぜ、あなた、一人</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You were in it for real</p>
+                <p class="lyric-ja">あなたは本気だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">She was in her phone</p>
+                <p class="lyric-ja">彼女はスマホの中にいた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And you were just a pose</p>
+                <p class="lyric-ja">あなたはただのポーズだった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And don&#x27;t we try to love love? (Love, love)</p>
+                <p class="lyric-ja">私たちは愛を愛そうとしないの？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">We give it all we got (Give it all we got)</p>
+                <p class="lyric-ja">持てるもの全てを捧げて</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You finally left the table (Uh, uh)</p>
+                <p class="lyric-ja">あなたはやっとテーブルを離れた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And what a simple thought</p>
+                <p class="lyric-ja">そしてなんと単純な考えだろう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You&#x27;re starving &#x27;til you&#x27;re not</p>
+                <p class="lyric-ja">飢えてた、もう飢えてない</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>PRE-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">And all of the foes, and all of the friends (Ha, ha)</p>
+                <p class="lyric-ja">全ての敵も、全ての友も</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Have messed up before, they&#x27;ll mess up again</p>
+                <p class="lyric-ja">前にも失敗した、また失敗する</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">(Ha, ha)</p>
+                <p class="lyric-ja">(ははは)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Life is a song, it ends when it ends</p>
+                <p class="lyric-ja">人生は歌、終わる時に終わる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You move on</p>
+                <p class="lyric-ja">あなたは先に進みます</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">And that&#x27;s when I told you, &quot;It&#x27;s alright</p>
+                <p class="lyric-ja">その時、あなたに言った、「大丈夫</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You were dancing through the lightning strikes</p>
+                <p class="lyric-ja">稲妻の中で踊っていたのね</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Sleepless in the onyx night</p>
+                <p class="lyric-ja">漆黒の夜に眠れずに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh</p>
+                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, my Lord</p>
+                <p class="lyric-ja">ああ、神様</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Never met no one like you before</p>
+                <p class="lyric-ja">あなたみたいな人に出会ったことがない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You had to make your own sunshine</p>
+                <p class="lyric-ja">自分で自分の太陽を作らなきゃいけなかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh, oh&quot;</p>
+                <p class="lyric-ja">でも今、空はオパライトに輝いてる」</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">This is just</p>
+                <p class="lyric-ja">これはただの</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">A storm inside a teacup</p>
+                <p class="lyric-ja">ティーカップの中の嵐</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But shelter here with me, my love</p>
+                <p class="lyric-ja">でも、ここ、私を、私の、愛</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Thunder like a drum</p>
+                <p class="lyric-ja">太鼓のような雷</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">This life will beat you up, up, up, up</p>
+                <p class="lyric-ja">人生、あなた、上へ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">This is just</p>
+                <p class="lyric-ja">これはただの</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">A temporary speed bump</p>
+                <p class="lyric-ja">一時的なスピードバンプ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But failure brings you freedom</p>
+                <p class="lyric-ja">でも失敗が自由をくれる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And I can bring you love, love, love, love (Love)</p>
+                <p class="lyric-ja">そして私は愛を届けられる</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Don&#x27;t you sweat it, baby, it&#x27;s alright</p>
+                <p class="lyric-ja">心配しないで、ベイビー、大丈夫</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You were dancing through the lightning strikes</p>
+                <p class="lyric-ja">稲妻の中で踊っていたのね</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, so sleepless in the onyx night</p>
+                <p class="lyric-ja">漆黒の夜に眠れずに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh</p>
+                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Oh, my Lord</p>
+                <p class="lyric-ja">ああ、神様</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Never met no one like you before (No)</p>
+                <p class="lyric-ja">あなたみたいな人に出会ったことがない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You had to make your own sunshine</p>
+                <p class="lyric-ja">自分で自分の太陽を作らなきゃいけなかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But now, the sky is opalite, oh-oh, oh, oh, oh, oh</p>
+                <p class="lyric-ja">でも今、空はオパライトに輝いてる</p>
+            </div>
+        </div>
+
+
+
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card">
+                <img class="mascot-img" id="mascot-image" src="images/cat-piano.png" alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">「Opalite」は天然石ではなく人工的に作られた宝石。「幸せは自分で作るもの」というメタファーなんだよ！</p>
+                </div>
+            </div>
+        </section>
+        
+    <section class="album-links">
+        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
+        <div class="album-links-grid">
+            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
+            <a href="cancelled.html" class="album-link">CANCELLED!</a>
+            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
+            <a href="father-figure.html" class="album-link">Father Figure</a>
+            <a href="honey.html" class="album-link">Honey</a>
+            <span class="album-link current">▶ Opalite</span>
+            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
+            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
+            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
+            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
+            <a href="wood.html" class="album-link">Wood</a>
+        </div>
+    </section>
+
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+
+    </main>
+
+    <script>
+        const triviaList = [
+            { img: 'images/cat-piano.png', text: '「Opalite」は天然石ではなく人工的に作られた宝石。「幸せは自分で作るもの」というメタファーなんだよ！' },
+            { img: 'images/cat-guitar.png', text: 'テイラーはTravis Kelceの試合を観戦したことで世界中のニュースになったよ。NFLの視聴率も急上昇！🏈' },
+            { img: 'images/cat-mic.png', text: 'TravisはEras Tourのステージにサプライズ登場したことも！テイラーをお姫様抱っこしたんだよ💕' },
+            { img: 'images/cat-piano.png', text: '「onyx night」は漆黒の宝石オニキスの夜。曲中には宝石のメタファーがたくさん隠されているよ💎' },
+            { img: 'images/cat-guitar.png', text: '「you had to make your own sunshine」——自分で太陽を作る。テイラーの人生哲学が詰まった一行だね✨' },
+            { img: 'images/cat-mic.png', text: '「The Life of a Showgirl」はLas Vegasレジデンシー公演に合わせてリリースされたEPだよ🎰' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+
 </html>

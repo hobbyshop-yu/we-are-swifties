@@ -1,885 +1,887 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>Taylor Swift - Father Figure 歌詞・和訳・徹底解説 | We are Swifties</title>
-    <meta name="description" content="テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造への痛烈な批判。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #060a08;
-            --bg-card: #0e1810;
-            --text-primary: #e0f0e8;
-            --text-secondary: #88b098;
-            --accent-main: #3d8855;
-            --accent-light: #68c088;
-            --english-color: #68c088;
-            --japanese-color: #d8f0e0;
-            --commentary-color: #507060;
-            --gradient-main: linear-gradient(135deg, #2a5838 0%, #3d8855 40%, #68c088 100%);
-            --gradient-dark: linear-gradient(180deg, #060a08 0%, #081210 100%);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        .hero {
-            position: relative;
-            min-height: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            background: var(--gradient-dark);
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(ellipse at 30% 40%, rgba(61, 136, 85, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(104, 192, 136, 0.06) 0%, transparent 50%);
-            animation: shimmer 12s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% {
-                transform: translateX(-3%) translateY(-3%);
-            }
-
-            100% {
-                transform: translateX(3%) translateY(3%);
-            }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 3rem 2rem;
-        }
-
-        .hero-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
-            color: var(--accent-main);
-            margin-bottom: 0.8rem;
-        }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 7vw, 3.5rem);
-            font-weight: 700;
-            background: var(--gradient-main);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.2;
-            margin-bottom: 0.3rem;
-        }
-
-        .hero-artist {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-        }
-
-        .hero-album {
-            display: inline-block;
-            margin-top: 0.6rem;
-            padding: 0.3rem 1rem;
-            border: 1px solid rgba(61, 136, 85, 0.3);
-            border-radius: 20px;
-            font-size: 0.7rem;
-            color: var(--accent-light);
-            letter-spacing: 0.05em;
-        }
-
-        .main-content {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 4rem;
-        }
-
-        .song-intro {
-            background: var(--bg-card);
-            border: 1px solid rgba(61, 136, 85, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .song-intro::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--gradient-main);
-        }
-
-        .song-intro h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-light);
-            margin-bottom: 1rem;
-        }
-
-        .song-intro p {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 2;
-        }
-
-        .song-intro .keyword {
-            color: var(--accent-light);
-            font-weight: 500;
-        }
-
-        .section-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin: 3rem 0 1.5rem;
-        }
-
-        .section-header .line {
-            flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, rgba(61, 136, 85, 0.3), transparent);
-        }
-
-        .section-header h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.95rem;
-            color: var(--accent-light);
-            letter-spacing: 0.08em;
-            white-space: nowrap;
-        }
-
-        .lyric-block {
-            margin-bottom: 2rem;
-        }
-
-        .lyric-pair {
-            margin-bottom: 0.6rem;
-        }
-
-        .lyric-en {
-            font-size: 1.05rem;
-            color: var(--english-color);
-        }
-
-        .lyric-ja {
-            font-size: 0.92rem;
-            color: var(--japanese-color);
-        }
-
-        .commentary {
-            background: var(--bg-card);
-            border-left: 3px solid var(--accent-main);
-            border-radius: 0 12px 12px 0;
-            padding: 1.2rem 1.5rem;
-            margin: 1rem 0 2rem;
-            font-size: 0.88rem;
-            color: var(--commentary-color);
-            line-height: 1.9;
-        }
-
-        .note-icon {
-            margin-right: 0.5rem;
-        }
-
-        .mascot-section {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 1rem 0 2rem;
-        }
-
-        .mascot-card {
-            display: flex;
-            align-items: flex-end;
-            gap: 1rem;
-        }
-
-        .mascot-img {
-            width: 110px;
-            height: 110px;
-            object-fit: contain;
-            flex-shrink: 0;
-            filter: drop-shadow(0 2px 8px rgba(61, 136, 85, 0.2));
-        }
-
-        .mascot-bubble {
-            background: var(--bg-card);
-            border: 1px solid rgba(61, 136, 85, 0.15);
-            border-radius: 16px 16px 16px 4px;
-            padding: 1rem 1.3rem;
-            font-size: 0.85rem;
-            color: var(--text-primary);
-            line-height: 1.7;
-            max-width: 500px;
-        }
-
-        .mascot-bubble .trivia-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.6rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--accent-main);
-            margin-bottom: 0.3rem;
-        }
-
-        .article-footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid rgba(61, 136, 85, 0.1);
-        }
-
-        .article-footer .site-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            background: var(--gradient-main);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.3rem;
-        }
-
-        .article-footer .copyright {
-            font-size: 0.7rem;
-            color: var(--commentary-color);
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            color: var(--accent-main);
-            text-decoration: none;
-            font-size: 0.85rem;
-        }
-
-        .back-link:hover {
-            color: var(--accent-light);
-        }
-
-        @media (max-width: 600px) {
-            .main-content {
-                padding: 2rem 1rem 4rem;
-            }
-
-            .song-intro {
-                padding: 1.5rem;
-            }
-
-            .mascot-card {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .mascot-bubble {
-                border-radius: 16px;
-            }
-
-            .mascot-img {
-                width: 90px;
-                height: 90px;
-            }
-        }
-
-        /* ========== YouTube Embed ========== */
-        .youtube-section {
-            margin-bottom: 2rem;
-        }
-
-        .youtube-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-light);
-            margin-bottom: 1rem;
-        }
-
-        .youtube-wrapper {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid rgba(61, 136, 85, 0.15);
-        }
-
-        .youtube-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    
-        /* Global Nav */
-        .global-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 1rem 1.5rem;
-            background: rgba(12, 8, 6, 0.95);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .global-nav a {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-        .global-nav a.nav-home {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.9rem;
-            font-weight: 700;
-            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0;
-            text-transform: none;
-        }
-
-        @media (max-width: 600px) {
-            .global-nav { gap: 1rem; flex-wrap: wrap; }
-            .global-nav a { font-size: 0.65rem; }
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links a {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-
-        .youtube-section.is-sticky {
-            position: sticky;
-            top: 60px;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-        .youtube-section.is-sticky .youtube-wrapper {
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            border-color: rgba(255,255,255,0.15);
-        }
-        
-        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
-
-        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
-    </style>
-
-    <!-- OGP / Twitter Card -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Father Figure 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta property="og:description" content="テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造を暴いた衝撃曲。">
-    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/father-figure.html">
-    <meta property="og:image" content="https://img.youtube.com/vi/98SmlWOKuME/maxresdefault.jpg">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="720">
-    <meta property="og:site_name" content="We are Swifties">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Father Figure 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta name="twitter:description" content="テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造を暴いた衝撃曲。">
-    <meta name="twitter:image" content="https://img.youtube.com/vi/98SmlWOKuME/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Father Figure 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造への痛烈な批判。","image":"https://img.youtube.com/vi/98SmlWOKuME/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/father-figure.html","about":{"@type":"MusicComposition","name":"Father Figure","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
-</script>
-    <link rel="canonical" href="https://we-are-swifties.com/father-figure.html">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Father Figure", "item": "https://we-are-swifties.com/father-figure.html"}]}
-</script>
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-    <section class="hero">
-        <div class="hero-content">
-            <p class="hero-label">Lyrics &amp; Commentary</p>
-            <h1 class="hero-title">Father Figure</h1>
-            <p class="hero-artist">Taylor Swift</p>
-            <span class="hero-album">The Life of a Showgirl (2025)</span>
-        </div>
-    </section>
-    <nav class="breadcrumb" aria-label="パンくずリスト">
-        <ol>
-            <li><a href="index.html#album-toc">🏠 TOP</a></li>
-            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
-            <li aria-current="page">Father Figure</li>
-        </ol>
-    </nav>
-
-    <main class="main-content">
-        <a href="index.html" class="back-link">← トップページに戻る</a>
-        <div class="song-intro">
-            <h2>✦ この曲について</h2>
-            <p>
-                「<span class="keyword">Father Figure</span>」は、ジョージ・マイケルの1987年のヒット曲からインスピレーションを得た楽曲。ただし恋愛ソングではなく、<span
-                    class="keyword">音楽業界の権力構造</span>を痛烈に描く。テイラーは「<span
-                    class="keyword">父親的存在</span>」という概念を反転させ、メンターと若手アーティストの関係が<span
-                    class="keyword">裏切りと支配</span>に変わる物語を語る。テイラー自身の<span class="keyword">原盤権を巡る闘い</span>——Scooter
-                Braunとの確執が色濃く反映されている。ジョージ・マイケルの楽曲を引用しているため、マイケルが共作者としてクレジットされている。
-            </p>
-        </div>
-
-                <!-- YouTube Embed -->
-        <div class="youtube-section">
-            <h2>▶ Official Lyric Video</h2>
-            <div class="youtube-wrapper">
-                <iframe src="https://www.youtube.com/embed/98SmlWOKuME?enablejsapi=1" title="Taylor Swift - Father Figure (Official Lyric Video)"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-
-        <!-- VERSE 1 -->
-
-        
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 1</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">When I found you, you were young, wayward, lost in the cold</p>
-                <p class="lyric-ja">お前を見つけた時、若くて、放浪して、寒さの中で迷っていた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Pulled up to you in the Jag&#x27;, turned your rags into gold</p>
-                <p class="lyric-ja">ジャガーで迎えに行って、ボロを黄金に変えてやった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">The winding road leads to the chateau</p>
-                <p class="lyric-ja">曲がりくねった道は城へと続く</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&quot;You remind me of a younger me,&quot; I saw potential</p>
-                <p class="lyric-ja">「若い頃の俺に似てるな」 才能があると思った</p>
-            </div>
-        </div>
-
-
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+    <title>Taylor Swift - Father Figure 歌詞・和訳・徹底解説 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造への痛烈な批判。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #060a08;
+            --bg-card: #0e1810;
+            --text-primary: #e0f0e8;
+            --text-secondary: #88b098;
+            --accent-main: #3d8855;
+            --accent-light: #68c088;
+            --english-color: #68c088;
+            --japanese-color: #d8f0e0;
+            --commentary-color: #507060;
+            --gradient-main: linear-gradient(135deg, #2a5838 0%, #3d8855 40%, #68c088 100%);
+            --gradient-dark: linear-gradient(180deg, #060a08 0%, #081210 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 40%, rgba(61, 136, 85, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(104, 192, 136, 0.06) 0%, transparent 50%);
+            animation: shimmer 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.8rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 7vw, 3.5rem);
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .hero-album {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.3rem 1rem;
+            border: 1px solid rgba(61, 136, 85, 0.3);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--accent-light);
+            letter-spacing: 0.05em;
+        }
+
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(61, 136, 85, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-main);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(61, 136, 85, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--accent-light);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .lyric-block {
+            margin-bottom: 2rem;
+        }
+
+        .lyric-pair {
+            margin-bottom: 0.6rem;
+        }
+
+        .lyric-en {
+            font-size: 1.05rem;
+            color: var(--english-color);
+        }
+
+        .lyric-ja {
+            font-size: 0.92rem;
+            color: var(--japanese-color);
+        }
+
+        .commentary {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-main);
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.5rem;
+            margin: 1rem 0 2rem;
+            font-size: 0.88rem;
+            color: var(--commentary-color);
+            line-height: 1.9;
+        }
+
+        .note-icon {
+            margin-right: 0.5rem;
+        }
+
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 1rem 0 2rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(61, 136, 85, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(61, 136, 85, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(61, 136, 85, 0.1);
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-main);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-light);
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+
+        /* ========== YouTube Embed ========== */
+        .youtube-section {
+            margin-bottom: 2rem;
+        }
+
+        .youtube-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .youtube-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(61, 136, 85, 0.15);
+        }
+
+        .youtube-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    
+        /* Global Nav */
+        .global-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(12, 8, 6, 0.95);
+            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .global-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .global-nav a.nav-home {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        @media (max-width: 600px) {
+            .global-nav { gap: 1rem; flex-wrap: wrap; }
+            .global-nav a { font-size: 0.65rem; }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        
+        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
+
+        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
+    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}</style>
+
+    <!-- OGP / Twitter Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Father Figure 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta property="og:description" content="テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造を暴いた衝撃曲。">
+    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/father-figure.html">
+    <meta property="og:image" content="https://img.youtube.com/vi/98SmlWOKuME/maxresdefault.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:site_name" content="We are Swifties">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Father Figure 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta name="twitter:description" content="テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造を暴いた衝撃曲。">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/98SmlWOKuME/maxresdefault.jpg">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PESZB0HW0B');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Father Figure 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Father Figure」の英語歌詞・日本語訳・徹底解説。音楽業界の権力構造への痛烈な批判。","image":"https://img.youtube.com/vi/98SmlWOKuME/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/father-figure.html","about":{"@type":"MusicComposition","name":"Father Figure","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
+</script>
+    <link rel="canonical" href="https://we-are-swifties.com/father-figure.html">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Father Figure", "item": "https://we-are-swifties.com/father-figure.html"}]}
+</script>
+</head>
+
+<body>
+    <nav class="global-nav">
+        <a href="index.html" class="nav-home">We are Swifties</a>
+        <a href="index.html">曲一覧</a>
+        <a href="about.html">運営者情報</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">Father Figure</h1>
+            <p class="hero-artist">Taylor Swift</p>
+            <span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+        <ol>
+            <li><a href="index.html#album-toc">🏠 TOP</a></li>
+            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
+            <li aria-current="page">Father Figure</li>
+        </ol>
+    </nav>
+
+    <main class="main-content">
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>
+                「<span class="keyword">Father Figure</span>」は、ジョージ・マイケルの1987年のヒット曲からインスピレーションを得た楽曲。ただし恋愛ソングではなく、<span
+                    class="keyword">音楽業界の権力構造</span>を痛烈に描く。テイラーは「<span
+                    class="keyword">父親的存在</span>」という概念を反転させ、メンターと若手アーティストの関係が<span
+                    class="keyword">裏切りと支配</span>に変わる物語を語る。テイラー自身の<span class="keyword">原盤権を巡る闘い</span>——Scooter
+                Braunとの確執が色濃く反映されている。ジョージ・マイケルの楽曲を引用しているため、マイケルが共作者としてクレジットされている。
+            </p>
+        </div>
+
+                <!-- YouTube Embed -->
+        <div class="youtube-section">
+            <h2>▶ Official Lyric Video</h2>
+            <div class="youtube-wrapper">
+                <iframe src="https://www.youtube.com/embed/98SmlWOKuME?enablejsapi=1" title="Taylor Swift - Father Figure (Official Lyric Video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- VERSE 1 -->
+
+        
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">When I found you, you were young, wayward, lost in the cold</p>
+                <p class="lyric-ja">お前を見つけた時、若くて、放浪して、寒さの中で迷っていた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Pulled up to you in the Jag&#x27;, turned your rags into gold</p>
+                <p class="lyric-ja">ジャガーで迎えに行って、ボロを黄金に変えてやった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">The winding road leads to the chateau</p>
+                <p class="lyric-ja">曲がりくねった道は城へと続く</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&quot;You remind me of a younger me,&quot; I saw potential</p>
+                <p class="lyric-ja">「若い頃の俺に似てるな」 才能があると思った</p>
+            </div>
+        </div>
+
+
         <div class="commentary"><p><span class="note-icon">🎵</span>「Father Figure」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
-
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I&#x27;ll be your father figure,</p>
-                <p class="lyric-ja">俺がお前の父的存在になってやる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I drink that brown liquor</p>
-                <p class="lyric-ja">ウイスキーを飲んで</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I can make deals with the devil because my dick&#x27;s bigger</p>
-                <p class="lyric-ja">悪魔とだって取引できる、俺の方がデカいからな</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">This love is pure profit, just step into my office</p>
-                <p class="lyric-ja">この愛は純利益、さあ俺のオフィスに入れ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I dry your tears with my sleeve</p>
-                <p class="lyric-ja">袖でお前の涙を拭いてやる</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>POST-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Leave it with me, I protect the family</p>
-                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Leave it with me, I protect the family</p>
-                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 2</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I pay the check before it kisses the mahogany grain</p>
-                <p class="lyric-ja">伝票がマホガニーのテーブルに触れる前に支払いを済ませる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Said, &quot;They wanna see you rise, they don&#x27;t want you to reign&quot;</p>
-                <p class="lyric-ja">「奴らはお前が上がるのは見たい、でも頂点に立つのは嫌がる」</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I showed you all the tricks of the trade</p>
-                <p class="lyric-ja">業界のテクニックを全部教えてやった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">All I asked for is your loyalty, my dear protégé</p>
-                <p class="lyric-ja">求めたのは忠誠心だけだ、かわいい弟子よ</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I&#x27;ll be your father figure,</p>
-                <p class="lyric-ja">俺がお前の父的存在になってやる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I drink that brown liquor</p>
-                <p class="lyric-ja">ウイスキーを飲んで</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I can make deals with the devil because my dick&#x27;s bigger</p>
-                <p class="lyric-ja">悪魔とだって取引できる、俺の方がデカいからな</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">This love is pure profit, just step into my office</p>
-                <p class="lyric-ja">この愛は純利益、さあ俺のオフィスに入れ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They&#x27;ll know your name in the streets</p>
-                <p class="lyric-ja">彼らは街中であなたの名前を知るだろう</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>POST-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Leave it with me, I protect the family</p>
-                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>BRIDGE</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I saw a change in you</p>
-                <p class="lyric-ja">お前が変わったのを見た</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">(I saw a change, saw a change in you)</p>
-                <p class="lyric-ja">(私は変化を見た、あなたの変化を見た)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">My dear boy</p>
-                <p class="lyric-ja">私の親愛なる少年</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">They don&#x27;t make loyalty like they used to</p>
-                <p class="lyric-ja">最近の忠誠心は昔のようにはいかない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">(Not like they used to)</p>
-                <p class="lyric-ja">(以前とは違います)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Your thoughtless ambition sparked the ignition</p>
-                <p class="lyric-ja">お前の浅はかな野心が火をつけた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">On foolish decisions, which led to misguided visions</p>
-                <p class="lyric-ja">愚かな決断に、見当違いのビジョンへと</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">That to fulfill your dreams</p>
-                <p class="lyric-ja">夢を叶えるためには</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You had to get rid of me</p>
-                <p class="lyric-ja">俺を排除しなければならないと思った</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I protect the family</p>
-                <p class="lyric-ja">ファミリーは俺が守る</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">I was your father figure, we drank that brown liquor</p>
-                <p class="lyric-ja">俺がお前の父的存在だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You made a deal with this devil, turns out my dick&#x27;s bigger</p>
-                <p class="lyric-ja">悪魔（＝俺）と取引したな、俺の方がデカいとわかっただろう</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You want a fight? You found it, I got the place surrounded</p>
-                <p class="lyric-ja">喧嘩がしたい？ 上等だ、この場所は包囲済みだ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You&#x27;ll be sleeping with the fishes before you know you&#x27;re drowning</p>
-                <p class="lyric-ja">溺れてると気づく前に魚と一緒に眠ることになる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Whose portrait&#x27;s on the mantel?</p>
-                <p class="lyric-ja">暖炉に飾られた肖像画は誰のものだ？</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Who covered up your scandals?</p>
-                <p class="lyric-ja">あなたのスキャンダルを隠蔽したのは誰ですか?</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Mistake my kindness for weakness and find your card cancelled</p>
-                <p class="lyric-ja">俺の優しさを弱さと勘違いしたら、お前のカードは利用停止だ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I was your father figure</p>
-                <p class="lyric-ja">俺がお前の父的存在だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">,</p>
-                <p class="lyric-ja">、</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">you pulled the wrong trigger</p>
-                <p class="lyric-ja">お前は引き金を間違えた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">This empire belongs to me</p>
-                <p class="lyric-ja">この帝国は俺のものだ</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>POST-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Leave it with me, I protect the family</p>
-                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Leave it with me, I protect the family</p>
-                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Leave it with me</p>
-                <p class="lyric-ja">俺に任せろ</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>OUTRO</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">&quot;You know, you remind me of a younger me&quot;</p>
-                <p class="lyric-ja">あなた、知る、私を</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">I saw potential</p>
-                <p class="lyric-ja">可能性を見た</p>
-            </div>
-        </div>
-
-
-
-        <section class="mascot-section" id="mascot-trivia">
-            <div class="mascot-card">
-                <img class="mascot-img" id="mascot-image" src="images/cat-guitar.png" alt="Olivia mascot">
-                <div class="mascot-bubble">
-                    <p class="trivia-label">🐱 Did You Know?</p>
-                    <p id="mascot-text">テイラーの原盤権は2019年に本人の同意なく売却された。これが全アルバム再録音（TV版）のきっかけになったんだよ💪</p>
-                </div>
-            </div>
-        </section>
-        
-    <section class="album-links">
-        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
-        <div class="album-links-grid">
-            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
-            <a href="cancelled.html" class="album-link">CANCELLED!</a>
-            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
-            <span class="album-link current">▶ Father Figure</span>
-            <a href="honey.html" class="album-link">Honey</a>
-            <a href="opalite.html" class="album-link">Opalite</a>
-            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
-            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
-            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
-            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
-            <a href="wood.html" class="album-link">Wood</a>
-        </div>
-    </section>
-
-        <footer class="article-footer">
-            <p class="site-name">We are Swifties</p>
-            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
-        </footer>
-    </main>
-    <script>
-        const triviaList = [
-            { img: 'images/cat-guitar.png', text: 'テイラーの原盤権は2019年に本人の同意なく売却された。これが全アルバム再録音（TV版）のきっかけになったんだよ💪' },
-            { img: 'images/cat-piano.png', text: 'ジョージ・マイケルの「Father Figure」(1987)を引用しているため、マイケルが共作者クレジットされているよ🎵' },
-            { img: 'images/cat-mic.png', text: 'テイラーは14歳で最年少のソニー作曲契約を結んだ。業界最年少の記録だったんだよ✨' },
-            { img: 'images/cat-guitar.png', text: 'この曲はreputationアルバムの精神的続編。テイラーが業界と闘う姿を描いているよ🐍' },
-        ];
-        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
-        document.getElementById('mascot-image').src = pick.img;
-        document.getElementById('mascot-text').textContent = pick.text;
-    </script>
-
-    <script>
-    // YouTube Sticky-on-Play
-    (function(){
-        var ytSection = document.querySelector('.youtube-section');
-        if (!ytSection) return;
-        var wrapper = ytSection.querySelector('.youtube-wrapper');
-        if (!wrapper) return;
-        var oldIframe = wrapper.querySelector('iframe');
-        if (!oldIframe) return;
-
-        // Extract video ID from src
-        var src = oldIframe.getAttribute('src') || '';
-        var match = src.match(/embed\/([^?&]+)/);
-        if (!match) return;
-        var videoId = match[1];
-
-        // Create a div placeholder to replace the iframe
-        var placeholder = document.createElement('div');
-        placeholder.id = 'yt-sticky-player';
-        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
-
-        // Load YouTube IFrame API
-        var tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        document.head.appendChild(tag);
-
-        window.onYouTubeIframeAPIReady = function() {
-            new YT.Player('yt-sticky-player', {
-                videoId: videoId,
-                playerVars: { rel: 0 },
-                events: {
-                    onStateChange: function(e) {
-                        if (e.data === YT.PlayerState.PLAYING) {
-                            ytSection.classList.add('is-sticky');
-                        } else {
-                            ytSection.classList.remove('is-sticky');
-                        }
-                    }
-                }
-            });
-        };
-    })();
-    </script>
-</body>
-
+<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20Father%20Figure%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8CFather%20Figure%E3%80%8D%E3%81%AE%E8%8B%B1%E8%AA%9E%E6%AD%8C%E8%A9%9E%E3%83%BB%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E3%83%BB%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%E3%80%82%E9%9F%B3%E6%A5%BD%E6%A5%AD%E7%95%8C%E3%81%AE%E6%A8%A9%E5%8A%9B%E6%A7%8B%E9%80%A0%E3%82%92%E6%9A%B4%E3%81%84%E3%81%9F%E8%A1%9D%E6%92%83%E6%9B%B2%E3%80%82&url=https%3A%2F%2Fwe-are-swifties.com%2Ffather-figure.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
+
+
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I&#x27;ll be your father figure,</p>
+                <p class="lyric-ja">俺がお前の父的存在になってやる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I drink that brown liquor</p>
+                <p class="lyric-ja">ウイスキーを飲んで</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I can make deals with the devil because my dick&#x27;s bigger</p>
+                <p class="lyric-ja">悪魔とだって取引できる、俺の方がデカいからな</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">This love is pure profit, just step into my office</p>
+                <p class="lyric-ja">この愛は純利益、さあ俺のオフィスに入れ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I dry your tears with my sleeve</p>
+                <p class="lyric-ja">袖でお前の涙を拭いてやる</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>POST-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Leave it with me, I protect the family</p>
+                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Leave it with me, I protect the family</p>
+                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 2</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I pay the check before it kisses the mahogany grain</p>
+                <p class="lyric-ja">伝票がマホガニーのテーブルに触れる前に支払いを済ませる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Said, &quot;They wanna see you rise, they don&#x27;t want you to reign&quot;</p>
+                <p class="lyric-ja">「奴らはお前が上がるのは見たい、でも頂点に立つのは嫌がる」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I showed you all the tricks of the trade</p>
+                <p class="lyric-ja">業界のテクニックを全部教えてやった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">All I asked for is your loyalty, my dear protégé</p>
+                <p class="lyric-ja">求めたのは忠誠心だけだ、かわいい弟子よ</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I&#x27;ll be your father figure,</p>
+                <p class="lyric-ja">俺がお前の父的存在になってやる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I drink that brown liquor</p>
+                <p class="lyric-ja">ウイスキーを飲んで</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I can make deals with the devil because my dick&#x27;s bigger</p>
+                <p class="lyric-ja">悪魔とだって取引できる、俺の方がデカいからな</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">This love is pure profit, just step into my office</p>
+                <p class="lyric-ja">この愛は純利益、さあ俺のオフィスに入れ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They&#x27;ll know your name in the streets</p>
+                <p class="lyric-ja">彼らは街中であなたの名前を知るだろう</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>POST-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Leave it with me, I protect the family</p>
+                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I saw a change in you</p>
+                <p class="lyric-ja">お前が変わったのを見た</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">(I saw a change, saw a change in you)</p>
+                <p class="lyric-ja">(私は変化を見た、あなたの変化を見た)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">My dear boy</p>
+                <p class="lyric-ja">私の親愛なる少年</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">They don&#x27;t make loyalty like they used to</p>
+                <p class="lyric-ja">最近の忠誠心は昔のようにはいかない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">(Not like they used to)</p>
+                <p class="lyric-ja">(以前とは違います)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Your thoughtless ambition sparked the ignition</p>
+                <p class="lyric-ja">お前の浅はかな野心が火をつけた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">On foolish decisions, which led to misguided visions</p>
+                <p class="lyric-ja">愚かな決断に、見当違いのビジョンへと</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">That to fulfill your dreams</p>
+                <p class="lyric-ja">夢を叶えるためには</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You had to get rid of me</p>
+                <p class="lyric-ja">俺を排除しなければならないと思った</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I protect the family</p>
+                <p class="lyric-ja">ファミリーは俺が守る</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">I was your father figure, we drank that brown liquor</p>
+                <p class="lyric-ja">俺がお前の父的存在だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You made a deal with this devil, turns out my dick&#x27;s bigger</p>
+                <p class="lyric-ja">悪魔（＝俺）と取引したな、俺の方がデカいとわかっただろう</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You want a fight? You found it, I got the place surrounded</p>
+                <p class="lyric-ja">喧嘩がしたい？ 上等だ、この場所は包囲済みだ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You&#x27;ll be sleeping with the fishes before you know you&#x27;re drowning</p>
+                <p class="lyric-ja">溺れてると気づく前に魚と一緒に眠ることになる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Whose portrait&#x27;s on the mantel?</p>
+                <p class="lyric-ja">暖炉に飾られた肖像画は誰のものだ？</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Who covered up your scandals?</p>
+                <p class="lyric-ja">あなたのスキャンダルを隠蔽したのは誰ですか?</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Mistake my kindness for weakness and find your card cancelled</p>
+                <p class="lyric-ja">俺の優しさを弱さと勘違いしたら、お前のカードは利用停止だ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I was your father figure</p>
+                <p class="lyric-ja">俺がお前の父的存在だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">,</p>
+                <p class="lyric-ja">、</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">you pulled the wrong trigger</p>
+                <p class="lyric-ja">お前は引き金を間違えた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">This empire belongs to me</p>
+                <p class="lyric-ja">この帝国は俺のものだ</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>POST-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Leave it with me, I protect the family</p>
+                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Leave it with me, I protect the family</p>
+                <p class="lyric-ja">俺に任せろ、ファミリーは俺が守る</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Leave it with me</p>
+                <p class="lyric-ja">俺に任せろ</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>OUTRO</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">&quot;You know, you remind me of a younger me&quot;</p>
+                <p class="lyric-ja">あなた、知る、私を</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">I saw potential</p>
+                <p class="lyric-ja">可能性を見た</p>
+            </div>
+        </div>
+
+
+
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card">
+                <img class="mascot-img" id="mascot-image" src="images/cat-guitar.png" alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">テイラーの原盤権は2019年に本人の同意なく売却された。これが全アルバム再録音（TV版）のきっかけになったんだよ💪</p>
+                </div>
+            </div>
+        </section>
+        
+    <section class="album-links">
+        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
+        <div class="album-links-grid">
+            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
+            <a href="cancelled.html" class="album-link">CANCELLED!</a>
+            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
+            <span class="album-link current">▶ Father Figure</span>
+            <a href="honey.html" class="album-link">Honey</a>
+            <a href="opalite.html" class="album-link">Opalite</a>
+            <a href="ruin-the-friendship.html" class="album-link">Ruin The Friendship</a>
+            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
+            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
+            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
+            <a href="wood.html" class="album-link">Wood</a>
+        </div>
+    </section>
+
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-guitar.png', text: 'テイラーの原盤権は2019年に本人の同意なく売却された。これが全アルバム再録音（TV版）のきっかけになったんだよ💪' },
+            { img: 'images/cat-piano.png', text: 'ジョージ・マイケルの「Father Figure」(1987)を引用しているため、マイケルが共作者クレジットされているよ🎵' },
+            { img: 'images/cat-mic.png', text: 'テイラーは14歳で最年少のソニー作曲契約を結んだ。業界最年少の記録だったんだよ✨' },
+            { img: 'images/cat-guitar.png', text: 'この曲はreputationアルバムの精神的続編。テイラーが業界と闘う姿を描いているよ🐍' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function(){
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var oldIframe = wrapper.querySelector('iframe');
+        if (!oldIframe) return;
+
+        // Extract video ID from src
+        var src = oldIframe.getAttribute('src') || '';
+        var match = src.match(/embed\/([^?&]+)/);
+        if (!match) return;
+        var videoId = match[1];
+
+        // Create a div placeholder to replace the iframe
+        var placeholder = document.createElement('div');
+        placeholder.id = 'yt-sticky-player';
+        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
+
+        // Load YouTube IFrame API
+        var tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+
+        window.onYouTubeIframeAPIReady = function() {
+            new YT.Player('yt-sticky-player', {
+                videoId: videoId,
+                playerVars: { rel: 0 },
+                events: {
+                    onStateChange: function(e) {
+                        if (e.data === YT.PlayerState.PLAYING) {
+                            ytSection.classList.add('is-sticky');
+                        } else {
+                            ytSection.classList.remove('is-sticky');
+                        }
+                    }
+                }
+            });
+        };
+    })();
+    </script>
+</body>
+
 </html>

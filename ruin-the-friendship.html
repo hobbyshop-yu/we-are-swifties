@@ -1,903 +1,905 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>Taylor Swift - Ruin The Friendship 歌詞・和訳 | We are Swifties</title>
-    <meta name="description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情と恋心の狭間で揺れる後悔の物語。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #08090e;
-            --bg-card: #101420;
-            --text-primary: #e0e4f0;
-            --text-secondary: #8898b8;
-            --accent-main: #5878a8;
-            --accent-light: #88a8d0;
-            --english-color: #88a8d0;
-            --japanese-color: #d8e0f0;
-            --commentary-color: #506880;
-            --gradient-main: linear-gradient(135deg, #3a5888 0%, #5878a8 40%, #88a8d0 100%);
-            --gradient-dark: linear-gradient(180deg, #08090e 0%, #0a0e18 100%);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        .hero {
-            position: relative;
-            min-height: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            background: var(--gradient-dark);
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(ellipse at 30% 40%, rgba(88, 120, 168, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(136, 168, 208, 0.06) 0%, transparent 50%);
-            animation: shimmer 12s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% {
-                transform: translateX(-3%) translateY(-3%);
-            }
-
-            100% {
-                transform: translateX(3%) translateY(3%);
-            }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 3rem 2rem;
-        }
-
-        .hero-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
-            color: var(--accent-main);
-            margin-bottom: 0.8rem;
-        }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(1.8rem, 6vw, 3rem);
-            font-weight: 700;
-            background: var(--gradient-main);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.2;
-            margin-bottom: 0.3rem;
-        }
-
-        .hero-artist {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-        }
-
-        .hero-album {
-            display: inline-block;
-            margin-top: 0.6rem;
-            padding: 0.3rem 1rem;
-            border: 1px solid rgba(88, 120, 168, 0.3);
-            border-radius: 20px;
-            font-size: 0.7rem;
-            color: var(--accent-light);
-            letter-spacing: 0.05em;
-        }
-
-        .main-content {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 4rem;
-        }
-
-        .song-intro {
-            background: var(--bg-card);
-            border: 1px solid rgba(88, 120, 168, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .song-intro::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--gradient-main);
-        }
-
-        .song-intro h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-light);
-            margin-bottom: 1rem;
-        }
-
-        .song-intro p {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 2;
-        }
-
-        .song-intro .keyword {
-            color: var(--accent-light);
-            font-weight: 500;
-        }
-
-        .section-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin: 3rem 0 1.5rem;
-        }
-
-        .section-header .line {
-            flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, rgba(88, 120, 168, 0.3), transparent);
-        }
-
-        .section-header h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.95rem;
-            color: var(--accent-light);
-            letter-spacing: 0.08em;
-            white-space: nowrap;
-        }
-
-        .lyric-block {
-            margin-bottom: 2rem;
-        }
-
-        .lyric-pair {
-            margin-bottom: 0.6rem;
-        }
-
-        .lyric-en {
-            font-size: 1.05rem;
-            color: var(--english-color);
-        }
-
-        .lyric-ja {
-            font-size: 0.92rem;
-            color: var(--japanese-color);
-        }
-
-        .commentary {
-            background: var(--bg-card);
-            border-left: 3px solid var(--accent-main);
-            border-radius: 0 12px 12px 0;
-            padding: 1.2rem 1.5rem;
-            margin: 1rem 0 2rem;
-            font-size: 0.88rem;
-            color: var(--commentary-color);
-            line-height: 1.9;
-        }
-
-        .note-icon {
-            margin-right: 0.5rem;
-        }
-
-        .mascot-section {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 1rem 0 2rem;
-        }
-
-        .mascot-card {
-            display: flex;
-            align-items: flex-end;
-            gap: 1rem;
-        }
-
-        .mascot-img {
-            width: 110px;
-            height: 110px;
-            object-fit: contain;
-            flex-shrink: 0;
-            filter: drop-shadow(0 2px 8px rgba(88, 120, 168, 0.2));
-        }
-
-        .mascot-bubble {
-            background: var(--bg-card);
-            border: 1px solid rgba(88, 120, 168, 0.15);
-            border-radius: 16px 16px 16px 4px;
-            padding: 1rem 1.3rem;
-            font-size: 0.85rem;
-            color: var(--text-primary);
-            line-height: 1.7;
-            max-width: 500px;
-        }
-
-        .mascot-bubble .trivia-label {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.6rem;
-            font-weight: 600;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--accent-main);
-            margin-bottom: 0.3rem;
-        }
-
-        .article-footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid rgba(88, 120, 168, 0.1);
-        }
-
-        .article-footer .site-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            background: var(--gradient-main);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.3rem;
-        }
-
-        .article-footer .copyright {
-            font-size: 0.7rem;
-            color: var(--commentary-color);
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            color: var(--accent-main);
-            text-decoration: none;
-            font-size: 0.85rem;
-        }
-
-        .back-link:hover {
-            color: var(--accent-light);
-        }
-
-        @media (max-width: 600px) {
-            .main-content {
-                padding: 2rem 1rem 4rem;
-            }
-
-            .song-intro {
-                padding: 1.5rem;
-            }
-
-            .mascot-card {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .mascot-bubble {
-                border-radius: 16px;
-            }
-
-            .mascot-img {
-                width: 90px;
-                height: 90px;
-            }
-        }
-
-        /* ========== YouTube Embed ========== */
-        .youtube-section {
-            margin-bottom: 2rem;
-        }
-
-        .youtube-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent-light);
-            margin-bottom: 1rem;
-        }
-
-        .youtube-wrapper {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid rgba(88, 120, 168, 0.15);
-        }
-
-        .youtube-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    
-        /* Global Nav */
-        .global-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 1rem 1.5rem;
-            background: rgba(12, 8, 6, 0.95);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .global-nav a {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-        .global-nav a.nav-home {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.9rem;
-            font-weight: 700;
-            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0;
-            text-transform: none;
-        }
-
-        @media (max-width: 600px) {
-            .global-nav { gap: 1rem; flex-wrap: wrap; }
-            .global-nav a { font-size: 0.65rem; }
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links a {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-
-        .youtube-section.is-sticky {
-            position: sticky;
-            top: 60px;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-        .youtube-section.is-sticky .youtube-wrapper {
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            border-color: rgba(255,255,255,0.15);
-        }
-        
-        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
-
-        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
-    </style>
-
-    <!-- OGP / Twitter Card -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Ruin The Friendship 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta property="og:description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情を超えた恋心と永遠の後悔。">
-    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/ruin-the-friendship.html">
-    <meta property="og:image" content="https://img.youtube.com/vi/WQCPl5rTMDQ/maxresdefault.jpg">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="720">
-    <meta property="og:site_name" content="We are Swifties">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ruin The Friendship 歌詞・和訳・徹底解説 | We are Swifties">
-    <meta name="twitter:description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情を超えた恋心と永遠の後悔。">
-    <meta name="twitter:image" content="https://img.youtube.com/vi/WQCPl5rTMDQ/maxresdefault.jpg">
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Ruin The Friendship 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情と恋心の狭間で揺れる後悔の物語。","image":"https://img.youtube.com/vi/WQCPl5rTMDQ/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/ruin-the-friendship.html","about":{"@type":"MusicComposition","name":"Ruin The Friendship","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
-</script>
-    <link rel="canonical" href="https://we-are-swifties.com/ruin-the-friendship.html">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Ruin The Friendship", "item": "https://we-are-swifties.com/ruin-the-friendship.html"}]}
-</script>
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-    <section class="hero">
-        <div class="hero-content">
-            <p class="hero-label">Lyrics &amp; Commentary</p>
-            <h1 class="hero-title">Ruin The Friendship</h1>
-            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+    <title>Taylor Swift - Ruin The Friendship 歌詞・和訳 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情と恋心の狭間で揺れる後悔の物語。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #08090e;
+            --bg-card: #101420;
+            --text-primary: #e0e4f0;
+            --text-secondary: #8898b8;
+            --accent-main: #5878a8;
+            --accent-light: #88a8d0;
+            --english-color: #88a8d0;
+            --japanese-color: #d8e0f0;
+            --commentary-color: #506880;
+            --gradient-main: linear-gradient(135deg, #3a5888 0%, #5878a8 40%, #88a8d0 100%);
+            --gradient-dark: linear-gradient(180deg, #08090e 0%, #0a0e18 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: var(--gradient-dark);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 40%, rgba(88, 120, 168, 0.12) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(136, 168, 208, 0.06) 0%, transparent 50%);
+            animation: shimmer 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+        }
+
+        .hero-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.8rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 6vw, 3rem);
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-artist {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .hero-album {
+            display: inline-block;
+            margin-top: 0.6rem;
+            padding: 0.3rem 1rem;
+            border: 1px solid rgba(88, 120, 168, 0.3);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--accent-light);
+            letter-spacing: 0.05em;
+        }
+
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .song-intro {
+            background: var(--bg-card);
+            border: 1px solid rgba(88, 120, 168, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .song-intro::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-main);
+        }
+
+        .song-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .song-intro p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 2;
+        }
+
+        .song-intro .keyword {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .section-header .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(88, 120, 168, 0.3), transparent);
+        }
+
+        .section-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--accent-light);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .lyric-block {
+            margin-bottom: 2rem;
+        }
+
+        .lyric-pair {
+            margin-bottom: 0.6rem;
+        }
+
+        .lyric-en {
+            font-size: 1.05rem;
+            color: var(--english-color);
+        }
+
+        .lyric-ja {
+            font-size: 0.92rem;
+            color: var(--japanese-color);
+        }
+
+        .commentary {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-main);
+            border-radius: 0 12px 12px 0;
+            padding: 1.2rem 1.5rem;
+            margin: 1rem 0 2rem;
+            font-size: 0.88rem;
+            color: var(--commentary-color);
+            line-height: 1.9;
+        }
+
+        .note-icon {
+            margin-right: 0.5rem;
+        }
+
+        .mascot-section {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 1rem 0 2rem;
+        }
+
+        .mascot-card {
+            display: flex;
+            align-items: flex-end;
+            gap: 1rem;
+        }
+
+        .mascot-img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 2px 8px rgba(88, 120, 168, 0.2));
+        }
+
+        .mascot-bubble {
+            background: var(--bg-card);
+            border: 1px solid rgba(88, 120, 168, 0.15);
+            border-radius: 16px 16px 16px 4px;
+            padding: 1rem 1.3rem;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            max-width: 500px;
+        }
+
+        .mascot-bubble .trivia-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-main);
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(88, 120, 168, 0.1);
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: var(--commentary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-main);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-light);
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .song-intro {
+                padding: 1.5rem;
+            }
+
+            .mascot-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .mascot-bubble {
+                border-radius: 16px;
+            }
+
+            .mascot-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+
+        /* ========== YouTube Embed ========== */
+        .youtube-section {
+            margin-bottom: 2rem;
+        }
+
+        .youtube-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-light);
+            margin-bottom: 1rem;
+        }
+
+        .youtube-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(88, 120, 168, 0.15);
+        }
+
+        .youtube-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    
+        /* Global Nav */
+        .global-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(12, 8, 6, 0.95);
+            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .global-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .global-nav a.nav-home {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        @media (max-width: 600px) {
+            .global-nav { gap: 1rem; flex-wrap: wrap; }
+            .global-nav a { font-size: 0.65rem; }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+
+        .youtube-section.is-sticky {
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        .youtube-section.is-sticky .youtube-wrapper {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            border-color: rgba(255,255,255,0.15);
+        }
+        
+        .breadcrumb{max-width:780px;margin:0 auto;padding:0.5rem 1.5rem}.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;align-items:center}.breadcrumb li{font-size:0.72rem;color:var(--text-secondary)}.breadcrumb li+li::before{content:'›';margin-right:0.4rem;color:var(--accent);font-weight:700}.breadcrumb a{color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.breadcrumb a:hover{color:var(--accent-light)}
+
+        .album-links{max-width:780px;margin:2rem auto 0;padding:0 1.5rem 2rem}.album-links-title{font-family:'Inter',sans-serif;font-size:0.7rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}.album-links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.5rem}.album-link{display:block;padding:0.5rem 0.8rem;background:var(--bg-card);border:1px solid rgba(96,96,160,0.1);border-radius:8px;text-decoration:none;font-size:0.78rem;color:var(--text-secondary);transition:all 0.3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.album-link:hover{border-color:var(--accent);color:var(--accent-light);background:rgba(96,96,160,0.08)}.album-link.current{border-color:var(--accent);color:var(--accent-light);font-weight:500}
+    .share-section{text-align:center;margin:1.5rem 0 2rem}.share-btn-x{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:14px;font-weight:500;transition:all 0.3s ease;backdrop-filter:blur(10px)}.share-btn-x:hover{background:rgba(29,155,240,0.15);border-color:rgba(29,155,240,0.4);color:#1d9bf0;transform:translateY(-1px)}</style>
+
+    <!-- OGP / Twitter Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Ruin The Friendship 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta property="og:description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情を超えた恋心と永遠の後悔。">
+    <meta property="og:url" content="https://hobbyshop-yu.github.io/we-are-swifties/ruin-the-friendship.html">
+    <meta property="og:image" content="https://img.youtube.com/vi/WQCPl5rTMDQ/maxresdefault.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:site_name" content="We are Swifties">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ruin The Friendship 歌詞・和訳・徹底解説 | We are Swifties">
+    <meta name="twitter:description" content="テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情を超えた恋心と永遠の後悔。">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/WQCPl5rTMDQ/maxresdefault.jpg">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PESZB0HW0B');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Ruin The Friendship 歌詞・和訳・徹底解説","description":"テイラー・スウィフト「Ruin The Friendship」の英語歌詞・日本語訳・徹底解説。友情と恋心の狭間で揺れる後悔の物語。","image":"https://img.youtube.com/vi/WQCPl5rTMDQ/maxresdefault.jpg","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/ruin-the-friendship.html","about":{"@type":"MusicComposition","name":"Ruin The Friendship","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Lyrics &amp; Commentary","datePublished":"2025"}}}
+</script>
+    <link rel="canonical" href="https://we-are-swifties.com/ruin-the-friendship.html">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TOP", "item": "https://we-are-swifties.com/index.html"}, {"@type": "ListItem", "position": 2, "name": "The Life of a Showgirl", "item": "https://we-are-swifties.com/index.html#toc-showgirl"}, {"@type": "ListItem", "position": 3, "name": "Ruin The Friendship", "item": "https://we-are-swifties.com/ruin-the-friendship.html"}]}
+</script>
+</head>
+
+<body>
+    <nav class="global-nav">
+        <a href="index.html" class="nav-home">We are Swifties</a>
+        <a href="index.html">曲一覧</a>
+        <a href="about.html">運営者情報</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Lyrics &amp; Commentary</p>
+            <h1 class="hero-title">Ruin The Friendship</h1>
+            <p class="hero-artist">Taylor Swift</p><span class="hero-album">The Life of a Showgirl (2025)</span>
+        </div>
+    </section>
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+        <ol>
+            <li><a href="index.html#album-toc">🏠 TOP</a></li>
+            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
+            <li aria-current="page">Ruin The Friendship</li>
+        </ol>
+    </nav>
+
+    <main class="main-content">
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+        <div class="song-intro">
+            <h2>✦ この曲について</h2>
+            <p>「<span class="keyword">Ruin The
+                    Friendship</span>」は、友人への恋心を告白するべきか葛藤する感情を描いた曲。しかしより深い解釈では、テイラーの高校時代の友人で<span
+                    class="keyword">後に亡くなった男性</span>への後悔の歌とされる。<span
+                    class="keyword">「キスすればよかった」</span>と歌う言葉には、友情を壊す恐れよりも、<span
+                    class="keyword">気持ちを伝えなかった</span>ことへの永遠の後悔が込められている。親友<span
+                    class="keyword">Abigail</span>への言及もある、テイラーの青春の痛みを凝縮した一曲。</p>
+        </div>
+
+        <!-- YouTube Embed -->
+        <div class="youtube-section">
+            <h2>▶ Official Lyric Video</h2>
+            <div class="youtube-wrapper">
+                <iframe src="https://www.youtube.com/embed/WQCPl5rTMDQ?enablejsapi=1" title="Taylor Swift - Ruin The Friendship (Lyric Video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
         </div>
-    </section>
-    <nav class="breadcrumb" aria-label="パンくずリスト">
-        <ol>
-            <li><a href="index.html#album-toc">🏠 TOP</a></li>
-            <li><a href="index.html#toc-showgirl">The Life of a Showgirl</a></li>
-            <li aria-current="page">Ruin The Friendship</li>
-        </ol>
-    </nav>
-
-    <main class="main-content">
-        <a href="index.html" class="back-link">← トップページに戻る</a>
-        <div class="song-intro">
-            <h2>✦ この曲について</h2>
-            <p>「<span class="keyword">Ruin The
-                    Friendship</span>」は、友人への恋心を告白するべきか葛藤する感情を描いた曲。しかしより深い解釈では、テイラーの高校時代の友人で<span
-                    class="keyword">後に亡くなった男性</span>への後悔の歌とされる。<span
-                    class="keyword">「キスすればよかった」</span>と歌う言葉には、友情を壊す恐れよりも、<span
-                    class="keyword">気持ちを伝えなかった</span>ことへの永遠の後悔が込められている。親友<span
-                    class="keyword">Abigail</span>への言及もある、テイラーの青春の痛みを凝縮した一曲。</p>
-        </div>
-
-        <!-- YouTube Embed -->
-        <div class="youtube-section">
-            <h2>▶ Official Lyric Video</h2>
-            <div class="youtube-wrapper">
-                <iframe src="https://www.youtube.com/embed/WQCPl5rTMDQ?enablejsapi=1" title="Taylor Swift - Ruin The Friendship (Lyric Video)"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-
-        
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 1</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Glistening grass from September rain</p>
-                <p class="lyric-ja">9月の雨で光る草むら</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Gray overpass full of neon names</p>
-                <p class="lyric-ja">ネオンの落書きだらけの灰色の陸橋</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You drive (Mm, mm)</p>
-                <p class="lyric-ja">あなたは運転します (Mm、mm)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Eighty-five (Mm, mm)</p>
-                <p class="lyric-ja">85 (うーん、うーん)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Gallatin Road and the Lakeside Beach</p>
-                <p class="lyric-ja">ギャラティン ロードとレイクサイド ビーチ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Watching the game from your brother&#x27;s Jeep</p>
-                <p class="lyric-ja">兄のジープから試合を見ていた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Your smile (Mm, mm)</p>
-                <p class="lyric-ja">あなたの笑顔 (Mm、mm)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Miles wide</p>
-                <p class="lyric-ja">マイル幅</p>
-            </div>
-        </div>
-
-
-        <div class="commentary"><p><span class="note-icon">🎵</span>「Ruin The Friendship」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
-
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">And it was not an invitation</p>
-                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And it was not convenient, no</p>
-                <p class="lyric-ja">タイミングなんて良くなかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But your girlfriend was away</p>
-                <p class="lyric-ja">でもあなたの彼女は留守だった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway, hey</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 2</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Shiny wood floors underneath my feet</p>
-                <p class="lyric-ja">足元のピカピカの木の床</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Disco ball makes everything look cheap</p>
-                <p class="lyric-ja">ミラーボールが全てを安っぽく見せる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Have fun (Mm, mm)</p>
-                <p class="lyric-ja">楽しんでください(うーん、うーん)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It&#x27;s prom (Mm, mm)</p>
-                <p class="lyric-ja">プロムだよ (うーん、うーん)</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Wilted corsage dangles from my wrist</p>
-                <p class="lyric-ja">しおれたコサージュが手首からぶら下がる</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Over his shoulder, I catch a glimpse</p>
-                <p class="lyric-ja">彼の肩越しに、ちらっと見えた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And see (Mm, mm)</p>
-                <p class="lyric-ja">そして見てください（うーん、うーん）</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">You looking at mе</p>
-                <p class="lyric-ja">あなたは私を見ている</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">And it was not an invitation</p>
-                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But as the 50 Cent song played (Song playеd)</p>
-                <p class="lyric-ja">50 Centの曲が流れる中</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway (Anyway)</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And it was not (And it was not) convenient (Convenient), no</p>
-                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Would&#x27;ve been the best mistake</p>
-                <p class="lyric-ja">最高の間違いだったのに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway, hey</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>BRIDGE</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Don&#x27;t make it awkward in second period</p>
-                <p class="lyric-ja">2時間目に気まずくしないで</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Might piss your ex off, lately, we&#x27;ve been good</p>
-                <p class="lyric-ja">あなたの元カノを怒らせるかも、最近うまくいってるし</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Staying friends is safe, doesn&#x27;t mean you should</p>
-                <p class="lyric-ja">友達でいるのは安全策、でもそうすべきとは限らない</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Don&#x27;t make it awkward in second period</p>
-                <p class="lyric-ja">2時間目に気まずくしないで</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Might piss your ex off, lately, we&#x27;ve been good</p>
-                <p class="lyric-ja">あなたの元カノを怒らせるかも、最近うまくいってるし</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Staying friends is safe, doesn&#x27;t mean you should</p>
-                <p class="lyric-ja">友達でいるのは安全策、でもそうすべきとは限らない</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>VERSE 3</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">When I left school, I lost track of you</p>
-                <p class="lyric-ja">学校を卒業して、あなたを見失った</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Abigail called me with the bad news</p>
-                <p class="lyric-ja">アビゲイルが悲しい知らせの電話をくれた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Goodbye</p>
-                <p class="lyric-ja">Goodbye</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And we&#x27;ll never know why</p>
-                <p class="lyric-ja">そして、決して、知る、なぜ</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">It was not an invitation</p>
-                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But I flew home anyway</p>
-                <p class="lyric-ja">でも飛行機で帰った</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">With so much left to say</p>
-                <p class="lyric-ja">言い残したことがたくさんあった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">It was not convenient, no</p>
-                <p class="lyric-ja">タイミングなんて良くなかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">But I whispered at the grave</p>
-                <p class="lyric-ja">でもお墓の前でささやいた</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">&quot;Should&#x27;ve kissed you anyway,&quot; ooh</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And it was not (It was not) an invitation (Invitation)</p>
-                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway (Anyway)</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway (Anyway), anyway</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And it was not—</p>
-                <p class="lyric-ja">そして、それ</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>POST-CHORUS</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">My advice is always ruin the friendship</p>
-                <p class="lyric-ja">私のアドバイスはいつも「友情を壊せ」</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Better that than regret it for all time</p>
-                <p class="lyric-ja">一生後悔するよりマシ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">And my advice is always answer the question</p>
-                <p class="lyric-ja">そして「質問には答えろ」</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Better that than to ask it all your life</p>
-                <p class="lyric-ja">一生問い続けるよりマシ</p>
-            </div>
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-        </div>
-
-
-        <div class="section-header">
-            <div class="line"></div>
-            <h3>OUTRO</h3>
-            <div class="line"></div>
-        </div>
-        <div class="lyric-block">
-            <div class="lyric-pair">
-                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
-                <p class="lyric-ja">キスすればよかった</p>
-            </div>
-        </div>
-
-
-
-        <section class="mascot-section" id="mascot-trivia">
-            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-piano.png"
-                    alt="Olivia mascot">
-                <div class="mascot-bubble">
-                    <p class="trivia-label">🐱 Did You Know?</p>
-                    <p id="mascot-text">テイラーの親友Abigailは「Fifteen」にも登場する高校時代からの大切な友人。二人の友情は20年以上続いているよ👭</p>
-                </div>
-            </div>
-        </section>
-        
-    <section class="album-links">
-        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
-        <div class="album-links-grid">
-            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
-            <a href="cancelled.html" class="album-link">CANCELLED!</a>
-            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
-            <a href="father-figure.html" class="album-link">Father Figure</a>
-            <a href="honey.html" class="album-link">Honey</a>
-            <a href="opalite.html" class="album-link">Opalite</a>
-            <span class="album-link current">▶ Ruin The Friendship</span>
-            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
-            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
-            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
-            <a href="wood.html" class="album-link">Wood</a>
-        </div>
-    </section>
-
-        <footer class="article-footer">
-            <p class="site-name">We are Swifties</p>
-            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
-        </footer>
-    </main>
-    <script>
-        const triviaList = [
-            { img: 'images/cat-piano.png', text: 'テイラーの親友Abigailは「Fifteen」にも登場する高校時代からの大切な友人。二人の友情は20年以上続いているよ👭' },
-            { img: 'images/cat-guitar.png', text: 'この曲のテーマ「後悔」はfolkloreやevermoreにも通じる。テイラーは損失と向き合うのが上手い作詞家だよ🍂' },
-            { img: 'images/cat-mic.png', text: '「should\'ve kissed you anyway」——テイラーは「気持ちを伝えなかった後悔は永遠に残る」と教えてくれる💌' },
-        ];
-        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
-        document.getElementById('mascot-image').src = pick.img;
-        document.getElementById('mascot-text').textContent = pick.text;
-    </script>
-
-    <script>
-    // YouTube Sticky-on-Play
-    (function(){
-        var ytSection = document.querySelector('.youtube-section');
-        if (!ytSection) return;
-        var wrapper = ytSection.querySelector('.youtube-wrapper');
-        if (!wrapper) return;
-        var oldIframe = wrapper.querySelector('iframe');
-        if (!oldIframe) return;
-
-        // Extract video ID from src
-        var src = oldIframe.getAttribute('src') || '';
-        var match = src.match(/embed\/([^?&]+)/);
-        if (!match) return;
-        var videoId = match[1];
-
-        // Create a div placeholder to replace the iframe
-        var placeholder = document.createElement('div');
-        placeholder.id = 'yt-sticky-player';
-        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
-
-        // Load YouTube IFrame API
-        var tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        document.head.appendChild(tag);
-
-        window.onYouTubeIframeAPIReady = function() {
-            new YT.Player('yt-sticky-player', {
-                videoId: videoId,
-                playerVars: { rel: 0 },
-                events: {
-                    onStateChange: function(e) {
-                        if (e.data === YT.PlayerState.PLAYING) {
-                            ytSection.classList.add('is-sticky');
-                        } else {
-                            ytSection.classList.remove('is-sticky');
-                        }
-                    }
-                }
-            });
-        };
-    })();
-    </script>
-</body>
-
+<div class="share-section"><a class="share-btn-x" href="https://twitter.com/intent/tweet?text=%F0%9F%8E%B5%20Ruin%20The%20Friendship%0A%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88%E3%80%8CRuin%20The%20Friendship%E3%80%8D%E3%81%AE%E8%8B%B1%E8%AA%9E%E6%AD%8C%E8%A9%9E%E3%83%BB%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E3%83%BB%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC%E3%80%82%E5%8F%8B%E6%83%85%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F%E6%81%8B%E5%BF%83%E3%81%A8%E6%B0%B8%E9%81%A0%E3%81%AE%E5%BE%8C&url=https%3A%2F%2Fwe-are-swifties.com%2Fruin-the-friendship.html&hashtags=TaylorSwift,テイラースウィフト,WeAreSwifties" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>この曲をシェア</a></div>
+
+
+        
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 1</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Glistening grass from September rain</p>
+                <p class="lyric-ja">9月の雨で光る草むら</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Gray overpass full of neon names</p>
+                <p class="lyric-ja">ネオンの落書きだらけの灰色の陸橋</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You drive (Mm, mm)</p>
+                <p class="lyric-ja">あなたは運転します (Mm、mm)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Eighty-five (Mm, mm)</p>
+                <p class="lyric-ja">85 (うーん、うーん)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Gallatin Road and the Lakeside Beach</p>
+                <p class="lyric-ja">ギャラティン ロードとレイクサイド ビーチ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Watching the game from your brother&#x27;s Jeep</p>
+                <p class="lyric-ja">兄のジープから試合を見ていた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Your smile (Mm, mm)</p>
+                <p class="lyric-ja">あなたの笑顔 (Mm、mm)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Miles wide</p>
+                <p class="lyric-ja">マイル幅</p>
+            </div>
+        </div>
+
+
+        <div class="commentary"><p><span class="note-icon">🎵</span>「Ruin The Friendship」——Lyrics &amp; Commentaryに収録。テイラーの詩的な世界観とストーリーテリングが光る楽曲。冒頭のヴァースで物語の舞台が設定される。</p></div>
+
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">And it was not an invitation</p>
+                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And it was not convenient, no</p>
+                <p class="lyric-ja">タイミングなんて良くなかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But your girlfriend was away</p>
+                <p class="lyric-ja">でもあなたの彼女は留守だった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway, hey</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 2</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Shiny wood floors underneath my feet</p>
+                <p class="lyric-ja">足元のピカピカの木の床</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Disco ball makes everything look cheap</p>
+                <p class="lyric-ja">ミラーボールが全てを安っぽく見せる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Have fun (Mm, mm)</p>
+                <p class="lyric-ja">楽しんでください(うーん、うーん)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It&#x27;s prom (Mm, mm)</p>
+                <p class="lyric-ja">プロムだよ (うーん、うーん)</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Wilted corsage dangles from my wrist</p>
+                <p class="lyric-ja">しおれたコサージュが手首からぶら下がる</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Over his shoulder, I catch a glimpse</p>
+                <p class="lyric-ja">彼の肩越しに、ちらっと見えた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And see (Mm, mm)</p>
+                <p class="lyric-ja">そして見てください（うーん、うーん）</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">You looking at mе</p>
+                <p class="lyric-ja">あなたは私を見ている</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">And it was not an invitation</p>
+                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But as the 50 Cent song played (Song playеd)</p>
+                <p class="lyric-ja">50 Centの曲が流れる中</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway (Anyway)</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And it was not (And it was not) convenient (Convenient), no</p>
+                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Would&#x27;ve been the best mistake</p>
+                <p class="lyric-ja">最高の間違いだったのに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway, hey</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>BRIDGE</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Don&#x27;t make it awkward in second period</p>
+                <p class="lyric-ja">2時間目に気まずくしないで</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Might piss your ex off, lately, we&#x27;ve been good</p>
+                <p class="lyric-ja">あなたの元カノを怒らせるかも、最近うまくいってるし</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Staying friends is safe, doesn&#x27;t mean you should</p>
+                <p class="lyric-ja">友達でいるのは安全策、でもそうすべきとは限らない</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Don&#x27;t make it awkward in second period</p>
+                <p class="lyric-ja">2時間目に気まずくしないで</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Might piss your ex off, lately, we&#x27;ve been good</p>
+                <p class="lyric-ja">あなたの元カノを怒らせるかも、最近うまくいってるし</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Staying friends is safe, doesn&#x27;t mean you should</p>
+                <p class="lyric-ja">友達でいるのは安全策、でもそうすべきとは限らない</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>VERSE 3</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">When I left school, I lost track of you</p>
+                <p class="lyric-ja">学校を卒業して、あなたを見失った</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Abigail called me with the bad news</p>
+                <p class="lyric-ja">アビゲイルが悲しい知らせの電話をくれた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Goodbye</p>
+                <p class="lyric-ja">Goodbye</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And we&#x27;ll never know why</p>
+                <p class="lyric-ja">そして、決して、知る、なぜ</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">It was not an invitation</p>
+                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But I flew home anyway</p>
+                <p class="lyric-ja">でも飛行機で帰った</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">With so much left to say</p>
+                <p class="lyric-ja">言い残したことがたくさんあった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">It was not convenient, no</p>
+                <p class="lyric-ja">タイミングなんて良くなかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">But I whispered at the grave</p>
+                <p class="lyric-ja">でもお墓の前でささやいた</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">&quot;Should&#x27;ve kissed you anyway,&quot; ooh</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And it was not (It was not) an invitation (Invitation)</p>
+                <p class="lyric-ja">お誘いなんかじゃなかったのに</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway (Anyway)</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway (Anyway), anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And it was not—</p>
+                <p class="lyric-ja">そして、それ</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>POST-CHORUS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">My advice is always ruin the friendship</p>
+                <p class="lyric-ja">私のアドバイスはいつも「友情を壊せ」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Better that than regret it for all time</p>
+                <p class="lyric-ja">一生後悔するよりマシ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">And my advice is always answer the question</p>
+                <p class="lyric-ja">そして「質問には答えろ」</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Better that than to ask it all your life</p>
+                <p class="lyric-ja">一生問い続けるよりマシ</p>
+            </div>
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+        </div>
+
+
+        <div class="section-header">
+            <div class="line"></div>
+            <h3>OUTRO</h3>
+            <div class="line"></div>
+        </div>
+        <div class="lyric-block">
+            <div class="lyric-pair">
+                <p class="lyric-en">Should&#x27;ve kissed you anyway</p>
+                <p class="lyric-ja">キスすればよかった</p>
+            </div>
+        </div>
+
+
+
+        <section class="mascot-section" id="mascot-trivia">
+            <div class="mascot-card"><img class="mascot-img" id="mascot-image" src="images/cat-piano.png"
+                    alt="Olivia mascot">
+                <div class="mascot-bubble">
+                    <p class="trivia-label">🐱 Did You Know?</p>
+                    <p id="mascot-text">テイラーの親友Abigailは「Fifteen」にも登場する高校時代からの大切な友人。二人の友情は20年以上続いているよ👭</p>
+                </div>
+            </div>
+        </section>
+        
+    <section class="album-links">
+        <p class="album-links-title">🎵 The Life of a Showgirl の他の曲</p>
+        <div class="album-links-grid">
+            <a href="actually-romantic.html" class="album-link">Actually Romantic</a>
+            <a href="cancelled.html" class="album-link">CANCELLED!</a>
+            <a href="elizabeth-taylor.html" class="album-link">Elizabeth Taylor</a>
+            <a href="father-figure.html" class="album-link">Father Figure</a>
+            <a href="honey.html" class="album-link">Honey</a>
+            <a href="opalite.html" class="album-link">Opalite</a>
+            <span class="album-link current">▶ Ruin The Friendship</span>
+            <a href="fate-of-ophelia.html" class="album-link">The Fate of Ophelia</a>
+            <a href="life-of-a-showgirl.html" class="album-link">The Life of a Showgirl</a>
+            <a href="wish-list.html" class="album-link">Wi$h Li$t</a>
+            <a href="wood.html" class="album-link">Wood</a>
+        </div>
+    </section>
+
+        <footer class="article-footer">
+            <p class="site-name">We are Swifties</p>
+            <p class="copyright">© 2026 We are Swifties. All rights reserved.</p>
+        </footer>
+    </main>
+    <script>
+        const triviaList = [
+            { img: 'images/cat-piano.png', text: 'テイラーの親友Abigailは「Fifteen」にも登場する高校時代からの大切な友人。二人の友情は20年以上続いているよ👭' },
+            { img: 'images/cat-guitar.png', text: 'この曲のテーマ「後悔」はfolkloreやevermoreにも通じる。テイラーは損失と向き合うのが上手い作詞家だよ🍂' },
+            { img: 'images/cat-mic.png', text: '「should\'ve kissed you anyway」——テイラーは「気持ちを伝えなかった後悔は永遠に残る」と教えてくれる💌' },
+        ];
+        const pick = triviaList[Math.floor(Math.random() * triviaList.length)];
+        document.getElementById('mascot-image').src = pick.img;
+        document.getElementById('mascot-text').textContent = pick.text;
+    </script>
+
+    <script>
+    // YouTube Sticky-on-Play
+    (function(){
+        var ytSection = document.querySelector('.youtube-section');
+        if (!ytSection) return;
+        var wrapper = ytSection.querySelector('.youtube-wrapper');
+        if (!wrapper) return;
+        var oldIframe = wrapper.querySelector('iframe');
+        if (!oldIframe) return;
+
+        // Extract video ID from src
+        var src = oldIframe.getAttribute('src') || '';
+        var match = src.match(/embed\/([^?&]+)/);
+        if (!match) return;
+        var videoId = match[1];
+
+        // Create a div placeholder to replace the iframe
+        var placeholder = document.createElement('div');
+        placeholder.id = 'yt-sticky-player';
+        oldIframe.parentNode.replaceChild(placeholder, oldIframe);
+
+        // Load YouTube IFrame API
+        var tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+
+        window.onYouTubeIframeAPIReady = function() {
+            new YT.Player('yt-sticky-player', {
+                videoId: videoId,
+                playerVars: { rel: 0 },
+                events: {
+                    onStateChange: function(e) {
+                        if (e.data === YT.PlayerState.PLAYING) {
+                            ytSection.classList.add('is-sticky');
+                        } else {
+                            ytSection.classList.remove('is-sticky');
+                        }
+                    }
+                }
+            });
+        };
+    })();
+    </script>
+</body>
+
 </html>
