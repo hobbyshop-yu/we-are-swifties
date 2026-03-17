@@ -797,27 +797,28 @@
 - [x] Step4: チェックリスト記録
 
 
-## Speak Now TV (2023) Batch 6 ⚠️ 要やり直し
+## Speak Now TV (2023) Batch 6 ✅ 再レビュー完了
 
-> **手順違反**: 同上
+### Ours
+- [x] Step1: 背景調査完了 — 参考URL: note.com/hey_sax/n/n304885346f3a / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Chorus3全セクション照合出力済み
+- [x] Step3: 自己レビュー完了 — 追加発見: 0件。L67/L199/L203精査OK
+- [x] Step4: 修正適用 — 修正不要。前回修正1行維持。全行品質良好
+- [x] Step5: チェックリスト記録
 
-### Ours — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 1行（維持）
-- [x] Step4: チェックリスト記録
+### Sparks Fly
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12630821874.html / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み
+- [x] Step3: 自己レビュー完了 — 追加発見: 0件。L69/L135/L155精査OK
+- [x] Step4: 修正適用 — 修正不要。前回修正1行維持。全行品質良好
+- [x] Step5: チェックリスト記録
 
-### Sparks Fly — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 1行（維持）
-- [x] Step4: チェックリスト記録
-
-### Speak Now — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 2行（維持）
-- [x] Step4: チェックリスト記録
+### Speak Now
+- [x] Step1: 背景調査完了 — 参考URL: note.com/vigilanteshit/n/na8a28097b8dd / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件（参考訳と一致）
+- [x] Step3: 自己レビュー完了 — 追加発見: 3件（D:表記不統一L388君→あなた、D:訳の先取りL290、D:括弧整理L392）
+- [x] Step4: 修正適用 — 修正: 3行（L290「牧師がこう言うのが聞こえた」、L388「あなた」、L392括弧整理）。前回修正2行維持
+- [x] Step5: チェックリスト記録
 
 ## Speak Now TV (2023) Batch 7 ⚠️ 要やり直し
 
