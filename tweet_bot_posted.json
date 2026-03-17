@@ -16,7 +16,8 @@
     "My Boy Only Breaks His Favorite Toys",
     "The Prophecy",
     "Mine",
-    "We Are Never Ever Getting Back Together"
+    "We Are Never Ever Getting Back Together",
+    "I Knew You Were Trouble Tv"
   ],
   "history": [
     {
@@ -102,6 +103,11 @@
     {
       "title": "We Are Never Ever Getting Back Together",
       "time": "2026-03-17T11:39:58.876815",
+      "cycle": 1
+    },
+    {
+      "title": "I Knew You Were Trouble Tv",
+      "time": "2026-03-17T22:29:17.527042",
       "cycle": 1
     }
   ]
