@@ -1,147 +1,148 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>テイラー・スウィフト年表 | We are Swifties</title>
-    <meta name="description" content="テイラー・スウィフトのキャリア年表。デビューからEras Tourまでの全歴史をインタラクティブに。">
-    <meta property="og:title" content="テイラー・スウィフト年表 | We are Swifties">
-    <meta property="og:description" content="デビューから現在まで📅 テイラーの歴史を一覧で">
-    <meta property="og:url" content="https://we-are-swifties.com/timeline.html">
-    <meta property="og:image" content="https://we-are-swifties.com/images/og-today.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://we-are-swifties.com/timeline.html">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
-        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
-        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#fab387);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
-        
-        .timeline{position:relative;padding-left:32px}
-        .timeline::before{content:'';position:absolute;left:12px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,rgba(201,160,220,.3),rgba(137,180,250,.3),rgba(201,160,220,.1))}
-        
-        .tl-year{position:relative;margin-bottom:.5rem;margin-top:1.5rem}
-        .tl-year .year-label{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:#c9a0dc}
-        .tl-year::before{content:'';position:absolute;left:-24px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:#c9a0dc;border:2px solid #0a0a0f}
-        
-        .tl-event{position:relative;margin-bottom:.6rem;margin-left:.5rem}
-        .tl-event::before{content:'';position:absolute;left:-28px;top:12px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.2)}
-        
-        .event-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:.8rem 1rem;transition:all .3s}
-        .event-card:hover{border-color:rgba(201,160,220,.15)}
-        .event-date{font-size:.7rem;color:#888;margin-bottom:.2rem}
-        .event-title{font-size:.9rem;font-weight:600;margin-bottom:.2rem;display:flex;align-items:center;gap:6px}
-        .event-desc{font-size:.8rem;color:#aaa;line-height:1.6}
-        
-        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
-        .back-link:hover{color:#c9a0dc}
-    
-    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
-    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
-    .tool-nav a:hover{color:#c9a0dc}
-    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
-    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
-
-    </style>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "テイラー・スウィフト年表", "description": "デビューからEras Tourまでの全キャリア年表", "url": "https://we-are-swifties.com/timeline.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
-</head>
-<body>
-<nav class="tool-nav">
-    <a class="nav-home" href="index.html">We are Swifties</a>
-    <a href="quiz.html">🎲 診断</a>
-    <a href="lyrics-quiz.html">🎤 クイズ</a>
-    <a href="tierlist.html">📊 Tier</a>
-    <a href="ranking.html">🏆 ランキング</a>
-    <a href="search.html">🔍 検索</a>
-    <a href="quotes.html">✨ 名言</a>
-    <a href="glossary.html">📖 辞典</a>
-</nav>
-    <div class="container">
-        <h1>📅 Taylor Swift 年表</h1>
-        <p class="subtitle">デビューから現在までの軌跡</p>
-        <div class="timeline" id="timeline"></div>
-        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
-    </div>
-<script>
-const events = [
-    {year:1989,events:[
-        {date:"12月13日",emoji:"🎂",title:"テイラー・スウィフト誕生",desc:"ペンシルベニア州ウェストレディングのクリスマスツリー農園で生まれる"},
-    ]},
-    {year:2004,events:[
-        {date:"",emoji:"📝",title:"ソニーと作曲契約",desc:"14歳でソニー/ATVと作曲契約。史上最年少のプロ作曲家の一人に"},
-    ]},
-    {year:2005,events:[
-        {date:"",emoji:"🎸",title:"Big Machine Recordsと契約",desc:"レーベル設立者スコット・ボルチェッタと契約。初のアーティストに"},
-    ]},
-    {year:2006,events:[
-        {date:"10月24日",emoji:"🌟",title:"デビューアルバム『Taylor Swift』リリース",desc:"「Tim McGraw」「Teardrops on My Guitar」を収録。カントリーチャート1位"},
-    ]},
-    {year:2008,events:[
-        {date:"11月11日",emoji:"💛",title:"『Fearless』リリース",desc:"「Love Story」「You Belong with Me」で国民的スターに"},
-    ]},
-    {year:2009,events:[
-        {date:"2月",emoji:"🏆",title:"グラミー賞 アルバム・オブ・ザ・イヤー受賞",desc:"Fearlessで受賞。最年少記録（20歳）"},
-        {date:"9月13日",emoji:"🎤",title:"VMAs カニエ・ウェスト事件",desc:"最優秀女性ビデオ賞スピーチ中にカニエが乱入"},
-    ]},
-    {year:2010,events:[
-        {date:"10月25日",emoji:"💜",title:"『Speak Now』リリース",desc:"全曲テイラー単独作詞の唯一のアルバム"},
-    ]},
-    {year:2012,events:[
-        {date:"10月22日",emoji:"🧣",title:"『Red』リリース",desc:"ポップへの転向を示唆。「All Too Well」が名曲として語り継がれる"},
-    ]},
-    {year:2014,events:[
-        {date:"10月27日",emoji:"🌊",title:"『1989』リリース",desc:"完全ポップ転向。「Shake It Off」「Blank Space」で世界を席巻"},
-    ]},
-    {year:2015,events:[
-        {date:"2月",emoji:"🏆",title:"グラミー賞 3度目のアルバム・オブ・ザ・イヤー",desc:"1989で受賞。女性アーティスト初の2度受賞者に"},
-        {date:"6月",emoji:"🍎",title:"Apple Music問題で勝利",desc:"無料トライアル中の報酬問題でAppleに抗議、ポリシー変更を勝ち取る"},
-    ]},
-    {year:2017,events:[
-        {date:"11月10日",emoji:"🐍",title:"『reputation』リリース",desc:"SNS炎上からの復活。「Look What You Made Me Do」で新時代宣言"},
-    ]},
-    {year:2019,events:[
-        {date:"8月23日",emoji:"💕",title:"『Lover』リリース",desc:"「Cruel Summer」「Lover」収録。最もロマンチックなアルバム"},
-        {date:"11月",emoji:"⚖️",title:"マスター権問題発生",desc:"スクーター・ブラウンが原盤権を買収。再録音プロジェクトのきっかけに"},
-    ]},
-    {year:2020,events:[
-        {date:"7月24日",emoji:"🍂",title:"『folklore』サプライズリリース",desc:"コロナ禍で制作。Bon Iverコラボ。アーロン・デスナーとの新境地"},
-        {date:"12月11日",emoji:"🤎",title:"『evermore』リリース",desc:"folkoreの姉妹作。「willow」が初登場1位"},
-    ]},
-    {year:2021,events:[
-        {date:"4月9日",emoji:"💛",title:"『Fearless (Taylor\'s Version)』リリース",desc:"再録音プロジェクト第1弾。Vault曲6曲を追加"},
-        {date:"11月12日",emoji:"🧣",title:"『Red (Taylor\'s Version)』リリース",desc:"「All Too Well (10 Minute Version)」のショートフィルムが社会現象に"},
-    ]},
-    {year:2022,events:[
-        {date:"10月21日",emoji:"🌙",title:"『Midnights』リリース",desc:"「Anti-Hero」がBillboard Hot 100で8週連続1位"},
-    ]},
-    {year:2023,events:[
-        {date:"3月17日",emoji:"🎤",title:"Eras Tour 開幕",desc:"テイラーの全キャリアを網羅する約3時間半のショー"},
-        {date:"7月7日",emoji:"💜",title:"『Speak Now (Taylor\'s Version)』リリース",desc:"再録音第3弾。Vault曲含む全22曲"},
-        {date:"10月27日",emoji:"🌊",title:"『1989 (Taylor\'s Version)』リリース",desc:"再録音第4弾。「Is It Over Now?」等Vault曲5曲"},
-        {date:"12月6日",emoji:"🕐",title:"TIME パーソン・オブ・ザ・イヤー",desc:"音楽だけでなく文化的影響力で選出"},
-    ]},
-    {year:2024,events:[
-        {date:"2月4日",emoji:"🏈",title:"スーパーボウル LVIII",desc:"トラヴィス・ケルシー出場のスーパーボウルにテイラーが来場。Chiefs勝利"},
-        {date:"2月7日",emoji:"🎤",title:"Eras Tour 東京ドーム公演",desc:"日本公演4days。SNSで「東京ドーム」がトレンド1位に"},
-        {date:"2月",emoji:"🏆",title:"グラミー賞 4度目のアルバム・オブ・ザ・イヤー",desc:"Midnightsで受賞。史上最多の4度受賞"},
-        {date:"4月19日",emoji:"🪶",title:"『TTPD』リリース",desc:"初週260万枚。Billboard史上最大の初週セールス記録"},
-        {date:"12月8日",emoji:"🎤",title:"Eras Tour 終幕",desc:"149公演、約1000万人動員。史上最高収益ツアー"},
-    ]},
-];
-
-const tl = document.getElementById('timeline');
-events.forEach(yearGroup => {
-    tl.innerHTML += `<div class="tl-year"><span class="year-label">${yearGroup.year}</span></div>`;
-    yearGroup.events.forEach(ev => {
-        tl.innerHTML += `<div class="tl-event"><div class="event-card">
-            ${ev.date ? `<div class="event-date">${ev.date}</div>` : ''}
-            <div class="event-title">${ev.emoji} ${ev.title}</div>
-            <div class="event-desc">${ev.desc}</div>
-        </div></div>`;
-    });
-});
-</script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テイラー・スウィフト年表 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフトのキャリア年表。デビューからEras Tourまでの全歴史をインタラクティブに。">
+    <meta property="og:title" content="テイラー・スウィフト年表 | We are Swifties">
+    <meta property="og:description" content="デビューから現在まで📅 テイラーの歴史を一覧で">
+    <meta property="og:url" content="https://we-are-swifties.com/timeline.html">
+    <meta property="og:image" content="https://we-are-swifties.com/images/og-today.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/timeline.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#fab387);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
+        
+        .timeline{position:relative;padding-left:32px}
+        .timeline::before{content:'';position:absolute;left:12px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,rgba(201,160,220,.3),rgba(137,180,250,.3),rgba(201,160,220,.1))}
+        
+        .tl-year{position:relative;margin-bottom:.5rem;margin-top:1.5rem}
+        .tl-year .year-label{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:#c9a0dc}
+        .tl-year::before{content:'';position:absolute;left:-24px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:#c9a0dc;border:2px solid #0a0a0f}
+        
+        .tl-event{position:relative;margin-bottom:.6rem;margin-left:.5rem}
+        .tl-event::before{content:'';position:absolute;left:-28px;top:12px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.2)}
+        
+        .event-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:.8rem 1rem;transition:all .3s}
+        .event-card:hover{border-color:rgba(201,160,220,.15)}
+        .event-date{font-size:.7rem;color:#888;margin-bottom:.2rem}
+        .event-title{font-size:.9rem;font-weight:600;margin-bottom:.2rem;display:flex;align-items:center;gap:6px}
+        .event-desc{font-size:.8rem;color:#aaa;line-height:1.6}
+        
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+    
+    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
+    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
+    .tool-nav a:hover{color:#c9a0dc}
+    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
+    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
+
+    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "テイラー・スウィフト年表", "description": "デビューからEras Tourまでの全キャリア年表", "url": "https://we-are-swifties.com/timeline.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
+</head>
+<body>
+<nav class="tool-nav">
+    <a class="nav-home" href="index.html">We are Swifties</a>
+    <a href="quiz.html">🎲 診断</a>
+    <a href="lyrics-quiz.html">🎤 クイズ</a>
+    <a href="tierlist.html">📊 Tier</a>
+    <a href="ranking.html">🏆 ランキング</a>
+    <a href="search.html">🔍 検索</a>
+    <a href="quotes.html">✨ 名言</a>
+    <a href="glossary.html">📖 辞典</a>
+</nav>
+    <div class="container">
+        <h1>📅 Taylor Swift 年表</h1>
+        <p class="subtitle">デビューから現在までの軌跡</p>
+        <div class="timeline" id="timeline"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+<script>
+const events = [
+    {year:1989,events:[
+        {date:"12月13日",emoji:"🎂",title:"テイラー・スウィフト誕生",desc:"ペンシルベニア州ウェストレディングのクリスマスツリー農園で生まれる"},
+    ]},
+    {year:2004,events:[
+        {date:"",emoji:"📝",title:"ソニーと作曲契約",desc:"14歳でソニー/ATVと作曲契約。史上最年少のプロ作曲家の一人に"},
+    ]},
+    {year:2005,events:[
+        {date:"",emoji:"🎸",title:"Big Machine Recordsと契約",desc:"レーベル設立者スコット・ボルチェッタと契約。初のアーティストに"},
+    ]},
+    {year:2006,events:[
+        {date:"10月24日",emoji:"🌟",title:"デビューアルバム『Taylor Swift』リリース",desc:"「Tim McGraw」「Teardrops on My Guitar」を収録。カントリーチャート1位"},
+    ]},
+    {year:2008,events:[
+        {date:"11月11日",emoji:"💛",title:"『Fearless』リリース",desc:"「Love Story」「You Belong with Me」で国民的スターに"},
+    ]},
+    {year:2009,events:[
+        {date:"2月",emoji:"🏆",title:"グラミー賞 アルバム・オブ・ザ・イヤー受賞",desc:"Fearlessで受賞。最年少記録（20歳）"},
+        {date:"9月13日",emoji:"🎤",title:"VMAs カニエ・ウェスト事件",desc:"最優秀女性ビデオ賞スピーチ中にカニエが乱入"},
+    ]},
+    {year:2010,events:[
+        {date:"10月25日",emoji:"💜",title:"『Speak Now』リリース",desc:"全曲テイラー単独作詞の唯一のアルバム"},
+    ]},
+    {year:2012,events:[
+        {date:"10月22日",emoji:"🧣",title:"『Red』リリース",desc:"ポップへの転向を示唆。「All Too Well」が名曲として語り継がれる"},
+    ]},
+    {year:2014,events:[
+        {date:"10月27日",emoji:"🌊",title:"『1989』リリース",desc:"完全ポップ転向。「Shake It Off」「Blank Space」で世界を席巻"},
+    ]},
+    {year:2015,events:[
+        {date:"2月",emoji:"🏆",title:"グラミー賞 3度目のアルバム・オブ・ザ・イヤー",desc:"1989で受賞。女性アーティスト初の2度受賞者に"},
+        {date:"6月",emoji:"🍎",title:"Apple Music問題で勝利",desc:"無料トライアル中の報酬問題でAppleに抗議、ポリシー変更を勝ち取る"},
+    ]},
+    {year:2017,events:[
+        {date:"11月10日",emoji:"🐍",title:"『reputation』リリース",desc:"SNS炎上からの復活。「Look What You Made Me Do」で新時代宣言"},
+    ]},
+    {year:2019,events:[
+        {date:"8月23日",emoji:"💕",title:"『Lover』リリース",desc:"「Cruel Summer」「Lover」収録。最もロマンチックなアルバム"},
+        {date:"11月",emoji:"⚖️",title:"マスター権問題発生",desc:"スクーター・ブラウンが原盤権を買収。再録音プロジェクトのきっかけに"},
+    ]},
+    {year:2020,events:[
+        {date:"7月24日",emoji:"🍂",title:"『folklore』サプライズリリース",desc:"コロナ禍で制作。Bon Iverコラボ。アーロン・デスナーとの新境地"},
+        {date:"12月11日",emoji:"🤎",title:"『evermore』リリース",desc:"folkoreの姉妹作。「willow」が初登場1位"},
+    ]},
+    {year:2021,events:[
+        {date:"4月9日",emoji:"💛",title:"『Fearless (Taylor\'s Version)』リリース",desc:"再録音プロジェクト第1弾。Vault曲6曲を追加"},
+        {date:"11月12日",emoji:"🧣",title:"『Red (Taylor\'s Version)』リリース",desc:"「All Too Well (10 Minute Version)」のショートフィルムが社会現象に"},
+    ]},
+    {year:2022,events:[
+        {date:"10月21日",emoji:"🌙",title:"『Midnights』リリース",desc:"「Anti-Hero」がBillboard Hot 100で8週連続1位"},
+    ]},
+    {year:2023,events:[
+        {date:"3月17日",emoji:"🎤",title:"Eras Tour 開幕",desc:"テイラーの全キャリアを網羅する約3時間半のショー"},
+        {date:"7月7日",emoji:"💜",title:"『Speak Now (Taylor\'s Version)』リリース",desc:"再録音第3弾。Vault曲含む全22曲"},
+        {date:"10月27日",emoji:"🌊",title:"『1989 (Taylor\'s Version)』リリース",desc:"再録音第4弾。「Is It Over Now?」等Vault曲5曲"},
+        {date:"12月6日",emoji:"🕐",title:"TIME パーソン・オブ・ザ・イヤー",desc:"音楽だけでなく文化的影響力で選出"},
+    ]},
+    {year:2024,events:[
+        {date:"2月4日",emoji:"🏈",title:"スーパーボウル LVIII",desc:"トラヴィス・ケルシー出場のスーパーボウルにテイラーが来場。Chiefs勝利"},
+        {date:"2月7日",emoji:"🎤",title:"Eras Tour 東京ドーム公演",desc:"日本公演4days。SNSで「東京ドーム」がトレンド1位に"},
+        {date:"2月",emoji:"🏆",title:"グラミー賞 4度目のアルバム・オブ・ザ・イヤー",desc:"Midnightsで受賞。史上最多の4度受賞"},
+        {date:"4月19日",emoji:"🪶",title:"『TTPD』リリース",desc:"初週260万枚。Billboard史上最大の初週セールス記録"},
+        {date:"12月8日",emoji:"🎤",title:"Eras Tour 終幕",desc:"149公演、約1000万人動員。史上最高収益ツアー"},
+    ]},
+];
+
+const tl = document.getElementById('timeline');
+events.forEach(yearGroup => {
+    tl.innerHTML += `<div class="tl-year"><span class="year-label">${yearGroup.year}</span></div>`;
+    yearGroup.events.forEach(ev => {
+        tl.innerHTML += `<div class="tl-event"><div class="event-card">
+            ${ev.date ? `<div class="event-date">${ev.date}</div>` : ''}
+            <div class="event-title">${ev.emoji} ${ev.title}</div>
+            <div class="event-desc">${ev.desc}</div>
+        </div></div>`;
+    });
+});
+</script>
+<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
+</body>
+</html>

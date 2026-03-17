@@ -1,159 +1,160 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Today in Taylor History | We are Swifties</title>
-    <meta name="description" content="今日のテイラー・スウィフト関連の出来事。アルバムリリース日、受賞歴、記念日を毎日お届け。">
-    <meta property="og:title" content="Today in Taylor History | We are Swifties">
-    <meta property="og:url" content="https://we-are-swifties.com/today.html">
-    <meta property="og:image" content="https://we-are-swifties.com/images/og-today.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://we-are-swifties.com/today.html">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
-        .container{max-width:640px;margin:0 auto;padding:2rem 1.5rem}
-        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#fab387);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-        .date-display{text-align:center;font-size:1.1rem;color:#888;margin-bottom:2rem}
-        
-        .event-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:1.5rem;margin-bottom:1rem;animation:fadeIn .5s ease}
-        .event-year{font-size:.8rem;color:#c9a0dc;font-weight:700;margin-bottom:.3rem}
-        .event-emoji{font-size:2rem;margin-bottom:.5rem}
-        .event-title{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
-        .event-desc{font-size:.9rem;color:#aaa;line-height:1.7}
-        
-        .no-event{text-align:center;padding:3rem 1rem}
-        .no-event .emoji{font-size:3rem;margin-bottom:1rem}
-        .no-event p{color:#888;line-height:1.8}
-        
-        .trivia-section{margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06)}
-        .trivia-section h2{font-size:1rem;color:#888;margin-bottom:1rem;text-align:center}
-        .trivia-card{background:rgba(201,160,220,.05);border:1px solid rgba(201,160,220,.1);border-radius:12px;padding:1.2rem;text-align:center}
-        .trivia-card p{font-size:.9rem;line-height:1.7;color:#bbb}
-        
-        .share-row{text-align:center;margin-top:1.5rem}
-        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#e7e9ea;font-size:.85rem;cursor:pointer;transition:all .3s;font-family:inherit;text-decoration:none}
-        .share-btn:hover{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3)}
-        .share-btn svg{width:16px;height:16px}
-        
-        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
-        .back-link:hover{color:#c9a0dc}
-        @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-    
-    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
-    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
-    .tool-nav a:hover{color:#c9a0dc}
-    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
-    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
-
-    </style>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Today in Taylor History", "description": "今日のテイラー・スウィフト関連の出来事", "url": "https://we-are-swifties.com/today.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
-</head>
-<body>
-<nav class="tool-nav">
-    <a class="nav-home" href="index.html">We are Swifties</a>
-    <a href="quiz.html">🎲 診断</a>
-    <a href="lyrics-quiz.html">🎤 クイズ</a>
-    <a href="tierlist.html">📊 Tier</a>
-    <a href="ranking.html">🏆 ランキング</a>
-    <a href="search.html">🔍 検索</a>
-    <a href="quotes.html">✨ 名言</a>
-    <a href="glossary.html">📖 辞典</a>
-</nav>
-    <div class="container">
-        <h1>📅 Today in Taylor History</h1>
-        <div class="date-display" id="dateDisplay"></div>
-        <div id="events"></div>
-        <div class="share-row" id="shareRow"></div>
-        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
-    </div>
-<script>
-const history = {
-    "01-13": [{y:"2024",e:"🎤",t:"Eras Tour 東京ドーム公演発表",d:"日本初の4公演が発表され、日本のSwiftiesが歓喜した日"}],
-    "02-04": [{y:"2024",e:"🏈",t:"スーパーボウル LVIII",d:"トラヴィス・ケルシー出場のスーパーボウルをテイラーが観戦。Chiefs勝利"}],
-    "02-07": [{y:"2024",e:"🏆",t:"第66回グラミー賞4冠",d:"Midnightsがアルバム・オブ・ザ・イヤーを受賞。史上初の4度目"}],
-    "02-08": [{y:"2024",e:"🎤",t:"Eras Tour 東京ドーム Day1",d:"日本公演初日。SNSで「東京ドーム」がトレンド1位に"}],
-    "04-19": [{y:"2024",e:"🪶",t:"TTPD リリース",d:"The Tortured Poets Departmentリリース。初週売上260万枚でBillboard史上最大の初週記録"}],
-    "06-13": [{y:"2015",e:"🍎",t:"Apple Music問題でテイラーが勝利",d:"無料トライアル期間中のロイヤリティ不払いに抗議し、Appleがポリシーを変更した歴史的瞬間"}],
-    "07-10": [{y:"2020",e:"🎬",t:"Netflix「ミス・アメリカーナ」公開",d:"テイラーの半生を追ったドキュメンタリー映画"}],
-    "07-24": [{y:"2020",e:"🍂",t:"folklore リリース",d:"コロナ禍でサプライズリリース。Bon Iverとのコラボが話題に"}],
-    "08-23": [{y:"2019",e:"💕",t:"Lover リリース",d:"「Cruel Summer」「Lover」を収録。テイラーの最もロマンチックなアルバム"}],
-    "08-28": [{y:"2009",e:"🎤",t:"VMAs カニエ事件",d:"テイラーのスピーチ中にカニエ・ウェストがステージに乱入した有名な事件"}],
-    "10-21": [{y:"2022",e:"🌙",t:"Midnights リリース",d:"「Anti-Hero」がBillboard Hot 100で8週連続1位の大ヒット"}],
-    "10-22": [{y:"2012",e:"🧣",t:"Red リリース",d:"「We Are Never Ever Getting Back Together」「22」を収録。初のポップ路線"}],
-    "10-24": [{y:"2006",e:"🌟",t:"デビューアルバム リリース",d:"16歳のテイラーがカントリー界に登場。「Tim McGraw」「Teardrops on My Guitar」を収録"}],
-    "10-25": [{y:"2010",e:"💜",t:"Speak Now リリース",d:"全曲テイラー単独作詞の唯一のアルバム。19歳の傑作"}],
-    "10-27": [{y:"2014",e:"🌊",t:"1989 リリース",d:"カントリーからポップへの完全転向。「Shake It Off」「Blank Space」で世界を制覇"}],
-    "11-10": [{y:"2017",e:"🐍",t:"reputation リリース",d:"SNS炎上からの復活。「Look What You Made Me Do」で新時代を宣言"}],
-    "11-11": [{y:"2008",e:"💛",t:"Fearless リリース",d:"「Love Story」「You Belong with Me」で国民的スターに。グラミーアルバム・オブ・ザ・イヤー最年少受賞"}],
-    "11-12": [{y:"2021",e:"🧣",t:"Red (Taylor's Version) リリース",d:"「All Too Well (10 Minute Version)」のショートフィルムが社会現象に"}],
-    "12-11": [{y:"2020",e:"🤎",t:"evermore リリース",d:"folkoreの姉妹作としてサプライズリリース。「willow」が初登場1位"}],
-    "12-13": [{y:"1989",e:"🎂",t:"テイラー・スウィフト誕生日",d:"ペンシルベニア州ウェストレディングで誕生。ラッキーナンバーは13"}],
-};
-
-const triviaPool = [
-    "テイラーのラッキーナンバーは13🔢 ライブでも手に書いていたことで有名",
-    "「All Too Well」は元々20分以上あったが10分に編集された✂️",
-    "テイラーはグラミー賞を合計14回受賞している🏆",
-    "folkoreはコロナ禍の自宅で約3ヶ月で制作された🏠",
-    "「Shake It Off」のMVは史上初めてYouTubeで24時間に2000万回以上再生されたダンスMV💃",
-    "テイラーの猫の名前はMeredith Grey, Olivia Benson, Benjamin Button🐱",
-    "reputationの蛇のモチーフはSNSで送られた蛇の絵文字への復讐🐍",
-    "「Love Story」はテイラーが自室のベッドで15分で書いた💛",
-    "Eras TourはBillboard集計で史上初めて10億ドルのグロス収入を達成した最初のツアー🎤",
-    "テイラーは13歳でソニーと作曲契約を結んだ。史上最年少のプロ作曲家の一人📝",
-    "「Blank Space」のMVは30億回以上再生され、テイラーの最も視聴されたMV📱",
-    "テイラーはTime誌の2023年パーソン・オブ・ザ・イヤーに選ばれた🕐",
-    "1989 World Tourの「Style」のパフォーマンスではランウェイを歩くセットが使われた👗",
-    "「cardigan」のMVはコロナ対策で少人数クルーで撮影された🎬",
-    "テイラーのEras Tourは世界で1000万人以上を動員した最大のコンサートツアー🌍",
-];
-
-const now = new Date();
-const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
-const dateStr = `${now.getFullYear()}年${months[now.getMonth()]}${now.getDate()}日`;
-document.getElementById('dateDisplay').textContent = dateStr;
-
-const key = String(now.getMonth()+1).padStart(2,'0') + '-' + String(now.getDate()).padStart(2,'0');
-const eventsEl = document.getElementById('events');
-
-if (history[key]) {
-    eventsEl.innerHTML = history[key].map(ev => `
-        <div class="event-card">
-            <div class="event-year">${ev.y}年</div>
-            <div class="event-emoji">${ev.e}</div>
-            <div class="event-title">${ev.t}</div>
-            <div class="event-desc">${ev.d}</div>
-        </div>
-    `).join('');
-} else {
-    // Random trivia
-    const trivia = triviaPool[Math.floor(Math.random() * triviaPool.length)];
-    eventsEl.innerHTML = `
-        <div class="no-event">
-            <div class="emoji">🎵</div>
-            <p>今日はテイラーの記念日ではないけど…</p>
-        </div>
-        <div class="trivia-section">
-            <h2>✨ 今日の豆知識</h2>
-            <div class="trivia-card"><p>${trivia}</p></div>
-        </div>
-    `;
-}
-
-// Share button
-const shareText = history[key] 
-    ? `📅 Today in Taylor History\n\n${history[key][0].e} ${history[key][0].y}年の今日: ${history[key][0].t}\n\n${history[key][0].d}`
-    : `📅 今日のテイラー豆知識\n\n${triviaPool[Math.floor(Math.random()*triviaPool.length)]}`;
-
-document.getElementById('shareRow').innerHTML = `
-    <a class="share-btn" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent('https://we-are-swifties.com/today.html')}&hashtags=TaylorSwift,WeAreSwifties" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-        Xでシェア
-    </a>
-`;
-</script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today in Taylor History | We are Swifties</title>
+    <meta name="description" content="今日のテイラー・スウィフト関連の出来事。アルバムリリース日、受賞歴、記念日を毎日お届け。">
+    <meta property="og:title" content="Today in Taylor History | We are Swifties">
+    <meta property="og:url" content="https://we-are-swifties.com/today.html">
+    <meta property="og:image" content="https://we-are-swifties.com/images/og-today.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/today.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:640px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#fab387);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .date-display{text-align:center;font-size:1.1rem;color:#888;margin-bottom:2rem}
+        
+        .event-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:1.5rem;margin-bottom:1rem;animation:fadeIn .5s ease}
+        .event-year{font-size:.8rem;color:#c9a0dc;font-weight:700;margin-bottom:.3rem}
+        .event-emoji{font-size:2rem;margin-bottom:.5rem}
+        .event-title{font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
+        .event-desc{font-size:.9rem;color:#aaa;line-height:1.7}
+        
+        .no-event{text-align:center;padding:3rem 1rem}
+        .no-event .emoji{font-size:3rem;margin-bottom:1rem}
+        .no-event p{color:#888;line-height:1.8}
+        
+        .trivia-section{margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06)}
+        .trivia-section h2{font-size:1rem;color:#888;margin-bottom:1rem;text-align:center}
+        .trivia-card{background:rgba(201,160,220,.05);border:1px solid rgba(201,160,220,.1);border-radius:12px;padding:1.2rem;text-align:center}
+        .trivia-card p{font-size:.9rem;line-height:1.7;color:#bbb}
+        
+        .share-row{text-align:center;margin-top:1.5rem}
+        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#e7e9ea;font-size:.85rem;cursor:pointer;transition:all .3s;font-family:inherit;text-decoration:none}
+        .share-btn:hover{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3)}
+        .share-btn svg{width:16px;height:16px}
+        
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+        @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    
+    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
+    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
+    .tool-nav a:hover{color:#c9a0dc}
+    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
+    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
+
+    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Today in Taylor History", "description": "今日のテイラー・スウィフト関連の出来事", "url": "https://we-are-swifties.com/today.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
+</head>
+<body>
+<nav class="tool-nav">
+    <a class="nav-home" href="index.html">We are Swifties</a>
+    <a href="quiz.html">🎲 診断</a>
+    <a href="lyrics-quiz.html">🎤 クイズ</a>
+    <a href="tierlist.html">📊 Tier</a>
+    <a href="ranking.html">🏆 ランキング</a>
+    <a href="search.html">🔍 検索</a>
+    <a href="quotes.html">✨ 名言</a>
+    <a href="glossary.html">📖 辞典</a>
+</nav>
+    <div class="container">
+        <h1>📅 Today in Taylor History</h1>
+        <div class="date-display" id="dateDisplay"></div>
+        <div id="events"></div>
+        <div class="share-row" id="shareRow"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+<script>
+const history = {
+    "01-13": [{y:"2024",e:"🎤",t:"Eras Tour 東京ドーム公演発表",d:"日本初の4公演が発表され、日本のSwiftiesが歓喜した日"}],
+    "02-04": [{y:"2024",e:"🏈",t:"スーパーボウル LVIII",d:"トラヴィス・ケルシー出場のスーパーボウルをテイラーが観戦。Chiefs勝利"}],
+    "02-07": [{y:"2024",e:"🏆",t:"第66回グラミー賞4冠",d:"Midnightsがアルバム・オブ・ザ・イヤーを受賞。史上初の4度目"}],
+    "02-08": [{y:"2024",e:"🎤",t:"Eras Tour 東京ドーム Day1",d:"日本公演初日。SNSで「東京ドーム」がトレンド1位に"}],
+    "04-19": [{y:"2024",e:"🪶",t:"TTPD リリース",d:"The Tortured Poets Departmentリリース。初週売上260万枚でBillboard史上最大の初週記録"}],
+    "06-13": [{y:"2015",e:"🍎",t:"Apple Music問題でテイラーが勝利",d:"無料トライアル期間中のロイヤリティ不払いに抗議し、Appleがポリシーを変更した歴史的瞬間"}],
+    "07-10": [{y:"2020",e:"🎬",t:"Netflix「ミス・アメリカーナ」公開",d:"テイラーの半生を追ったドキュメンタリー映画"}],
+    "07-24": [{y:"2020",e:"🍂",t:"folklore リリース",d:"コロナ禍でサプライズリリース。Bon Iverとのコラボが話題に"}],
+    "08-23": [{y:"2019",e:"💕",t:"Lover リリース",d:"「Cruel Summer」「Lover」を収録。テイラーの最もロマンチックなアルバム"}],
+    "08-28": [{y:"2009",e:"🎤",t:"VMAs カニエ事件",d:"テイラーのスピーチ中にカニエ・ウェストがステージに乱入した有名な事件"}],
+    "10-21": [{y:"2022",e:"🌙",t:"Midnights リリース",d:"「Anti-Hero」がBillboard Hot 100で8週連続1位の大ヒット"}],
+    "10-22": [{y:"2012",e:"🧣",t:"Red リリース",d:"「We Are Never Ever Getting Back Together」「22」を収録。初のポップ路線"}],
+    "10-24": [{y:"2006",e:"🌟",t:"デビューアルバム リリース",d:"16歳のテイラーがカントリー界に登場。「Tim McGraw」「Teardrops on My Guitar」を収録"}],
+    "10-25": [{y:"2010",e:"💜",t:"Speak Now リリース",d:"全曲テイラー単独作詞の唯一のアルバム。19歳の傑作"}],
+    "10-27": [{y:"2014",e:"🌊",t:"1989 リリース",d:"カントリーからポップへの完全転向。「Shake It Off」「Blank Space」で世界を制覇"}],
+    "11-10": [{y:"2017",e:"🐍",t:"reputation リリース",d:"SNS炎上からの復活。「Look What You Made Me Do」で新時代を宣言"}],
+    "11-11": [{y:"2008",e:"💛",t:"Fearless リリース",d:"「Love Story」「You Belong with Me」で国民的スターに。グラミーアルバム・オブ・ザ・イヤー最年少受賞"}],
+    "11-12": [{y:"2021",e:"🧣",t:"Red (Taylor's Version) リリース",d:"「All Too Well (10 Minute Version)」のショートフィルムが社会現象に"}],
+    "12-11": [{y:"2020",e:"🤎",t:"evermore リリース",d:"folkoreの姉妹作としてサプライズリリース。「willow」が初登場1位"}],
+    "12-13": [{y:"1989",e:"🎂",t:"テイラー・スウィフト誕生日",d:"ペンシルベニア州ウェストレディングで誕生。ラッキーナンバーは13"}],
+};
+
+const triviaPool = [
+    "テイラーのラッキーナンバーは13🔢 ライブでも手に書いていたことで有名",
+    "「All Too Well」は元々20分以上あったが10分に編集された✂️",
+    "テイラーはグラミー賞を合計14回受賞している🏆",
+    "folkoreはコロナ禍の自宅で約3ヶ月で制作された🏠",
+    "「Shake It Off」のMVは史上初めてYouTubeで24時間に2000万回以上再生されたダンスMV💃",
+    "テイラーの猫の名前はMeredith Grey, Olivia Benson, Benjamin Button🐱",
+    "reputationの蛇のモチーフはSNSで送られた蛇の絵文字への復讐🐍",
+    "「Love Story」はテイラーが自室のベッドで15分で書いた💛",
+    "Eras TourはBillboard集計で史上初めて10億ドルのグロス収入を達成した最初のツアー🎤",
+    "テイラーは13歳でソニーと作曲契約を結んだ。史上最年少のプロ作曲家の一人📝",
+    "「Blank Space」のMVは30億回以上再生され、テイラーの最も視聴されたMV📱",
+    "テイラーはTime誌の2023年パーソン・オブ・ザ・イヤーに選ばれた🕐",
+    "1989 World Tourの「Style」のパフォーマンスではランウェイを歩くセットが使われた👗",
+    "「cardigan」のMVはコロナ対策で少人数クルーで撮影された🎬",
+    "テイラーのEras Tourは世界で1000万人以上を動員した最大のコンサートツアー🌍",
+];
+
+const now = new Date();
+const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+const dateStr = `${now.getFullYear()}年${months[now.getMonth()]}${now.getDate()}日`;
+document.getElementById('dateDisplay').textContent = dateStr;
+
+const key = String(now.getMonth()+1).padStart(2,'0') + '-' + String(now.getDate()).padStart(2,'0');
+const eventsEl = document.getElementById('events');
+
+if (history[key]) {
+    eventsEl.innerHTML = history[key].map(ev => `
+        <div class="event-card">
+            <div class="event-year">${ev.y}年</div>
+            <div class="event-emoji">${ev.e}</div>
+            <div class="event-title">${ev.t}</div>
+            <div class="event-desc">${ev.d}</div>
+        </div>
+    `).join('');
+} else {
+    // Random trivia
+    const trivia = triviaPool[Math.floor(Math.random() * triviaPool.length)];
+    eventsEl.innerHTML = `
+        <div class="no-event">
+            <div class="emoji">🎵</div>
+            <p>今日はテイラーの記念日ではないけど…</p>
+        </div>
+        <div class="trivia-section">
+            <h2>✨ 今日の豆知識</h2>
+            <div class="trivia-card"><p>${trivia}</p></div>
+        </div>
+    `;
+}
+
+// Share button
+const shareText = history[key] 
+    ? `📅 Today in Taylor History\n\n${history[key][0].e} ${history[key][0].y}年の今日: ${history[key][0].t}\n\n${history[key][0].d}`
+    : `📅 今日のテイラー豆知識\n\n${triviaPool[Math.floor(Math.random()*triviaPool.length)]}`;
+
+document.getElementById('shareRow').innerHTML = `
+    <a class="share-btn" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent('https://we-are-swifties.com/today.html')}&hashtags=TaylorSwift,WeAreSwifties" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Xでシェア
+    </a>
+`;
+</script>
+<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
+</body>
+</html>

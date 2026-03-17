@@ -1,223 +1,224 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>アルバム Tier List メーカー | We are Swifties</title>
-    <meta name="description" content="テイラー・スウィフトの全アルバムをS/A/B/C/Dにランク付け！あなたのTier Listを作ってXでシェアしよう。">
-    <meta property="og:title" content="アルバム Tier List メーカー | We are Swifties">
-    <meta property="og:description" content="テイラー全アルバムをランク付け📊 あなたのTier Listは？">
-    <meta property="og:url" content="https://we-are-swifties.com/tierlist.html">
-    <meta property="og:image" content="https://we-are-swifties.com/images/og-ranking.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://we-are-swifties.com/tierlist.html">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
-        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
-        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#fab387);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
-        .instruction{text-align:center;color:#666;font-size:.8rem;margin-bottom:1.2rem}
-        
-        .tier-row{display:flex;align-items:stretch;margin-bottom:4px;min-height:60px}
-        .tier-label{width:48px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.2rem;border-radius:8px 0 0 8px;flex-shrink:0}
-        .tier-s .tier-label{background:rgba(255,80,80,.2);color:#ff5050}
-        .tier-a .tier-label{background:rgba(255,160,60,.2);color:#ffa03c}
-        .tier-b .tier-label{background:rgba(255,220,60,.2);color:#ffdc3c}
-        .tier-c .tier-label{background:rgba(60,200,120,.2);color:#3cc878}
-        .tier-d .tier-label{background:rgba(100,140,200,.2);color:#648cc8}
-        
-        .tier-content{flex:1;display:flex;flex-wrap:wrap;gap:4px;padding:6px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-left:none;border-radius:0 8px 8px 0;min-height:50px;align-items:center;align-content:flex-start}
-        
-        .album-pool{margin-top:1.5rem;padding:1rem;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-radius:10px;min-height:60px}
-        .pool-label{font-size:.8rem;color:#666;margin-bottom:.5rem;text-align:center}
-        .pool-items{display:flex;flex-wrap:wrap;gap:4px;justify-content:center}
-        
-        .album-chip{padding:6px 12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:8px;font-size:.75rem;font-weight:600;cursor:grab;transition:all .2s;user-select:none;white-space:nowrap}
-        .album-chip:active{cursor:grabbing;opacity:.7}
-        .album-chip.dragging{opacity:.3}
-        
-        .album-chip[data-album="debut"]{border-color:rgba(100,200,140,.3);color:#78d8a0}
-        .album-chip[data-album="fearless"]{border-color:rgba(232,199,121,.3);color:#e8c779}
-        .album-chip[data-album="speaknow"]{border-color:rgba(200,160,232,.3);color:#c8a0e8}
-        .album-chip[data-album="red"]{border-color:rgba(232,80,80,.3);color:#e85050}
-        .album-chip[data-album="1989"]{border-color:rgba(122,200,232,.3);color:#7ac8e8}
-        .album-chip[data-album="reputation"]{border-color:rgba(160,184,160,.3);color:#a0b8a0}
-        .album-chip[data-album="lover"]{border-color:rgba(240,160,208,.3);color:#f0a0d0}
-        .album-chip[data-album="folklore"]{border-color:rgba(192,192,200,.3);color:#c0c0c8}
-        .album-chip[data-album="evermore"]{border-color:rgba(200,168,112,.3);color:#c8a870}
-        .album-chip[data-album="midnights"]{border-color:rgba(122,140,200,.3);color:#7a8cc8}
-        .album-chip[data-album="ttpd"]{border-color:rgba(180,140,200,.3);color:#b48cc8}
-        
-        .btn-row{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem}
-        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.9rem;font-weight:700;cursor:pointer;font-family:inherit;text-decoration:none}
-        .share-btn:hover{opacity:.9;transform:translateY(-1px)}
-        .share-btn svg{width:16px;height:16px}
-        .copy-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#aaa;font-size:.9rem;cursor:pointer;font-family:inherit}
-        .copy-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}
-        .reset-btn{padding:12px 24px;background:none;border:1px solid rgba(255,255,255,.08);border-radius:50px;color:#666;font-size:.85rem;cursor:pointer;font-family:inherit}
-        .reset-btn:hover{border-color:rgba(255,255,255,.2);color:#aaa}
-        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
-        .back-link:hover{color:#c9a0dc}
-        .toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:rgba(201,160,220,.9);color:#0a0a0f;padding:10px 24px;border-radius:50px;font-size:.85rem;font-weight:700;opacity:0;transition:opacity .3s;pointer-events:none}
-        .toast.show{opacity:1}
-    
-    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
-    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
-    .tool-nav a:hover{color:#c9a0dc}
-    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
-    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
-
-    </style>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "アルバム Tier List メーカー", "description": "テイラーの全アルバムをS/A/B/C/Dにランク付け", "url": "https://we-are-swifties.com/tierlist.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
-</head>
-<body>
-<nav class="tool-nav">
-    <a class="nav-home" href="index.html">We are Swifties</a>
-    <a href="quiz.html">🎲 診断</a>
-    <a href="lyrics-quiz.html">🎤 クイズ</a>
-    <a href="tierlist.html">📊 Tier</a>
-    <a href="ranking.html">🏆 ランキング</a>
-    <a href="search.html">🔍 検索</a>
-    <a href="quotes.html">✨ 名言</a>
-    <a href="glossary.html">📖 辞典</a>
-</nav>
-    <div class="container">
-        <h1>📊 アルバム Tier List</h1>
-        <p class="subtitle">ドラッグ&ドロップでアルバムをランク付け</p>
-        <p class="instruction">下のアルバムをティアに配置してね</p>
-        
-        <div class="tier-row tier-s"><div class="tier-label">S</div><div class="tier-content" data-tier="S"></div></div>
-        <div class="tier-row tier-a"><div class="tier-label">A</div><div class="tier-content" data-tier="A"></div></div>
-        <div class="tier-row tier-b"><div class="tier-label">B</div><div class="tier-content" data-tier="B"></div></div>
-        <div class="tier-row tier-c"><div class="tier-label">C</div><div class="tier-content" data-tier="C"></div></div>
-        <div class="tier-row tier-d"><div class="tier-label">D</div><div class="tier-content" data-tier="D"></div></div>
-        
-        <div class="album-pool">
-            <div class="pool-label">⬇ アルバムをティアにドラッグ</div>
-            <div class="pool-items" id="pool"></div>
-        </div>
-        
-        <div class="btn-row" id="btnRow"></div>
-        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
-    </div>
-    <div class="toast" id="toast">コピーしました！</div>
-<script>
-const albums = [
-    {id:'debut',name:'🌟 Debut'},
-    {id:'fearless',name:'💛 Fearless'},
-    {id:'speaknow',name:'💜 Speak Now'},
-    {id:'red',name:'🧣 Red'},
-    {id:'1989',name:'🌊 1989'},
-    {id:'reputation',name:'🐍 reputation'},
-    {id:'lover',name:'💕 Lover'},
-    {id:'folklore',name:'🍂 folklore'},
-    {id:'evermore',name:'🤎 evermore'},
-    {id:'midnights',name:'🌙 Midnights'},
-    {id:'ttpd',name:'🪶 TTPD'},
-];
-
-const pool = document.getElementById('pool');
-let dragItem = null;
-
-function init() {
-    pool.innerHTML = '';
-    document.querySelectorAll('.tier-content').forEach(t => t.innerHTML = '');
-    albums.forEach(a => {
-        const chip = makeChip(a);
-        pool.appendChild(chip);
-    });
-    updateButtons();
-}
-
-function makeChip(a) {
-    const el = document.createElement('div');
-    el.className = 'album-chip';
-    el.dataset.album = a.id;
-    el.dataset.name = a.name;
-    el.textContent = a.name;
-    el.draggable = true;
-    
-    el.addEventListener('dragstart', e => {
-        dragItem = el;
-        el.classList.add('dragging');
-        e.dataTransfer.effectAllowed = 'move';
-    });
-    el.addEventListener('dragend', () => {
-        el.classList.remove('dragging');
-        updateButtons();
-    });
-    
-    // Touch
-    el.addEventListener('touchstart', e => { dragItem = el; el.classList.add('dragging'); }, {passive:true});
-    el.addEventListener('touchmove', e => {
-        e.preventDefault();
-        const t = e.touches[0];
-        const target = document.elementFromPoint(t.clientX, t.clientY);
-        if (target) {
-            const tier = target.closest('.tier-content') || target.closest('.pool-items');
-            if (tier && dragItem) tier.appendChild(dragItem);
-        }
-    }, {passive:false});
-    el.addEventListener('touchend', () => {
-        if (dragItem) dragItem.classList.remove('dragging');
-        dragItem = null;
-        updateButtons();
-    });
-    
-    return el;
-}
-
-// Drop zones
-document.querySelectorAll('.tier-content, .pool-items').forEach(zone => {
-    zone.addEventListener('dragover', e => { e.preventDefault(); });
-    zone.addEventListener('drop', e => {
-        e.preventDefault();
-        if (dragItem) zone.appendChild(dragItem);
-        updateButtons();
-    });
-});
-
-function getTierText() {
-    let text = '📊 My Taylor Swift Tier List\n\n';
-    ['S','A','B','C','D'].forEach(tier => {
-        const zone = document.querySelector(`[data-tier="${tier}"]`);
-        const items = zone.querySelectorAll('.album-chip');
-        if (items.length) {
-            text += `${tier}: ${[...items].map(i => i.dataset.name).join(' ')}\n`;
-        }
-    });
-    text += '\nあなたも作ってみて👇';
-    return text;
-}
-
-function updateButtons() {
-    const placed = document.querySelectorAll('.tier-content .album-chip').length;
-    if (placed === 0) {
-        document.getElementById('btnRow').innerHTML = '';
-        return;
-    }
-    const text = getTierText();
-    const enc = encodeURIComponent(text);
-    const url = encodeURIComponent('https://we-are-swifties.com/tierlist.html');
-    document.getElementById('btnRow').innerHTML = `
-        <a class="share-btn" href="https://twitter.com/intent/tweet?text=${enc}&url=${url}&hashtags=TaylorSwift,WeAreSwifties" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Xでシェア
-        </a>
-        <button class="copy-btn" onclick="copyTier()">📋 コピー</button>
-        <button class="reset-btn" onclick="init()">🔄 リセット</button>`;
-}
-
-function copyTier() {
-    navigator.clipboard.writeText(getTierText()).then(() => {
-        const t = document.getElementById('toast');
-        t.classList.add('show');
-        setTimeout(() => t.classList.remove('show'), 2000);
-    });
-}
-
-init();
-</script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アルバム Tier List メーカー | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフトの全アルバムをS/A/B/C/Dにランク付け！あなたのTier Listを作ってXでシェアしよう。">
+    <meta property="og:title" content="アルバム Tier List メーカー | We are Swifties">
+    <meta property="og:description" content="テイラー全アルバムをランク付け📊 あなたのTier Listは？">
+    <meta property="og:url" content="https://we-are-swifties.com/tierlist.html">
+    <meta property="og:image" content="https://we-are-swifties.com/images/og-ranking.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/tierlist.html">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#fab387);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
+        .instruction{text-align:center;color:#666;font-size:.8rem;margin-bottom:1.2rem}
+        
+        .tier-row{display:flex;align-items:stretch;margin-bottom:4px;min-height:60px}
+        .tier-label{width:48px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.2rem;border-radius:8px 0 0 8px;flex-shrink:0}
+        .tier-s .tier-label{background:rgba(255,80,80,.2);color:#ff5050}
+        .tier-a .tier-label{background:rgba(255,160,60,.2);color:#ffa03c}
+        .tier-b .tier-label{background:rgba(255,220,60,.2);color:#ffdc3c}
+        .tier-c .tier-label{background:rgba(60,200,120,.2);color:#3cc878}
+        .tier-d .tier-label{background:rgba(100,140,200,.2);color:#648cc8}
+        
+        .tier-content{flex:1;display:flex;flex-wrap:wrap;gap:4px;padding:6px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-left:none;border-radius:0 8px 8px 0;min-height:50px;align-items:center;align-content:flex-start}
+        
+        .album-pool{margin-top:1.5rem;padding:1rem;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-radius:10px;min-height:60px}
+        .pool-label{font-size:.8rem;color:#666;margin-bottom:.5rem;text-align:center}
+        .pool-items{display:flex;flex-wrap:wrap;gap:4px;justify-content:center}
+        
+        .album-chip{padding:6px 12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:8px;font-size:.75rem;font-weight:600;cursor:grab;transition:all .2s;user-select:none;white-space:nowrap}
+        .album-chip:active{cursor:grabbing;opacity:.7}
+        .album-chip.dragging{opacity:.3}
+        
+        .album-chip[data-album="debut"]{border-color:rgba(100,200,140,.3);color:#78d8a0}
+        .album-chip[data-album="fearless"]{border-color:rgba(232,199,121,.3);color:#e8c779}
+        .album-chip[data-album="speaknow"]{border-color:rgba(200,160,232,.3);color:#c8a0e8}
+        .album-chip[data-album="red"]{border-color:rgba(232,80,80,.3);color:#e85050}
+        .album-chip[data-album="1989"]{border-color:rgba(122,200,232,.3);color:#7ac8e8}
+        .album-chip[data-album="reputation"]{border-color:rgba(160,184,160,.3);color:#a0b8a0}
+        .album-chip[data-album="lover"]{border-color:rgba(240,160,208,.3);color:#f0a0d0}
+        .album-chip[data-album="folklore"]{border-color:rgba(192,192,200,.3);color:#c0c0c8}
+        .album-chip[data-album="evermore"]{border-color:rgba(200,168,112,.3);color:#c8a870}
+        .album-chip[data-album="midnights"]{border-color:rgba(122,140,200,.3);color:#7a8cc8}
+        .album-chip[data-album="ttpd"]{border-color:rgba(180,140,200,.3);color:#b48cc8}
+        
+        .btn-row{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem}
+        .share-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.9rem;font-weight:700;cursor:pointer;font-family:inherit;text-decoration:none}
+        .share-btn:hover{opacity:.9;transform:translateY(-1px)}
+        .share-btn svg{width:16px;height:16px}
+        .copy-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#aaa;font-size:.9rem;cursor:pointer;font-family:inherit}
+        .copy-btn:hover{background:rgba(255,255,255,.1);color:#e7e9ea}
+        .reset-btn{padding:12px 24px;background:none;border:1px solid rgba(255,255,255,.08);border-radius:50px;color:#666;font-size:.85rem;cursor:pointer;font-family:inherit}
+        .reset-btn:hover{border-color:rgba(255,255,255,.2);color:#aaa}
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+        .toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:rgba(201,160,220,.9);color:#0a0a0f;padding:10px 24px;border-radius:50px;font-size:.85rem;font-weight:700;opacity:0;transition:opacity .3s;pointer-events:none}
+        .toast.show{opacity:1}
+    
+    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
+    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
+    .tool-nav a:hover{color:#c9a0dc}
+    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
+    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
+
+    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "アルバム Tier List メーカー", "description": "テイラーの全アルバムをS/A/B/C/Dにランク付け", "url": "https://we-are-swifties.com/tierlist.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
+</head>
+<body>
+<nav class="tool-nav">
+    <a class="nav-home" href="index.html">We are Swifties</a>
+    <a href="quiz.html">🎲 診断</a>
+    <a href="lyrics-quiz.html">🎤 クイズ</a>
+    <a href="tierlist.html">📊 Tier</a>
+    <a href="ranking.html">🏆 ランキング</a>
+    <a href="search.html">🔍 検索</a>
+    <a href="quotes.html">✨ 名言</a>
+    <a href="glossary.html">📖 辞典</a>
+</nav>
+    <div class="container">
+        <h1>📊 アルバム Tier List</h1>
+        <p class="subtitle">ドラッグ&ドロップでアルバムをランク付け</p>
+        <p class="instruction">下のアルバムをティアに配置してね</p>
+        
+        <div class="tier-row tier-s"><div class="tier-label">S</div><div class="tier-content" data-tier="S"></div></div>
+        <div class="tier-row tier-a"><div class="tier-label">A</div><div class="tier-content" data-tier="A"></div></div>
+        <div class="tier-row tier-b"><div class="tier-label">B</div><div class="tier-content" data-tier="B"></div></div>
+        <div class="tier-row tier-c"><div class="tier-label">C</div><div class="tier-content" data-tier="C"></div></div>
+        <div class="tier-row tier-d"><div class="tier-label">D</div><div class="tier-content" data-tier="D"></div></div>
+        
+        <div class="album-pool">
+            <div class="pool-label">⬇ アルバムをティアにドラッグ</div>
+            <div class="pool-items" id="pool"></div>
+        </div>
+        
+        <div class="btn-row" id="btnRow"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+    <div class="toast" id="toast">コピーしました！</div>
+<script>
+const albums = [
+    {id:'debut',name:'🌟 Debut'},
+    {id:'fearless',name:'💛 Fearless'},
+    {id:'speaknow',name:'💜 Speak Now'},
+    {id:'red',name:'🧣 Red'},
+    {id:'1989',name:'🌊 1989'},
+    {id:'reputation',name:'🐍 reputation'},
+    {id:'lover',name:'💕 Lover'},
+    {id:'folklore',name:'🍂 folklore'},
+    {id:'evermore',name:'🤎 evermore'},
+    {id:'midnights',name:'🌙 Midnights'},
+    {id:'ttpd',name:'🪶 TTPD'},
+];
+
+const pool = document.getElementById('pool');
+let dragItem = null;
+
+function init() {
+    pool.innerHTML = '';
+    document.querySelectorAll('.tier-content').forEach(t => t.innerHTML = '');
+    albums.forEach(a => {
+        const chip = makeChip(a);
+        pool.appendChild(chip);
+    });
+    updateButtons();
+}
+
+function makeChip(a) {
+    const el = document.createElement('div');
+    el.className = 'album-chip';
+    el.dataset.album = a.id;
+    el.dataset.name = a.name;
+    el.textContent = a.name;
+    el.draggable = true;
+    
+    el.addEventListener('dragstart', e => {
+        dragItem = el;
+        el.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+    });
+    el.addEventListener('dragend', () => {
+        el.classList.remove('dragging');
+        updateButtons();
+    });
+    
+    // Touch
+    el.addEventListener('touchstart', e => { dragItem = el; el.classList.add('dragging'); }, {passive:true});
+    el.addEventListener('touchmove', e => {
+        e.preventDefault();
+        const t = e.touches[0];
+        const target = document.elementFromPoint(t.clientX, t.clientY);
+        if (target) {
+            const tier = target.closest('.tier-content') || target.closest('.pool-items');
+            if (tier && dragItem) tier.appendChild(dragItem);
+        }
+    }, {passive:false});
+    el.addEventListener('touchend', () => {
+        if (dragItem) dragItem.classList.remove('dragging');
+        dragItem = null;
+        updateButtons();
+    });
+    
+    return el;
+}
+
+// Drop zones
+document.querySelectorAll('.tier-content, .pool-items').forEach(zone => {
+    zone.addEventListener('dragover', e => { e.preventDefault(); });
+    zone.addEventListener('drop', e => {
+        e.preventDefault();
+        if (dragItem) zone.appendChild(dragItem);
+        updateButtons();
+    });
+});
+
+function getTierText() {
+    let text = '📊 My Taylor Swift Tier List\n\n';
+    ['S','A','B','C','D'].forEach(tier => {
+        const zone = document.querySelector(`[data-tier="${tier}"]`);
+        const items = zone.querySelectorAll('.album-chip');
+        if (items.length) {
+            text += `${tier}: ${[...items].map(i => i.dataset.name).join(' ')}\n`;
+        }
+    });
+    text += '\nあなたも作ってみて👇';
+    return text;
+}
+
+function updateButtons() {
+    const placed = document.querySelectorAll('.tier-content .album-chip').length;
+    if (placed === 0) {
+        document.getElementById('btnRow').innerHTML = '';
+        return;
+    }
+    const text = getTierText();
+    const enc = encodeURIComponent(text);
+    const url = encodeURIComponent('https://we-are-swifties.com/tierlist.html');
+    document.getElementById('btnRow').innerHTML = `
+        <a class="share-btn" href="https://twitter.com/intent/tweet?text=${enc}&url=${url}&hashtags=TaylorSwift,WeAreSwifties" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Xでシェア
+        </a>
+        <button class="copy-btn" onclick="copyTier()">📋 コピー</button>
+        <button class="reset-btn" onclick="init()">🔄 リセット</button>`;
+}
+
+function copyTier() {
+    navigator.clipboard.writeText(getTierText()).then(() => {
+        const t = document.getElementById('toast');
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), 2000);
+    });
+}
+
+init();
+</script>
+<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
+</body>
+</html>

@@ -1,624 +1,625 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
-    <title>Travis Kelce（トラビス・ケルシー）完全ガイド — テイラーが愛した男 | We are スウィフティーズ</title>
-    <meta name="description" content="Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-primary: #0a0a12;
-            --bg-card: #12121e;
-            --text-primary: #e8e6f0;
-            --text-secondary: #9d9bb0;
-            --accent: #e53e3e;
-            --accent-light: #fc8181;
-            --accent-gold: #fbbf24;
-            --chiefs-red: #e31837;
-            --chiefs-gold: #ffb81c;
-            --gradient-chiefs: linear-gradient(135deg, #e31837 0%, #ffb81c 100%);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans JP', 'Inter', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.8;
-        }
-
-        /* Hero */
-        .hero {
-            position: relative;
-            min-height: 50vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: linear-gradient(180deg, #0a0a12 0%, #1a0a0a 50%, #0a0a12 100%);
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background:
-                radial-gradient(ellipse at 30% 50%, rgba(227, 24, 55, 0.08) 0%, transparent 50%),
-                radial-gradient(ellipse at 70% 50%, rgba(255, 184, 28, 0.06) 0%, transparent 50%);
-            animation: shimmer 8s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% {
-                transform: translateX(-3%) translateY(-3%);
-            }
-
-            100% {
-                transform: translateX(3%) translateY(3%);
-            }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 2rem;
-        }
-
-        .hero-number {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(5rem, 15vw, 10rem);
-            font-weight: 900;
-            background: var(--gradient-chiefs);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1;
-            margin-bottom: 0.5rem;
-        }
-
-        .hero-name {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(1.5rem, 4vw, 2.5rem);
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 0.3rem;
-        }
-
-        .hero-sub {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            font-style: italic;
-        }
-
-        .hero-badge {
-            display: inline-block;
-            margin-top: 1rem;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--chiefs-gold);
-            border: 1px solid rgba(255, 184, 28, 0.3);
-            padding: 0.4rem 1.2rem;
-            border-radius: 100px;
-            letter-spacing: 0.05em;
-        }
-
-        /* Main */
-        .main-content {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem 6rem;
-        }
-
-        /* Cards */
-        .info-card {
-            background: var(--bg-card);
-            border: 1px solid rgba(227, 24, 55, 0.15);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2.5rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .info-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--gradient-chiefs);
-        }
-
-        .info-card h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--chiefs-gold);
-            margin-bottom: 1.2rem;
-        }
-
-        .info-card p {
-            font-size: 0.92rem;
-            color: var(--text-secondary);
-            line-height: 2;
-            margin-bottom: 1rem;
-        }
-
-        .info-card .keyword {
-            color: var(--chiefs-gold);
-            font-weight: 500;
-        }
-
-        /* Stats Grid */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-
-        .stat-item {
-            background: rgba(227, 24, 55, 0.06);
-            border: 1px solid rgba(227, 24, 55, 0.12);
-            border-radius: 12px;
-            padding: 1.2rem 1rem;
-            text-align: center;
-        }
-
-        .stat-value {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--chiefs-gold);
-            display: block;
-        }
-
-        .stat-label {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            letter-spacing: 0.05em;
-            margin-top: 0.2rem;
-        }
-
-        /* Timeline */
-        .timeline {
-            position: relative;
-            padding-left: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: linear-gradient(180deg, var(--chiefs-red), var(--chiefs-gold));
-            border-radius: 1px;
-        }
-
-        .timeline-item {
-            position: relative;
-            padding-bottom: 1.2rem;
-            padding-left: 1.2rem;
-        }
-
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: -1.75rem;
-            top: 0.5rem;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: var(--chiefs-red);
-            border: 2px solid var(--bg-card);
-        }
-
-        .timeline-date {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 600;
-            color: var(--chiefs-gold);
-            letter-spacing: 0.05em;
-        }
-
-        .timeline-text {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        .timeline-text strong {
-            color: var(--text-primary);
-        }
-
-        /* Table */
-        .records-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1.5rem 0;
-            font-size: 0.85rem;
-        }
-
-        .records-table th {
-            text-align: left;
-            padding: 0.6rem 0.8rem;
-            color: var(--chiefs-gold);
-            border-bottom: 1px solid rgba(227, 24, 55, 0.2);
-            font-weight: 600;
-            font-size: 0.75rem;
-            letter-spacing: 0.05em;
-        }
-
-        .records-table td {
-            padding: 0.5rem 0.8rem;
-            color: var(--text-secondary);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-        }
-
-        .records-table td:last-child {
-            color: var(--chiefs-gold);
-            font-weight: 600;
-        }
-
-        /* Back Link */
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            padding: 0.5rem 0;
-            margin-bottom: 1.5rem;
-            transition: color 0.2s;
-        }
-
-        .back-link:hover {
-            color: var(--chiefs-gold);
-        }
-
-        /* Footer */
-        .article-footer {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(227, 24, 55, 0.1);
-            text-align: center;
-        }
-
-        .article-footer .site-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            background: var(--gradient-chiefs);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-        }
-
-        .article-footer .copyright {
-            font-size: 0.7rem;
-            color: #5a5872;
-        }
-
-        @media (max-width: 600px) {
-            .main-content {
-                padding: 2rem 1rem 4rem;
-            }
-
-            .info-card {
-                padding: 1.5rem;
-            }
-
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    
-        /* Global Nav */
-        .global-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-            padding: 1rem 1.5rem;
-            background: rgba(12, 8, 6, 0.95);
-            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .global-nav a {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.75rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-        .global-nav a.nav-home {
-            font-family: 'Playfair Display', serif;
-            font-size: 0.9rem;
-            font-weight: 700;
-            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0;
-            text-transform: none;
-        }
-
-        @media (max-width: 600px) {
-            .global-nav { gap: 1rem; flex-wrap: wrap; }
-            .global-nav a { font-size: 0.65rem; }
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-links a {
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
-
-    </style>
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PESZB0HW0B');
-    </script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Travis 歌詞・和訳・徹底解説","description":"Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。","image":"https://we-are-swifties.com/images/ogp-card.png","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/travis-kelce.html","about":{"@type":"MusicComposition","name":"Travis","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Taylor Swift","datePublished":"2024"}}}
-</script>
-    <link rel="canonical" href="https://we-are-swifties.com/travis-kelce.html">
-    <meta property="og:url" content="https://we-are-swifties.com/travis-kelce.html">
-    <meta property="og:type" content="article"><meta property="og:title" content="Travis Kelce（トラビス・ケルシー）完全ガイド — テイラーが愛した男 | We are スウィフティーズ"><meta property="og:description" content="Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。"><meta property="og:url" content="https://we-are-swifties.com/travis-kelce.html"><meta name="twitter:card" content="summary_large_image">
-</head>
-
-<body>
-    <nav class="global-nav">
-        <a href="index.html" class="nav-home">We are Swifties</a>
-        <a href="index.html">曲一覧</a>
-        <a href="about.html">運営者情報</a>
-        <a href="contact.html">お問い合わせ</a>
-    </nav>
-
-
-    <section class="hero">
-        <div class="hero-content">
-            <div class="hero-number">87</div>
-            <h1 class="hero-name">Travis Kelce</h1>
-            <p class="hero-sub">トラビス・マイケル・ケルシー</p>
-            <span class="hero-badge">Kansas City Chiefs — Tight End</span>
-        </div>
-    </section>
-
-    <main class="main-content">
-
-        <a href="opalite.html" class="back-link">← Opalite 歌詞・和訳ページに戻る</a>
-
-        <!-- Basic Profile -->
-        <div class="info-card">
-            <h2>🏈 プロフィール</h2>
-
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <span class="stat-value">87</span>
-                    <span class="stat-label">背番号</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">3×</span>
-                    <span class="stat-label">スーパーボウル制覇</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">1,004</span>
-                    <span class="stat-label">キャリア レセプション</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">12,151</span>
-                    <span class="stat-label">キャリア ヤード</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">77</span>
-                    <span class="stat-label">TD（タッチダウン）</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">10</span>
-                    <span class="stat-label">プロボウル選出</span>
-                </div>
-            </div>
-
-            <p>
-                <span class="keyword">Travis Michael Kelce</span>（1989年10月5日、オハイオ州ウェストレイク生まれ）は、
-                NFL<span class="keyword">カンザスシティ・チーフス</span>のタイトエンド。
-                2013年NFLドラフト3巡目（全体63位）で指名され、チーフス一筋13シーズン。
-                <span class="keyword">NFL史上最高のタイトエンド</span>の一人と評される。
-            </p>
-            <p>
-                背番号<span class="keyword">87</span>は、兄<span class="keyword">Jason
-                    Kelce</span>（1987年生まれ、元フィラデルフィア・イーグルス）への敬意から選んだもの。
-                兄弟でそれぞれスーパーボウルに出場し、2024年のスーパーボウルLVIIでは史上初の兄弟対決が実現した。
-            </p>
-            <p>
-                誕生石は<span class="keyword">オパール</span>（10月生まれ）。
-                テイラーが「Opalite」のタイトルに込めた意味と深く結びついている。
-            </p>
-        </div>
-
-        <!-- NFL Records -->
-        <div class="info-card">
-            <h2>🏆 主な記録</h2>
-
-            <table class="records-table">
-                <thead>
-                    <tr>
-                        <th>記録</th>
-                        <th>数値</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>プレーオフ通算レセプション数（NFL歴代1位）</td>
-                        <td>178</td>
-                    </tr>
-                    <tr>
-                        <td>プレーオフ通算レシービングヤード</td>
-                        <td>2,078</td>
-                    </tr>
-                    <tr>
-                        <td>プレーオフ通算TD</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>TE シーズン最多ヤード記録</td>
-                        <td>1,416 (2020)</td>
-                    </tr>
-                    <tr>
-                        <td>TE 連続1,000ヤードシーズン</td>
-                        <td>7シーズン</td>
-                    </tr>
-                    <tr>
-                        <td>NFL 2010年代オールデケイドチーム</td>
-                        <td>選出</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Love Story Timeline -->
-        <div class="info-card">
-            <h2>💕 テイラー・スウィフトとのラブストーリー</h2>
-
-            <p>
-                世界最大のポップスターと、NFLのスーパースター。
-                二人の物語はフレンドシップブレスレットから始まった。
-            </p>
-
-            <div class="timeline">
-                <div class="timeline-item">
-                    <span class="timeline-date">2023年7月</span>
-                    <p class="timeline-text">Travisがカンザスシティ公演のEras
-                        Tourで、自分の電話番号を書いた<strong>フレンドシップブレスレット</strong>をテイラーに渡そうとする。渡せなかった悔しさをポッドキャスト「New
-                        Heights」で語り、テイラーの耳に届く。</p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2023年9月</span>
-                    <p class="timeline-text">テイラーが初めてチーフスの試合を観戦。Travisの母<strong>Donna
-                            Kelce</strong>と並んでスイートルームから応援する姿がTV中継で映り、全米で一大ニュースに。チーフスのチケット売上が急上昇する「テイラー効果」が社会現象に。</p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2023年12月</span>
-                    <p class="timeline-text">
-                        <strong>TIME誌「パーソン・オブ・ザ・イヤー」</strong>のインタビューでテイラーが交際を公式に認める。「ポッドキャストの直後から会い始めた」と明かした。</p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2024年2月</span>
-                    <p class="timeline-text">
-                        <strong>スーパーボウルLVIII</strong>でチーフスが優勝。試合後、フィールドで抱き合いキスする二人の姿が世界中に配信される。テイラーはこの日のために東京ドーム公演（2/7-10）直後に帰米。
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2024年6月</span>
-                    <p class="timeline-text">ロンドン・ウェンブリー公演のEras
-                        TourでTravisがステージに<strong>サプライズ登場</strong>。タキシード姿でテイラーをエスコートする演出が話題に。Instagramでも初のツーショットを公開。</p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2025年8月</span>
-                    <p class="timeline-text"><strong>婚約を発表</strong>。Instagramの投稿キャプションは<strong>「Your English teacher and
-                            your gym teacher are getting
-                            married.」</strong>（国語の先生と体育の先生が結婚します）。ミズーリ州リーズサミットの花で飾られた庭園で、TravisがArtifex Fine
-                        Jewelry特注のオールドマインカット・ダイヤモンドリングでプロポーズ。</p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2025年10月</span>
-                    <p class="timeline-text">テイラーの12thアルバム<strong>『The Life of a
-                            Showgirl』</strong>リリース。「Opalite」を含む複数曲でTravisとの愛が歌われる。Travisは「Opaliteが一番好き」と公言。</p>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-date">2026年2月</span>
-                    <p class="timeline-text">
-                        「Opalite」の<strong>公式ミュージックビデオ</strong>公開。テイラー自身が脚本・監督を担当。90年代ロマンティック・コメディを彷彿とさせる映像美で、Domhnall
-                        GleesonやCillian Murphyが出演。</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Opalite Connection -->
-        <div class="info-card">
-            <h2>💎 「Opalite」とTravisの関係</h2>
-
-            <p>
-                この曲はVerse 1で<span class="keyword">テイラー自身の過去の恋愛</span>を、
-                Verse 2で<span class="keyword">Travisの過去の恋愛</span>を描いている。
-            </p>
-            <p>
-                「She was in her phone / And you were just a pose」
-                ——相手にとってSNS映えのための存在でしかなかったTravisの痛み。
-                NFLスター選手という肩書きの向こう側にある、人間としての孤独。
-            </p>
-            <p>
-                そしてコーラスで二人の物語が一つになる：
-                「<span class="keyword">Sleepless in the onyx night / But now, the sky is opalite</span>」
-                ——暗い夜を経て、二人が作り出した虹色の空。
-                オパライトが天然石ではなく<span class="keyword">人工石</span>であるように、
-                幸せは自然に降ってくるものではなく、二人で作り出すもの。
-            </p>
-            <p style="text-align: center; margin-top: 1.5rem;">
-                <a href="opalite.html"
-                    style="color: var(--chiefs-gold); text-decoration: none; font-weight: 600; border: 1px solid rgba(255,184,28,0.3); padding: 0.6rem 1.5rem; border-radius: 100px; transition: all 0.2s;">
-                    ▶ Opalite 歌詞・和訳を読む
-                </a>
-            </p>
-        </div>
-
-        <footer class="article-footer">
-            <p class="site-name">We are スウィフティーズ</p>
-            <p class="copyright">© 2026 We are スウィフティーズ. All rights reserved.</p>
-        </footer>
-
-    </main>
-
-</body>
-
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eEH0YMezd43jJBcypAfwx284P9raON-l0RTrbH6kWL0" />
+    <title>Travis Kelce（トラビス・ケルシー）完全ガイド — テイラーが愛した男 | We are スウィフティーズ</title>
+    <meta name="description" content="Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a12;
+            --bg-card: #12121e;
+            --text-primary: #e8e6f0;
+            --text-secondary: #9d9bb0;
+            --accent: #e53e3e;
+            --accent-light: #fc8181;
+            --accent-gold: #fbbf24;
+            --chiefs-red: #e31837;
+            --chiefs-gold: #ffb81c;
+            --gradient-chiefs: linear-gradient(135deg, #e31837 0%, #ffb81c 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(180deg, #0a0a12 0%, #1a0a0a 50%, #0a0a12 100%);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                radial-gradient(ellipse at 30% 50%, rgba(227, 24, 55, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 50%, rgba(255, 184, 28, 0.06) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-3%) translateY(-3%);
+            }
+
+            100% {
+                transform: translateX(3%) translateY(3%);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 2rem;
+        }
+
+        .hero-number {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(5rem, 15vw, 10rem);
+            font-weight: 900;
+            background: var(--gradient-chiefs);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-name {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-sub {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--chiefs-gold);
+            border: 1px solid rgba(255, 184, 28, 0.3);
+            padding: 0.4rem 1.2rem;
+            border-radius: 100px;
+            letter-spacing: 0.05em;
+        }
+
+        /* Main */
+        .main-content {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 6rem;
+        }
+
+        /* Cards */
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(227, 24, 55, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-chiefs);
+        }
+
+        .info-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--chiefs-gold);
+            margin-bottom: 1.2rem;
+        }
+
+        .info-card p {
+            font-size: 0.92rem;
+            color: var(--text-secondary);
+            line-height: 2;
+            margin-bottom: 1rem;
+        }
+
+        .info-card .keyword {
+            color: var(--chiefs-gold);
+            font-weight: 500;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-item {
+            background: rgba(227, 24, 55, 0.06);
+            border: 1px solid rgba(227, 24, 55, 0.12);
+            border-radius: 12px;
+            padding: 1.2rem 1rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--chiefs-gold);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.05em;
+            margin-top: 0.2rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--chiefs-red), var(--chiefs-gold));
+            border-radius: 1px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: 1.2rem;
+            padding-left: 1.2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.75rem;
+            top: 0.5rem;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--chiefs-red);
+            border: 2px solid var(--bg-card);
+        }
+
+        .timeline-date {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--chiefs-gold);
+            letter-spacing: 0.05em;
+        }
+
+        .timeline-text {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .timeline-text strong {
+            color: var(--text-primary);
+        }
+
+        /* Table */
+        .records-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+
+        .records-table th {
+            text-align: left;
+            padding: 0.6rem 0.8rem;
+            color: var(--chiefs-gold);
+            border-bottom: 1px solid rgba(227, 24, 55, 0.2);
+            font-weight: 600;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        .records-table td {
+            padding: 0.5rem 0.8rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .records-table td:last-child {
+            color: var(--chiefs-gold);
+            font-weight: 600;
+        }
+
+        /* Back Link */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.5rem 0;
+            margin-bottom: 1.5rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--chiefs-gold);
+        }
+
+        /* Footer */
+        .article-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(227, 24, 55, 0.1);
+            text-align: center;
+        }
+
+        .article-footer .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            background: var(--gradient-chiefs);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-footer .copyright {
+            font-size: 0.7rem;
+            color: #5a5872;
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 2rem 1rem 4rem;
+            }
+
+            .info-card {
+                padding: 1.5rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    
+        /* Global Nav */
+        .global-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(12, 8, 6, 0.95);
+            border-bottom: 1px solid rgba(212, 168, 83, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .global-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .global-nav a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+        .global-nav a.nav-home {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            background: var(--gradient-gold, var(--gradient-opal, linear-gradient(135deg, #c42b3b, #d4a853)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        @media (max-width: 600px) {
+            .global-nav { gap: 1rem; flex-wrap: wrap; }
+            .global-nav a { font-size: 0.65rem; }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover { color: var(--accent-gold-light, var(--accent-opal-light, #e8c779)); }
+
+    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PESZB0HW0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PESZB0HW0B');
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Taylor Swift - Travis 歌詞・和訳・徹底解説","description":"Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。","image":"https://we-are-swifties.com/images/ogp-card.png","author":{"@type":"Person","name":"Yu@Swifties"},"publisher":{"@type":"Organization","name":"We are Swifties","url":"https://we-are-swifties.com"},"mainEntityOfPage":"https://we-are-swifties.com/travis-kelce.html","about":{"@type":"MusicComposition","name":"Travis","composer":{"@type":"Person","name":"Taylor Swift"},"inAlbum":{"@type":"MusicAlbum","name":"Taylor Swift","datePublished":"2024"}}}
+</script>
+    <link rel="canonical" href="https://we-are-swifties.com/travis-kelce.html">
+    <meta property="og:url" content="https://we-are-swifties.com/travis-kelce.html">
+    <meta property="og:type" content="article"><meta property="og:title" content="Travis Kelce（トラビス・ケルシー）完全ガイド — テイラーが愛した男 | We are スウィフティーズ"><meta property="og:description" content="Travis Kelce（トラビス・ケルシー）のNFLキャリア、テイラー・スウィフトとの恋愛〜婚約までを完全解説。Swiftieのためのトラビス入門ガイド。"><meta property="og:url" content="https://we-are-swifties.com/travis-kelce.html"><meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+    <nav class="global-nav">
+        <a href="index.html" class="nav-home">We are Swifties</a>
+        <a href="index.html">曲一覧</a>
+        <a href="about.html">運営者情報</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-number">87</div>
+            <h1 class="hero-name">Travis Kelce</h1>
+            <p class="hero-sub">トラビス・マイケル・ケルシー</p>
+            <span class="hero-badge">Kansas City Chiefs — Tight End</span>
+        </div>
+    </section>
+
+    <main class="main-content">
+
+        <a href="opalite.html" class="back-link">← Opalite 歌詞・和訳ページに戻る</a>
+
+        <!-- Basic Profile -->
+        <div class="info-card">
+            <h2>🏈 プロフィール</h2>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-value">87</span>
+                    <span class="stat-label">背番号</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">3×</span>
+                    <span class="stat-label">スーパーボウル制覇</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">1,004</span>
+                    <span class="stat-label">キャリア レセプション</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">12,151</span>
+                    <span class="stat-label">キャリア ヤード</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">77</span>
+                    <span class="stat-label">TD（タッチダウン）</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">10</span>
+                    <span class="stat-label">プロボウル選出</span>
+                </div>
+            </div>
+
+            <p>
+                <span class="keyword">Travis Michael Kelce</span>（1989年10月5日、オハイオ州ウェストレイク生まれ）は、
+                NFL<span class="keyword">カンザスシティ・チーフス</span>のタイトエンド。
+                2013年NFLドラフト3巡目（全体63位）で指名され、チーフス一筋13シーズン。
+                <span class="keyword">NFL史上最高のタイトエンド</span>の一人と評される。
+            </p>
+            <p>
+                背番号<span class="keyword">87</span>は、兄<span class="keyword">Jason
+                    Kelce</span>（1987年生まれ、元フィラデルフィア・イーグルス）への敬意から選んだもの。
+                兄弟でそれぞれスーパーボウルに出場し、2024年のスーパーボウルLVIIでは史上初の兄弟対決が実現した。
+            </p>
+            <p>
+                誕生石は<span class="keyword">オパール</span>（10月生まれ）。
+                テイラーが「Opalite」のタイトルに込めた意味と深く結びついている。
+            </p>
+        </div>
+
+        <!-- NFL Records -->
+        <div class="info-card">
+            <h2>🏆 主な記録</h2>
+
+            <table class="records-table">
+                <thead>
+                    <tr>
+                        <th>記録</th>
+                        <th>数値</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>プレーオフ通算レセプション数（NFL歴代1位）</td>
+                        <td>178</td>
+                    </tr>
+                    <tr>
+                        <td>プレーオフ通算レシービングヤード</td>
+                        <td>2,078</td>
+                    </tr>
+                    <tr>
+                        <td>プレーオフ通算TD</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>TE シーズン最多ヤード記録</td>
+                        <td>1,416 (2020)</td>
+                    </tr>
+                    <tr>
+                        <td>TE 連続1,000ヤードシーズン</td>
+                        <td>7シーズン</td>
+                    </tr>
+                    <tr>
+                        <td>NFL 2010年代オールデケイドチーム</td>
+                        <td>選出</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Love Story Timeline -->
+        <div class="info-card">
+            <h2>💕 テイラー・スウィフトとのラブストーリー</h2>
+
+            <p>
+                世界最大のポップスターと、NFLのスーパースター。
+                二人の物語はフレンドシップブレスレットから始まった。
+            </p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">2023年7月</span>
+                    <p class="timeline-text">Travisがカンザスシティ公演のEras
+                        Tourで、自分の電話番号を書いた<strong>フレンドシップブレスレット</strong>をテイラーに渡そうとする。渡せなかった悔しさをポッドキャスト「New
+                        Heights」で語り、テイラーの耳に届く。</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2023年9月</span>
+                    <p class="timeline-text">テイラーが初めてチーフスの試合を観戦。Travisの母<strong>Donna
+                            Kelce</strong>と並んでスイートルームから応援する姿がTV中継で映り、全米で一大ニュースに。チーフスのチケット売上が急上昇する「テイラー効果」が社会現象に。</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2023年12月</span>
+                    <p class="timeline-text">
+                        <strong>TIME誌「パーソン・オブ・ザ・イヤー」</strong>のインタビューでテイラーが交際を公式に認める。「ポッドキャストの直後から会い始めた」と明かした。</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2024年2月</span>
+                    <p class="timeline-text">
+                        <strong>スーパーボウルLVIII</strong>でチーフスが優勝。試合後、フィールドで抱き合いキスする二人の姿が世界中に配信される。テイラーはこの日のために東京ドーム公演（2/7-10）直後に帰米。
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2024年6月</span>
+                    <p class="timeline-text">ロンドン・ウェンブリー公演のEras
+                        TourでTravisがステージに<strong>サプライズ登場</strong>。タキシード姿でテイラーをエスコートする演出が話題に。Instagramでも初のツーショットを公開。</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2025年8月</span>
+                    <p class="timeline-text"><strong>婚約を発表</strong>。Instagramの投稿キャプションは<strong>「Your English teacher and
+                            your gym teacher are getting
+                            married.」</strong>（国語の先生と体育の先生が結婚します）。ミズーリ州リーズサミットの花で飾られた庭園で、TravisがArtifex Fine
+                        Jewelry特注のオールドマインカット・ダイヤモンドリングでプロポーズ。</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2025年10月</span>
+                    <p class="timeline-text">テイラーの12thアルバム<strong>『The Life of a
+                            Showgirl』</strong>リリース。「Opalite」を含む複数曲でTravisとの愛が歌われる。Travisは「Opaliteが一番好き」と公言。</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2026年2月</span>
+                    <p class="timeline-text">
+                        「Opalite」の<strong>公式ミュージックビデオ</strong>公開。テイラー自身が脚本・監督を担当。90年代ロマンティック・コメディを彷彿とさせる映像美で、Domhnall
+                        GleesonやCillian Murphyが出演。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Opalite Connection -->
+        <div class="info-card">
+            <h2>💎 「Opalite」とTravisの関係</h2>
+
+            <p>
+                この曲はVerse 1で<span class="keyword">テイラー自身の過去の恋愛</span>を、
+                Verse 2で<span class="keyword">Travisの過去の恋愛</span>を描いている。
+            </p>
+            <p>
+                「She was in her phone / And you were just a pose」
+                ——相手にとってSNS映えのための存在でしかなかったTravisの痛み。
+                NFLスター選手という肩書きの向こう側にある、人間としての孤独。
+            </p>
+            <p>
+                そしてコーラスで二人の物語が一つになる：
+                「<span class="keyword">Sleepless in the onyx night / But now, the sky is opalite</span>」
+                ——暗い夜を経て、二人が作り出した虹色の空。
+                オパライトが天然石ではなく<span class="keyword">人工石</span>であるように、
+                幸せは自然に降ってくるものではなく、二人で作り出すもの。
+            </p>
+            <p style="text-align: center; margin-top: 1.5rem;">
+                <a href="opalite.html"
+                    style="color: var(--chiefs-gold); text-decoration: none; font-weight: 600; border: 1px solid rgba(255,184,28,0.3); padding: 0.6rem 1.5rem; border-radius: 100px; transition: all 0.2s;">
+                    ▶ Opalite 歌詞・和訳を読む
+                </a>
+            </p>
+        </div>
+
+        <footer class="article-footer">
+            <p class="site-name">We are スウィフティーズ</p>
+            <p class="copyright">© 2026 We are スウィフティーズ. All rights reserved.</p>
+        </footer>
+
+    </main>
+
+<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
+</body>
+
 </html>

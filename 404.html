@@ -3,59 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ページが見つかりません | We are Swifties</title>
-    <meta name="description" content="お探しのページが見つかりませんでした。Taylor Swiftの全曲歌詞・和訳は曲一覧からどうぞ。">
-    <meta name="robots" content="noindex">
-    <link rel="canonical" href="https://we-are-swifties.com/404.html">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>404 - 曲が見つからない | We are Swifties</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        :root { --bg-primary:#080812;--bg-card:#0e0e1a;--text-primary:#e0e0f0;--text-secondary:#9898c0;--accent:#6060a0;--accent-light:#8888c8;--gradient-accent:linear-gradient(135deg, #303060 0%, #6060a0 50%, #8888c8 100%); }
         *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Noto Sans JP','Inter',sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.8;min-height:100vh;display:flex;flex-direction:column}
-        .global-nav{display:flex;justify-content:center;align-items:center;gap:2rem;padding:1rem 1.5rem;background:rgba(6,8,16,0.95);border-bottom:1px solid rgba(96,96,160,0.1);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px)}.global-nav a{font-family:'Inter',sans-serif;font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-secondary);text-decoration:none;transition:color 0.3s}.global-nav a:hover{color:var(--accent-light)}.global-nav a.nav-home{font-family:'Playfair Display',serif;font-size:0.9rem;font-weight:700;background:var(--gradient-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:0;text-transform:none}
-        .error-container{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
-        .error-content{max-width:500px}
-        .error-code{font-family:'Playfair Display',serif;font-size:8rem;font-weight:700;background:var(--gradient-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:1rem;opacity:0.6}
-        .error-title{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--accent-light);margin-bottom:1rem}
-        .error-message{font-size:0.95rem;color:var(--text-secondary);margin-bottom:2rem;line-height:2}
-        .error-links{display:flex;flex-direction:column;gap:0.8rem;align-items:center}
-        .error-links a{display:inline-block;padding:0.7rem 2rem;border-radius:100px;text-decoration:none;font-size:0.85rem;font-weight:500;transition:all 0.3s}
-        .error-links a.primary{background:var(--gradient-accent);color:#fff}
-        .error-links a.primary:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(96,96,160,0.3)}
-        .error-links a.secondary{border:1px solid rgba(96,96,160,0.3);color:var(--accent-light)}
-        .error-links a.secondary:hover{border-color:var(--accent-light);background:rgba(96,96,160,0.1)}
-        .mascot-404{width:120px;height:120px;margin:0 auto 1.5rem;object-fit:contain;filter:drop-shadow(0 2px 8px rgba(96,96,160,0.2));animation:bounce 3s ease-in-out infinite}
-        @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-        .article-footer{padding:2rem;text-align:center;border-top:1px solid rgba(96,96,160,0.1)}.article-footer .site-name{font-family:'Playfair Display',serif;font-size:1.1rem;background:var(--gradient-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:0.5rem}.article-footer .copyright{font-size:0.7rem;color:#586080}
-        @media(max-width:600px){.global-nav{gap:1rem;flex-wrap:wrap}.error-code{font-size:5rem}}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh;display:flex;align-items:center;justify-content:center}
+        .container{text-align:center;padding:2rem;max-width:500px}
+        .big-4{font-family:'Playfair Display',serif;font-size:8rem;font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1;margin-bottom:.5rem}
+        .message{font-size:1.2rem;margin-bottom:.5rem}
+        .taylor-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:1rem;color:#c9a0dc;margin-bottom:2rem;padding:0 1rem}
+        .links{display:flex;flex-direction:column;gap:.8rem;align-items:center}
+        .link-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(135deg,#c9a0dc,#89b4fa);border:none;border-radius:50px;color:#0a0a0f;font-size:.9rem;font-weight:700;text-decoration:none;transition:all .3s}
+        .link-btn:hover{opacity:.9;transform:translateY(-2px)}
+        .link-secondary{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:50px;color:#aaa;font-size:.85rem;text-decoration:none;transition:all .3s}
+        .link-secondary:hover{background:rgba(255,255,255,.1);color:#e7e9ea}
+        .cat{font-size:4rem;margin-bottom:1rem}
     </style>
 </head>
 <body>
-    <nav class="global-nav"><a href="index.html" class="nav-home">We are Swifties</a><a href="index.html">曲一覧</a><a href="about.html">運営者情報</a><a href="contact.html">お問い合わせ</a></nav>
-
-    <div class="error-container">
-        <div class="error-content">
-            <img src="images/cat-midnights1.png" alt="マスコットキャラクター" class="mascot-404">
-            <div class="error-code">404</div>
-            <h1 class="error-title">It's Me, Hi… Page Not Found</h1>
-            <p class="error-message">
-                お探しのページが見つかりませんでした。<br>
-                URLが正しいかご確認ください。<br>
-                テイラーの全曲歌詞・和訳は下のリンクからどうぞ 🎵
-            </p>
-            <div class="error-links">
-                <a href="index.html" class="primary">🏠 曲一覧に戻る</a>
-                <a href="anti-hero.html" class="secondary">🎤 Anti-Hero を見る</a>
-                <a href="cruel-summer.html" class="secondary">☀️ Cruel Summer を見る</a>
-            </div>
+    <div class="container">
+        <div class="cat">🐱</div>
+        <div class="big-4">404</div>
+        <p class="message">この曲はVaultに入ってるみたい…</p>
+        <p class="taylor-quote">"I knew you were trouble when you walked in"</p>
+        <div class="links">
+            <a class="link-btn" href="index.html">🏠 曲一覧に戻る</a>
+            <a class="link-secondary" href="search.html">🔍 歌詞で探す</a>
+            <a class="link-secondary" href="quiz.html">🎲 楽曲診断してみる</a>
         </div>
     </div>
-
-    <footer class="article-footer">
-        <p class="site-name">We are Swifties</p>
-        <p class="copyright">&copy; 2025 We are Swifties</p>
-    </footer>
 </body>
 </html>

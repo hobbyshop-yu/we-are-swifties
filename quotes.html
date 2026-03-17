@@ -1,132 +1,133 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>テイラー・スウィフト名言・名歌詞集 | We are Swifties</title>
-    <meta name="description" content="テイラー・スウィフトの心に響く名歌詞・名言を厳選。アルバム別で日本語訳付き。">
-    <meta property="og:title" content="テイラー・スウィフト名言・名歌詞集 | We are Swifties">
-    <meta property="og:description" content="テイラーの心に響く名フレーズ集✨ 日本語訳付き">
-    <meta property="og:url" content="https://we-are-swifties.com/quotes.html">
-    <meta property="og:image" content="https://we-are-swifties.com/images/og-quiz.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://we-are-swifties.com/quotes.html">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
-        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
-        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#c9a0dc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
-        .album-filter{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem}
-        .filter-chip{padding:6px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;color:#888;font-size:.78rem;cursor:pointer;transition:all .2s}
-        .filter-chip:hover,.filter-chip.active{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);color:#f5c2e7}
-        .quote-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:1.5rem;margin-bottom:.8rem;transition:all .3s}
-        .quote-card:hover{border-color:rgba(201,160,220,.15)}
-        .quote-en{font-family:'Playfair Display',serif;font-style:italic;font-size:1.1rem;color:#f5c2e7;line-height:1.6;margin-bottom:.5rem}
-        .quote-ja{font-size:.9rem;color:#aaa;line-height:1.6;margin-bottom:.8rem}
-        .quote-meta{display:flex;justify-content:space-between;align-items:center}
-        .quote-song{font-size:.8rem;color:#888}
-        .quote-song a{color:#89b4fa;text-decoration:none}
-        .quote-song a:hover{text-decoration:underline}
-        .quote-share{padding:4px 12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;color:#888;font-size:.7rem;cursor:pointer;transition:all .2s;text-decoration:none}
-        .quote-share:hover{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);color:#f5c2e7}
-        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
-        .back-link:hover{color:#c9a0dc}
-    
-    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
-    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
-    .tool-nav a:hover{color:#c9a0dc}
-    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
-    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
-
-    </style>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "テイラー名言・名歌詞集", "description": "テイラー・スウィフトの心に響く名歌詞を厳選", "url": "https://we-are-swifties.com/quotes.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
-</head>
-<body>
-<nav class="tool-nav">
-    <a class="nav-home" href="index.html">We are Swifties</a>
-    <a href="quiz.html">🎲 診断</a>
-    <a href="lyrics-quiz.html">🎤 クイズ</a>
-    <a href="tierlist.html">📊 Tier</a>
-    <a href="ranking.html">🏆 ランキング</a>
-    <a href="search.html">🔍 検索</a>
-    <a href="quotes.html">✨ 名言</a>
-    <a href="glossary.html">📖 辞典</a>
-</nav>
-    <div class="container">
-        <h1>✨ 名言・名歌詞集</h1>
-        <p class="subtitle">テイラーの心に響くフレーズ — 日本語訳付き</p>
-        <div class="album-filter" id="filter"></div>
-        <div id="quotes"></div>
-        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
-    </div>
-<script>
-const quotes = [
-    {en:"It's me, hi, I'm the problem, it's me",ja:"私よ、こんにちは、問題は私なの",song:"Anti-Hero",album:"Midnights",file:"anti-hero.html"},
-    {en:"Long story short, I survived",ja:"長い話を端折ると、私は生き延びた",song:"Long Story Short",album:"evermore",file:"long-story-short.html"},
-    {en:"You belong with me",ja:"あなたの居場所は私のそばなのに",song:"You Belong with Me",album:"Fearless",file:"you-belong-with-me-tv.html"},
-    {en:"We are never ever ever getting back together",ja:"私たちは絶対に絶対にヨリを戻さない",song:"We Are Never Ever Getting Back Together",album:"Red",file:"we-are-never-ever-getting-back-together-tv.html"},
-    {en:"I remember it all too well",ja:"全部、痛いほど覚えてる",song:"All Too Well",album:"Red",file:"all-too-well-tv.html"},
-    {en:"Darling, I'm a nightmare dressed like a daydream",ja:"ダーリン、私は白昼夢の衣をまとった悪夢",song:"Blank Space",album:"1989",file:"blank-space-tv.html"},
-    {en:"Band-aids don't fix bullet holes",ja:"絆創膏じゃ銃弾の穴はふさげない",song:"Bad Blood",album:"1989",file:"bad-blood-tv.html"},
-    {en:"When you are young they assume you know nothing",ja:"若いというだけで何も知らないと思われる",song:"cardigan",album:"folklore",file:"cardigan.html"},
-    {en:"Don't blame me, love made me crazy",ja:"私を責めないで、愛が私を狂わせたの",song:"Don't Blame Me",album:"reputation",file:"dont-blame-me.html"},
-    {en:"I love you, it's ruining my life",ja:"あなたを愛してる、それが人生を壊してる",song:"Fortnight",album:"TTPD",file:"fortnight.html"},
-    {en:"She would've made such a lovely bride",ja:"彼女はきっと素敵な花嫁になれたのに",song:"champagne problems",album:"evermore",file:"champagne-problems.html"},
-    {en:"Romeo, take me somewhere we can be alone",ja:"ロミオ、二人きりになれる場所へ連れて行って",song:"Love Story",album:"Fearless",file:"love-story-tv.html"},
-    {en:"I knew you were trouble when you walked in",ja:"あなたが入ってきた瞬間、トラブルだと分かった",song:"I Knew You Were Trouble",album:"Red",file:"i-knew-you-were-trouble-tv.html"},
-    {en:"Please don't be in love with someone else",ja:"お願い、誰かを好きにならないで",song:"Enchanted",album:"Speak Now",file:"enchanted-tv.html"},
-    {en:"Cause the players gonna play, play, play",ja:"だってプレイヤーは遊び続けるだけ",song:"Shake It Off",album:"1989",file:"shake-it-off-tv.html"},
-    {en:"You drew stars around my scars",ja:"あなたは私の傷跡の周りに星を描いてくれた",song:"cardigan",album:"folklore",file:"cardigan.html"},
-    {en:"I'm like the water when your ship rolled in that night",ja:"あの夜あなたの船が着いた時の海のよう",song:"willow",album:"evermore",file:"willow.html"},
-    {en:"Karma is my boyfriend",ja:"カルマは私のボーイフレンド",song:"Karma",album:"Midnights",file:"karma.html"},
-    {en:"I've been the archer, I've been the prey",ja:"私は射手でもあり、獲物でもあった",song:"The Archer",album:"Lover",file:"the-archer.html"},
-    {en:"You're on your own, kid, you always have been",ja:"一人なんだよ、ずっとそうだった",song:"You're on Your Own, Kid",album:"Midnights",file:"youre-on-your-own-kid.html"},
-    {en:"I once believed love would be burning red",ja:"かつて愛は燃えるような赤だと信じていた",song:"Red",album:"Red",file:"red-tv.html"},
-    {en:"He looks up grinning like a devil",ja:"彼は悪魔みたいにニヤリと笑って見上げる",song:"Cruel Summer",album:"Lover",file:"cruel-summer.html"},
-    {en:"In my defense, I have none",ja:"弁明できることは、何もない",song:"Anti-Hero",album:"Midnights",file:"anti-hero.html"},
-    {en:"I think I've seen this film before, and I didn't like the ending",ja:"この映画は前にも見た気がする、結末は好きじゃなかった",song:"exile",album:"folklore",file:"exile.html"},
-    {en:"Is it cool that I said all that?",ja:"あんなこと全部言っちゃってよかった？",song:"Delicate",album:"reputation",file:"delicate.html"},
-    {en:"I don't wanna look at anything else now that I saw you",ja:"あなたを見てしまったから、もう他のものは見たくない",song:"Daylight",album:"Lover",file:"daylight.html"},
-    {en:"And you call me up again just to break me like a promise",ja:"あなたはまた電話をくれる、約束のように私を壊すために",song:"All Too Well",album:"Red",file:"all-too-well-tv.html"},
-    {en:"I had the time of my life fighting dragons with you",ja:"あなたとドラゴンと戦った人生最高の時間",song:"Long Live",album:"Speak Now",file:"long-live-tv.html"},
-    {en:"We were both young when I first saw you",ja:"初めて会った時、私たちはまだ若かった",song:"Love Story",album:"Fearless",file:"love-story-tv.html"},
-    {en:"My tears ricochet",ja:"私の涙が跳ね返る",song:"my tears ricochet",album:"folklore",file:"my-tears-ricochet.html"},
-];
-
-const albumNames = [...new Set(quotes.map(q => q.album))];
-let activeAlbum = '';
-
-// Render filter
-const filterEl = document.getElementById('filter');
-filterEl.innerHTML = `<div class="filter-chip active" onclick="filterAlbum('')">全て</div>` +
-    albumNames.map(a => `<div class="filter-chip" onclick="filterAlbum('${a}')">${a}</div>`).join('');
-
-function filterAlbum(album) {
-    activeAlbum = album;
-    document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-    event.target.classList.add('active');
-    render();
-}
-
-function render() {
-    const filtered = activeAlbum ? quotes.filter(q => q.album === activeAlbum) : quotes;
-    document.getElementById('quotes').innerHTML = filtered.map(q => {
-        const shareText = encodeURIComponent(`✨「${q.en}」\n（${q.ja}）\n\n— ${q.song}, Taylor Swift\n\n#TaylorSwift #テイラースウィフト`);
-        const shareUrl = encodeURIComponent(`https://we-are-swifties.com/${q.file}`);
-        return `<div class="quote-card">
-            <div class="quote-en">"${q.en}"</div>
-            <div class="quote-ja">${q.ja}</div>
-            <div class="quote-meta">
-                <span class="quote-song"><a href="${q.file}">${q.song}</a> — ${q.album}</span>
-                <a class="quote-share" href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}" target="_blank" rel="noopener">シェア</a>
-            </div>
-        </div>`;
-    }).join('');
-}
-
-render();
-</script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テイラー・スウィフト名言・名歌詞集 | We are Swifties</title>
+    <meta name="description" content="テイラー・スウィフトの心に響く名歌詞・名言を厳選。アルバム別で日本語訳付き。">
+    <meta property="og:title" content="テイラー・スウィフト名言・名歌詞集 | We are Swifties">
+    <meta property="og:description" content="テイラーの心に響く名フレーズ集✨ 日本語訳付き">
+    <meta property="og:url" content="https://we-are-swifties.com/quotes.html">
+    <meta property="og:image" content="https://we-are-swifties.com/images/og-quiz.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://we-are-swifties.com/quotes.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Noto Sans JP',sans-serif;background:#0a0a0f;color:#e7e9ea;min-height:100vh}
+        .container{max-width:700px;margin:0 auto;padding:2rem 1.5rem}
+        h1{text-align:center;font-size:1.6rem;margin-bottom:.3rem;background:linear-gradient(135deg,#f5c2e7,#c9a0dc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .subtitle{text-align:center;color:#888;font-size:.85rem;margin-bottom:2rem}
+        .album-filter{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem}
+        .filter-chip{padding:6px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;color:#888;font-size:.78rem;cursor:pointer;transition:all .2s}
+        .filter-chip:hover,.filter-chip.active{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);color:#f5c2e7}
+        .quote-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:1.5rem;margin-bottom:.8rem;transition:all .3s}
+        .quote-card:hover{border-color:rgba(201,160,220,.15)}
+        .quote-en{font-family:'Playfair Display',serif;font-style:italic;font-size:1.1rem;color:#f5c2e7;line-height:1.6;margin-bottom:.5rem}
+        .quote-ja{font-size:.9rem;color:#aaa;line-height:1.6;margin-bottom:.8rem}
+        .quote-meta{display:flex;justify-content:space-between;align-items:center}
+        .quote-song{font-size:.8rem;color:#888}
+        .quote-song a{color:#89b4fa;text-decoration:none}
+        .quote-song a:hover{text-decoration:underline}
+        .quote-share{padding:4px 12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;color:#888;font-size:.7rem;cursor:pointer;transition:all .2s;text-decoration:none}
+        .quote-share:hover{background:rgba(201,160,220,.1);border-color:rgba(201,160,220,.3);color:#f5c2e7}
+        .back-link{display:block;text-align:center;margin-top:2rem;color:#666;font-size:.85rem;text-decoration:none}
+        .back-link:hover{color:#c9a0dc}
+    
+    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
+    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
+    .tool-nav a:hover{color:#c9a0dc}
+    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
+    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
+
+    .x-follow-bar{text-align:center;padding:12px;background:rgba(10,10,15,.95);border-top:1px solid rgba(255,255,255,.06)}.x-follow-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:50px;color:#e7e9ea;text-decoration:none;font-size:.8rem;font-weight:500;transition:all .3s}.x-follow-btn:hover{background:rgba(29,155,240,.15);border-color:rgba(29,155,240,.4);color:#1d9bf0}.x-follow-btn svg{width:14px;height:14px}</style>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "テイラー名言・名歌詞集", "description": "テイラー・スウィフトの心に響く名歌詞を厳選", "url": "https://we-are-swifties.com/quotes.html", "applicationCategory": "Entertainment", "operatingSystem": "All", "author": {"@type": "Organization", "name": "We are Swifties", "url": "https://we-are-swifties.com"}}</script>
+</head>
+<body>
+<nav class="tool-nav">
+    <a class="nav-home" href="index.html">We are Swifties</a>
+    <a href="quiz.html">🎲 診断</a>
+    <a href="lyrics-quiz.html">🎤 クイズ</a>
+    <a href="tierlist.html">📊 Tier</a>
+    <a href="ranking.html">🏆 ランキング</a>
+    <a href="search.html">🔍 検索</a>
+    <a href="quotes.html">✨ 名言</a>
+    <a href="glossary.html">📖 辞典</a>
+</nav>
+    <div class="container">
+        <h1>✨ 名言・名歌詞集</h1>
+        <p class="subtitle">テイラーの心に響くフレーズ — 日本語訳付き</p>
+        <div class="album-filter" id="filter"></div>
+        <div id="quotes"></div>
+        <a href="index.html" class="back-link">← 曲一覧に戻る</a>
+    </div>
+<script>
+const quotes = [
+    {en:"It's me, hi, I'm the problem, it's me",ja:"私よ、こんにちは、問題は私なの",song:"Anti-Hero",album:"Midnights",file:"anti-hero.html"},
+    {en:"Long story short, I survived",ja:"長い話を端折ると、私は生き延びた",song:"Long Story Short",album:"evermore",file:"long-story-short.html"},
+    {en:"You belong with me",ja:"あなたの居場所は私のそばなのに",song:"You Belong with Me",album:"Fearless",file:"you-belong-with-me-tv.html"},
+    {en:"We are never ever ever getting back together",ja:"私たちは絶対に絶対にヨリを戻さない",song:"We Are Never Ever Getting Back Together",album:"Red",file:"we-are-never-ever-getting-back-together-tv.html"},
+    {en:"I remember it all too well",ja:"全部、痛いほど覚えてる",song:"All Too Well",album:"Red",file:"all-too-well-tv.html"},
+    {en:"Darling, I'm a nightmare dressed like a daydream",ja:"ダーリン、私は白昼夢の衣をまとった悪夢",song:"Blank Space",album:"1989",file:"blank-space-tv.html"},
+    {en:"Band-aids don't fix bullet holes",ja:"絆創膏じゃ銃弾の穴はふさげない",song:"Bad Blood",album:"1989",file:"bad-blood-tv.html"},
+    {en:"When you are young they assume you know nothing",ja:"若いというだけで何も知らないと思われる",song:"cardigan",album:"folklore",file:"cardigan.html"},
+    {en:"Don't blame me, love made me crazy",ja:"私を責めないで、愛が私を狂わせたの",song:"Don't Blame Me",album:"reputation",file:"dont-blame-me.html"},
+    {en:"I love you, it's ruining my life",ja:"あなたを愛してる、それが人生を壊してる",song:"Fortnight",album:"TTPD",file:"fortnight.html"},
+    {en:"She would've made such a lovely bride",ja:"彼女はきっと素敵な花嫁になれたのに",song:"champagne problems",album:"evermore",file:"champagne-problems.html"},
+    {en:"Romeo, take me somewhere we can be alone",ja:"ロミオ、二人きりになれる場所へ連れて行って",song:"Love Story",album:"Fearless",file:"love-story-tv.html"},
+    {en:"I knew you were trouble when you walked in",ja:"あなたが入ってきた瞬間、トラブルだと分かった",song:"I Knew You Were Trouble",album:"Red",file:"i-knew-you-were-trouble-tv.html"},
+    {en:"Please don't be in love with someone else",ja:"お願い、誰かを好きにならないで",song:"Enchanted",album:"Speak Now",file:"enchanted-tv.html"},
+    {en:"Cause the players gonna play, play, play",ja:"だってプレイヤーは遊び続けるだけ",song:"Shake It Off",album:"1989",file:"shake-it-off-tv.html"},
+    {en:"You drew stars around my scars",ja:"あなたは私の傷跡の周りに星を描いてくれた",song:"cardigan",album:"folklore",file:"cardigan.html"},
+    {en:"I'm like the water when your ship rolled in that night",ja:"あの夜あなたの船が着いた時の海のよう",song:"willow",album:"evermore",file:"willow.html"},
+    {en:"Karma is my boyfriend",ja:"カルマは私のボーイフレンド",song:"Karma",album:"Midnights",file:"karma.html"},
+    {en:"I've been the archer, I've been the prey",ja:"私は射手でもあり、獲物でもあった",song:"The Archer",album:"Lover",file:"the-archer.html"},
+    {en:"You're on your own, kid, you always have been",ja:"一人なんだよ、ずっとそうだった",song:"You're on Your Own, Kid",album:"Midnights",file:"youre-on-your-own-kid.html"},
+    {en:"I once believed love would be burning red",ja:"かつて愛は燃えるような赤だと信じていた",song:"Red",album:"Red",file:"red-tv.html"},
+    {en:"He looks up grinning like a devil",ja:"彼は悪魔みたいにニヤリと笑って見上げる",song:"Cruel Summer",album:"Lover",file:"cruel-summer.html"},
+    {en:"In my defense, I have none",ja:"弁明できることは、何もない",song:"Anti-Hero",album:"Midnights",file:"anti-hero.html"},
+    {en:"I think I've seen this film before, and I didn't like the ending",ja:"この映画は前にも見た気がする、結末は好きじゃなかった",song:"exile",album:"folklore",file:"exile.html"},
+    {en:"Is it cool that I said all that?",ja:"あんなこと全部言っちゃってよかった？",song:"Delicate",album:"reputation",file:"delicate.html"},
+    {en:"I don't wanna look at anything else now that I saw you",ja:"あなたを見てしまったから、もう他のものは見たくない",song:"Daylight",album:"Lover",file:"daylight.html"},
+    {en:"And you call me up again just to break me like a promise",ja:"あなたはまた電話をくれる、約束のように私を壊すために",song:"All Too Well",album:"Red",file:"all-too-well-tv.html"},
+    {en:"I had the time of my life fighting dragons with you",ja:"あなたとドラゴンと戦った人生最高の時間",song:"Long Live",album:"Speak Now",file:"long-live-tv.html"},
+    {en:"We were both young when I first saw you",ja:"初めて会った時、私たちはまだ若かった",song:"Love Story",album:"Fearless",file:"love-story-tv.html"},
+    {en:"My tears ricochet",ja:"私の涙が跳ね返る",song:"my tears ricochet",album:"folklore",file:"my-tears-ricochet.html"},
+];
+
+const albumNames = [...new Set(quotes.map(q => q.album))];
+let activeAlbum = '';
+
+// Render filter
+const filterEl = document.getElementById('filter');
+filterEl.innerHTML = `<div class="filter-chip active" onclick="filterAlbum('')">全て</div>` +
+    albumNames.map(a => `<div class="filter-chip" onclick="filterAlbum('${a}')">${a}</div>`).join('');
+
+function filterAlbum(album) {
+    activeAlbum = album;
+    document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+    event.target.classList.add('active');
+    render();
+}
+
+function render() {
+    const filtered = activeAlbum ? quotes.filter(q => q.album === activeAlbum) : quotes;
+    document.getElementById('quotes').innerHTML = filtered.map(q => {
+        const shareText = encodeURIComponent(`✨「${q.en}」\n（${q.ja}）\n\n— ${q.song}, Taylor Swift\n\n#TaylorSwift #テイラースウィフト`);
+        const shareUrl = encodeURIComponent(`https://we-are-swifties.com/${q.file}`);
+        return `<div class="quote-card">
+            <div class="quote-en">"${q.en}"</div>
+            <div class="quote-ja">${q.ja}</div>
+            <div class="quote-meta">
+                <span class="quote-song"><a href="${q.file}">${q.song}</a> — ${q.album}</span>
+                <a class="quote-share" href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}" target="_blank" rel="noopener">シェア</a>
+            </div>
+        </div>`;
+    }).join('');
+}
+
+render();
+</script>
+<div class="x-follow-bar"><a class="x-follow-btn" href="https://twitter.com/SwiftiesJP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@SwiftiesJP をフォロー</a></div>
+</body>
+</html>
