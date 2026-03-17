@@ -766,14 +766,14 @@
 
 ### Last Kiss
 - [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/moonlightbae13/entry-12850522772.html / 取得方法: browser_subagent全文取得
-- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み。全行参考訳と意味一致
-- [x] Step3: 修正適用 — 修正不要。前回修正3行（文字化け「舞装→舗道」等）維持。全行品質良好
+- [x] Step2: 全行照合完了 — 問題箇所: 1件（D:表記不統一）/ Verse1〜Outro全セクション照合出力済み
+- [x] Step3: 修正適用 — 修正: L189「君→あなた＋時制修正」（表記統一）。前回修正3行維持
 - [x] Step4: チェックリスト記録
 
 ### Long Live
 - [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/haskeymouse/entry-12824782516.html / 取得方法: browser_subagent全文取得
-- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Chorus3全セクション照合出力済み。全行参考訳と意味一致
-- [x] Step3: 修正適用 — 修正不要。前回修正3行（構造統合・文字化け「僅ら→端」等）維持。全行品質良好
+- [x] Step2: 全行照合完了 — 問題箇所: 2件（D:訳抜け）/ Verse1〜Chorus3全セクション照合出力済み
+- [x] Step3: 修正適用 — 修正: L224/L334「I'm not afraid」訳抜け→「怖くなんかない」追加。前回修正3行維持
 - [x] Step4: チェックリスト記録
 
 ## Speak Now TV (2023) Batch 5 ✅ 再レビュー完了
