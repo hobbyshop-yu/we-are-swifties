@@ -62,9 +62,26 @@
         .back-link:hover{color:#c9a0dc}
         .toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:rgba(201,160,220,.9);color:#0a0a0f;padding:10px 24px;border-radius:50px;font-size:.85rem;font-weight:700;opacity:0;transition:opacity .3s;pointer-events:none}
         .toast.show{opacity:1}
+    
+    .tool-nav{display:flex;justify-content:center;align-items:center;gap:1.5rem;padding:.8rem 1rem;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);flex-wrap:wrap}
+    .tool-nav a{font-size:.7rem;color:#888;text-decoration:none;letter-spacing:.05em;transition:color .2s;white-space:nowrap}
+    .tool-nav a:hover{color:#c9a0dc}
+    .tool-nav a.nav-home{font-weight:700;background:linear-gradient(135deg,#c9a0dc,#89b4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:.85rem}
+    @media(max-width:600px){.tool-nav{gap:.8rem;padding:.6rem .8rem}.tool-nav a{font-size:.6rem}}
+
     </style>
 </head>
 <body>
+<nav class="tool-nav">
+    <a class="nav-home" href="index.html">We are Swifties</a>
+    <a href="quiz.html">🎲 診断</a>
+    <a href="lyrics-quiz.html">🎤 クイズ</a>
+    <a href="tierlist.html">📊 Tier</a>
+    <a href="ranking.html">🏆 ランキング</a>
+    <a href="search.html">🔍 検索</a>
+    <a href="quotes.html">✨ 名言</a>
+    <a href="glossary.html">📖 辞典</a>
+</nav>
     <div class="container">
         <h1>📊 アルバム Tier List</h1>
         <p class="subtitle">ドラッグ&ドロップでアルバムをランク付け</p>
