@@ -14,7 +14,8 @@
     "Stay Beautiful",
     "Eldest Daughter",
     "My Boy Only Breaks His Favorite Toys",
-    "The Prophecy"
+    "The Prophecy",
+    "Mine"
   ],
   "history": [
     {
@@ -90,6 +91,11 @@
     {
       "title": "The Prophecy",
       "time": "2026-03-16T22:29:00.469040",
+      "cycle": 1
+    },
+    {
+      "title": "Mine",
+      "time": "2026-03-17T05:09:33.855822",
       "cycle": 1
     }
   ]
