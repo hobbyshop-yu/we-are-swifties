@@ -756,26 +756,24 @@
 - [x] Step3: 修正適用 — 修正不要。全行品質良好
 - [x] Step4: チェックリスト記録
 
-## Speak Now TV (2023) Batch 4 ⚠️ 要やり直し
+## Speak Now TV (2023) Batch 4 ✅ 再レビュー完了
 
-> **手順違反**: 同上
-
-### Innocent — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 1行（維持）
+### Innocent
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/ann-hemmings/entry-12631895785.html / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み。全行参考訳と意味一致。TV版 "Minds change" にHTML側が正確対応
+- [x] Step3: 修正適用 — 修正不要。前回修正1行（文字化け「蹴り返す→繰り返す」）維持。全行品質良好
 - [x] Step4: チェックリスト記録
 
-### Last Kiss — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 3行（維持）
+### Last Kiss
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/moonlightbae13/entry-12850522772.html / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Outro全セクション照合出力済み。全行参考訳と意味一致
+- [x] Step3: 修正適用 — 修正不要。前回修正3行（文字化け「舞装→舗道」等）維持。全行品質良好
 - [x] Step4: チェックリスト記録
 
-### Long Live — 要再照合
-- [x] Step1: ⚠️ search_webスニペットのみ。やり直し要
-- [x] Step2: ⚠️ やり直し要
-- [x] Step3: 修正適用済み — 修正: 3行（維持）
+### Long Live
+- [x] Step1: 背景調査完了 — 参考URL: ameblo.jp/haskeymouse/entry-12824782516.html / 取得方法: browser_subagent全文取得
+- [x] Step2: 全行照合完了 — 問題箇所: 0件 / Verse1〜Chorus3全セクション照合出力済み。全行参考訳と意味一致
+- [x] Step3: 修正適用 — 修正不要。前回修正3行（構造統合・文字化け「僅ら→端」等）維持。全行品質良好
 - [x] Step4: チェックリスト記録
 
 ## Speak Now TV (2023) Batch 5 ✅ 再レビュー完了
