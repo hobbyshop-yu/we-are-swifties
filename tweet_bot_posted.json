@@ -17,7 +17,8 @@
     "The Prophecy",
     "Mine",
     "We Are Never Ever Getting Back Together",
-    "I Knew You Were Trouble Tv"
+    "I Knew You Were Trouble Tv",
+    "The Alchemy"
   ],
   "history": [
     {
@@ -108,6 +109,11 @@
     {
       "title": "I Knew You Were Trouble Tv",
       "time": "2026-03-17T22:29:17.527042",
+      "cycle": 1
+    },
+    {
+      "title": "The Alchemy",
+      "time": "2026-03-18T05:14:16.127926",
       "cycle": 1
     }
   ]
