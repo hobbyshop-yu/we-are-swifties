@@ -25,7 +25,8 @@
     "Afterglow",
     "Blank Space",
     "Better Man",
-    "Everything Has Changed Tv"
+    "Everything Has Changed Tv",
+    "Castles Crumbling"
   ],
   "history": [
     {
@@ -156,6 +157,11 @@
     {
       "title": "Everything Has Changed Tv",
       "time": "2026-03-20T11:27:57.336850",
+      "cycle": 1
+    },
+    {
+      "title": "Castles Crumbling",
+      "time": "2026-03-20T22:24:42.634218",
       "cycle": 1
     }
   ]
