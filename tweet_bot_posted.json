@@ -27,7 +27,8 @@
     "Better Man",
     "Everything Has Changed Tv",
     "Castles Crumbling",
-    "This Is Why We Cant Have Nice Things"
+    "This Is Why We Cant Have Nice Things",
+    "Paper Rings"
   ],
   "history": [
     {
@@ -168,6 +169,11 @@
     {
       "title": "This Is Why We Cant Have Nice Things",
       "time": "2026-03-21T04:52:51.529449",
+      "cycle": 1
+    },
+    {
+      "title": "Paper Rings",
+      "time": "2026-03-21T11:19:16.472030",
       "cycle": 1
     }
   ]
