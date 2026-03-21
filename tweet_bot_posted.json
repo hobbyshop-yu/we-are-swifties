@@ -28,7 +28,8 @@
     "Everything Has Changed Tv",
     "Castles Crumbling",
     "This Is Why We Cant Have Nice Things",
-    "Paper Rings"
+    "Paper Rings",
+    "So High School"
   ],
   "history": [
     {
@@ -174,6 +175,11 @@
     {
       "title": "Paper Rings",
       "time": "2026-03-21T11:19:16.472030",
+      "cycle": 1
+    },
+    {
+      "title": "So High School",
+      "time": "2026-03-21T22:20:12.485837",
       "cycle": 1
     }
   ]
