@@ -30,7 +30,8 @@
     "This Is Why We Cant Have Nice Things",
     "Paper Rings",
     "So High School",
-    "Guilty as Sin?"
+    "Guilty as Sin?",
+    "Begin Again"
   ],
   "history": [
     {
@@ -186,6 +187,11 @@
     {
       "title": "Guilty as Sin?",
       "time": "2026-03-22T05:08:29.097173",
+      "cycle": 1
+    },
+    {
+      "title": "Begin Again",
+      "time": "2026-03-22T11:19:44.827946",
       "cycle": 1
     }
   ]
