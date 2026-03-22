@@ -29,7 +29,8 @@
     "Castles Crumbling",
     "This Is Why We Cant Have Nice Things",
     "Paper Rings",
-    "So High School"
+    "So High School",
+    "Guilty as Sin?"
   ],
   "history": [
     {
@@ -180,6 +181,11 @@
     {
       "title": "So High School",
       "time": "2026-03-21T22:20:12.485837",
+      "cycle": 1
+    },
+    {
+      "title": "Guilty as Sin?",
+      "time": "2026-03-22T05:08:29.097173",
       "cycle": 1
     }
   ]
