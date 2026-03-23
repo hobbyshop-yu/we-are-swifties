@@ -33,7 +33,8 @@
     "Guilty as Sin?",
     "Begin Again",
     "dorothea",
-    "I Wish You Would"
+    "I Wish You Would",
+    "The Black Dog"
   ],
   "history": [
     {
@@ -204,6 +205,11 @@
     {
       "title": "I Wish You Would",
       "time": "2026-03-23T05:20:45.423380",
+      "cycle": 1
+    },
+    {
+      "title": "The Black Dog",
+      "time": "2026-03-23T11:40:40.820929",
       "cycle": 1
     }
   ]
