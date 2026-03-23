@@ -34,7 +34,8 @@
     "Begin Again",
     "dorothea",
     "I Wish You Would",
-    "The Black Dog"
+    "The Black Dog",
+    "Vigilante Shit"
   ],
   "history": [
     {
@@ -210,6 +211,11 @@
     {
       "title": "The Black Dog",
       "time": "2026-03-23T11:40:40.820929",
+      "cycle": 1
+    },
+    {
+      "title": "Vigilante Shit",
+      "time": "2026-03-23T22:27:52.497678",
       "cycle": 1
     }
   ]
