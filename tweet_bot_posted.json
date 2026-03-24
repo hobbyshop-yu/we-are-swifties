@@ -36,7 +36,8 @@
     "I Wish You Would",
     "The Black Dog",
     "Vigilante Shit",
-    "Privacy Policy"
+    "Privacy Policy",
+    "Tied Together Debut"
   ],
   "history": [
     {
@@ -222,6 +223,11 @@
     {
       "title": "Privacy Policy",
       "time": "2026-03-24T05:11:17.624531",
+      "cycle": 1
+    },
+    {
+      "title": "Tied Together Debut",
+      "time": "2026-03-24T11:41:43.268674",
       "cycle": 1
     }
   ]
