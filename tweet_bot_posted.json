@@ -37,7 +37,8 @@
     "The Black Dog",
     "Vigilante Shit",
     "Privacy Policy",
-    "Tied Together Debut"
+    "Tied Together Debut",
+    "Youre On Your Own Kid"
   ],
   "history": [
     {
@@ -228,6 +229,11 @@
     {
       "title": "Tied Together Debut",
       "time": "2026-03-24T11:41:43.268674",
+      "cycle": 1
+    },
+    {
+      "title": "Youre On Your Own Kid",
+      "time": "2026-03-24T22:26:09.314031",
       "cycle": 1
     }
   ]
