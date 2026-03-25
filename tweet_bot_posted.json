@@ -39,7 +39,8 @@
     "Privacy Policy",
     "Tied Together Debut",
     "Youre On Your Own Kid",
-    "Wi$h Li$t"
+    "Wi$h Li$t",
+    "betty"
   ],
   "history": [
     {
@@ -240,6 +241,11 @@
     {
       "title": "Wi$h Li$t",
       "time": "2026-03-25T05:11:47.269784",
+      "cycle": 1
+    },
+    {
+      "title": "betty",
+      "time": "2026-03-25T11:38:25.003399",
       "cycle": 1
     }
   ]
