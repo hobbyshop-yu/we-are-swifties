@@ -49,7 +49,8 @@
     "Ours",
     "I Almost Do",
     "The Bolter",
-    "Whos Afraid Of Little Old Me"
+    "Whos Afraid Of Little Old Me",
+    "New Year's Day"
   ],
   "history": [
     {
@@ -300,6 +301,11 @@
     {
       "title": "Whos Afraid Of Little Old Me",
       "time": "2026-03-28T11:24:09.298484",
+      "cycle": 1
+    },
+    {
+      "title": "New Year's Day",
+      "time": "2026-03-28T22:24:55.003818",
       "cycle": 1
     }
   ]
