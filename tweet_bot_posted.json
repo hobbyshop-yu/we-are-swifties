@@ -64,7 +64,8 @@
     "Should've Said No",
     "Hits Different",
     "Fresh Out the Slammer",
-    "evermore"
+    "evermore",
+    "the 1"
   ],
   "history": [
     {
@@ -390,6 +391,11 @@
     {
       "title": "evermore",
       "time": "2026-04-02T11:41:49.709325",
+      "cycle": 1
+    },
+    {
+      "title": "the 1",
+      "time": "2026-04-02T22:27:50.182212",
       "cycle": 1
     }
   ]
