@@ -70,7 +70,8 @@
     "mad woman",
     "Clean",
     "Chloe Or Sam Or Sophia Or Marcus",
-    "Ruin The Friendship"
+    "Ruin The Friendship",
+    "I Bet You Think About Me Tv"
   ],
   "history": [
     {
@@ -426,6 +427,11 @@
     {
       "title": "Ruin The Friendship",
       "time": "2026-04-04T11:25:53.519700",
+      "cycle": 1
+    },
+    {
+      "title": "I Bet You Think About Me Tv",
+      "time": "2026-04-04T22:25:53.601527",
       "cycle": 1
     }
   ]
