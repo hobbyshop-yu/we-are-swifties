@@ -77,7 +77,8 @@
     "Gorgeous",
     "Opalite",
     "Fifteen",
-    "Dancing With Our Hands Tied"
+    "Dancing With Our Hands Tied",
+    "I Can Do It With A Broken Heart"
   ],
   "history": [
     {
@@ -468,6 +469,11 @@
     {
       "title": "Dancing With Our Hands Tied",
       "time": "2026-04-07T11:50:16.130418",
+      "cycle": 1
+    },
+    {
+      "title": "I Can Do It With A Broken Heart",
+      "time": "2026-04-07T22:34:36.955275",
       "cycle": 1
     }
   ]
