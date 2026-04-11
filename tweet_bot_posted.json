@@ -89,7 +89,8 @@
     "I Forgot That You Existed",
     "Sweet Nothing",
     "High Infidelity",
-    "Teardrops On My Guitar Debut"
+    "Teardrops On My Guitar Debut",
+    "Miss Americana And The Heartbreak Prince"
   ],
   "history": [
     {
@@ -540,6 +541,11 @@
     {
       "title": "Teardrops On My Guitar Debut",
       "time": "2026-04-11T11:26:12.767945",
+      "cycle": 1
+    },
+    {
+      "title": "Miss Americana And The Heartbreak Prince",
+      "time": "2026-04-11T22:28:01.202076",
       "cycle": 1
     }
   ]
