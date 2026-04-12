@@ -91,7 +91,8 @@
     "High Infidelity",
     "Teardrops On My Guitar Debut",
     "Miss Americana And The Heartbreak Prince",
-    "Timeless"
+    "Timeless",
+    "Anti-Hero"
   ],
   "history": [
     {
@@ -552,6 +553,11 @@
     {
       "title": "Timeless",
       "time": "2026-04-12T05:34:46.219976",
+      "cycle": 1
+    },
+    {
+      "title": "Anti-Hero",
+      "time": "2026-04-12T11:30:25.357106",
       "cycle": 1
     }
   ]
