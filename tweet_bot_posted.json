@@ -92,7 +92,8 @@
     "Teardrops On My Guitar Debut",
     "Miss Americana And The Heartbreak Prince",
     "Timeless",
-    "Anti-Hero"
+    "Anti-Hero",
+    "Shake It Off"
   ],
   "history": [
     {
@@ -558,6 +559,11 @@
     {
       "title": "Anti-Hero",
       "time": "2026-04-12T11:30:25.357106",
+      "cycle": 1
+    },
+    {
+      "title": "Shake It Off",
+      "time": "2026-04-12T22:29:19.416507",
       "cycle": 1
     }
   ]
