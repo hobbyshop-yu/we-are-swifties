@@ -93,7 +93,8 @@
     "Miss Americana And The Heartbreak Prince",
     "Timeless",
     "Anti-Hero",
-    "Shake It Off"
+    "Shake It Off",
+    "Better Than Revenge"
   ],
   "history": [
     {
@@ -564,6 +565,11 @@
     {
       "title": "Shake It Off",
       "time": "2026-04-12T22:29:19.416507",
+      "cycle": 1
+    },
+    {
+      "title": "Better Than Revenge",
+      "time": "2026-04-13T12:00:10.475084",
       "cycle": 1
     }
   ]
