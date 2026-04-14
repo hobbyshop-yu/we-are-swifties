@@ -97,7 +97,8 @@
     "Better Than Revenge",
     "Last Kiss",
     "The Tortured Poets Department",
-    "The Story of Us"
+    "The Story of Us",
+    "When Emma Falls In Love Tv"
   ],
   "history": [
     {
@@ -588,6 +589,11 @@
     {
       "title": "The Story of Us",
       "time": "2026-04-14T11:55:26.059165",
+      "cycle": 1
+    },
+    {
+      "title": "When Emma Falls In Love Tv",
+      "time": "2026-04-14T22:41:21.734129",
       "cycle": 1
     }
   ]
