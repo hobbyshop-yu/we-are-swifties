@@ -96,7 +96,8 @@
     "Shake It Off",
     "Better Than Revenge",
     "Last Kiss",
-    "The Tortured Poets Department"
+    "The Tortured Poets Department",
+    "The Story of Us"
   ],
   "history": [
     {
@@ -582,6 +583,11 @@
     {
       "title": "The Tortured Poets Department",
       "time": "2026-04-14T05:36:33.390943",
+      "cycle": 1
+    },
+    {
+      "title": "The Story of Us",
+      "time": "2026-04-14T11:55:26.059165",
       "cycle": 1
     }
   ]
