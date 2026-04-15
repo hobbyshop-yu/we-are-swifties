@@ -100,7 +100,8 @@
     "The Story of Us",
     "When Emma Falls In Love Tv",
     "it's time to go",
-    "Wonderland"
+    "Wonderland",
+    "White Horse"
   ],
   "history": [
     {
@@ -606,6 +607,11 @@
     {
       "title": "Wonderland",
       "time": "2026-04-15T11:53:56.168797",
+      "cycle": 1
+    },
+    {
+      "title": "White Horse",
+      "time": "2026-04-15T22:38:18.861772",
       "cycle": 1
     }
   ]
