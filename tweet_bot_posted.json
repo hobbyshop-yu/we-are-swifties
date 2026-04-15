@@ -98,7 +98,8 @@
     "Last Kiss",
     "The Tortured Poets Department",
     "The Story of Us",
-    "When Emma Falls In Love Tv"
+    "When Emma Falls In Love Tv",
+    "it's time to go"
   ],
   "history": [
     {
@@ -594,6 +595,11 @@
     {
       "title": "When Emma Falls In Love Tv",
       "time": "2026-04-14T22:41:21.734129",
+      "cycle": 1
+    },
+    {
+      "title": "it's time to go",
+      "time": "2026-04-15T05:36:28.233352",
       "cycle": 1
     }
   ]
