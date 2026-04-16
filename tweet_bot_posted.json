@@ -102,7 +102,8 @@
     "it's time to go",
     "Wonderland",
     "White Horse",
-    "Mr. Perfectly Fine"
+    "Mr. Perfectly Fine",
+    "Haunted"
   ],
   "history": [
     {
@@ -618,6 +619,11 @@
     {
       "title": "Mr. Perfectly Fine",
       "time": "2026-04-16T05:41:35.680469",
+      "cycle": 1
+    },
+    {
+      "title": "Haunted",
+      "time": "2026-04-16T11:55:48.698259",
       "cycle": 1
     }
   ]
