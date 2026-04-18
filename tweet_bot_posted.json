@@ -109,7 +109,8 @@
     "august",
     "imgonnagetyouback",
     "Foolish One",
-    "Picture to Burn"
+    "Picture to Burn",
+    "Love Story"
   ],
   "history": [
     {
@@ -660,6 +661,11 @@
     {
       "title": "Picture to Burn",
       "time": "2026-04-18T11:30:44.389162",
+      "cycle": 1
+    },
+    {
+      "title": "Love Story",
+      "time": "2026-04-18T22:29:59.528865",
       "cycle": 1
     }
   ]
