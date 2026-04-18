@@ -108,7 +108,8 @@
     "Red",
     "august",
     "imgonnagetyouback",
-    "Foolish One"
+    "Foolish One",
+    "Picture to Burn"
   ],
   "history": [
     {
@@ -654,6 +655,11 @@
     {
       "title": "Foolish One",
       "time": "2026-04-18T05:22:56.930720",
+      "cycle": 1
+    },
+    {
+      "title": "Picture to Burn",
+      "time": "2026-04-18T11:30:44.389162",
       "cycle": 1
     }
   ]
