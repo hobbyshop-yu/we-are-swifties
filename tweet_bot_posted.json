@@ -115,7 +115,8 @@
     "Nothing New",
     "Electric Touch",
     "The Great War",
-    "The Archer"
+    "The Archer",
+    "Bigger Than The Whole Sky"
   ],
   "history": [
     {
@@ -696,6 +697,11 @@
     {
       "title": "The Archer",
       "time": "2026-04-20T12:00:20.156682",
+      "cycle": 1
+    },
+    {
+      "title": "Bigger Than The Whole Sky",
+      "time": "2026-04-20T22:39:37.344652",
       "cycle": 1
     }
   ]
