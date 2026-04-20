@@ -114,7 +114,8 @@
     "The Man",
     "Nothing New",
     "Electric Touch",
-    "The Great War"
+    "The Great War",
+    "The Archer"
   ],
   "history": [
     {
@@ -690,6 +691,11 @@
     {
       "title": "The Great War",
       "time": "2026-04-20T06:01:20.890034",
+      "cycle": 1
+    },
+    {
+      "title": "The Archer",
+      "time": "2026-04-20T12:00:20.156682",
       "cycle": 1
     }
   ]
