@@ -113,7 +113,8 @@
     "Love Story",
     "The Man",
     "Nothing New",
-    "Electric Touch"
+    "Electric Touch",
+    "The Great War"
   ],
   "history": [
     {
@@ -684,6 +685,11 @@
     {
       "title": "Electric Touch",
       "time": "2026-04-19T22:31:07.310135",
+      "cycle": 1
+    },
+    {
+      "title": "The Great War",
+      "time": "2026-04-20T06:01:20.890034",
       "cycle": 1
     }
   ]
