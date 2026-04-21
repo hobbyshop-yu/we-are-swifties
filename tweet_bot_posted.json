@@ -117,7 +117,8 @@
     "The Great War",
     "The Archer",
     "Bigger Than The Whole Sky",
-    "Cornelia Street"
+    "Cornelia Street",
+    "...Ready for It?"
   ],
   "history": [
     {
@@ -708,6 +709,11 @@
     {
       "title": "Cornelia Street",
       "time": "2026-04-21T05:39:24.328826",
+      "cycle": 1
+    },
+    {
+      "title": "...Ready for It?",
+      "time": "2026-04-21T11:57:19.803024",
       "cycle": 1
     }
   ]
