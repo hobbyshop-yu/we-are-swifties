@@ -122,7 +122,8 @@
     "We Are Never Ever Getting Back Together Tv",
     "Honey",
     "Is It Over Now?",
-    "Clara Bow"
+    "Clara Bow",
+    "Bad Blood"
   ],
   "history": [
     {
@@ -738,6 +739,11 @@
     {
       "title": "Clara Bow",
       "time": "2026-04-22T22:43:00.254970",
+      "cycle": 1
+    },
+    {
+      "title": "Bad Blood",
+      "time": "2026-04-23T05:42:19.943247",
       "cycle": 1
     }
   ]
