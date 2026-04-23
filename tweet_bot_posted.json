@@ -124,7 +124,8 @@
     "Is It Over Now?",
     "Clara Bow",
     "Bad Blood",
-    "exile"
+    "exile",
+    "Delicate"
   ],
   "history": [
     {
@@ -750,6 +751,11 @@
     {
       "title": "exile",
       "time": "2026-04-23T11:57:14.944484",
+      "cycle": 1
+    },
+    {
+      "title": "Delicate",
+      "time": "2026-04-23T22:40:12.274630",
       "cycle": 1
     }
   ]
