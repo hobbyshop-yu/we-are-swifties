@@ -129,7 +129,8 @@
     "this is me trying",
     "Dear Reader",
     "The Fate of Ophelia",
-    "Today Was a Fairytale"
+    "Today Was a Fairytale",
+    "How You Get the Girl"
   ],
   "history": [
     {
@@ -780,6 +781,11 @@
     {
       "title": "Today Was a Fairytale",
       "time": "2026-04-25T05:27:41.976114",
+      "cycle": 1
+    },
+    {
+      "title": "How You Get the Girl",
+      "time": "2026-04-25T11:34:38.701271",
       "cycle": 1
     }
   ]
