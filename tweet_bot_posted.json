@@ -130,7 +130,8 @@
     "Dear Reader",
     "The Fate of Ophelia",
     "Today Was a Fairytale",
-    "How You Get the Girl"
+    "How You Get the Girl",
+    "I Look In Peoples Windows"
   ],
   "history": [
     {
@@ -786,6 +787,11 @@
     {
       "title": "How You Get the Girl",
       "time": "2026-04-25T11:34:38.701271",
+      "cycle": 1
+    },
+    {
+      "title": "I Look In Peoples Windows",
+      "time": "2026-04-25T22:33:05.410632",
       "cycle": 1
     }
   ]
