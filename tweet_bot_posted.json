@@ -136,7 +136,8 @@
     "Come Back... Be Here",
     "my tears ricochet",
     "But Daddy I Love Him",
-    "Fortnight"
+    "Fortnight",
+    "The Albatross"
   ],
   "history": [
     {
@@ -822,6 +823,11 @@
     {
       "title": "Fortnight",
       "time": "2026-04-27T12:18:13.561131",
+      "cycle": 1
+    },
+    {
+      "title": "The Albatross",
+      "time": "2026-04-27T22:48:25.824365",
       "cycle": 1
     }
   ]
