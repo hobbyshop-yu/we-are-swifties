@@ -139,7 +139,8 @@
     "Fortnight",
     "The Albatross",
     "The Last Great American Dynasty",
-    "Call It What You Want"
+    "Call It What You Want",
+    "the lakes"
   ],
   "history": [
     {
@@ -840,6 +841,11 @@
     {
       "title": "Call It What You Want",
       "time": "2026-04-28T12:21:47.298322",
+      "cycle": 1
+    },
+    {
+      "title": "the lakes",
+      "time": "2026-04-28T22:53:46.018983",
       "cycle": 1
     }
   ]
