@@ -138,7 +138,8 @@
     "But Daddy I Love Him",
     "Fortnight",
     "The Albatross",
-    "The Last Great American Dynasty"
+    "The Last Great American Dynasty",
+    "Call It What You Want"
   ],
   "history": [
     {
@@ -834,6 +835,11 @@
     {
       "title": "The Last Great American Dynasty",
       "time": "2026-04-28T06:18:19.106088",
+      "cycle": 1
+    },
+    {
+      "title": "Call It What You Want",
+      "time": "2026-04-28T12:21:47.298322",
       "cycle": 1
     }
   ]
