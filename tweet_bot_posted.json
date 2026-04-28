@@ -137,7 +137,8 @@
     "my tears ricochet",
     "But Daddy I Love Him",
     "Fortnight",
-    "The Albatross"
+    "The Albatross",
+    "The Last Great American Dynasty"
   ],
   "history": [
     {
@@ -828,6 +829,11 @@
     {
       "title": "The Albatross",
       "time": "2026-04-27T22:48:25.824365",
+      "cycle": 1
+    },
+    {
+      "title": "The Last Great American Dynasty",
+      "time": "2026-04-28T06:18:19.106088",
       "cycle": 1
     }
   ]
