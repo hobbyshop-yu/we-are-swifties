@@ -141,7 +141,8 @@
     "The Last Great American Dynasty",
     "Call It What You Want",
     "the lakes",
-    "Cold As You"
+    "Cold As You",
+    "Now That We Dont Talk Tv"
   ],
   "history": [
     {
@@ -852,6 +853,11 @@
     {
       "title": "Cold As You",
       "time": "2026-04-29T06:11:40.682057",
+      "cycle": 1
+    },
+    {
+      "title": "Now That We Dont Talk Tv",
+      "time": "2026-04-29T12:14:10.406515",
       "cycle": 1
     }
   ]
