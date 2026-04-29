@@ -140,7 +140,8 @@
     "The Albatross",
     "The Last Great American Dynasty",
     "Call It What You Want",
-    "the lakes"
+    "the lakes",
+    "Cold As You"
   ],
   "history": [
     {
@@ -846,6 +847,11 @@
     {
       "title": "the lakes",
       "time": "2026-04-28T22:53:46.018983",
+      "cycle": 1
+    },
+    {
+      "title": "Cold As You",
+      "time": "2026-04-29T06:11:40.682057",
       "cycle": 1
     }
   ]
