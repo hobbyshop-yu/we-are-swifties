@@ -155,7 +155,8 @@
     "seven",
     "Florida!!!",
     "All Too Well 10 Min Tv",
-    "Tim McGraw"
+    "Tim McGraw",
+    "How Did It End?"
   ],
   "history": [
     {
@@ -936,6 +937,11 @@
     {
       "title": "Tim McGraw",
       "time": "2026-05-03T22:36:24.475998",
+      "cycle": 1
+    },
+    {
+      "title": "How Did It End?",
+      "time": "2026-05-04T06:26:10.042165",
       "cycle": 1
     }
   ]
