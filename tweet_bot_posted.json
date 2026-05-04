@@ -157,7 +157,8 @@
     "All Too Well 10 Min Tv",
     "Tim McGraw",
     "How Did It End?",
-    "I Can Fix Him"
+    "I Can Fix Him",
+    "End Game"
   ],
   "history": [
     {
@@ -948,6 +949,11 @@
     {
       "title": "I Can Fix Him",
       "time": "2026-05-04T12:19:06.951419",
+      "cycle": 1
+    },
+    {
+      "title": "End Game",
+      "time": "2026-05-04T22:54:30.803377",
       "cycle": 1
     }
   ]
