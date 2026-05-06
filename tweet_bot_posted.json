@@ -163,7 +163,8 @@
     "Hey Stephen",
     "The Smallest Man Who Ever Lived",
     "Actually Romantic",
-    "'tis the damn season"
+    "'tis the damn season",
+    "Death By A Thousand Cuts"
   ],
   "history": [
     {
@@ -984,6 +985,11 @@
     {
       "title": "'tis the damn season",
       "time": "2026-05-06T12:25:09.316113",
+      "cycle": 1
+    },
+    {
+      "title": "Death By A Thousand Cuts",
+      "time": "2026-05-06T22:46:31.435746",
       "cycle": 1
     }
   ]
