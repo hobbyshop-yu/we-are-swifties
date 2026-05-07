@@ -165,7 +165,8 @@
     "Actually Romantic",
     "'tis the damn season",
     "Death By A Thousand Cuts",
-    "New Romantics"
+    "New Romantics",
+    "I Know Places"
   ],
   "history": [
     {
@@ -996,6 +997,11 @@
     {
       "title": "New Romantics",
       "time": "2026-05-07T06:22:43.214506",
+      "cycle": 1
+    },
+    {
+      "title": "I Know Places",
+      "time": "2026-05-07T12:26:48.618407",
       "cycle": 1
     }
   ]
