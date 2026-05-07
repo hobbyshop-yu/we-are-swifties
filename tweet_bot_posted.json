@@ -166,7 +166,8 @@
     "'tis the damn season",
     "Death By A Thousand Cuts",
     "New Romantics",
-    "I Know Places"
+    "I Know Places",
+    "Suburban Legends"
   ],
   "history": [
     {
@@ -1002,6 +1003,11 @@
     {
       "title": "I Know Places",
       "time": "2026-05-07T12:26:48.618407",
+      "cycle": 1
+    },
+    {
+      "title": "Suburban Legends",
+      "time": "2026-05-07T22:58:25.010276",
       "cycle": 1
     }
   ]
