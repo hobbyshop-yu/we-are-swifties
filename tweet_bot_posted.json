@@ -164,7 +164,8 @@
     "The Smallest Man Who Ever Lived",
     "Actually Romantic",
     "'tis the damn season",
-    "Death By A Thousand Cuts"
+    "Death By A Thousand Cuts",
+    "New Romantics"
   ],
   "history": [
     {
@@ -990,6 +991,11 @@
     {
       "title": "Death By A Thousand Cuts",
       "time": "2026-05-06T22:46:31.435746",
+      "cycle": 1
+    },
+    {
+      "title": "New Romantics",
+      "time": "2026-05-07T06:22:43.214506",
       "cycle": 1
     }
   ]
