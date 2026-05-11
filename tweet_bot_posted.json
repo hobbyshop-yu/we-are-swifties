@@ -176,7 +176,8 @@
     "22",
     "Out of the Woods",
     "hoax",
-    "Dress"
+    "Dress",
+    "So Long, London"
   ],
   "history": [
     {
@@ -1062,6 +1063,11 @@
     {
       "title": "Dress",
       "time": "2026-05-10T22:42:04.374598",
+      "cycle": 1
+    },
+    {
+      "title": "So Long, London",
+      "time": "2026-05-11T06:54:12.114630",
       "cycle": 1
     }
   ]
