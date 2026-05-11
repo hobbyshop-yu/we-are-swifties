@@ -177,7 +177,8 @@
     "Out of the Woods",
     "hoax",
     "Dress",
-    "So Long, London"
+    "So Long, London",
+    "Life Of A Showgirl"
   ],
   "history": [
     {
@@ -1068,6 +1069,11 @@
     {
       "title": "So Long, London",
       "time": "2026-05-11T06:54:12.114630",
+      "cycle": 1
+    },
+    {
+      "title": "Life Of A Showgirl",
+      "time": "2026-05-11T13:43:47.133427",
       "cycle": 1
     }
   ]
