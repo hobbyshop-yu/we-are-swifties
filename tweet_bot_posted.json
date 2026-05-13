@@ -184,7 +184,8 @@
     "Back to December",
     "loml",
     "Down Bad",
-    "Father Figure"
+    "Father Figure",
+    "Mastermind"
   ],
   "history": [
     {
@@ -1110,6 +1111,11 @@
     {
       "title": "Father Figure",
       "time": "2026-05-13T13:07:46.608695",
+      "cycle": 1
+    },
+    {
+      "title": "Mastermind",
+      "time": "2026-05-13T23:02:40.585861",
       "cycle": 1
     }
   ]
