@@ -188,7 +188,8 @@
     "Mastermind",
     "marjorie",
     "State of Grace",
-    "The Last Time"
+    "The Last Time",
+    "You Need to Calm Down"
   ],
   "history": [
     {
@@ -1134,6 +1135,11 @@
     {
       "title": "The Last Time",
       "time": "2026-05-14T22:53:25.061400",
+      "cycle": 1
+    },
+    {
+      "title": "You Need to Calm Down",
+      "time": "2026-05-15T06:46:01.248910",
       "cycle": 1
     }
   ]
