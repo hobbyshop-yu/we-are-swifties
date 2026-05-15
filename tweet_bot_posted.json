@@ -190,7 +190,8 @@
     "State of Grace",
     "The Last Time",
     "You Need to Calm Down",
-    "Snow on the Beach"
+    "Snow on the Beach",
+    "Dear John"
   ],
   "history": [
     {
@@ -1146,6 +1147,11 @@
     {
       "title": "Snow on the Beach",
       "time": "2026-05-15T12:28:21.196478",
+      "cycle": 1
+    },
+    {
+      "title": "Dear John",
+      "time": "2026-05-15T22:51:22.287369",
       "cycle": 1
     }
   ]
