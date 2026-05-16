@@ -191,7 +191,8 @@
     "The Last Time",
     "You Need to Calm Down",
     "Snow on the Beach",
-    "Dear John"
+    "Dear John",
+    "I Did Something Bad"
   ],
   "history": [
     {
@@ -1152,6 +1153,11 @@
     {
       "title": "Dear John",
       "time": "2026-05-15T22:51:22.287369",
+      "cycle": 1
+    },
+    {
+      "title": "I Did Something Bad",
+      "time": "2026-05-16T06:11:22.572408",
       "cycle": 1
     }
   ]
