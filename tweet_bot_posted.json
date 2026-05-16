@@ -192,7 +192,8 @@
     "You Need to Calm Down",
     "Snow on the Beach",
     "Dear John",
-    "I Did Something Bad"
+    "I Did Something Bad",
+    "cardigan"
   ],
   "history": [
     {
@@ -1158,6 +1159,11 @@
     {
       "title": "I Did Something Bad",
       "time": "2026-05-16T06:11:22.572408",
+      "cycle": 1
+    },
+    {
+      "title": "cardigan",
+      "time": "2026-05-16T11:45:54.987275",
       "cycle": 1
     }
   ]
