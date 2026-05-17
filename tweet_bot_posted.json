@@ -196,7 +196,8 @@
     "cardigan",
     "Girl at Home",
     "Lavender Haze",
-    "Babe"
+    "Babe",
+    "Treacherous"
   ],
   "history": [
     {
@@ -1182,6 +1183,11 @@
     {
       "title": "Babe",
       "time": "2026-05-17T11:57:23.409814",
+      "cycle": 1
+    },
+    {
+      "title": "Treacherous",
+      "time": "2026-05-17T22:50:20.880142",
       "cycle": 1
     }
   ]
