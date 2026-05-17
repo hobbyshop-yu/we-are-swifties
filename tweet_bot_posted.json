@@ -195,7 +195,8 @@
     "I Did Something Bad",
     "cardigan",
     "Girl at Home",
-    "Lavender Haze"
+    "Lavender Haze",
+    "Babe"
   ],
   "history": [
     {
@@ -1176,6 +1177,11 @@
     {
       "title": "Lavender Haze",
       "time": "2026-05-17T06:35:40.458409",
+      "cycle": 1
+    },
+    {
+      "title": "Babe",
+      "time": "2026-05-17T11:57:23.409814",
       "cycle": 1
     }
   ]
