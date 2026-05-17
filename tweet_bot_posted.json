@@ -194,7 +194,8 @@
     "Dear John",
     "I Did Something Bad",
     "cardigan",
-    "Girl at Home"
+    "Girl at Home",
+    "Lavender Haze"
   ],
   "history": [
     {
@@ -1170,6 +1171,11 @@
     {
       "title": "Girl at Home",
       "time": "2026-05-16T22:40:43.498656",
+      "cycle": 1
+    },
+    {
+      "title": "Lavender Haze",
+      "time": "2026-05-17T06:35:40.458409",
       "cycle": 1
     }
   ]
