@@ -198,7 +198,8 @@
     "Lavender Haze",
     "Babe",
     "Treacherous",
-    "no body, no crime"
+    "no body, no crime",
+    "Bejeweled"
   ],
   "history": [
     {
@@ -1194,6 +1195,11 @@
     {
       "title": "no body, no crime",
       "time": "2026-05-18T07:10:08.608505",
+      "cycle": 1
+    },
+    {
+      "title": "Bejeweled",
+      "time": "2026-05-18T14:26:44.862387",
       "cycle": 1
     }
   ]
