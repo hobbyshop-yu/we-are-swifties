@@ -200,7 +200,8 @@
     "Treacherous",
     "no body, no crime",
     "Bejeweled",
-    "Wood"
+    "Wood",
+    "Robin"
   ],
   "history": [
     {
@@ -1206,6 +1207,11 @@
     {
       "title": "Wood",
       "time": "2026-05-18T22:56:53.365136",
+      "cycle": 1
+    },
+    {
+      "title": "Robin",
+      "time": "2026-05-19T07:00:52.174463",
       "cycle": 1
     }
   ]
