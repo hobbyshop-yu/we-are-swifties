@@ -213,7 +213,8 @@
     "Wildest Dreams",
     "Right Where You Left Me",
     "illicit affairs",
-    "You Are in Love"
+    "You Are in Love",
+    "Lover"
   ],
   "history": [
     {
@@ -1284,6 +1285,11 @@
     {
       "title": "You Are in Love",
       "time": "2026-05-23T06:22:35.862207",
+      "cycle": 1
+    },
+    {
+      "title": "Lover",
+      "time": "2026-05-23T11:57:14.223197",
       "cycle": 1
     }
   ]
