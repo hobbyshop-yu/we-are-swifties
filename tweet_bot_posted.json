@@ -214,7 +214,8 @@
     "Right Where You Left Me",
     "illicit affairs",
     "You Are in Love",
-    "Lover"
+    "Lover",
+    "The Manuscript"
   ],
   "history": [
     {
@@ -1290,6 +1291,11 @@
     {
       "title": "Lover",
       "time": "2026-05-23T11:57:14.223197",
+      "cycle": 1
+    },
+    {
+      "title": "The Manuscript",
+      "time": "2026-05-23T22:49:13.558005",
       "cycle": 1
     }
   ]
