@@ -216,7 +216,8 @@
     "You Are in Love",
     "Lover",
     "The Manuscript",
-    "Look What You Made Me Do"
+    "Look What You Made Me Do",
+    "Welcome to New York"
   ],
   "history": [
     {
@@ -1302,6 +1303,11 @@
     {
       "title": "Look What You Made Me Do",
       "time": "2026-05-24T06:50:10.995058",
+      "cycle": 1
+    },
+    {
+      "title": "Welcome to New York",
+      "time": "2026-05-24T11:58:44.548364",
       "cycle": 1
     }
   ]
