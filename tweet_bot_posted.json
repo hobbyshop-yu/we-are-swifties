@@ -215,7 +215,8 @@
     "illicit affairs",
     "You Are in Love",
     "Lover",
-    "The Manuscript"
+    "The Manuscript",
+    "Look What You Made Me Do"
   ],
   "history": [
     {
@@ -1296,6 +1297,11 @@
     {
       "title": "The Manuscript",
       "time": "2026-05-23T22:49:13.558005",
+      "cycle": 1
+    },
+    {
+      "title": "Look What You Made Me Do",
+      "time": "2026-05-24T06:50:10.995058",
       "cycle": 1
     }
   ]
