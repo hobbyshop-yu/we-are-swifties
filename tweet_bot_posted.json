@@ -8,7 +8,8 @@
     "the 1",
     "Gorgeous",
     "The Outside",
-    "I Look In Peoples Windows"
+    "I Look In Peoples Windows",
+    "Miss Americana And The Heartbreak Prince"
   ],
   "history": [
     {
@@ -1164,6 +1165,11 @@
     {
       "title": "I Look In Peoples Windows",
       "time": "2026-05-28T23:11:15.167099",
+      "cycle": 1
+    },
+    {
+      "title": "Miss Americana And The Heartbreak Prince",
+      "time": "2026-05-29T07:08:07.728506",
       "cycle": 1
     }
   ],
