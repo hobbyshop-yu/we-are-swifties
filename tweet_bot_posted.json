@@ -11,7 +11,8 @@
     "I Look In Peoples Windows",
     "Miss Americana And The Heartbreak Prince",
     "All Too Well 10 Min Tv",
-    "cowboy like me"
+    "cowboy like me",
+    "hoax"
   ],
   "history": [
     {
@@ -1182,6 +1183,11 @@
     {
       "title": "cowboy like me",
       "time": "2026-05-29T23:09:03.862819",
+      "cycle": 1
+    },
+    {
+      "title": "hoax",
+      "time": "2026-05-30T06:35:53.477753",
       "cycle": 1
     }
   ],
