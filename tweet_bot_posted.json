@@ -12,7 +12,8 @@
     "Miss Americana And The Heartbreak Prince",
     "All Too Well 10 Min Tv",
     "cowboy like me",
-    "hoax"
+    "hoax",
+    "Right Where You Left Me"
   ],
   "history": [
     {
@@ -1188,6 +1189,11 @@
     {
       "title": "hoax",
       "time": "2026-05-30T06:35:53.477753",
+      "cycle": 1
+    },
+    {
+      "title": "Right Where You Left Me",
+      "time": "2026-05-30T12:02:14.222615",
       "cycle": 1
     }
   ],
