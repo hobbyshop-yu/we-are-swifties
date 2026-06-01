@@ -19,7 +19,8 @@
     "I Almost Do",
     "Paper Rings",
     "I Can See You",
-    "Life Of A Showgirl"
+    "Life Of A Showgirl",
+    "I Can Do It With A Broken Heart"
   ],
   "history": [
     {
@@ -1230,6 +1231,11 @@
     {
       "title": "Life Of A Showgirl",
       "time": "2026-06-01T16:34:09.138266",
+      "cycle": 1
+    },
+    {
+      "title": "I Can Do It With A Broken Heart",
+      "time": "2026-06-01T23:24:30.429045",
       "cycle": 1
     }
   ],
