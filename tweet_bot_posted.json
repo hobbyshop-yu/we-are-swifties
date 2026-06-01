@@ -17,7 +17,8 @@
     "I Forgot That You Existed",
     "The Prophecy",
     "I Almost Do",
-    "Paper Rings"
+    "Paper Rings",
+    "I Can See You"
   ],
   "history": [
     {
@@ -1218,6 +1219,11 @@
     {
       "title": "Paper Rings",
       "time": "2026-05-31T22:56:56.365547",
+      "cycle": 1
+    },
+    {
+      "title": "I Can See You",
+      "time": "2026-06-01T09:00:29.765680",
       "cycle": 1
     }
   ],
