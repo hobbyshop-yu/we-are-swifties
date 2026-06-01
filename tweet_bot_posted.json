@@ -18,7 +18,8 @@
     "The Prophecy",
     "I Almost Do",
     "Paper Rings",
-    "I Can See You"
+    "I Can See You",
+    "Life Of A Showgirl"
   ],
   "history": [
     {
@@ -1224,6 +1225,11 @@
     {
       "title": "I Can See You",
       "time": "2026-06-01T09:00:29.765680",
+      "cycle": 1
+    },
+    {
+      "title": "Life Of A Showgirl",
+      "time": "2026-06-01T16:34:09.138266",
       "cycle": 1
     }
   ],
