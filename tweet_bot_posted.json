@@ -20,7 +20,8 @@
     "Paper Rings",
     "I Can See You",
     "Life Of A Showgirl",
-    "I Can Do It With A Broken Heart"
+    "I Can Do It With A Broken Heart",
+    "Elizabeth Taylor"
   ],
   "history": [
     {
@@ -1236,6 +1237,11 @@
     {
       "title": "I Can Do It With A Broken Heart",
       "time": "2026-06-01T23:24:30.429045",
+      "cycle": 1
+    },
+    {
+      "title": "Elizabeth Taylor",
+      "time": "2026-06-02T08:13:00.827877",
       "cycle": 1
     }
   ],
