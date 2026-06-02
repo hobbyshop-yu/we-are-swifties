@@ -22,7 +22,8 @@
     "Life Of A Showgirl",
     "I Can Do It With A Broken Heart",
     "Elizabeth Taylor",
-    "Clara Bow"
+    "Clara Bow",
+    "Speak Now"
   ],
   "history": [
     {
@@ -1248,6 +1249,11 @@
     {
       "title": "Clara Bow",
       "time": "2026-06-02T14:48:08.221364",
+      "cycle": 1
+    },
+    {
+      "title": "Speak Now",
+      "time": "2026-06-02T23:42:16.776667",
       "cycle": 1
     }
   ],
