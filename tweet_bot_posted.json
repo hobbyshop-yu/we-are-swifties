@@ -24,7 +24,8 @@
     "Elizabeth Taylor",
     "Clara Bow",
     "Speak Now",
-    "Mr. Perfectly Fine"
+    "Mr. Perfectly Fine",
+    "Fearless"
   ],
   "history": [
     {
@@ -1260,6 +1261,11 @@
     {
       "title": "Mr. Perfectly Fine",
       "time": "2026-06-03T08:33:27.149052",
+      "cycle": 1
+    },
+    {
+      "title": "Fearless",
+      "time": "2026-06-03T15:25:08.620353",
       "cycle": 1
     }
   ],
