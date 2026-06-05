@@ -30,7 +30,8 @@
     "How Did It End?",
     "Look What You Made Me Do",
     "Travis Kelce",
-    "Lavender Haze"
+    "Lavender Haze",
+    "Cornelia Street"
   ],
   "history": [
     {
@@ -1296,6 +1297,11 @@
     {
       "title": "Lavender Haze",
       "time": "2026-06-05T07:51:35.188975",
+      "cycle": 1
+    },
+    {
+      "title": "Cornelia Street",
+      "time": "2026-06-05T13:50:07.055482",
       "cycle": 1
     }
   ],
