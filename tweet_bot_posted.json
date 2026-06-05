@@ -29,7 +29,8 @@
     "thankyouaimee",
     "How Did It End?",
     "Look What You Made Me Do",
-    "Travis Kelce"
+    "Travis Kelce",
+    "Lavender Haze"
   ],
   "history": [
     {
@@ -1290,6 +1291,11 @@
     {
       "title": "Travis Kelce",
       "time": "2026-06-04T23:06:02.205824",
+      "cycle": 1
+    },
+    {
+      "title": "Lavender Haze",
+      "time": "2026-06-05T07:51:35.188975",
       "cycle": 1
     }
   ],
