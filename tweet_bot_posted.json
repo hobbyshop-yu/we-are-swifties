@@ -31,7 +31,8 @@
     "Look What You Made Me Do",
     "Travis Kelce",
     "Lavender Haze",
-    "Cornelia Street"
+    "Cornelia Street",
+    "Wildest Dreams"
   ],
   "history": [
     {
@@ -1302,6 +1303,11 @@
     {
       "title": "Cornelia Street",
       "time": "2026-06-05T13:50:07.055482",
+      "cycle": 1
+    },
+    {
+      "title": "Wildest Dreams",
+      "time": "2026-06-05T23:03:56.348133",
       "cycle": 1
     }
   ],
