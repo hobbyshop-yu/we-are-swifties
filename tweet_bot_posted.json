@@ -32,7 +32,8 @@
     "Travis Kelce",
     "Lavender Haze",
     "Cornelia Street",
-    "Wildest Dreams"
+    "Wildest Dreams",
+    "The Man"
   ],
   "history": [
     {
@@ -1308,6 +1309,11 @@
     {
       "title": "Wildest Dreams",
       "time": "2026-06-05T23:03:56.348133",
+      "cycle": 1
+    },
+    {
+      "title": "The Man",
+      "time": "2026-06-06T06:42:15.395305",
       "cycle": 1
     }
   ],
