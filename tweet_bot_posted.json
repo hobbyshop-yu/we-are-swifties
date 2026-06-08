@@ -38,7 +38,8 @@
     "Vigilante Shit",
     "mad woman",
     "coney island",
-    "The Alchemy"
+    "The Alchemy",
+    "Ronan"
   ],
   "history": [
     {
@@ -1344,6 +1345,11 @@
     {
       "title": "The Alchemy",
       "time": "2026-06-07T23:00:43.177504",
+      "cycle": 1
+    },
+    {
+      "title": "Ronan",
+      "time": "2026-06-08T08:28:24.027870",
       "cycle": 1
     }
   ],
