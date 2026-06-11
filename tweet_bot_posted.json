@@ -47,7 +47,8 @@
     "Mastermind",
     "False God",
     "Afterglow",
-    "ME!"
+    "ME!",
+    "The Smallest Man Who Ever Lived"
   ],
   "history": [
     {
@@ -1398,6 +1399,11 @@
     {
       "title": "ME!",
       "time": "2026-06-10T23:22:35.702142",
+      "cycle": 1
+    },
+    {
+      "title": "The Smallest Man Who Ever Lived",
+      "time": "2026-06-11T08:20:25.046201",
       "cycle": 1
     }
   ],
