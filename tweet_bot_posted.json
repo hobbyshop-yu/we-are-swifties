@@ -49,7 +49,8 @@
     "Afterglow",
     "ME!",
     "The Smallest Man Who Ever Lived",
-    "Fortnight"
+    "Fortnight",
+    "The Last Time"
   ],
   "history": [
     {
@@ -1410,6 +1411,11 @@
     {
       "title": "Fortnight",
       "time": "2026-06-11T14:32:47.047102",
+      "cycle": 1
+    },
+    {
+      "title": "The Last Time",
+      "time": "2026-06-11T23:18:32.413939",
       "cycle": 1
     }
   ],
