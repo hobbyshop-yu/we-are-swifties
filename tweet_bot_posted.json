@@ -48,7 +48,8 @@
     "False God",
     "Afterglow",
     "ME!",
-    "The Smallest Man Who Ever Lived"
+    "The Smallest Man Who Ever Lived",
+    "Fortnight"
   ],
   "history": [
     {
@@ -1404,6 +1405,11 @@
     {
       "title": "The Smallest Man Who Ever Lived",
       "time": "2026-06-11T08:20:25.046201",
+      "cycle": 1
+    },
+    {
+      "title": "Fortnight",
+      "time": "2026-06-11T14:32:47.047102",
       "cycle": 1
     }
   ],
