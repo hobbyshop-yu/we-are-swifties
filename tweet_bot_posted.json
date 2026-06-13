@@ -53,7 +53,8 @@
     "The Last Time",
     "A Place in This World",
     "Nothing New",
-    "Its Nice To Have A Friend"
+    "Its Nice To Have A Friend",
+    "Youre On Your Own Kid"
   ],
   "history": [
     {
@@ -1434,6 +1435,11 @@
     {
       "title": "Its Nice To Have A Friend",
       "time": "2026-06-12T23:13:34.827558",
+      "cycle": 1
+    },
+    {
+      "title": "Youre On Your Own Kid",
+      "time": "2026-06-13T07:09:53.988711",
       "cycle": 1
     }
   ],
