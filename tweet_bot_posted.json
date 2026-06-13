@@ -55,7 +55,8 @@
     "Nothing New",
     "Its Nice To Have A Friend",
     "Youre On Your Own Kid",
-    "Sad Beautiful Tragic"
+    "Sad Beautiful Tragic",
+    "dorothea"
   ],
   "history": [
     {
@@ -1446,6 +1447,11 @@
     {
       "title": "Sad Beautiful Tragic",
       "time": "2026-06-13T12:21:25.589705",
+      "cycle": 1
+    },
+    {
+      "title": "dorothea",
+      "time": "2026-06-13T23:00:28.753859",
       "cycle": 1
     }
   ],
