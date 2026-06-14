@@ -56,7 +56,8 @@
     "Its Nice To Have A Friend",
     "Youre On Your Own Kid",
     "Sad Beautiful Tragic",
-    "dorothea"
+    "dorothea",
+    "My Boy Only Breaks His Favorite Toys"
   ],
   "history": [
     {
@@ -1452,6 +1453,11 @@
     {
       "title": "dorothea",
       "time": "2026-06-13T23:00:28.753859",
+      "cycle": 1
+    },
+    {
+      "title": "My Boy Only Breaks His Favorite Toys",
+      "time": "2026-06-14T08:02:03.883938",
       "cycle": 1
     }
   ],
