@@ -57,7 +57,8 @@
     "Youre On Your Own Kid",
     "Sad Beautiful Tragic",
     "dorothea",
-    "My Boy Only Breaks His Favorite Toys"
+    "My Boy Only Breaks His Favorite Toys",
+    "Death By A Thousand Cuts"
   ],
   "history": [
     {
@@ -1458,6 +1459,11 @@
     {
       "title": "My Boy Only Breaks His Favorite Toys",
       "time": "2026-06-14T08:02:03.883938",
+      "cycle": 1
+    },
+    {
+      "title": "Death By A Thousand Cuts",
+      "time": "2026-06-14T12:58:24.133260",
       "cycle": 1
     }
   ],
