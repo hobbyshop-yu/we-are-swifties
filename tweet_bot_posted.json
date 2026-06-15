@@ -61,7 +61,8 @@
     "Death By A Thousand Cuts",
     "peace",
     "Bejeweled",
-    "the lakes"
+    "the lakes",
+    "The Great War"
   ],
   "history": [
     {
@@ -1482,6 +1483,11 @@
     {
       "title": "the lakes",
       "time": "2026-06-15T16:13:17.130085",
+      "cycle": 1
+    },
+    {
+      "title": "The Great War",
+      "time": "2026-06-15T23:42:46.269095",
       "cycle": 1
     }
   ],
