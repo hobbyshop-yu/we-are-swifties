@@ -63,7 +63,8 @@
     "Bejeweled",
     "the lakes",
     "The Great War",
-    "Hits Different"
+    "Hits Different",
+    "Privacy Policy"
   ],
   "history": [
     {
@@ -1494,6 +1495,11 @@
     {
       "title": "Hits Different",
       "time": "2026-06-16T09:08:56.291015",
+      "cycle": 1
+    },
+    {
+      "title": "Privacy Policy",
+      "time": "2026-06-16T15:50:12.575736",
       "cycle": 1
     }
   ],
