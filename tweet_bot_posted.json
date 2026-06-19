@@ -73,7 +73,8 @@
     "All You Had To Do Was Stay Tv",
     "Out of the Woods",
     "Wi$h Li$t",
-    "Peter"
+    "Peter",
+    "End Game"
   ],
   "history": [
     {
@@ -1554,6 +1555,11 @@
     {
       "title": "Peter",
       "time": "2026-06-19T13:58:59.508663",
+      "cycle": 1
+    },
+    {
+      "title": "End Game",
+      "time": "2026-06-19T22:52:08.948420",
       "cycle": 1
     }
   ],
