@@ -77,7 +77,8 @@
     "End Game",
     "I Wish You Would",
     "Love Story",
-    "You Are in Love"
+    "You Are in Love",
+    "betty"
   ],
   "history": [
     {
@@ -1578,6 +1579,11 @@
     {
       "title": "You Are in Love",
       "time": "2026-06-20T23:03:13.786070",
+      "cycle": 1
+    },
+    {
+      "title": "betty",
+      "time": "2026-06-21T08:14:43.059252",
       "cycle": 1
     }
   ],
