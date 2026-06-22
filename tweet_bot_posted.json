@@ -80,7 +80,8 @@
     "You Are in Love",
     "betty",
     "Father Figure",
-    "no body, no crime"
+    "no body, no crime",
+    "Should've Said No"
   ],
   "history": [
     {
@@ -1596,6 +1597,11 @@
     {
       "title": "no body, no crime",
       "time": "2026-06-21T23:08:42.233454",
+      "cycle": 1
+    },
+    {
+      "title": "Should've Said No",
+      "time": "2026-06-22T09:27:46.265786",
       "cycle": 1
     }
   ],
