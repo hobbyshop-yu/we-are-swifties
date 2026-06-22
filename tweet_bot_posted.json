@@ -82,7 +82,8 @@
     "Father Figure",
     "no body, no crime",
     "Should've Said No",
-    "cardigan"
+    "cardigan",
+    "Ruin The Friendship"
   ],
   "history": [
     {
@@ -1608,6 +1609,11 @@
     {
       "title": "cardigan",
       "time": "2026-06-22T15:48:16.767116",
+      "cycle": 1
+    },
+    {
+      "title": "Ruin The Friendship",
+      "time": "2026-06-22T23:16:03.798603",
       "cycle": 1
     }
   ],
