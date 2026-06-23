@@ -83,7 +83,8 @@
     "no body, no crime",
     "Should've Said No",
     "cardigan",
-    "Ruin The Friendship"
+    "Ruin The Friendship",
+    "Fresh Out the Slammer"
   ],
   "history": [
     {
@@ -1614,6 +1615,11 @@
     {
       "title": "Ruin The Friendship",
       "time": "2026-06-22T23:16:03.798603",
+      "cycle": 1
+    },
+    {
+      "title": "Fresh Out the Slammer",
+      "time": "2026-06-23T07:03:27.865240",
       "cycle": 1
     }
   ],
