@@ -85,7 +85,8 @@
     "cardigan",
     "Ruin The Friendship",
     "Fresh Out the Slammer",
-    "Last Kiss"
+    "Last Kiss",
+    "Now That We Dont Talk Tv"
   ],
   "history": [
     {
@@ -1626,6 +1627,11 @@
     {
       "title": "Last Kiss",
       "time": "2026-06-23T13:40:43.207415",
+      "cycle": 1
+    },
+    {
+      "title": "Now That We Dont Talk Tv",
+      "time": "2026-06-23T23:05:23.635980",
       "cycle": 1
     }
   ],
