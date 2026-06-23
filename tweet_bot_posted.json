@@ -84,7 +84,8 @@
     "Should've Said No",
     "cardigan",
     "Ruin The Friendship",
-    "Fresh Out the Slammer"
+    "Fresh Out the Slammer",
+    "Last Kiss"
   ],
   "history": [
     {
@@ -1620,6 +1621,11 @@
     {
       "title": "Fresh Out the Slammer",
       "time": "2026-06-23T07:03:27.865240",
+      "cycle": 1
+    },
+    {
+      "title": "Last Kiss",
+      "time": "2026-06-23T13:40:43.207415",
       "cycle": 1
     }
   ],
