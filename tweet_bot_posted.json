@@ -86,7 +86,8 @@
     "Ruin The Friendship",
     "Fresh Out the Slammer",
     "Last Kiss",
-    "Now That We Dont Talk Tv"
+    "Now That We Dont Talk Tv",
+    "The Moment I Knew"
   ],
   "history": [
     {
@@ -1632,6 +1633,11 @@
     {
       "title": "Now That We Dont Talk Tv",
       "time": "2026-06-23T23:05:23.635980",
+      "cycle": 1
+    },
+    {
+      "title": "The Moment I Knew",
+      "time": "2026-06-24T07:00:28.225581",
       "cycle": 1
     }
   ],
