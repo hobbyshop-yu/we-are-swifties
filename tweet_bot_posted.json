@@ -90,7 +90,8 @@
     "The Moment I Knew",
     "Mine",
     "Would Ve Could Ve Should Ve",
-    "The Tortured Poets Department"
+    "The Tortured Poets Department",
+    "Glitch"
   ],
   "history": [
     {
@@ -1656,6 +1657,11 @@
     {
       "title": "The Tortured Poets Department",
       "time": "2026-06-25T07:00:15.781628",
+      "cycle": 1
+    },
+    {
+      "title": "Glitch",
+      "time": "2026-06-25T13:12:54.836303",
       "cycle": 1
     }
   ],
