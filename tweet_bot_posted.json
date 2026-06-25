@@ -89,7 +89,8 @@
     "Now That We Dont Talk Tv",
     "The Moment I Knew",
     "Mine",
-    "Would Ve Could Ve Should Ve"
+    "Would Ve Could Ve Should Ve",
+    "The Tortured Poets Department"
   ],
   "history": [
     {
@@ -1650,6 +1651,11 @@
     {
       "title": "Would Ve Could Ve Should Ve",
       "time": "2026-06-24T23:01:04.534443",
+      "cycle": 1
+    },
+    {
+      "title": "The Tortured Poets Department",
+      "time": "2026-06-25T07:00:15.781628",
       "cycle": 1
     }
   ],
