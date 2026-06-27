@@ -95,7 +95,8 @@
     "Anti-Hero",
     "Midnight Rain",
     "mirrorball",
-    "Soon Youll Get Better"
+    "Soon Youll Get Better",
+    "exile"
   ],
   "history": [
     {
@@ -1686,6 +1687,11 @@
     {
       "title": "Soon Youll Get Better",
       "time": "2026-06-26T23:01:45.657995",
+      "cycle": 1
+    },
+    {
+      "title": "exile",
+      "time": "2026-06-27T06:41:37.254746",
       "cycle": 1
     }
   ],
