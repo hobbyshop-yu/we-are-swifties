@@ -96,7 +96,8 @@
     "Midnight Rain",
     "mirrorball",
     "Soon Youll Get Better",
-    "exile"
+    "exile",
+    "Haunted"
   ],
   "history": [
     {
@@ -1692,6 +1693,11 @@
     {
       "title": "exile",
       "time": "2026-06-27T06:41:37.254746",
+      "cycle": 1
+    },
+    {
+      "title": "Haunted",
+      "time": "2026-06-27T12:05:29.698365",
       "cycle": 1
     }
   ],
