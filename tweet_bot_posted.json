@@ -98,7 +98,8 @@
     "Soon Youll Get Better",
     "exile",
     "Haunted",
-    "my tears ricochet"
+    "my tears ricochet",
+    "Cassandra"
   ],
   "history": [
     {
@@ -1704,6 +1705,11 @@
     {
       "title": "my tears ricochet",
       "time": "2026-06-27T22:58:48.878502",
+      "cycle": 1
+    },
+    {
+      "title": "Cassandra",
+      "time": "2026-06-28T07:37:06.260286",
       "cycle": 1
     }
   ],
