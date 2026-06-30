@@ -105,7 +105,8 @@
     "Chloe Or Sam Or Sophia Or Marcus",
     "closure",
     "Dancing With Our Hands Tied",
-    "Eldest Daughter"
+    "Eldest Daughter",
+    "King of My Heart"
   ],
   "history": [
     {
@@ -1746,6 +1747,11 @@
     {
       "title": "Eldest Daughter",
       "time": "2026-06-30T07:07:27.720606",
+      "cycle": 1
+    },
+    {
+      "title": "King of My Heart",
+      "time": "2026-06-30T13:07:54.158853",
       "cycle": 1
     }
   ],
