@@ -108,7 +108,8 @@
     "Eldest Daughter",
     "King of My Heart",
     "loml",
-    "Come Back... Be Here"
+    "Come Back... Be Here",
+    "So High School"
   ],
   "history": [
     {
@@ -1764,6 +1765,11 @@
     {
       "title": "Come Back... Be Here",
       "time": "2026-07-01T07:54:34.652939",
+      "cycle": 1
+    },
+    {
+      "title": "So High School",
+      "time": "2026-07-01T13:31:37.786708",
       "cycle": 1
     }
   ],
