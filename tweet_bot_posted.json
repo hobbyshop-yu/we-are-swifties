@@ -109,7 +109,8 @@
     "King of My Heart",
     "loml",
     "Come Back... Be Here",
-    "So High School"
+    "So High School",
+    "Guilty as Sin?"
   ],
   "history": [
     {
@@ -1770,6 +1771,11 @@
     {
       "title": "So High School",
       "time": "2026-07-01T13:31:37.786708",
+      "cycle": 1
+    },
+    {
+      "title": "Guilty as Sin?",
+      "time": "2026-07-01T23:09:51.257854",
       "cycle": 1
     }
   ],
