@@ -112,7 +112,8 @@
     "So High School",
     "Guilty as Sin?",
     "Wonderland",
-    "Better Man"
+    "Better Man",
+    "Sparks Fly"
   ],
   "history": [
     {
@@ -1788,6 +1789,11 @@
     {
       "title": "Better Man",
       "time": "2026-07-02T12:53:53.707722",
+      "cycle": 1
+    },
+    {
+      "title": "Sparks Fly",
+      "time": "2026-07-02T23:00:15.750743",
       "cycle": 1
     }
   ],
