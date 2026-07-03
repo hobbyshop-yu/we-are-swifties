@@ -113,7 +113,8 @@
     "Guilty as Sin?",
     "Wonderland",
     "Better Man",
-    "Sparks Fly"
+    "Sparks Fly",
+    "This Is Why We Cant Have Nice Things"
   ],
   "history": [
     {
@@ -1794,6 +1795,11 @@
     {
       "title": "Sparks Fly",
       "time": "2026-07-02T23:00:15.750743",
+      "cycle": 1
+    },
+    {
+      "title": "This Is Why We Cant Have Nice Things",
+      "time": "2026-07-03T06:47:51.206025",
       "cycle": 1
     }
   ],
