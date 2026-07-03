@@ -114,7 +114,8 @@
     "Wonderland",
     "Better Man",
     "Sparks Fly",
-    "This Is Why We Cant Have Nice Things"
+    "This Is Why We Cant Have Nice Things",
+    "Tim McGraw"
   ],
   "history": [
     {
@@ -1800,6 +1801,11 @@
     {
       "title": "This Is Why We Cant Have Nice Things",
       "time": "2026-07-03T06:47:51.206025",
+      "cycle": 1
+    },
+    {
+      "title": "Tim McGraw",
+      "time": "2026-07-03T12:52:54.216608",
       "cycle": 1
     }
   ],
