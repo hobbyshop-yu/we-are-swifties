@@ -124,7 +124,8 @@
     "The Bolter",
     "Maroon",
     "Bad Blood",
-    "Shake It Off"
+    "Shake It Off",
+    "New Romantics"
   ],
   "history": [
     {
@@ -1860,6 +1861,11 @@
     {
       "title": "Shake It Off",
       "time": "2026-07-06T14:21:35.473471",
+      "cycle": 1
+    },
+    {
+      "title": "New Romantics",
+      "time": "2026-07-06T23:02:59.045494",
       "cycle": 1
     }
   ],
