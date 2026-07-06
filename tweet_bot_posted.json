@@ -123,7 +123,8 @@
     "But Daddy I Love Him",
     "The Bolter",
     "Maroon",
-    "Bad Blood"
+    "Bad Blood",
+    "Shake It Off"
   ],
   "history": [
     {
@@ -1854,6 +1855,11 @@
     {
       "title": "Bad Blood",
       "time": "2026-07-06T08:03:04.305876",
+      "cycle": 1
+    },
+    {
+      "title": "Shake It Off",
+      "time": "2026-07-06T14:21:35.473471",
       "cycle": 1
     }
   ],
