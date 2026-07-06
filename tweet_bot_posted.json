@@ -122,7 +122,8 @@
     "Timeless",
     "But Daddy I Love Him",
     "The Bolter",
-    "Maroon"
+    "Maroon",
+    "Bad Blood"
   ],
   "history": [
     {
@@ -1848,6 +1849,11 @@
     {
       "title": "Maroon",
       "time": "2026-07-05T22:58:04.518205",
+      "cycle": 1
+    },
+    {
+      "title": "Bad Blood",
+      "time": "2026-07-06T08:03:04.305876",
       "cycle": 1
     }
   ],
