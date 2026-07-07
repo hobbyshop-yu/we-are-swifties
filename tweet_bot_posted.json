@@ -125,7 +125,8 @@
     "Maroon",
     "Bad Blood",
     "Shake It Off",
-    "New Romantics"
+    "New Romantics",
+    "State of Grace"
   ],
   "history": [
     {
@@ -1866,6 +1867,11 @@
     {
       "title": "New Romantics",
       "time": "2026-07-06T23:02:59.045494",
+      "cycle": 1
+    },
+    {
+      "title": "State of Grace",
+      "time": "2026-07-07T07:01:18.199566",
       "cycle": 1
     }
   ],
