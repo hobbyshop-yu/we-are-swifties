@@ -135,7 +135,8 @@
     "Dear John",
     "Bigger Than The Whole Sky",
     "happiness",
-    "All Too Well"
+    "All Too Well",
+    "The Story of Us"
   ],
   "history": [
     {
@@ -1926,6 +1927,11 @@
     {
       "title": "All Too Well",
       "time": "2026-07-10T07:01:26.507789",
+      "cycle": 1
+    },
+    {
+      "title": "The Story of Us",
+      "time": "2026-07-10T13:08:11.116251",
       "cycle": 1
     }
   ],
