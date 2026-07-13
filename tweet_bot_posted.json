@@ -144,7 +144,8 @@
     "'tis the damn season",
     "London Boy",
     "Florida!!!",
-    "Better Than Revenge"
+    "Better Than Revenge",
+    "The Black Dog"
   ],
   "history": [
     {
@@ -1980,6 +1981,11 @@
     {
       "title": "Better Than Revenge",
       "time": "2026-07-13T06:37:49.698947",
+      "cycle": 1
+    },
+    {
+      "title": "The Black Dog",
+      "time": "2026-07-13T22:52:18.141349",
       "cycle": 1
     }
   ],
