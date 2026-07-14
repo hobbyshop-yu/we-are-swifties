@@ -146,7 +146,8 @@
     "Florida!!!",
     "Better Than Revenge",
     "The Black Dog",
-    "CANCELLED!"
+    "CANCELLED!",
+    "Teardrops On My Guitar Debut"
   ],
   "history": [
     {
@@ -1992,6 +1993,11 @@
     {
       "title": "CANCELLED!",
       "time": "2026-07-14T05:52:35.655382",
+      "cycle": 1
+    },
+    {
+      "title": "Teardrops On My Guitar Debut",
+      "time": "2026-07-14T12:06:33.002746",
       "cycle": 1
     }
   ],
