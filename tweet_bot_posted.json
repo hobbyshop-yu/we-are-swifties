@@ -145,7 +145,8 @@
     "London Boy",
     "Florida!!!",
     "Better Than Revenge",
-    "The Black Dog"
+    "The Black Dog",
+    "CANCELLED!"
   ],
   "history": [
     {
@@ -1986,6 +1987,11 @@
     {
       "title": "The Black Dog",
       "time": "2026-07-13T22:52:18.141349",
+      "cycle": 1
+    },
+    {
+      "title": "CANCELLED!",
+      "time": "2026-07-14T05:52:35.655382",
       "cycle": 1
     }
   ],
